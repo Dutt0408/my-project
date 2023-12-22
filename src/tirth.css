@@ -1,0 +1,29 @@
+legend span {
+    position: relative;
+}
+
+legend span:before,
+legend span:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    height: 100%;
+    border-top: 1px solid #d9d9d9;
+    border-bottom: 1px solid #d9d9d9;
+}
+
+legend span:before {
+    left: -10px;
+}
+
+legend span:after {
+    right: -10px;
+}
+
+
+.card {
+    background: var(--surface-card);
+    padding: 2rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
