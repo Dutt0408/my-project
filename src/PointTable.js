@@ -52,20 +52,20 @@ const mapSymbolToComponent = {
   DPoint,
 };
 
-const generatePoints = (score, isLast5 = false) => {
-  if (!isLast5 && Array.isArray(score)) {
+const generatePoints = (score, isLast3 = false) => {
+  if (!isLast3 && Array.isArray(score)) {
     return score.map((symbol, index) => {
       const PointComponent = mapSymbolToComponent[symbol];
       return PointComponent ? <PointComponent key={index} /> : null;
     });
   }
 
-  if (isLast5) {
-    // If it's "Last 5", assume it's a string like "GPoint,RPoint,DPoint"
+  if (isLast3) {
     const symbols = score.split(",");
+    const last3Symbols = symbols.slice(-3); // Take only the last 3 symbols
     return (
       <div className="flex">
-        {symbols.map((symbol, index) => {
+        {last3Symbols.map((symbol, index) => {
           const PointComponent = mapSymbolToComponent[symbol];
           return PointComponent ? (
             <PointComponent key={index} className="mr-1" />
@@ -87,21 +87,21 @@ const TeamRow = ({
   lost,
   tied,
   pts,
-  last5,
+  last3,
 }) => (
   <tr className="bg-black bg-opacity-20">
-    <td className="pl-4">{rank}</td>
-    <td className="flex px-6 py-4 whitespace-nowrap">
-      <img className="w-5" src={logo} alt="" />
-      <span className="ml-2 font-medium">{teamName}</span>
+   
+   <td className="flex flex-col  items-center px-4 py-3 whitespace-nowrap t">
+      <img className="w-5 mb-2 sm:mb-0 sm:mr-2" src={logo} alt="" />
+      <span className="font-medium">{teamName}</span>
     </td>
-    <td className="px-6 py-4 whitespace-nowrap">{match}</td>
-    <td className="px-6 py-4 whitespace-nowrap">{won}</td>
-    <td className="px-6 py-4 whitespace-nowrap">{lost}</td>
-    <td className="px-6 py-4 whitespace-nowrap">{tied}</td>
-    <td className="px-6 py-4 whitespace-nowrap">{pts}</td>
-    <td className="px-6 py-4 whitespace-nowrap">
-      {generatePoints(last5, true)}
+    <td className="px-1 py-5 whitespace-nowrap text-center">{match}</td>
+    <td className="px-1 py-3 whitespace-nowrap text-center">{won}</td>
+    <td className="px-1 py-3 whitespace-nowrap text-center">{lost}</td>
+    <td className="px-1 py-3 whitespace-nowrap text-center">{tied}</td>
+    <td className="px-1 py-3 whitespace-nowrap text-center">{pts}</td>
+    <td className="px-1 py-3 whitespace-nowrap text-center">
+      {generatePoints(last3, true)}
     </td>
   </tr>
 );
@@ -109,207 +109,203 @@ const TeamRow = ({
 export default function Schedule() {
   const teams = [
     {
-      rank: 1,
-      logo: "https://ssl.gstatic.com/onebox/media/sports/logos/0iShHhASp5q1SL4JhtwJiw_48x48.png",
+      
       teamName: "Liverpool",
       match: 0,
       won: 0,
       lost: 0,
       tied: 0,
       pts: 0,
-      last5: "RPoint,GPoint,DPoint,DPoint,DPoint",
+      last3: "DPoint,DPoint,DPoint",
     },
     {
-      rank: 2,
-      logo: "https://ssl.gstatic.com/onebox/media/sports/logos/udQ6ns69PctCv143h-GeYw_48x48.png",
+     
       teamName: "Man United",
       match: 0,
       won: 0,
       lost: 0,
       tied: 0,
       pts: 0,
-      last5: "DPoint,DPoint,DPoint,DPoint,DPoint",
+      last3: "DPoint,DPoint,DPoint",
     },
     {
-      rank: 3,
-      logo: "https://ssl.gstatic.com/onebox/media/sports/logos/udQ6ns69PctCv143h-GeYw_48x48.png",
+      
       teamName: "Man United",
       match: 0,
       won: 0,
       lost: 0,
       tied: 0,
       pts: 0,
-      last5: "DPoint,DPoint,DPoint,DPoint,DPoint",
+      last3: "DPoint,DPoint,DPoint",
     },
     {
-      rank: 4,
-      logo: "https://ssl.gstatic.com/onebox/media/sports/logos/udQ6ns69PctCv143h-GeYw_48x48.png",
+   
       teamName: "Man United",
       match: 0,
       won: 0,
       lost: 0,
       tied: 0,
       pts: 0,
-      last5: "DPoint,DPoint,DPoint,DPoint,DPoint",
+      last3: "DPoint,DPoint,DPoint",
     },
     {
-      rank: 5,
-      logo: "https://ssl.gstatic.com/onebox/media/sports/logos/udQ6ns69PctCv143h-GeYw_48x48.png",
+   
       teamName: "Man United",
       match: 0,
       won: 0,
       lost: 0,
       tied: 0,
       pts: 0,
-      last5: "DPoint,DPoint,DPoint,DPoint,DPoint",
+      last3: "DPoint,DPoint,DPoint",
     },
     {
-      rank: 6,
-      logo: "https://ssl.gstatic.com/onebox/media/sports/logos/udQ6ns69PctCv143h-GeYw_48x48.png",
+      
       teamName: "Man United",
       match: 0,
       won: 0,
       lost: 0,
       tied: 0,
       pts: 0,
-      last5: "DPoint,DPoint,DPoint,DPoint,DPoint",
+      last3: "DPoint,DPoint,DPoint",
     },
     {
-      rank: 7,
-      logo: "https://ssl.gstatic.com/onebox/media/sports/logos/udQ6ns69PctCv143h-GeYw_48x48.png",
       teamName: "Man United",
       match: 0,
       won: 0,
       lost: 0,
       tied: 0,
       pts: 0,
-      last5: "DPoint,DPoint,DPoint,DPoint,DPoint",
+      last3: "DPoint,DPoint,DPoint",
     },
     {
-      rank: 8,
-      logo: "https://ssl.gstatic.com/onebox/media/sports/logos/udQ6ns69PctCv143h-GeYw_48x48.png",
       teamName: "Man United",
       match: 0,
       won: 0,
       lost: 0,
       tied: 0,
       pts: 0,
-      last5: "DPoint,DPoint,DPoint,DPoint,DPoint",
+      last3: "DPoint,DPoint,DPoint",
     },
     {
-      rank: 9,
-      logo: "https://ssl.gstatic.com/onebox/media/sports/logos/udQ6ns69PctCv143h-GeYw_48x48.png",
       teamName: "Man United",
       match: 0,
       won: 0,
       lost: 0,
       tied: 0,
       pts: 0,
-      last5: "DPoint,DPoint,DPoint,DPoint,DPoint",
+      last3: "DPoint,DPoint,DPoint",
     },
     {
-      rank: 10,
-      logo: "https://ssl.gstatic.com/onebox/media/sports/logos/udQ6ns69PctCv143h-GeYw_48x48.png",
+
       teamName: "Man United",
       match: 0,
       won: 0,
       lost: 0,
       tied: 0,
       pts: 0,
-      last5: "DPoint,DPoint,DPoint,DPoint,DPoint",
+      last3: "DPoint,DPoint,DPoint",
     },
     {
-      rank: 11,
-      logo: "https://ssl.gstatic.com/onebox/media/sports/logos/udQ6ns69PctCv143h-GeYw_48x48.png",
+
+
       teamName: "Man United",
       match: 0,
       won: 0,
       lost: 0,
       tied: 0,
       pts: 0,
-      last5: "DPoint,DPoint,DPoint,DPoint,DPoint",
+      last3: "DPoint,DPoint,DPoint",
     },
     {
-      rank: 12,
-      logo: "https://ssl.gstatic.com/onebox/media/sports/logos/udQ6ns69PctCv143h-GeYw_48x48.png",
+
+
       teamName: "Man United",
       match: 0,
       won: 0,
       lost: 0,
       tied: 0,
       pts: 0,
-      last5: "DPoint,DPoint,DPoint,DPoint,DPoint",
+      last3: "DPoint,DPoint,DPoint",
     },
     {
-      rank: 13,
-      logo: "https://ssl.gstatic.com/onebox/media/sports/logos/udQ6ns69PctCv143h-GeYw_48x48.png",
+
+
       teamName: "Man United",
       match: 0,
       won: 0,
       lost: 0,
       tied: 0,
       pts: 0,
-      last5: "DPoint,DPoint,DPoint,DPoint,DPoint",
+      last3: "DPoint,DPoint,DPoint",
     },
     {
-      rank: 14,
-      logo: "https://ssl.gstatic.com/onebox/media/sports/logos/udQ6ns69PctCv143h-GeYw_48x48.png",
+
+
       teamName: "Man United",
       match: 0,
       won: 0,
       lost: 0,
       tied: 0,
       pts: 0,
-      last5: "DPoint,DPoint,DPoint,DPoint,DPoint",
+      last3: "DPoint,DPoint,DPoint",
     },
     {
-      rank: 15,
-      logo: "https://ssl.gstatic.com/onebox/media/sports/logos/udQ6ns69PctCv143h-GeYw_48x48.png",
+
+
       teamName: "Man United",
       match: 0,
       won: 0,
       lost: 0,
       tied: 0,
       pts: 0,
-      last5: "DPoint,DPoint,DPoint,DPoint,DPoint",
+      last3: "DPoint,DPoint,DPoint",
+    },
+    {
+
+
+      teamName: "Man United",
+      match: 0,
+      won: 0,
+      lost: 0,
+      tied: 0,
+      pts: 0,
+      last3: "DPoint,DPoint,DPoint",
     },
   ];
-
+  const sortedTeams = [...teams].sort((a, b) => b.pts - a.pts);
   return (
     <div className="flex flex-col items-center justify-center w-screen min-h-screen bg-gray-900 py-10">
-      <h1 className="text-lg text-gray-400 font-medium">KPL 2023</h1>
+      <h1 className="text-lg text-gray-400 font-medium"> OISCT POINT TABLE 2023</h1>
       <div className="mt-6">
-      <div className="shadow sm:rounded-lg lg:rounded-none">
-    
-      <table className="w-full min-w-full text-sm text-gray-400">
+        <div className="shadow sm:rounded-lg lg:rounded-none overflow-x-auto">
+          <table className="w-full min-w-full text-sm text-gray-400">
             <thead className="bg-gray-800 text-xs md:text-sm lg:text-base uppercase font-medium">
               <tr>
-                <th></th>
-                <th scope="col" className="px-6 py-3 text-left tracking-wider">
+                <th scope="col" className="px-0.5 py-3 text-left tracking-wider text-center ">
                   Team
                 </th>
-                <th scope="col" className="px-6 py-3 text-left tracking-wider">
+                <th scope="col" className="px-1 py-1 text-left tracking-wider text-center">
                   Match
                 </th>
-                <th scope="col" className="px-6 py-3 text-left tracking-wider">
+                <th scope="col" className="px-1 py-1 text-left tracking-wider text-center">
                   Won
                 </th>
-                <th scope="col" className="px-6 py-3 text-left tracking-wider">
+                <th scope="col" className="px-1 py-1 text-left tracking-wider text-center">
                   Lost
                 </th>
-                <th scope="col" className="px-6 py-3 text-left tracking-wider">
+                <th scope="col" className="px-1 py-1 text-left tracking-wider text-center">
                   Tied
                 </th>
-                <th scope="col" className="px-6 py-3 text-left tracking-wider">
+                <th scope="col" className="px-1 py-1 text-left tracking-wider text-center">
                   Pts
                 </th>
-                <th scope="col" className="px-6 py-3 text-left tracking-wider">
+                <th scope="col" className="px-1 py-1 text-left tracking-wider text-center">
                   Last 5
                 </th>
               </tr>
             </thead>
             <tbody className="bg-gray-800">
-              {teams.map((team, index) => (
+              {sortedTeams.map((team, index) => (
                 <TeamRow key={index} {...team} />
               ))}
             </tbody>
@@ -318,5 +314,4 @@ export default function Schedule() {
       </div>
     </div>
   );
-  
 }
