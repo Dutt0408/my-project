@@ -1,0 +1,118 @@
+
+@media only screen and (min-width: 370px) and (max-width: 400px) {
+  .team-row td {
+    padding-left: 0.35rem; /* 4px */
+    padding-right: 0.35rem; /* 4px */
+  }
+
+  th {
+    padding-left: 0.285rem; /* 2px */
+    padding-right: 0.285rem; /* 2px */
+  }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 419px) {
+  .team-row td {
+    padding-left: 0.385rem; /* 6px */
+    padding-right: 0.385rem; /* 6px */
+  }
+
+  th {
+    padding-left: 0.40rem; /* 4px */
+padding-right: 0.40rem; /* 4px */
+  }
+}
+
+@media only screen and (min-width: 420px) and (max-width: 439px) {
+  .team-row td {
+    padding-left: 0.75rem; /* 12px */
+padding-right: 0.75rem; /* 12px */
+  }
+
+  th {
+    padding-left: 0.475rem; /* 6px */
+    padding-right: 0.475rem; /* 6px */
+  }
+}
+
+@media only screen and (min-width: 440px) and (max-width: 471px) {
+  .team-row td {
+    padding-left: 0.865rem; /* 14px */
+padding-right: 0.865rem;
+  }
+
+  th {
+    padding-left: 0.625rem; /* 10px */
+    padding-right: 0.625rem; /* 10px */
+  }
+}
+
+@media only screen and (min-width: 470px) and (max-width: 504px) {
+  .team-row td {
+    padding-left: 0.875rem; /* 14px */
+    padding-right: 0.875rem;
+  }
+
+  th {
+    padding-left: 0.5rem; /* 8px */
+    padding-right: 0.5rem; /* 8px */
+  }
+}
+
+@media only screen and (min-width: 506px) and (max-width: 531px) {
+  .team-row td {
+    padding-left: 1rem; /* 16px */
+    padding-right: 1rem; /* 16px */
+  }
+
+  th {
+    padding-left: 0.975rem; /* 14px */
+    padding-right: 0.975rem; /* 14px */
+  }
+}
+@media only screen and (min-width: 532px) and (max-width: 547px) {
+  .team-row td {
+    padding-left: 1rem; /* 16px */
+    padding-right: 1rem; /* 16px */
+  }
+
+  th {
+    padding-left: 1rem; /* 14px */
+    padding-right: 1rem; /* 14px */
+  }
+}
+@media only screen and (min-width: 548px) and (max-width: 580px) {
+  .team-row td {
+    padding-left: 1rem; /* 16px */
+    padding-right: 1rem; /* 16px */
+  }
+
+  th {
+    padding-left: 1.2rem; /* 14px */
+    padding-right: 1.2rem; /* 14px */
+  }
+}
+
+@media only screen and (min-width: 635px)and (max-width: 780px) {
+    .team-row td {
+      padding-left: 2rem; /* 32px */
+      padding-right: 2rem; /* 32px */
+    }
+  
+    th {
+      padding-left: 1.6rem; /* 24px */
+  padding-right: 1.7rem; /* 24px */
+    }
+  }
+  
+@media only screen and (min-width: 780px) {
+  .team-row td {
+    padding-left: 2rem; /* 32px */
+    padding-right: 2rem; /* 32px */
+  }
+
+  th {
+    padding-left: 2.5rem; /* 24px */
+padding-right: 2.5rem; /* 24px */
+  }
+}

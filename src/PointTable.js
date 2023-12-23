@@ -1,6 +1,6 @@
 import React from "react";
 import "./index.css";
-
+import "./Table.css"
 const GPoint = () => (
   <svg
     className="w-4 fill-current text-green-600 ml-1"
@@ -93,19 +93,56 @@ const TeamRow = ({
    
    <td className="flex flex-col  items-center px-4 py-3 whitespace-nowrap t">
       <img className="w-5 mb-2 sm:mb-0 sm:mr-2" src={logo} alt="" />
-      <span className="font-medium">{teamName}</span>
+      <span className="font-medium teamrow">{teamName}</span>
     </td>
-    <td className="px-1 py-5 whitespace-nowrap text-center">{match}</td>
-    <td className="px-1 py-3 whitespace-nowrap text-center">{won}</td>
-    <td className="px-1 py-3 whitespace-nowrap text-center">{lost}</td>
-    <td className="px-1 py-3 whitespace-nowrap text-center">{tied}</td>
-    <td className="px-1 py-3 whitespace-nowrap text-center">{pts}</td>
-    <td className="px-1 py-3 whitespace-nowrap text-center">
+    <td className=" py-5 whitespace-nowrap text-center">{match}</td>
+    <td className=" py-3 whitespace-nowrap text-center">{won}</td>
+    <td className="py-3 whitespace-nowrap text-center">{lost}</td>
+    <td className=" py-3 whitespace-nowrap text-center">{tied}</td>
+    <td className=" py-3 whitespace-nowrap text-center">{pts}</td>
+    <td className=" py-3 whitespace-nowrap text-center">
       {generatePoints(last3, true)}
     </td>
   </tr>
 );
 
+// const TeamRow = ({
+//   rank,
+//   logo,
+//   teamName,
+//   match,
+//   won,
+//   lost,
+//   tied,
+//   pts,
+//   last3,
+// }) => (
+//   <tr className="bg-black bg-opacity-20">
+//     <td className="flex flex-col items-center px-4 py-3 sm:py-4 whitespace-nowrap">
+//       <img className="w-5 mb-2 sm:mb-0 sm:mr-2" src={logo} alt="" />
+//       <span className="font-medium">{teamName}</span>
+//     </td>
+//     <td className="px-1 py-1 sm:px-6 py-6 whitespace-nowrap text-center">
+//       <span className="sm:hidden"> </span>{match}
+//     </td>
+//     <td className="px-1 py-1 sm:px-6 py-6  whitespace-nowrap text-center">
+//       <span className="sm:hidden"> </span>{won}
+//     </td>
+//     <td className="px-1 py-1 sm:px-6 py-6  whitespace-nowrap text-center">
+//       <span className="sm:hidden"> </span>{lost}
+//     </td>
+//     <td className="px-1 py-1 sm:px-6 py-6  whitespace-nowrap text-center">
+//       <span className="sm:hidden"> </span>{tied}
+//     </td>
+//     <td className="px-1 py-1 sm:px-6 py-6  whitespace-nowrap text-center">
+//       <span className="sm:hidden"></span>{pts}
+//     </td>
+//     <td className="px-1 py-1 sm:px-6 py-6  whitespace-nowrap text-center">
+//       <span className="sm:hidden"> </span>
+//       {generatePoints(last3, true)}
+//     </td>
+//   </tr>
+// );
 export default function Schedule() {
   const teams = [
     {
@@ -280,27 +317,27 @@ export default function Schedule() {
         <div className="shadow sm:rounded-lg lg:rounded-none overflow-x-auto">
           <table className="w-full min-w-full text-sm text-gray-400">
             <thead className="bg-gray-800 text-xs md:text-sm lg:text-base uppercase font-medium">
-              <tr>
-                <th scope="col" className="px-0.5 py-3 text-left tracking-wider text-center ">
+              <tr className="teamrow">
+                <th scope="col" className=" py-3 text-left tracking-wider text-center ">
                   Team
                 </th>
-                <th scope="col" className="px-1 py-1 text-left tracking-wider text-center">
+                <th scope="col" className=" py-1 text-left tracking-wider text-center">
                   Match
                 </th>
-                <th scope="col" className="px-1 py-1 text-left tracking-wider text-center">
+                <th scope="col" className=" py-1 text-left tracking-wider text-center">
                   Won
                 </th>
-                <th scope="col" className="px-1 py-1 text-left tracking-wider text-center">
+                <th scope="col" className=" py-1 text-left tracking-wider text-center">
                   Lost
                 </th>
-                <th scope="col" className="px-1 py-1 text-left tracking-wider text-center">
+                <th scope="col" className=" py-1 text-left tracking-wider text-center">
                   Tied
                 </th>
-                <th scope="col" className="px-1 py-1 text-left tracking-wider text-center">
+                <th scope="col" className=" py-1 text-left tracking-wider text-center">
                   Pts
                 </th>
-                <th scope="col" className="px-1 py-1 text-left tracking-wider text-center">
-                  Last 5
+                <th scope="col" className=" py-1 text-left tracking-wider text-center">
+                  Last 3
                 </th>
               </tr>
             </thead>
