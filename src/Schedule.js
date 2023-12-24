@@ -1,5 +1,9 @@
+
+
+
+
 import React from 'react';
-import { Card, Typography } from "@material-tailwind/react";
+import './Schedule.css'; // Create a Schedule.css file for your styles
 
 const scheduleData = {
   "friday": [
@@ -40,122 +44,56 @@ const scheduleData = {
     { "Match": 31, "Team1": "Final", "Team2": "-", "TimeFrame": "1pm-2pm" }
   ]
 };
-
-function TableHeader({ headers }) {
-  return (
-    <tr>
-     {headers.map((head, index) => (
-  <th
-    key={index}
-    className="border-b border-blue-gray-100 bg-blue-gray-50 p-8"
-    style={{
-      boxShadow: 'rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset',
-    }}
-  >
-          <Typography
-            variant="small"
-            color="blue-gray"
-            className="font-normal leading-none opacity-70"
-          >
-            {head}
-          </Typography>
-        </th>
-      ))}
-    </tr>
-  );
-}
-
-function TableRow({ row, isLast, index, tableIndex }) {
-  const classes = isLast ? "p-2" : "p-2 border-b border-blue-gray-50"; 
-  const rowStyle = {
-    height: '70px',
-
-// Make this <0 change for opacity
-    opacity: tableIndex === 1 ? (index < 0 ? 0.1 : 1) : 1,
-  
+const Schedule = () => {
+  const getTextDividerContent = (day) => {
+    switch (day.toLowerCase()) {
+      case 'friday':
+        return 'OISCT-1';
+      case 'saturday':
+        return 'OISCT23';
+      case 'sunday':
+        return 'OISCT99';
+      default:
+        return 'OISCT';
+    }
   };
 
-  return (
-    <tr style={rowStyle}>
-      {Object.keys(row).map((key, colIndex) => (
-        <td
-          className={classes}
-          key={colIndex}
-          style={{
-            boxShadow: 'rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset',
-            textAlign: key === 'Match' || key === 'TimeFrame' ? 'center' : 'left',
-          }}
-        >
-          <Typography
-            variant="small"
-            color="blue-gray"
-            className="font-medium" // You may also use "font-semibold" for a stronger font weight
-            style={{
-             
-              fontWeight: (colIndex === 1 || colIndex === 2 || colIndex === 3) && tableIndex === 0 && index === 1 ? '800' : 'medium',
-            }}
-          >
-            {row[key]}
-          </Typography>
-        </td>
-      ))}
-    </tr>
-  );
-}
-// ... (existing imports)
-
-function ScheduleTable({ matches, title, tableIndex }) {
-  return (
-    <Card className="h-full w-full overflow-scroll mb-8">
-      <Typography
-        variant="h6"
-        color="blue-gray"
-        className="font-bold mb-4"
-      >
-        {title}
-      </Typography>
-      <div className="overflow-x-auto">
-        <table className="w-full min-w-max table-auto text-left border-collapse sm:w-full md:w-full lg:w-4/5 xl:w-4/5">
-          <thead>
-            <TableHeader headers={Object.keys(matches[0])} />
-          </thead>
-          <tbody>
-            {matches.map((row, index) => (
-              <TableRow key={index} row={row} isLast={index === matches.length - 1} index={index} tableIndex={tableIndex} />
-            ))}
-          </tbody>
-        </table>
-      </div>
-    </Card>
-  );
-}
-
-function ScheduleComponent() {
-  const days = Object.keys(scheduleData);
-
-  return (
-    <div className="relative h-screen overflow-auto">
-      <div
-        className="fixed inset-0 bg-fixed bg-cover bg-center bg-no-repeat"
-        style={{
-          backgroundImage: `url(/Schedule.jpeg)`,
-          opacity: 0.3,
-          filter: 'blur(5px)',
-        }}
-        
-      ></div>
-      <div className="relative z-10">
-        {days.map((day, index) => (
-          <ScheduleTable
-            key={index}
-            matches={scheduleData[day]}
-            title={`${day.charAt(0).toUpperCase() + day.slice(1)} Matches`}
-            tableIndex={index}
-          />
+  const renderMatches = (matches, day) => {
+    return (
+      <>
+        <div className={`text-divider ${day.toLowerCase()}`}>
+          {getTextDividerContent(day)}
+        </div>
+        {matches.map((match, index) => (
+          <div key={index} className={`timeline ${day.toLowerCase()}`}>
+            <div className="timeline-empty"></div>
+            <div className="timeline-middle">
+              <div className="timeline-circle"></div>
+            </div>
+            <div className="timeline-component timeline-content">
+              <h3 className="Tframe">{match.TimeFrame}</h3>
+              <p className="Tm1">{match.Team1}</p>
+              <p className="vs">vs</p> 
+              <p className="Tm2">{match.Team2}</p>
+            </div>
+          </div>
         ))}
-      </div>
-    </div>
-  );
-}
+      </>
+    );
+  };
+  
 
-export default ScheduleComponent;
+  return (
+    <section className="design-section">
+      {Object.keys(scheduleData).map((day, index) => (
+        <React.Fragment key={day}>
+          <h2 className="day-heading">{day}</h2>
+          {renderMatches(scheduleData[day], day)}
+          {index < Object.keys(scheduleData).length - 1 && <div className="spacer"></div>}
+        </React.Fragment>
+      ))}
+    </section>
+  );
+};
+
+export default Schedule;

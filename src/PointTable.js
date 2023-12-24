@@ -78,6 +78,7 @@ const generatePoints = (score, isLast3 = false) => {
   return null;
 };
 
+
 const TeamRow = ({
   rank,
   logo,
@@ -89,65 +90,29 @@ const TeamRow = ({
   pts,
   last3,
 }) => (
-  <tr className="bg-black bg-opacity-20">
-   
-   <td className="flex flex-col  items-center px-4 py-3 whitespace-nowrap t">
-      <img className="w-5 mb-2 sm:mb-0 sm:mr-2" src={logo} alt="" />
-      <span className="font-medium teamrow">{teamName}</span>
+  <tr className="team-row">
+    <td className="team-cell">
+      <img className="team-logo" src={logo} alt="" />
+      <span className="font-medium teamrow overflow-hidden max-h-16">{teamName}</span>
     </td>
-    <td className=" py-5 whitespace-nowrap text-center">{match}</td>
-    <td className=" py-3 whitespace-nowrap text-center">{won}</td>
-    <td className="py-3 whitespace-nowrap text-center">{lost}</td>
-    <td className=" py-3 whitespace-nowrap text-center">{tied}</td>
-    <td className=" py-3 whitespace-nowrap text-center">{pts}</td>
-    <td className=" py-3 whitespace-nowrap text-center">
+    <td className="team-cell py-5 text-center">{match}</td>
+    <td className="team-cell py-3 text-center">{won}</td>
+    <td className="team-cell py-3 text-center">{lost}</td>
+    <td className="team-cell py-3 text-center">{tied}</td>
+    <td className="team-cell py-3 text-center">{pts}</td>
+    <td className="team-cell py-3 text-center">
       {generatePoints(last3, true)}
     </td>
   </tr>
 );
 
-// const TeamRow = ({
-//   rank,
-//   logo,
-//   teamName,
-//   match,
-//   won,
-//   lost,
-//   tied,
-//   pts,
-//   last3,
-// }) => (
-//   <tr className="bg-black bg-opacity-20">
-//     <td className="flex flex-col items-center px-4 py-3 sm:py-4 whitespace-nowrap">
-//       <img className="w-5 mb-2 sm:mb-0 sm:mr-2" src={logo} alt="" />
-//       <span className="font-medium">{teamName}</span>
-//     </td>
-//     <td className="px-1 py-1 sm:px-6 py-6 whitespace-nowrap text-center">
-//       <span className="sm:hidden"> </span>{match}
-//     </td>
-//     <td className="px-1 py-1 sm:px-6 py-6  whitespace-nowrap text-center">
-//       <span className="sm:hidden"> </span>{won}
-//     </td>
-//     <td className="px-1 py-1 sm:px-6 py-6  whitespace-nowrap text-center">
-//       <span className="sm:hidden"> </span>{lost}
-//     </td>
-//     <td className="px-1 py-1 sm:px-6 py-6  whitespace-nowrap text-center">
-//       <span className="sm:hidden"> </span>{tied}
-//     </td>
-//     <td className="px-1 py-1 sm:px-6 py-6  whitespace-nowrap text-center">
-//       <span className="sm:hidden"></span>{pts}
-//     </td>
-//     <td className="px-1 py-1 sm:px-6 py-6  whitespace-nowrap text-center">
-//       <span className="sm:hidden"> </span>
-//       {generatePoints(last3, true)}
-//     </td>
-//   </tr>
-// );
+
+
 export default function Schedule() {
   const teams = [
     {
       
-      teamName: "Liverpool",
+      teamName: "RCB",
       match: 0,
       won: 0,
       lost: 0,
@@ -157,7 +122,7 @@ export default function Schedule() {
     },
     {
      
-      teamName: "Man United",
+      teamName: "Keshav Lions",
       match: 0,
       won: 0,
       lost: 0,
@@ -167,7 +132,7 @@ export default function Schedule() {
     },
     {
       
-      teamName: "Man United",
+      teamName: "Keshav Tigers",
       match: 0,
       won: 0,
       lost: 0,
