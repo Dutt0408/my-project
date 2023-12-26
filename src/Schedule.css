@@ -155,7 +155,7 @@
     margin-bottom: 10px;
 }
 .Tframe{
-    margin-left: 72px;
+    margin-left: 62px;
     margin-top: -10px;
     margin-bottom: 25px;
     Opacity: 0.4
@@ -163,17 +163,48 @@
 }
 .vs {
     font-family: 'Caveat', cursive; /* Use 'Caveat' for the 'vs' class */
-    font-size: 100px;
-    margin-left: 59px;
+
+
+    margin-left: 69px;
     opacity: 0.8;
     box-shadow: linear-gradient(45deg, #F27121, #E94057, #8A2387) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+ 
     
 }
 
 
 .Tm1{
+  margin-left: 40px;
+  margin-top: 45px;
+  margin-bottom: 15px;
     
 }
 .Tm2{
+  margin-left: 40px;
+  margin-bottom: 30px;  
+  margin-top: 20px;
+}
+
+.Trophy{
+  margin-top: 40px;
+  margin-left: -20px;
+}
+.trophy-icon{
+padding-left: 5px;
+  margin-left: 195px;
+  margin-top: 10px;
+  opacity:0.5 ;
+}
+.trophy-icon:hover{
+
+  opacity:1 ;
+}
+.trophy-icon:active{
+
+  opacity:1 ;
+}
+.texto{
+  color:red;
+font-weight: 1800;
 
 }

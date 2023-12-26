@@ -17,9 +17,8 @@ export default function ToggleableDemo() {
   ></div>
 </div>
 
-
       <div className="card">
-        <Fieldset
+      <Fieldset
           legend={
             <span className="font-semibold">
               <button
@@ -32,34 +31,31 @@ export default function ToggleableDemo() {
             </span>
           }
           toggleable
-          collapsed
+        
           className="mt-9 border border-gray-400 p-4 rounded"
         >
-          <div className="mt-6">
-            <ul className="text-gray-700 list-disc m-0 mb-4 ml-4 sm:ml-8 space-y-4">
-              <li style={{ marginTop: "10px", fontWeight: "bold" }}>
-                OUT - If the ball hits ANYWHERE on the roof 3 times during legal
-                balls
-              </li>
-              <li>Do not tap the bat on the gym floor</li>
-              <li>
-                Batsman cannot retire/declare just to come back later in the
-                match.
-              </li>
-              <li>
-                {" "}
-                LBW is not part of the dismissal process. A wicket can fall if
-                batsman has been bowled, runout, caught, obstructing the field
-                or hit wicket.
-              </li>
-              <li>At the end of each over, batsmen must swap ends. </li>
-              <li>
-                No batsman may bat more than once and a team may not declare an
-                innings closed.
-              </li>
-              <li> Last batsman is not allowed to bat alone.</li>
-            </ul>
-          </div>
+          <ul className="text-gray-700 list-disc m-0 mb-4 ml-4 sm:ml-8 space-y-4">
+            <li style={{ marginTop: "10px", fontWeight: "bold" }}>
+            No player shall abuse the cricket equipment, playing area or fixtures
+            </li>
+            <li>Do not tap the bat on the gym floor</li>
+            <li>
+              Batsman cannot retire/declare just to come back later in the
+              match.
+            </li>
+            <li>
+              {" "}
+              LBW is not part of the dismissal process. A wicket can fall if
+              batsman has been bowled, runout, caught, obstructing the field or
+              hit wicket.
+            </li>
+            <li>At the end of each over, batsmen must swap ends. </li>
+            <li>
+              No batsman may bat more than once and a team may not declare an
+              innings closed.
+            </li>
+            <li> Last batsman is not allowed to bat alone.</li>
+          </ul>
         </Fieldset>
         <Fieldset
           legend={
@@ -74,7 +70,7 @@ export default function ToggleableDemo() {
             </span>
           }
           toggleable
-          collapsed
+        
           className="mt-9 border border-gray-400 p-4 rounded"
         >
           <ul className="text-gray-700 list-disc m-0 mb-4 ml-4 sm:ml-8 space-y-4">
@@ -102,10 +98,20 @@ export default function ToggleableDemo() {
           </ul>
         </Fieldset>
         <Fieldset
-          legend={<span className="font-semibold">Scoring Rules</span>}
+          legend={
+            <span className="font-semibold">
+              <button
+                className="border border-gray-400 p-4 rounded bg-gray-100 text-gray-700"
+                style={{ width: "180px" }}
+              >
+                {" "}
+                Match Rules
+              </button>
+            </span>
+          }
           toggleable
-          collapsed
-          className="mt-9"
+        
+          className="mt-9 border border-gray-400 p-4 rounded"
         >
           <ul className="text-gray-700 list-disc m-0 mb-4 ml-4 sm:ml-8 space-y-4">
             <li style={{ marginTop: "10px", fontWeight: "bold" }}>
@@ -132,10 +138,20 @@ export default function ToggleableDemo() {
           </ul>
         </Fieldset>
         <Fieldset
-          legend={<span className="font-semibold">Bowling Rules</span>}
+          legend={
+            <span className="font-semibold">
+              <button
+                className="border border-gray-400 p-4 rounded bg-gray-100 text-gray-700"
+                style={{ width: "180px" }}
+              >
+                {" "}
+                Match Rules
+              </button>
+            </span>
+          }
           toggleable
-          collapsed
-          className="mt-9"
+        
+          className="mt-9 border border-gray-400 p-4 rounded"
         >
           <ul className="text-gray-700 list-disc m-0 mb-4 ml-4 sm:ml-8 space-y-4">
             <li style={{ marginTop: "10px", fontWeight: "bold" }}>
@@ -162,10 +178,20 @@ export default function ToggleableDemo() {
           </ul>
         </Fieldset>
         <Fieldset
-          legend={<span className="font-semibold">Batting Rules</span>}
+          legend={
+            <span className="font-semibold">
+              <button
+                className="border border-gray-400 p-4 rounded bg-gray-100 text-gray-700"
+                style={{ width: "180px" }}
+              >
+                {" "}
+                Match Rules
+              </button>
+            </span>
+          }
           toggleable
-          collapsed
-          className="mt-9"
+        
+          className="mt-9 border border-gray-400 p-4 rounded"
         >
           <ul className="text-gray-700 list-disc m-0 mb-4 ml-4 sm:ml-8 space-y-4">
             <li style={{ marginTop: "10px", fontWeight: "bold" }}>
@@ -191,37 +217,50 @@ export default function ToggleableDemo() {
             <li> Last batsman is not allowed to bat alone.</li>
           </ul>
         </Fieldset>
+        <Fieldset
+          legend={
+            <span className="font-semibold">
+              <button
+                className="border border-gray-400 p-4 rounded bg-gray-100 text-gray-700"
+                style={{ width: "180px" }}
+              >
+                {" "}
+                Match Rules
+              </button>
+            </span>
+          }
+          toggleable
+        
+          className="mt-9 border border-gray-400 p-4 rounded"
+        >
+          <ul className="text-gray-700 list-disc m-0 mb-4 ml-4 sm:ml-8 space-y-4">
+            <li style={{ marginTop: "10px", fontWeight: "bold" }}>
+              OUT - If the ball hits ANYWHERE on the roof 3 times during legal
+              balls
+            </li>
+            <li>Do not tap the bat on the gym floor</li>
+            <li>
+              Batsman cannot retire/declare just to come back later in the
+              match.
+            </li>
+            <li>
+              {" "}
+              LBW is not part of the dismissal process. A wicket can fall if
+              batsman has been bowled, runout, caught, obstructing the field or
+              hit wicket.
+            </li>
+            <li>At the end of each over, batsmen must swap ends. </li>
+            <li>
+              No batsman may bat more than once and a team may not declare an
+              innings closed.
+            </li>
+            <li> Last batsman is not allowed to bat alone.</li>
+          </ul>
+        </Fieldset>
+        
+        
 
-        <Fieldset
-          legend={<span className="font-semibold">Fielding Rules</span>}
-          toggleable
-          collapsed
-          className="mt-9"
-        >
-          <ul className="text-gray-700 list-disc m-0 mb-4 ml-4 sm:ml-8 space-y-4">
-            <li style={{ marginTop: "10px", fontWeight: "bold" }}>
-              OUT - If the ball hits ANYWHERE on the roof 3 times during legal
-              balls
-            </li>
-            <li>Do not tap the bat on the gym floor</li>
-            <li>
-              Batsman cannot retire/declare just to come back later in the
-              match.
-            </li>
-            <li>
-              {" "}
-              LBW is not part of the dismissal process. A wicket can fall if
-              batsman has been bowled, runout, caught, obstructing the field or
-              hit wicket.
-            </li>
-            <li>At the end of each over, batsmen must swap ends. </li>
-            <li>
-              No batsman may bat more than once and a team may not declare an
-              innings closed.
-            </li>
-            <li> Last batsman is not allowed to bat alone.</li>
-          </ul>
-        </Fieldset>
+        
       </div>
     </div>
   );

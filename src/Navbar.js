@@ -8,9 +8,10 @@ const navigation = [
   { name: "Rules", href: "/Rules" },
   { name: "Teams", href: "/Teams" },
   { name: "Schedule", href: "/Schedule" },
-  { name: "Live", href: "/Rules" },
+  { name: "Live", href: "/Live" },
   { name: "PointTable", href: "/PointTable" },
   { name: "Winner", href: "/Winner" },
+
 ];
 
 
@@ -42,13 +43,13 @@ export default function Example() {
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-end">
                 <div className="flex flex-shrink-0 items-center">
                   <img
-                    className="h-8 w-auto"
-                    src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
+                    className="h-20 w-auto"
+                    src="./stump.png"
                     alt="Your Company"
                   />
                 </div>
                 <div className="hidden sm:ml-6 sm:block">
-                  <div className="flex space-x-4">
+                <div className="flex space-x-4 mt-4">
                     {navigation.map((item) => (
                           <Link
                           key={item.name}
