@@ -6,6 +6,7 @@
 
 
 
+
 .design-section {
   display: flex;
   flex-direction: column;
@@ -177,6 +178,7 @@
   margin-left: 40px;
   margin-top: 45px;
   margin-bottom: 15px;
+
     
 }
 .Tm2{
@@ -206,5 +208,6 @@ padding-left: 5px;
 .texto{
   color:red;
 font-weight: 1800;
-
+font-size: 20px;
 }
+

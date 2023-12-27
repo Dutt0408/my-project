@@ -1,0 +1,55 @@
+body, button, fieldset, ul {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   
+   body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f7f7f7;
+   }
+   
+   .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+   }
+   
+   .fieldset {
+    border-width: 2px;
+    padding: 1.5rem;
+    background-color: #fff;
+   }
+   
+   .fieldset legend {
+    padding: 0 1rem;
+    background-color: #f1f1f1;
+    font-weight: bold;
+    font-size: 1.25rem;
+   }
+   
+   .fieldset ul {
+    padding: 1rem 2rem;
+    list-style-type: none;
+   }
+   
+   .fieldset li {
+    padding: 0.5rem 0;
+    font-size: 1rem;
+   }
+   
+   /* button {
+    background-color: #e8e8e8;
+    color: #444;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+   } */
+   
+   /* button:hover {
+    background-color: #d6d6d6;
+   } */
