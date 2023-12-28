@@ -91,19 +91,21 @@ const TeamRow = ({
   last3,
 }) => (
   <tr className="team-row">
-    <td className="team-cell">
-      <img className="team-logo" src={logo} alt="" />
-      <span className="font-medium teamrow overflow-hidden max-h-16">{teamName}</span>
-    </td>
-    <td className="team-cell py-5 text-center">{match}</td>
-    <td className="team-cell py-3 text-center">{won}</td>
-    <td className="team-cell py-3 text-center">{lost}</td>
-    <td className="team-cell py-3 text-center">{tied}</td>
-    <td className="team-cell py-3 text-center">{pts}</td>
-    <td className="team-cell py-3 text-center">
-      {generatePoints(last3, true)}
-    </td>
-  </tr>
+  <td className="team-cell">
+    <img className="team-logo" src={logo} alt="" />
+    <span className="font-medium teamrow overflow-hidden max-h-16 team-name">
+      {teamName}
+    </span>
+  </td>
+  <td className="team-cell py-5 text-center">{match}</td>
+  <td className="team-cell py-3 text-center">{won}</td>
+  <td className="team-cell py-3 text-center">{lost}</td>
+  <td className="team-cell py-3 text-center">{tied}</td>
+  <td className="team-cell py-3 text-center">{pts}</td>
+  <td className="team-cell py-3 text-center">
+    {generatePoints(last3, true)}
+  </td>
+</tr>
 );
 
 
@@ -112,7 +114,7 @@ export default function Schedule() {
   const teams = [
     {
       
-      teamName: "RCB",
+      teamName: "Etobicoke Kings",
       match: 0,
       won: 0,
       lost: 0,
@@ -122,7 +124,7 @@ export default function Schedule() {
     },
     {
      
-      teamName: "Keshav Lions",
+      teamName: "Etobicoke Eagles",
       match: 0,
       won: 0,
       lost: 0,
@@ -132,7 +134,7 @@ export default function Schedule() {
     },
     {
       
-      teamName: "Keshav Tigers",
+      teamName: "Etobicoke Titans",
       match: 0,
       won: 0,
       lost: 0,
@@ -142,7 +144,7 @@ export default function Schedule() {
     },
     {
    
-      teamName: "Man United",
+      teamName: "Etobicoke Capitals",
       match: 0,
       won: 0,
       lost: 0,
@@ -152,7 +154,7 @@ export default function Schedule() {
     },
     {
    
-      teamName: "Man United",
+      teamName: "BramptonPanthers",
       match: 0,
       won: 0,
       lost: 0,
@@ -162,7 +164,7 @@ export default function Schedule() {
     },
     {
       
-      teamName: "Man United",
+      teamName: "Brampton Lions",
       match: 0,
       won: 0,
       lost: 0,
@@ -171,7 +173,7 @@ export default function Schedule() {
       last3: "DPoint,DPoint,DPoint",
     },
     {
-      teamName: "Man United",
+      teamName: "Brampton Tigers",
       match: 0,
       won: 0,
       lost: 0,
@@ -180,7 +182,7 @@ export default function Schedule() {
       last3: "DPoint,DPoint,DPoint",
     },
     {
-      teamName: "Man United",
+      teamName: "RCB",
       match: 0,
       won: 0,
       lost: 0,
@@ -189,17 +191,7 @@ export default function Schedule() {
       last3: "DPoint,DPoint,DPoint",
     },
     {
-      teamName: "Man United",
-      match: 0,
-      won: 0,
-      lost: 0,
-      tied: 0,
-      pts: 0,
-      last3: "DPoint,DPoint,DPoint",
-    },
-    {
-
-      teamName: "Man United",
+      teamName: "Scarborough Warriors",
       match: 0,
       won: 0,
       lost: 0,
@@ -209,8 +201,7 @@ export default function Schedule() {
     },
     {
 
-
-      teamName: "Man United",
+      teamName: "Scarborough Falcons",
       match: 0,
       won: 0,
       lost: 0,
@@ -221,7 +212,7 @@ export default function Schedule() {
     {
 
 
-      teamName: "Man United",
+      teamName: "Scarborough Spartans",
       match: 0,
       won: 0,
       lost: 0,
@@ -232,7 +223,7 @@ export default function Schedule() {
     {
 
 
-      teamName: "Man United",
+      teamName: "Scarborough Strikers",
       match: 0,
       won: 0,
       lost: 0,
@@ -243,7 +234,7 @@ export default function Schedule() {
     {
 
 
-      teamName: "Man United",
+      teamName: "Kitchner Titans",
       match: 0,
       won: 0,
       lost: 0,
@@ -254,7 +245,7 @@ export default function Schedule() {
     {
 
 
-      teamName: "Man United",
+      teamName: "CSK",
       match: 0,
       won: 0,
       lost: 0,
@@ -265,7 +256,18 @@ export default function Schedule() {
     {
 
 
-      teamName: "Man United",
+      teamName: "RCH",
+      match: 0,
+      won: 0,
+      lost: 0,
+      tied: 0,
+      pts: 0,
+      last3: "DPoint,DPoint,DPoint",
+    },
+    {
+
+
+      teamName: "London Strikers",
       match: 0,
       won: 0,
       lost: 0,

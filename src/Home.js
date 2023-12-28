@@ -16,10 +16,10 @@ Embark on a journey into the soul of cricket at the  Ontario International Stude
 <span className='htexts'>Tournament Timeframe: 
 <div className="timeslot">
 <strong>
- <br/>December : Friday
+ <br/>December 29 : Friday
 
- <br/>December : Saturday
- <br/>December : Sunday
+ <br/>December 30 : Saturday
+ <br/>December 31 : Sunday
  </strong>
  </div>
  

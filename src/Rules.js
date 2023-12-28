@@ -9,8 +9,9 @@ export default function ToggleableDemo() {
         <div
           className="bg-cover bg-center h-full transition-transform duration-300 transform-gpu hover:scale-105 focus:scale-105 active:scale-105 grayscale-50 hover:filter-none focus:filter-none active:filter-none"
           style={{
-            backgroundImage: `url("./Rules.png")`,
+            backgroundImage: `url("./Rlpage.jpg")`,
             backgroundSize: "cover", // Ensure the background image covers the entire container
+            borderRadius: "28px",
           }}
           tabIndex="0" // This makes the div focusable
         ></div>
@@ -146,7 +147,7 @@ export default function ToggleableDemo() {
           legend={
             <span className="font-semibold">
               <button
-                className="border border-gray-400 p-4 rounded bg-gray-100 text-gray-700"
+                className="button border border-gray-400 p-4 rounded bg-gray-100 text-gray-700"
                 style={{ width: "180px" }}
               >
                 {" "}
@@ -192,7 +193,7 @@ export default function ToggleableDemo() {
           legend={
             <span className="font-semibold">
               <button
-                className="border border-gray-400 p-4 rounded bg-gray-100 text-gray-700"
+                className="button border border-gray-400 p-4 rounded bg-gray-100 text-gray-700"
                 style={{ width: "180px" }}
               >
                 {" "}
@@ -260,7 +261,7 @@ export default function ToggleableDemo() {
           legend={
             <span className="font-semibold">
               <button
-                className="border border-gray-400 p-4 rounded bg-gray-100 text-gray-700"
+                className="button border border-gray-400 p-4 rounded bg-gray-100 text-gray-700"
                 style={{ width: "180px" }}
               >
                 {" "}
@@ -301,7 +302,7 @@ export default function ToggleableDemo() {
           legend={
             <span className="font-semibold">
               <button
-                className="border border-gray-400 p-4 rounded bg-gray-100 text-gray-700"
+                className="button border border-gray-400 p-4 rounded bg-gray-100 text-gray-700"
                 style={{ width: "180px" }}
               >
                 {" "}
@@ -340,7 +341,7 @@ export default function ToggleableDemo() {
           legend={
             <span className="font-semibold">
               <button
-                className="border border-gray-400 p-4 rounded bg-gray-100 text-gray-700"
+                className="button border border-gray-400 p-4 rounded bg-gray-100 text-gray-700"
                 style={{ width: "180px" }}
               >
                 {" "}

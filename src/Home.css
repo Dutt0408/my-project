@@ -1,8 +1,11 @@
 .homepage{
     background-color: #1f1f1f;
-    height:100rem;
+    height:65rem;
     color: white;
 
+}
+.Oimg{
+    border-radius: 13px;
 }
 .htexts{
 padding: 1.5rem;
