@@ -287,7 +287,7 @@ export default function Schedule() {
             <thead className="bg-gray-800 text-xs md:text-sm lg:text-base uppercase font-medium">
               <tr className="teamrow">
                 <th scope="col" className=" py-3 text-left tracking-wider text-center ">
-                  Player
+                  Player Name &nbsp;
                 </th>
                 <th scope="col" className=" py-1 text-left tracking-wider text-center">
                   Run
