@@ -11,7 +11,7 @@ function Home() {
  <div className="paragraph">
 
 
-Embark on a journey into the soul of cricket at the  Ontario International Student Cricket Fest! This vibrant event seamlessly intertwines spirituality with the thrill of the game, . International students come together for a spirited, culturally rich competition that goes beyond the boundaries.
+Embark on a journey into the soul of cricket at the  Ontario International Student Cricket Fest! 
 </div>
 <span className='htexts'>Tournament Timeframe: 
 <div className="timeslot">
@@ -29,7 +29,10 @@ Embark on a journey into the soul of cricket at the  Ontario International Stude
 </span>
 
 <div className="paragraph">
-Join us as volunteers, inspired by the values of Mandir, SAMP,DIVYABHAV, creating SAMP on and off the pitch. Beyond the competition, this Tournament is a spiritual celebration—a joyous blend of SAMP, EKTA, and the uplifting spirit of sport.  
+This tournament strives to engage youth in a spirit of equity, diversity and inclusion while promoting an active lifestyle. It also brings the volunteers together for their selfless service to the community. 
+
+BAPS  is a non-profit international charity organization committed to sincerely serving the world by caring for individuals, families, and communities. BAPS engages volunteers in the service of local communities across five areas: health, education, humanitarian aid, community empowerment and environmental initiatives. 
+
 </div>
  </div>
     </div>
