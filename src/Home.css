@@ -1,0 +1,29 @@
+.homepage{
+    background-color: #1f1f1f;
+    height:100rem;
+    color: white;
+
+}
+.htexts{
+padding: 1.5rem;
+border-radius: 10px;
+margin-bottom: 1rem;
+}
+.paragraph{
+    padding: 1.5rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    margin-top: -40px;
+    opacity:0.6;
+}
+.timeslot{
+    margin-left: 100px;
+    margin-top: -20px;
+}
+@media screen and (min-width: 1559) {
+    .homepage{
+     
+        
+    }
+    }
+    

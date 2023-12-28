@@ -3,13 +3,26 @@
     padding: 2rem;
     border-radius: 10px;
     margin-bottom: 1rem;
-    box-shadow: 5px 5px 10px rgba(26, 26, 26, 0.618), -5px -5px 10px rgba(56, 56, 56, 0.5);
-    border-radius: 5px;
-    color: white; /* Ensure text color is white */
-    transition: 0.4s ease;
-    overflow-wrap: break-word !important;
+  
+}
+.main{
+    color:white;
 }
 
 .blackbg {
     background-color: #1f1f1f;
+}
+.button{
+    display: grid;
+    gap: 1rem;
+    background-color: #1f1f1f;
+    box-shadow: 5px 5px 5px rgba(26, 26, 26, 0.618), -5px -5px 10px rgba(56, 56, 56, 0.5);
+    border-radius: 5px;
+    color:white;
+    transition: 0.4s ease;
+    overflow-wrap: break-word !important;
+    margin: 0;
+    margin-top: 25px;
+    margin-bottom: 0px;
+    padding: 1rem;
 }
