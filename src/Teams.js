@@ -136,7 +136,7 @@ const Teams = () => {
       ]
     },
     {
-      "teamName": "Royal Challengers Barmpton",
+      "teamName": "Royal Challengers Brampton",
       "players": [
         {
           "firstName": "Kaushal",

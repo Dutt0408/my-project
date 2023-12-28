@@ -23,7 +23,7 @@ padding-right: 0.40rem; /* 4px */
   }
 }
 
-@media only screen and (min-width: 420px) and (max-width: 439px) {
+@media only screen and (min-width: 420px) and (max-width: 424px) {
   .team-row td {
     padding-left: 0.75rem; /* 12px */
 padding-right: 0.75rem; /* 12px */
@@ -34,8 +34,30 @@ padding-right: 0.75rem; /* 12px */
     padding-right: 0.475rem; /* 6px */
   }
 }
+@media only screen and (min-width: 425px) and (max-width: 432px) {
+  .team-row td {
+    padding-left: 0.75rem; /* 12px */
+padding-right: 0.75rem; /* 12px */
+  }
 
-@media only screen and (min-width: 440px) and (max-width: 471px) {
+  th {
+    padding-left: 0.4rem; /* 6px */
+    padding-right: 0.3rem; /* 6px */
+  }
+}
+@media only screen and (min-width: 432px) and (max-width: 445px) {
+  .team-row td {
+    padding-left: 0.75rem; /* 12px */
+padding-right: 0.75rem; /* 12px */
+  }
+
+  th {
+    padding-left: 0.4rem; /* 6px */
+    padding-right: 0.42rem; /* 6px */
+  }
+}
+
+@media only screen and (min-width: 446px) and (max-width: 471px) {
   .team-row td {
     padding-left: 0.85rem; /* 14px */
 padding-right: 0.85rem;
@@ -59,18 +81,18 @@ padding-right: 0.85rem;
   }
 }
 
-@media only screen and (min-width: 506px) and (max-width: 531px) {
+@media only screen and (min-width: 506px) and (max-width: 536px) {
   .team-row td {
     padding-left: 1rem; /* 16px */
     padding-right: 1rem; /* 16px */
   }
 
   th {
-    padding-left: 0.975rem; /* 14px */
-    padding-right: 0.975rem; /* 14px */
+    padding-left: 0.8rem; /* 14px */
+    padding-right: 0.72rem; /* 14px */
   }
 }
-@media only screen and (min-width: 532px) and (max-width: 547px) {
+@media only screen and (min-width: 537px) and (max-width: 547px) {
   .team-row td {
     padding-left: 1rem; /* 16px */
     padding-right: 1rem; /* 16px */
