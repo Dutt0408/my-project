@@ -44,85 +44,60 @@ const scheduleData = {
   ]
 };
 
-const Schedule = () => {
-  const getTextDividerContent = (day) => {
-    let classForText = '';
 
-    switch (day.toLowerCase()) {
-      case 'friday':
-        classForText = 'Friday Schedule';
-        break;
-      case 'saturday':
-        classForText = 'Saturday Schedules';
-        break;
-      case 'sunday':
-        classForText = 'Sunday Schedules';
-        break;
-      default:
-        classForText = 'OISCT';
-        break;
-    }
-
-    return (
-      <span className={`texto ${classForText}`}>
-        {classForText}
-      </span>
-    );
-  };
-
-  const renderMatches = (matches, day) => {
-    return (
-      <>
-        {matches.length > 0 && (
-          <div className={`timeline ${day.toLowerCase()}`}>
-            <div className="timeline-empty"></div>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-          </div>
-        )}
-        {matches.map((match, index) => (
-          <div
-            key={index}
-            className={`timeline ${day.toLowerCase()}`}
-            style={{ opacity: match.isOver ? 0.3 : 1 }}
-          >
-            <div className="timeline-empty"></div>
-            <div className="timeline-middle">
-              <div className="timeline-circle "></div>
+  const Schedule = () => {
+    const renderMatches = (matches, day) => {
+      return (
+        <>
+          {matches.length > 0 && (
+            <div className={`timeline ${day.toLowerCase()}`}>
+              <div className="timeline-empty"></div>
+              <br/>
+              <br/>
+              <br/>
+              <br/>
+              <br/>
+              <br/>
+              <br/>
+              <br/>
+              <br/>
+              <br/>
             </div>
-            <div className="timeline-component timeline-content">
-              <h3 className="Tframe">
-                {match.Day} {match.TimeFrame}
-              </h3>
-              <p className="Tm1">{match.Team1}</p>
-              <img
-                className="h-16 w-auto vs"
-                src="./vs1.png"
-                alt="VS"
-              />
-              <p className="Tm2">{match.Team2}</p>
-              <button onClick={() => handleResultButtonClick(match.ResultURL)} className="trophy-button">
+          )}
+          {matches.map((match, index) => (
+            <div
+              key={index}
+              className={`timeline ${day.toLowerCase()}`}
+              style={{ opacity: match.isOver ? 0.3 : 1 }}
+            >
+              <div className="timeline-empty"></div>
+              <div className="timeline-middle">
+                <div className="timeline-circle "></div>
+              </div>
+              <div className="timeline-component timeline-content">
+                <h3 className="Tframe">
+                  {match.Day} {match.TimeFrame}
+                </h3>
+                <p className="Tm1">{match.Team1}</p>
                 <img
-                  className="h-7 w-auto trophy-icon"
-                  src="./tro.png"
-                  alt="Your Company"
+                  className="h-16 w-auto vs"
+                  src="./vs1.png"
+                  alt="VS"
                 />
-              </button>
+                <p className="Tm2">{match.Team2}</p>
+                <button onClick={() => handleResultButtonClick(match.ResultURL)} className="trophy-button">
+                  <img
+                    className="h-7 w-auto trophy-icon"
+                    src="./tro.png"
+                    alt="Your Company"
+                  />
+                </button>
+              </div>
             </div>
-          </div>
-        ))}
-      </>
-    );
-  };
-  
+          ))}
+        </>
+      );
+    };
   
   const handleResultButtonClick = (resultURL) => {
     const link = document.createElement('a');
@@ -146,6 +121,5 @@ const Schedule = () => {
     </section>
   );
 };
-
 
 export default Schedule;
