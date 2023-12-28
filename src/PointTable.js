@@ -114,7 +114,7 @@ export default function Schedule() {
   const teams = [
     {
       
-      teamName: "Etobicoke Kings",
+      teamName: "E.Kings",
       match: 0,
       won: 0,
       lost: 0,
@@ -124,7 +124,7 @@ export default function Schedule() {
     },
     {
      
-      teamName: "Etobicoke Eagles",
+      teamName: "E.Eagles",
       match: 0,
       won: 0,
       lost: 0,
@@ -134,7 +134,7 @@ export default function Schedule() {
     },
     {
       
-      teamName: "Etobicoke Titans",
+      teamName: "E.Titans",
       match: 0,
       won: 0,
       lost: 0,
@@ -144,7 +144,7 @@ export default function Schedule() {
     },
     {
    
-      teamName: "Etobicoke Capitals",
+      teamName: "E.Capitals",
       match: 0,
       won: 0,
       lost: 0,
@@ -154,7 +154,7 @@ export default function Schedule() {
     },
     {
    
-      teamName: "BramptonPanthers",
+      teamName: "B.Panthers",
       match: 0,
       won: 0,
       lost: 0,
@@ -164,7 +164,7 @@ export default function Schedule() {
     },
     {
       
-      teamName: "Brampton Lions",
+      teamName: "B.Lions",
       match: 0,
       won: 0,
       lost: 0,
@@ -173,7 +173,7 @@ export default function Schedule() {
       last3: "DPoint,DPoint,DPoint",
     },
     {
-      teamName: "Brampton Tigers",
+      teamName: "B.Tigers",
       match: 0,
       won: 0,
       lost: 0,
@@ -191,7 +191,7 @@ export default function Schedule() {
       last3: "DPoint,DPoint,DPoint",
     },
     {
-      teamName: "Scarborough Warriors",
+      teamName: "S.Warriors",
       match: 0,
       won: 0,
       lost: 0,
@@ -201,18 +201,7 @@ export default function Schedule() {
     },
     {
 
-      teamName: "Scarborough Falcons",
-      match: 0,
-      won: 0,
-      lost: 0,
-      tied: 0,
-      pts: 0,
-      last3: "DPoint,DPoint,DPoint",
-    },
-    {
-
-
-      teamName: "Scarborough Spartans",
+      teamName: "S.Falcons",
       match: 0,
       won: 0,
       lost: 0,
@@ -223,7 +212,7 @@ export default function Schedule() {
     {
 
 
-      teamName: "Scarborough Strikers",
+      teamName: "S.Spartans",
       match: 0,
       won: 0,
       lost: 0,
@@ -234,7 +223,7 @@ export default function Schedule() {
     {
 
 
-      teamName: "Kitchner Titans",
+      teamName: "S.Strikers",
       match: 0,
       won: 0,
       lost: 0,
@@ -245,7 +234,18 @@ export default function Schedule() {
     {
 
 
-      teamName: "CSK",
+      teamName: "K.Titans",
+      match: 0,
+      won: 0,
+      lost: 0,
+      tied: 0,
+      pts: 0,
+      last3: "DPoint,DPoint,DPoint",
+    },
+    {
+
+
+      teamName: "C.SuperKings",
       match: 0,
       won: 0,
       lost: 0,
@@ -267,7 +267,7 @@ export default function Schedule() {
     {
 
 
-      teamName: "London Strikers",
+      teamName: "L.Strikers",
       match: 0,
       won: 0,
       lost: 0,

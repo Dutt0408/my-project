@@ -115,7 +115,7 @@ export default function Schedule() {
   const teams = [
     {
       
-      teamName: "RCB",
+      teamName: "P-1",
       match: 0,
       won: 0,
       lost: 0,
@@ -125,7 +125,7 @@ export default function Schedule() {
     },
     {
      
-      teamName: "Keshav Lions",
+      teamName: "P-2",
       match: 0,
       won: 0,
       lost: 0,
@@ -135,7 +135,7 @@ export default function Schedule() {
     },
     {
       
-      teamName: "Keshav Tigers",
+      teamName: "P-3",
       match: 0,
       won: 0,
       lost: 0,
@@ -145,7 +145,7 @@ export default function Schedule() {
     },
     {
    
-      teamName: "Man United",
+      teamName: "P-4",
       match: 0,
       won: 0,
       lost: 0,
@@ -155,7 +155,7 @@ export default function Schedule() {
     },
     {
    
-      teamName: "Man United",
+      teamName: "P-5",
       match: 0,
       won: 0,
       lost: 0,
@@ -165,7 +165,7 @@ export default function Schedule() {
     },
     {
       
-      teamName: "Man United",
+      teamName: "P-6",
       match: 0,
       won: 0,
       lost: 0,
@@ -174,7 +174,7 @@ export default function Schedule() {
       last3: "DPoint,DPoint,DPoint",
     },
     {
-      teamName: "Man United",
+      teamName: "P-7",
       match: 0,
       won: 0,
       lost: 0,
@@ -183,7 +183,7 @@ export default function Schedule() {
       last3: "DPoint,DPoint,DPoint",
     },
     {
-      teamName: "Man United",
+      teamName: "P-8",
       match: 0,
       won: 0,
       lost: 0,
@@ -192,17 +192,7 @@ export default function Schedule() {
       last3: "DPoint,DPoint,DPoint",
     },
     {
-      teamName: "Man United",
-      match: 0,
-      won: 0,
-      lost: 0,
-      tied: 0,
-      pts: 0,
-      last3: "DPoint,DPoint,DPoint",
-    },
-    {
-
-      teamName: "Man United",
+      teamName: "P-9",
       match: 0,
       won: 0,
       lost: 0,
@@ -212,8 +202,7 @@ export default function Schedule() {
     },
     {
 
-
-      teamName: "Man United",
+      teamName: "P-10",
       match: 0,
       won: 0,
       lost: 0,
@@ -224,7 +213,7 @@ export default function Schedule() {
     {
 
 
-      teamName: "Man United",
+      teamName: "P-11",
       match: 0,
       won: 0,
       lost: 0,
@@ -235,7 +224,7 @@ export default function Schedule() {
     {
 
 
-      teamName: "Man United",
+      teamName: "P-12",
       match: 0,
       won: 0,
       lost: 0,
@@ -246,7 +235,7 @@ export default function Schedule() {
     {
 
 
-      teamName: "Man United",
+      teamName: "P-13",
       match: 0,
       won: 0,
       lost: 0,
@@ -257,7 +246,7 @@ export default function Schedule() {
     {
 
 
-      teamName: "Man United",
+      teamName: "P-14",
       match: 0,
       won: 0,
       lost: 0,
@@ -268,7 +257,18 @@ export default function Schedule() {
     {
 
 
-      teamName: "Man United",
+      teamName: "P-15",
+      match: 0,
+      won: 0,
+      lost: 0,
+      tied: 0,
+      pts: 0,
+      last3: "DPoint,DPoint,DPoint",
+    },
+    {
+
+
+      teamName: "P-16",
       match: 0,
       won: 0,
       lost: 0,

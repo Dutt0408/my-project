@@ -1,19 +1,17 @@
-
+// changes of true and update the new result 
 import React from 'react';
 import './Schedule.css'; 
 import './index.css'
-
-
 
 const scheduleData = {
   
   "friday": [
     { "Match": 1, "Team1": "ETOBICOKE KINGS", "Team2": "BRAMPTON LIONS", "TimeFrame": "2pm - 3pm","Day": "Friday","isOver": false,"ResultURL": "Result1.png" },
     { "Match": 2, "Team1": "BRAMPTON PANTHERS", "Team2": "ETOBICOKE EAGLES", "TimeFrame": "3pm-4pm","Day": "Friday","isOver": false,"ResultURL": "Result2.png" },
-    { "Match": 3, "Team1": "ETOBICOKE KINGS", "Team2": "ROYAL CHALLENGERS BRAMPTON", "TimeFrame": "4pm-5pm","Day": "Friday","isOver": false,"ResultURL": "Result3.png" },
+    { "Match": 3, "Team1": "ETOBICOKE KINGS", "Team2": "RCB", "TimeFrame": "4pm-5pm","Day": "Friday","isOver": false,"ResultURL": "Result3.png" },
     { "Match": 4, "Team1": "ETOBICOKE TITANS", "Team2": "SCARBOROUGH SPARTANS", "TimeFrame": "5pm-6pm","Day": "Friday","isOver": false,"ResultURL": "Result4.png"},
     { "Match": 5, "Team1": "BRAMPTON TIGERS", "Team2": "SCARBOROUGH WARRIORS", "TimeFrame": "6pm-7pm","Day": "Friday","isOver": false,"ResultURL": "Result5.png" },
-    { "Match": 6, "Team1": "ROYAL CHALLENGERS BRAMPTON", "Team2": "ETOBICOKE CAPITALS", "TimeFrame": "7pm-8pm","Day": "Friday","isOver": false,"ResultURL": "Result6.png" },
+    { "Match": 6, "Team1": "RCB", "Team2": "ETOBICOKE CAPITALS", "TimeFrame": "7pm-8pm","Day": "Friday","isOver": false,"ResultURL": "Result6.png" },
     { "Match": 7, "Team1": "SCARBOROUGH FALCONS", "Team2": "BRAMPTON PANTHERS", "TimeFrame": "8pm-9pm","Day": "Friday","isOver": false,"ResultURL": "Result7.png" },
     { "Match": 8, "Team1": "BRAMPTON LIONS", "Team2": "SCARBOROUGH SPARTANS", "TimeFrame": "9pm-10pm","Day": "Friday","isOver": false,"ResultURL": "Result8.png" },
     { "Match": 9, "Team1": "SCARBOROUGH STRIKERS", "Team2": "ETOBICOKE EAGLES", "TimeFrame": "10pm-11pm","Day": "Friday","isOver": false,"ResultURL": "Result9.png" }
@@ -22,15 +20,15 @@ const scheduleData = {
     { "Match": 10, "Team1": "CAMBRIDGE SUPER KINGS", "Team2": "ETOBICOKE TITANS", "TimeFrame": "7am-8am","Day": "Saturday","isOver": false,"ResultURL": "Result10.png" },
     { "Match": 11, "Team1": "BRAMPTON TIGERS", "Team2": "LONDON STRIKERS", "TimeFrame": "8am-9am","Day": "Saturday","isOver": false,"ResultURL": "Result11.png" },
     { "Match": 12, "Team1": "KITCHNER TITANS", "Team2": "SCARBOROUGH FALCONS", "TimeFrame": "9am-10am","Day": "Saturday","isOver": false,"ResultURL": "Result12.png" },
-    { "Match": 13, "Team1": "ROYAL CHALLENGERS HAMILTON", "Team2": "ETOBICOKE CAPITALS", "TimeFrame": "10am-11pm","Day": "Saturday","isOver": false,"ResultURL": "Result13.png" },
+    { "Match": 13, "Team1": "RCH", "Team2": "ETOBICOKE CAPITALS", "TimeFrame": "10am-11pm","Day": "Saturday","isOver": false,"ResultURL": "Result13.png" },
     { "Match": 14, "Team1": "LONDON STRIKERS", "Team2": "SCARBOROUGH STRIKERS", "TimeFrame": "11am-12pm","Day": "Saturday","isOver": false,"ResultURL": "Result14.png" },
-    { "Match": 15, "Team1": "CAMBRIDGE SUPER KINGS", "Team2": "ROYAL CHALLENGERS BRAMPTON", "TimeFrame": "12pm-1pm","Day": "Saturday","isOver": false,"ResultURL": "Result15.png" },
+    { "Match": 15, "Team1": "CAMBRIDGE SUPER KINGS", "Team2": "RCB", "TimeFrame": "12pm-1pm","Day": "Saturday","isOver": false,"ResultURL": "Result15.png" },
     { "Match": 16, "Team1": "KITCHNER TITANS", "Team2": "SCARBOROUGH WARRIORS", "TimeFrame": "1pm-2pm","Day": "Saturday","isOver": false,"ResultURL": "Result16.png" },
-    { "Match": 17, "Team1": "ROYAL CHALLENGERS HAMILTON", "Team2": "BRAMPTON LIONS", "TimeFrame": "2pm-3pm","Day": "Saturday","isOver": false,"ResultURL": "Result17.png" },
+    { "Match": 17, "Team1": "RCH", "Team2": "BRAMPTON LIONS", "TimeFrame": "2pm-3pm","Day": "Saturday","isOver": false,"ResultURL": "Result17.png" },
     { "Match": 18, "Team1": "LONDON STRIKERS", "Team2": "ETOBICOKE EAGLES", "TimeFrame": "3pm-4pm","Day": "Saturday","isOver": false,"ResultURL": "Result18.png" },
     { "Match": 19, "Team1": "SCARBOROUGH SPARTANS", "Team2": "CAMBRIDGE SUPER KINGS", "TimeFrame": "4pm-5pm","Day": "Saturday","isOver": false,"ResultURL": "Result19.png" },
     { "Match": 20, "Team1": "SCARBOROUGH STRIKERS", "Team2": "BRAMPTON PANTHERS", "TimeFrame": "5pm-6pm","Day": "Saturday","isOver": false,"ResultURL": "Result20.png" },
-    { "Match": 21, "Team1": "ETOBICOKE KINGS", "Team2": "ROYAL CHALLENGERS HAMILTON", "TimeFrame": "6pm-7pm","Day": "Saturday","isOver": false,"ResultURL": "Result21.png" },
+    { "Match": 21, "Team1": "ETOBICOKE KINGS", "Team2": "RCH", "TimeFrame": "6pm-7pm","Day": "Saturday","isOver": false,"ResultURL": "Result21.png" },
     { "Match": 22, "Team1": "KITCHNER TITANS", "Team2": "BRAMPTON TIGERS", "TimeFrame": "7pm-8pm","Day": "Saturday","isOver": false,"ResultURL": "Result22.png" },
     { "Match": 23, "Team1": "ETOBICOKE TITANS", "Team2": "ETOBICOKE CAPITALS", "TimeFrame": "8pm-9pm","Day": "Saturday","isOver": false,"ResultURL": "Result23.png" },
     { "Match": 24, "Team1": "SCARBOROUGH WARRIORS", "Team2": "SCARBOROUGH FALCONS", "TimeFrame": "9pm-10pm","Day": "Saturday","isOver": false,"ResultURL": "Result24.png" }
