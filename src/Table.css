@@ -37,13 +37,13 @@ padding-right: 0.75rem; /* 12px */
 
 @media only screen and (min-width: 440px) and (max-width: 471px) {
   .team-row td {
-    padding-left: 0.865rem; /* 14px */
-padding-right: 0.865rem;
+    padding-left: 0.85rem; /* 14px */
+padding-right: 0.85rem;
   }
 
   th {
-    padding-left: 0.625rem; /* 10px */
-    padding-right: 0.625rem; /* 10px */
+    padding-left: 0.3rem; /* 10px */
+    padding-right: 0.55rem; /* 10px */
   }
 }
 
