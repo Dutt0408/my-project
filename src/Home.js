@@ -30,7 +30,8 @@ Embark on a journey into the soul of cricket at the  Ontario International Stude
 
 <div className="paragraph">
 This tournament strives to engage youth in a spirit of equity, diversity and inclusion while promoting an active lifestyle. It also brings the volunteers together for their selfless service to the community. 
-
+</div>
+<div className="paragraph">
 BAPS  is a non-profit international charity organization committed to sincerely serving the world by caring for individuals, families, and communities. BAPS engages volunteers in the service of local communities across five areas: health, education, humanitarian aid, community empowerment and environmental initiatives. 
 
 </div>
