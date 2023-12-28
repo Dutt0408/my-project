@@ -267,7 +267,7 @@ const Teams = () => {
         ]
       },
       {
-        "teamName": "Scarborough Stallions",
+        "teamName": "Scarborough Spartans",
         "players": [
           {
             "firstName": "Akshesh",
