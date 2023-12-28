@@ -5,6 +5,14 @@
 
 
 
+.design-section .Schl {
+  color: rgba(255, 255, 255, 0.732);
+  font-size: 30px; /* Change this value to adjust the font size */
+  font-weight: 700;
+  margin-bottom: -5em;
+  margin-top: -7em;
+  font-family: cursive;
+}
 
 
 .design-section {

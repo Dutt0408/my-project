@@ -73,9 +73,21 @@ const Schedule = () => {
   const renderMatches = (matches, day) => {
     return (
       <>
-        <div className={`text-divider ${day.toLowerCase()}`}>
-          {getTextDividerContent(day)}
-        </div>
+        {matches.length > 0 && (
+          <div className={`timeline ${day.toLowerCase()}`}>
+            <div className="timeline-empty"></div>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+          </div>
+        )}
         {matches.map((match, index) => (
           <div
             key={index}
@@ -98,26 +110,19 @@ const Schedule = () => {
               />
               <p className="Tm2">{match.Team2}</p>
               <button onClick={() => handleResultButtonClick(match.ResultURL)} className="trophy-button">
-               
-              <img
-                    className="h-7 w-auto trophy-icon"
-                    src="./tro.png"
-                    alt="Your Company"
-                  />
-
-                 </button>
+                <img
+                  className="h-7 w-auto trophy-icon"
+                  src="./tro.png"
+                  alt="Your Company"
+                />
+              </button>
             </div>
           </div>
         ))}
-        {matches.length > 0 && (
-          <div className={`timeline ${day.toLowerCase()}`}>
-            <div className="timeline-empty"></div>
-            <h3 className="Trophy">TROPHY</h3>
-          </div>
-        )}
       </>
     );
   };
+  
   
   const handleResultButtonClick = (resultURL) => {
     const link = document.createElement('a');
@@ -128,19 +133,19 @@ const Schedule = () => {
     document.body.removeChild(link);
   };
   
-  
 
   return (
     <section className="design-section">
+      <h2 className="day-heading Schl">Schedule</h2>
       {Object.keys(scheduleData).map((day, index) => (
         <React.Fragment key={day}>
-          {/* <h2 className="day-heading">{day}</h2> */}
-          {renderMatches(scheduleData[day], day)}
           {index < Object.keys(scheduleData).length - 1 && <div className="spacer"></div>}
+          {renderMatches(scheduleData[day], day)}
         </React.Fragment>
       ))}
     </section>
   );
 };
+
 
 export default Schedule;

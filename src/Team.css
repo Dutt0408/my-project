@@ -1,7 +1,7 @@
 .grid {
     display: grid;
     gap: 1rem;
-    background: #02073430;
+    background: #1f1f1f;
     box-shadow: 5px 5px 10px rgba(26, 26, 26, 0.618), -5px -5px 10px rgba(56, 56, 56, 0.5);
     border-radius: 5px;
     color: white;

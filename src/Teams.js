@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 import "./Team.css"
 
+
 const Teams = () => {
   const teamsData = [
   
@@ -1065,7 +1066,6 @@ const TeamDetail = ({ selectedTeam, onGoBack }) => {
 
   return (
     <div>
-      <h2>{selectedTeam}</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4">
         {team.players.map((player, index) => (
           <div key={index} className="border-custom p-4 m-24 shadow-lg">
