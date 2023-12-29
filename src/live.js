@@ -1,85 +1,8 @@
 import React from "react";
 import "./index.css";
 import "./Table.css"
-const GPoint = () => (
-  <svg
-    className="w-4 fill-current text-green-600 ml-1"
-    xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 20 20"
-    fill="currentColor"
-  >
-    <path
-      fillRule="evenodd"
-      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-      clipRule="evenodd"
-    />
-  </svg>
-);
-
-const RPoint = () => (
-    <svg
-      className="w-4 fill-current text-red-500 ml-1"
-      xmlns="http://www.w3.org/2000/svg"
-      viewBox="0 0 20 20"
-      fill="currentColor"
-    >
-      <image
-        href="https://cdn-icons-png.flaticon.com/128/6275/6275452.png"
-        x="0"
-        y="0"
-        height="20"
-        width="20"
-      />
-    </svg>
-  );
 
 
-const DPoint = () => (
-  <svg
-    className="w-4 fill-current text-gray-400 ml-1"
-    xmlns="http://www.w3.org/2000/svg"
-    viewBox="0 0 20 20"
-    fill="currentColor"
-  >
-    <path
-      fillRule="evenodd"
-      d="M10 18a8 8 0 100-16 8 8 0 000 16zM7 9a1 1 0 000 2h6a1 1 0 100-2H7z"
-      clipRule="evenodd"
-    />
-  </svg>
-);
-
-const mapSymbolToComponent = {
-  GPoint,
-  RPoint,
-  DPoint,
-};
-
-const generatePoints = (score, isLast3 = false) => {
-  if (!isLast3 && Array.isArray(score)) {
-    return score.map((symbol, index) => {
-      const PointComponent = mapSymbolToComponent[symbol];
-      return PointComponent ? <PointComponent key={index} /> : null;
-    });
-  }
-
-  if (isLast3) {
-    const symbols = score.split(",");
-    const last3Symbols = symbols.slice(-3); // Take only the last 3 symbols
-    return (
-      <div className="flex">
-        {last3Symbols.map((symbol, index) => {
-          const PointComponent = mapSymbolToComponent[symbol];
-          return PointComponent ? (
-            <PointComponent key={index} className="mr-1" />
-          ) : null;
-        })}
-      </div>
-    );
-  }
-
-  return null;
-};
 
 
 const TeamRow = ({
@@ -91,7 +14,7 @@ const TeamRow = ({
   lost,
   tied,
   pts,
-  last3,
+  outStatus,
 }) => (
   <tr className="team-row">
     <td className="team-cell">
@@ -104,8 +27,12 @@ const TeamRow = ({
     <td className="team-cell py-3 text-center">{tied}</td>
     <td className="team-cell py-3 text-center">{pts}</td>
     <td className="team-cell py-3 text-center">
-      {generatePoints(last3, true)}
-    </td>
+    {outStatus !== null && (
+        <div className="flex">
+          <span className="mr-1">{outStatus}</span>
+        </div>
+      )}
+      </td>
   </tr>
 );
 
@@ -121,7 +48,7 @@ export default function Schedule() {
       lost: 0,
       tied: 0,
       pts: 0,
-      last3: "RPoint,NPoint,DPoint",
+      outStatus: " NOT OUT",
     },
     {
      
@@ -131,7 +58,7 @@ export default function Schedule() {
       lost: 0,
       tied: 0,
       pts: 0,
-      last3: "DPoint,DPoint,DPoint",
+      outStatus: " NOT OUT",
     },
     {
       
@@ -141,7 +68,7 @@ export default function Schedule() {
       lost: 0,
       tied: 0,
       pts: 0,
-      last3: "DPoint,DPoint,DPoint",
+      outStatus: " NOT OUT",
     },
     {
    
@@ -151,7 +78,7 @@ export default function Schedule() {
       lost: 0,
       tied: 0,
       pts: 0,
-      last3: "DPoint,DPoint,DPoint",
+      outStatus: " NOT OUT",
     },
     {
    
@@ -161,7 +88,7 @@ export default function Schedule() {
       lost: 0,
       tied: 0,
       pts: 0,
-      last3: "DPoint,DPoint,DPoint",
+      outStatus: " NOT OUT",
     },
     {
       
@@ -171,7 +98,7 @@ export default function Schedule() {
       lost: 0,
       tied: 0,
       pts: 0,
-      last3: "DPoint,DPoint,DPoint",
+      outStatus: " NOT OUT",
     },
     {
       teamName: "P-7",
@@ -180,7 +107,7 @@ export default function Schedule() {
       lost: 0,
       tied: 0,
       pts: 0,
-      last3: "DPoint,DPoint,DPoint",
+      outStatus: " NOT OUT",
     },
     {
       teamName: "P-8",
@@ -189,7 +116,7 @@ export default function Schedule() {
       lost: 0,
       tied: 0,
       pts: 0,
-      last3: "DPoint,DPoint,DPoint",
+      outStatus: "0",
     },
     {
       teamName: "P-9",
@@ -198,7 +125,7 @@ export default function Schedule() {
       lost: 0,
       tied: 0,
       pts: 0,
-      last3: "DPoint,DPoint,DPoint",
+      outStatus: "0",
     },
     {
 
@@ -208,7 +135,7 @@ export default function Schedule() {
       lost: 0,
       tied: 0,
       pts: 0,
-      last3: "DPoint,DPoint,DPoint",
+      outStatus: "0",
     },
     {
 
@@ -219,7 +146,7 @@ export default function Schedule() {
       lost: 0,
       tied: 0,
       pts: 0,
-      last3: "DPoint,DPoint,DPoint",
+      outStatus: "0",
     },
     {
 
@@ -230,7 +157,7 @@ export default function Schedule() {
       lost: 0,
       tied: 0,
       pts: 0,
-      last3: "DPoint,DPoint,DPoint",
+      outStatus: "0",
     },
     {
 
@@ -241,7 +168,7 @@ export default function Schedule() {
       lost: 0,
       tied: 0,
       pts: 0,
-      last3: "DPoint,DPoint,DPoint",
+      outStatus: "0",
     },
     {
 
@@ -252,7 +179,7 @@ export default function Schedule() {
       lost: 0,
       tied: 0,
       pts: 0,
-      last3: "DPoint,DPoint,DPoint",
+      outStatus: "0",
     },
     {
 
@@ -263,7 +190,7 @@ export default function Schedule() {
       lost: 0,
       tied: 0,
       pts: 0,
-      last3: "DPoint,DPoint,DPoint",
+      outStatus: "0",
     },
     {
 
@@ -274,7 +201,7 @@ export default function Schedule() {
       lost: 0,
       tied: 0,
       pts: 0,
-      last3: "DPoint,DPoint,DPoint",
+      outStatus: "0",
     },
   ];
   const sortedTeams = [...teams].sort((a, b) => b.pts - a.pts);
@@ -353,7 +280,7 @@ export default function Schedule() {
                   6s
                 </th>
                 <th scope="col" className=" py-1 text-left tracking-wider text-center">
-                  OUT /NOT-OUT
+                  
                 </th>
                 </tr>
             </thead>
