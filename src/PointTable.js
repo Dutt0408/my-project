@@ -125,12 +125,12 @@ export default function Schedule() {
     {
      
       teamName: "E.Eagles",
-      match: 0,
-      won: 0,
+      match: 1,
+      won: 1,
       lost: 0,
       tied: 0,
-      pts: 0,
-      last3: "DPoint,DPoint,DPoint",
+      pts: 2,
+      last3: "Goint,DPoint,DPoint",
     },
     {
       
@@ -155,12 +155,12 @@ export default function Schedule() {
     {
    
       teamName: "B.Panthers",
-      match: 0,
+      match: 1,
       won: 0,
-      lost: 0,
+      lost: 1,
       tied: 0,
       pts: 0,
-      last3: "DPoint,DPoint,DPoint",
+      last3: "RPoint,DPoint,DPoint",
     },
     {
       
