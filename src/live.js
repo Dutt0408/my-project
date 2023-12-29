@@ -42,7 +42,7 @@ export default function Schedule() {
   const teams = [
     {
       
-      teamName: "P-1",
+      teamName: "Jetani Harsh",
       match: 0,
       won: 0,
       lost: 0,
@@ -52,7 +52,7 @@ export default function Schedule() {
     },
     {
      
-      teamName: "P-2",
+      teamName: "Tirth Patel",
       match: 0,
       won: 0,
       lost: 0,
@@ -62,7 +62,7 @@ export default function Schedule() {
     },
     {
       
-      teamName: "P-3",
+      teamName: "Vivek Jethwa",
       match: 0,
       won: 0,
       lost: 0,
@@ -72,7 +72,7 @@ export default function Schedule() {
     },
     {
    
-      teamName: "P-4",
+      teamName: "Smit Patel",
       match: 0,
       won: 0,
       lost: 0,
@@ -82,7 +82,7 @@ export default function Schedule() {
     },
     {
    
-      teamName: "P-5",
+      teamName: "Jasmin Patel",
       match: 0,
       won: 0,
       lost: 0,
@@ -92,7 +92,7 @@ export default function Schedule() {
     },
     {
       
-      teamName: "P-6",
+      teamName: "Rutul Patel",
       match: 0,
       won: 0,
       lost: 0,
@@ -101,7 +101,7 @@ export default function Schedule() {
       outStatus: " NOT OUT",
     },
     {
-      teamName: "P-7",
+      teamName: "S.Goswami",
       match: 0,
       won: 0,
       lost: 0,
@@ -110,7 +110,7 @@ export default function Schedule() {
       outStatus: " NOT OUT",
     },
     {
-      teamName: "P-8",
+      teamName: "Yash Khandla",
       match: 0,
       won: 0,
       lost: 0,
@@ -119,17 +119,7 @@ export default function Schedule() {
       outStatus: "0",
     },
     {
-      teamName: "P-9",
-      match: 0,
-      won: 0,
-      lost: 0,
-      tied: 0,
-      pts: 0,
-      outStatus: "0",
-    },
-    {
-
-      teamName: "P-10",
+      teamName: "Kaushal Soni",
       match: 0,
       won: 0,
       lost: 0,
@@ -139,8 +129,7 @@ export default function Schedule() {
     },
     {
 
-
-      teamName: "P-11",
+      teamName: "Het Dave",
       match: 0,
       won: 0,
       lost: 0,
@@ -151,7 +140,7 @@ export default function Schedule() {
     {
 
 
-      teamName: "P-12",
+      teamName: "Nehanshu Nai",
       match: 0,
       won: 0,
       lost: 0,
@@ -162,7 +151,7 @@ export default function Schedule() {
     {
 
 
-      teamName: "P-13",
+      teamName: "Purav Nanavati",
       match: 0,
       won: 0,
       lost: 0,
@@ -173,7 +162,7 @@ export default function Schedule() {
     {
 
 
-      teamName: "P-14",
+      teamName: "Prit Patel",
       match: 0,
       won: 0,
       lost: 0,
@@ -184,7 +173,7 @@ export default function Schedule() {
     {
 
 
-      teamName: "P-15",
+      teamName: "Malhar",
       match: 0,
       won: 0,
       lost: 0,
@@ -195,7 +184,18 @@ export default function Schedule() {
     {
 
 
-      teamName: "P-16",
+      teamName: "Zeel Dobariya",
+      match: 0,
+      won: 0,
+      lost: 0,
+      tied: 0,
+      pts: 0,
+      outStatus: "0",
+    },
+    {
+
+
+      teamName: "Manish Patel",
       match: 0,
       won: 0,
       lost: 0,
