@@ -105,7 +105,7 @@ const scheduleData = {
   const handleResultButtonClick = (resultURL) => {
     const link = document.createElement('a');
     link.href = resultURL;
-    link.download = 'NOT AVAILABLE YET'; // You can set the desired filename
+    link.download = 'Result Winner'; // You can set the desired filename
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
