@@ -115,12 +115,12 @@ export default function Schedule() {
     {
       
       teamName: "E.Kings",
-      match: 1,
-      won: 1,
+      match: 2,
+      won: 2,
       lost: 0,
       tied: 0,
-      pts: 2,
-      last3: "GPoint,DPoint,DPoint",
+      pts: 4,
+      last3: "GPoint,GPoint,DPoint",
     },
     {
      
@@ -183,12 +183,12 @@ export default function Schedule() {
     },
     {
       teamName: "RCB",
-      match: 0,
+      match: 1,
       won: 0,
-      lost: 0,
+      lost: 1,
       tied: 0,
       pts: 0,
-      last3: "DPoint,DPoint,DPoint",
+      last3: "RPoint,DPoint,DPoint",
     },
     {
       teamName: "S.Warriors",
