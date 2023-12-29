@@ -8,12 +8,14 @@ import PointTable from "./PointTable";
 import Winner from "./Winner";
 import Live from "./live"
 
+
 // import { PrimeReactProvider } from "primereact/api";
 import { Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <div>
+      
       <Navbar />
 
       <Routes>
