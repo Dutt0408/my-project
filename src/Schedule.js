@@ -6,7 +6,7 @@ import './index.css'
 const scheduleData = {
   
   "friday": [
-    { "Match": 1, "Team1": "ETOBICOKE KINGS", "Team2": "BRAMPTON LIONS", "TimeFrame": "2pm - 3pm","Day": "Friday","isOver": false,"ResultURL": "Result1.png" },
+    { "Match": 1, "Team1": "ETOBICOKE KINGS", "Team2": "BRAMPTON LIONS", "TimeFrame": "2pm - 3pm","Day": "Friday","isOver": true,"ResultURL": "Result1.png" },
     { "Match": 2, "Team1": "BRAMPTON PANTHERS", "Team2": "ETOBICOKE EAGLES", "TimeFrame": "3pm-4pm","Day": "Friday","isOver": false,"ResultURL": "Result2.png" },
     { "Match": 3, "Team1": "ETOBICOKE KINGS", "Team2": "RCB", "TimeFrame": "4pm-5pm","Day": "Friday","isOver": false,"ResultURL": "Result3.png" },
     { "Match": 4, "Team1": "ETOBICOKE TITANS", "Team2": "SCARBOROUGH SPARTANS", "TimeFrame": "5pm-6pm","Day": "Friday","isOver": false,"ResultURL": "Result4.png"},
