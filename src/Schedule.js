@@ -68,7 +68,7 @@ const scheduleData = {
             <div
               key={index}
               className={`timeline ${day.toLowerCase()}`}
-              style={{ opacity: match.isOver ? 0.3 : 1 }}
+              style={{ opacity: match.isOver ? 0.6 : 1 }}
             >
               <div className="timeline-empty"></div>
               <div className="timeline-middle">
