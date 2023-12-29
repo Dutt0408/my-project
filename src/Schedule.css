@@ -14,7 +14,12 @@
   font-family: cursive;
 }
 
-
+.Winners{
+  margin-left: -22px;
+  margin-top: -35px;
+  margin-bottom: 25px;
+  Opacity: 0.4
+}
 .design-section {
   display: flex;
   flex-direction: column;
