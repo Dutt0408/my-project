@@ -130,7 +130,7 @@ export default function Schedule() {
       lost: 0,
       tied: 0,
       pts: 2,
-      last3: "Goint,DPoint,DPoint",
+      last3: "GPoint,DPoint,DPoint",
     },
     {
       
