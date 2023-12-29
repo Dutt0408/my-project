@@ -15,10 +15,20 @@
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
    
     <title>OISCT 2023</title>
+
+    <!-- OneSignal Script -->
+    <script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" defer></script>
+    <script>
+      window.OneSignalDeferred = window.OneSignalDeferred || [];
+      OneSignalDeferred.push(function(OneSignal) {
+        OneSignal.init({
+          appId: "7f9721de-f8a4-4fe1-9973-10a8e77f6f61",
+        });
+      });
+    </script>
   </head>
   <body>
     <noscript>Ontario International Student Cricket Tournament</noscript>
     <div id="root"></div>
-    
   </body>
 </html>
