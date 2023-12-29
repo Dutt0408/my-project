@@ -144,3 +144,10 @@ padding-right: 2.5rem; /* 24px */
 
   font-weight: 450;
 }
+.fontbat{
+  font-family: cursive;
+  margin-left: 13em;
+  font-weight: 700;
+  font-size: 30px;
+  margin-top: 4em;
+}

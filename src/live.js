@@ -278,10 +278,20 @@ export default function Schedule() {
     },
   ];
   const sortedTeams = [...teams].sort((a, b) => b.pts - a.pts);
+  const battingTeams = sortedTeams.slice(0, 8);
+  const bowlingTeams = sortedTeams.slice(8, 16);
+  
+  
   return (
     <div className="flex flex-col items-center justify-center w-screen min-h-screen bg-gray-900 py-10">
-      <h1 className="text-lg text-gray-400 font-medium"> OISCT LIVE SCORE 2023</h1>
+      <h1 className="text-lg text-gray-400 font-medium">
+        {" "}
+        OISCT LIVE SCORE 2023
+      </h1>
+
+      {/* Batting Table */}
       <div className="mt-6">
+        <h2 className="text-lg text-gray-400 font-medium fontbat">Batting Table</h2>
         <div className="shadow sm:rounded-lg lg:rounded-none overflow-x-auto">
           <table className="w-full min-w-full text-sm text-gray-400">
             <thead className="bg-gray-800 text-xs md:text-sm lg:text-base uppercase font-medium">
@@ -307,10 +317,48 @@ export default function Schedule() {
                 <th scope="col" className=" py-1 text-left tracking-wider text-center">
                   OUT /NOT-OUT
                 </th>
-              </tr>
+                </tr>
             </thead>
             <tbody className="bg-gray-800">
-              {sortedTeams.map((team, index) => (
+              {battingTeams.map((team, index) => (
+                <TeamRow key={index} {...team} />
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
+            {/* Bowling Table */}
+      <div className="mt-6">
+        <h2 className="text-lg text-gray-400 font-medium fontbat">Bowling Table</h2>
+        <div className="shadow sm:rounded-lg lg:rounded-none overflow-x-auto">
+          <table className="w-full min-w-full text-sm text-gray-400">
+            <thead className="bg-gray-800 text-xs md:text-sm lg:text-base uppercase font-medium">
+            <tr className="teamrow">
+                <th scope="col" className=" py-3 text-left tracking-wider text-center ">
+                  Player Name &nbsp;
+                </th>
+                <th scope="col" className=" py-1 text-left tracking-wider text-center">
+                  Run
+                </th>
+                <th scope="col" className=" py-1 text-left tracking-wider text-center">
+                  Ball
+                </th>
+                <th scope="col" className=" py-1 text-left tracking-wider text-center">
+                  0s
+                </th>
+                <th scope="col" className=" py-1 text-left tracking-wider text-center">
+                  4s
+                </th>
+                <th scope="col" className=" py-1 text-left tracking-wider text-center">
+                  6s
+                </th>
+                <th scope="col" className=" py-1 text-left tracking-wider text-center">
+                  OUT /NOT-OUT
+                </th>
+                </tr>
+            </thead>
+            <tbody className="bg-gray-800">
+              {bowlingTeams.map((team, index) => (
                 <TeamRow key={index} {...team} />
               ))}
             </tbody>
