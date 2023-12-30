@@ -318,14 +318,16 @@ export default function Schedule() {
               </tr>
             </thead>
             <tbody className="bg-gray-800">
-              {sortedTeams.map((team, index) => (
-                <React.Fragment key={index}>
-                  <TeamRow {...team} />
-                  {index === 7 && <tr className="border-t border-gray-600"></tr>}
-                </React.Fragment>
-              ))}
-            </tbody>
-          </table>
+    {sortedTeams.map((team, index) => (
+      <React.Fragment key={index}>
+        <TeamRow {...team} />
+        {index === 7 && (
+          <tr className="md:border-t md:border-gray-600"></tr>
+        )}
+      </React.Fragment>
+    ))}
+  </tbody>
+</table>
         </div>
       </div>
     </div>
