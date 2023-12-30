@@ -1,3 +1,4 @@
+/* eslint-disable-next-line */
 .wontoss{
     color:rgba(255, 255, 255, 0.85);
     margin-top:2em;
@@ -66,15 +67,16 @@
 
 
 
+
 .circle {
     position: absolute;
     left: 50%;
     top: 40%;
     transform: translateX(-50%) translateY(-50%);
     width: 15px;
-    height: 15px;
+    height: 15px;}
   
-    &:before {
+    .circle:before {
       content: "";
       position: relative;
       display: block;
@@ -88,7 +90,7 @@
       animation: pulse 1.25s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
     }
   
-    &:after {
+    .circle:after {
       content: "";
       position: absolute;
       left: 0;
@@ -100,7 +102,6 @@
       border-radius: 50px;
       animation: circle 1.25s cubic-bezier(0.455, 0.03, 0.515, 0.955) -0.4s infinite;
     }
-  }
   
   @keyframes pulse {
     0% {
