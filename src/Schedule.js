@@ -14,7 +14,7 @@ const scheduleData = {
     { "Match": 6, "Team1": "RCB", "Team2": "ETOBICOKE CAPITALS", "TimeFrame": "7pm-8pm","Day": "Friday","isOver": true,"ResultURL": "Result6.png","Winner":"RCB won the match" },
     { "Match": 7, "Team1": "SCARBOROUGH FALCONS", "Team2": "BRAMPTON PANTHERS", "TimeFrame": "8pm-9pm","Day": "Friday","isOver": true,"ResultURL": "Result7.png","Winner":"BRAMPTON PANTHERS won the match" },
     { "Match": 8, "Team1": "BRAMPTON LIONS", "Team2": "SCARBOROUGH SPARTANS", "TimeFrame": "9pm-10pm","Day": "Friday","isOver": true,"ResultURL": "Result8.png","Winner":"BRAMPTON LIONS won the match" },
-    { "Match": 9, "Team1": "SCARBOROUGH STRIKERS", "Team2": "ETOBICOKE EAGLES", "TimeFrame": "10pm-11pm","Day": "Friday","isOver": false,"ResultURL": "Result9.png","Winner":"" }
+    { "Match": 9, "Team1": "SCARBOROUGH STRIKERS", "Team2": "ETOBICOKE EAGLES", "TimeFrame": "10pm-11pm","Day": "Friday","isOver": true,"ResultURL": "Result9.png","Winner":"ETOBICOKE EAGLES won the match" }
   ],
   "saturday": [
     { "Match": 10, "Team1": "CAMBRIDGE SUPER KINGS", "Team2": "ETOBICOKE TITANS", "TimeFrame": "7am-8am","Day": "Saturday","isOver": false,"ResultURL": "Result10.png","Winner":"" },
