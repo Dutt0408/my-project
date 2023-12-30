@@ -129,7 +129,7 @@ export default function Schedule() {
       match: 2,
       won: 2,
       lost: 0,
-      NRR: 0,
+      NRR: 7.6,
       pts: 4,
       last3: "GPoint,GPoint,DPoint",
     },
@@ -139,7 +139,7 @@ export default function Schedule() {
       match: 1,
       won: 1,
       lost: 0,
-      NRR: 0,
+      NRR: 3.3,
       pts: 2,
       last3: "GPoint,DPoint,DPoint",
     },
@@ -149,7 +149,7 @@ export default function Schedule() {
       match: 1,
       won: 0,
       lost: 1,
-      NRR: 0,
+      NRR: -4.21,
       pts: 0,
       last3: "RPoint,DPoint,DPoint",
     },
@@ -159,7 +159,7 @@ export default function Schedule() {
       match: 2,
       won: 1,
       lost: 1,
-      NRR: 0,
+      NRR: 5.34,
       pts: 2,
       last3: "RPoint,GPoint,DPoint",
     },
@@ -169,7 +169,7 @@ export default function Schedule() {
       match: 1,
       won: 1,
       lost: 1,
-      NRR: 0,
+      NRR: 0.395,
       pts: 0,
       last3: "RPoint,GPoint,DPoint",
     },
@@ -178,7 +178,7 @@ export default function Schedule() {
       match: 1,
       won: 1,
       lost: 0,
-      NRR: 0,
+      NRR: 5.85,
       pts: 2,
       last3: "GPoint,DPoint,DPoint",
     },
@@ -187,7 +187,7 @@ export default function Schedule() {
       match: 2,
       won: 1,
       lost: 1,
-      NRR: 0,
+      NRR: -7.29,
       pts: 2,
       last3: "RPoint,GPoint,DPoint",
     },
@@ -196,7 +196,7 @@ export default function Schedule() {
       match: 1,
       won: 0,
       lost: 1,
-      NRR: 0,
+      NRR: -5.85,
       pts: 0,
       last3: "RPoint,DPoint,DPoint",
     },
@@ -206,7 +206,7 @@ export default function Schedule() {
       match: 1,
       won: 0,
       lost: 1,
-      NRR: 0,
+      NRR: -5.54,
       pts: 0,
       last3: "RPoint,DPoint,DPoint",
     },
@@ -217,7 +217,7 @@ export default function Schedule() {
       match: 1,
       won: 0,
       lost: 2,
-      NRR: 0,
+      NRR: -7.4,
       pts: 0,
       last3: "RPoint,RPoint,DPoint",
     },
@@ -228,7 +228,7 @@ export default function Schedule() {
       match: 1,
       won: 0,
       lost: 1,
-      NRR: 0,
+      NRR: -7.4,
       pts: 0,
       last3: "RPoint,DPoint,DPoint",
     },
@@ -277,7 +277,14 @@ export default function Schedule() {
       last3: "DPoint,DPoint,DPoint",
     },
   ];
-  const sortedTeams = [...teams].sort((a, b) => b.pts - a.pts);
+  const sortedTeams = [...teams].sort((a, b) => {
+    if (b.pts !== a.pts) {
+      return b.pts - a.pts;
+    }
+
+    
+    return b.NRR - a.NRR;
+  });
   return (
     <div className="flex flex-col items-center justify-center w-screen min-h-screen bg-gray-900 py-10">
       <h1 className="text-lg text-gray-400 font-medium"> OISCT POINT TABLE 2023</h1>

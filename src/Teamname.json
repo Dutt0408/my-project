@@ -1,0 +1,215 @@
+[
+{
+    "teamName": "Brampton Panthers",
+    "players": [
+      {"firstName": "Paras", "lastName": "Patel"},
+      {"firstName": "Jalat", "lastName": "Patel"},
+      {"firstName": "Het", "lastName": "Surani"},
+      {"firstName": "Dhruvkumar", "lastName": "Tejani"},
+      {"firstName": "Siddharth", "lastName": "Patel"},
+      {"firstName": "Vaibhav", "lastName": "Patel"},
+      {"firstName": "Sagar", "lastName": "Patel"},
+      {"firstName": "Jay", "lastName": "Patel"},
+      {"firstName": "Chintan", "lastName": "Patel"}
+    ]
+  },
+  {
+    "teamName": "Brampton Lions",
+    "players": [
+      {"firstName": "Mihirsinh", "lastName": "Pardeshi"},
+      {"firstName": "Sahil", "lastName": "Patel"},
+      {"firstName": "Jaimin", "lastName": "Gor"},
+      {"firstName": "Parth", "lastName": "Patel"},
+      {"firstName": "Jagdish", "lastName": "Patel"},
+      {"firstName": "Samarth", "lastName": "Patel"},
+      {"firstName": "Kaushal", "lastName": "Barot"},
+      {"firstName": "Jay", "lastName": "Parekh"}
+    ]
+  },
+  {
+    "teamName": "Royal Challengers Brampton",
+    "players": [
+      {"firstName": "Kaushal", "lastName": "Soni"},
+      {"firstName": "Het", "lastName": "Dave"},
+      {"firstName": "Nehanshu", "lastName": "Nai"},
+      {"firstName": "Purav", "lastName": "Nanavati"},
+      {"firstName": "Prit", "lastName": "Patel"},
+      {"firstName": "Vraj", "lastName": "Sukhadiya"},
+      {"firstName": "Purav", "lastName": "Nanavati"},
+      {"firstName": "Zeel", "lastName": "Dobariya"},
+      {"firstName": "Manish", "lastName": "Patel"}
+    ]
+  },
+  {
+    "teamName": "Brampton Tigers",
+    "players": [
+      {"firstName": "Dutt", "lastName": "Patel"},
+      {"firstName": "Ved", "lastName": "Patel"},
+      {"firstName": "Akshar", "lastName": "Patel"},
+      {"firstName": "Rajveer", "lastName": "Gohil"},
+      {"firstName": "Malhar D", "lastName": "Patel"},
+      {"firstName": "Vedant", "lastName": "Pandya"},
+      {"firstName": "Harshil", "lastName": "Bhatt"},
+      {"firstName": "Riddham", "lastName": "Mavani"}
+    ]
+  },
+  {
+    "teamName": "Scarborough Spartans",
+    "players": [
+      {"firstName": "Akshesh", "lastName": "Patel"},
+      {"firstName": "Parthavsinh", "lastName": "Kher"},
+      {"firstName": "Paresh", "lastName": "Patel"},
+      {"firstName": "Anuj", "lastName": "Patel"},
+      {"firstName": "Aniket", "lastName": "Prajapati"},
+      {"firstName": "Jigar", "lastName": "Patel"},
+      {"firstName": "JAINISH", "lastName": "PATEL"},
+      {"firstName": "Kirtan", "lastName": "Patel"},
+      {"firstName": "Deep", "lastName": "Patel"}
+    ]
+  },
+  {
+    "teamName": "SCARBOROUGH WARRIORS",
+    "players": [
+      {"firstName": "Shrey", "lastName": "Patel"},
+      {"firstName": "Meet", "lastName": "Patel"},
+      {"firstName": "Priyank", "lastName": "Patoliya"},
+      {"firstName": "Pradip", "lastName": "Sonani"},
+      {"firstName": "Utsav", "lastName": "Patel"},
+      {"firstName": "Rutvij", "lastName": "Majmudar"},
+      {"firstName": "Parth", "lastName": "Prajapati"}
+    ]
+  },
+  {
+    "teamName": "SCARBOROUGH STRIKERS",
+    "players": [
+      {"firstName": "Meetkumar", "lastName": "Patel"},
+      {"firstName": "Mann", "lastName": "Patel"},
+      {"firstName": "DHRUV", "lastName": "PATEL"},
+      {"firstName": "Dharmil", "lastName": "Patel"},
+      {"firstName": "Harsh", "lastName": "Madhu"},
+      {"firstName": "Kirtan", "lastName": "Patel"},
+      {"firstName": "Meet", "lastName": "Patel"},
+      {"firstName": "Parth", "lastName": "Patel"}
+    ]
+  },
+  {
+    "teamName": "SCARBOROUGH FALCONS",
+    "players": [
+      {"firstName": "Jay", "lastName": "Bhadreshwara"},
+      {"firstName": "Alkesh", "lastName": "chaudhari"},
+      {"firstName": "Yash", "lastName": "Rao"},
+      {"firstName": "Savan", "lastName": "Patel"},
+      {"firstName": "Kuntal", "lastName": "Patel"},
+      {"firstName": "Harsh", "lastName": "Patel"},
+      {"firstName": "Jay", "lastName": "Patel"},
+      {"firstName": "Dainik", "lastName": "Patel"},
+      {"firstName": "Pratiksinh", "lastName": "Suryavanshi"}
+    ]
+  },
+  {
+    "teamName": "London Strikers",
+    "players": [
+      {"firstName": "Fenil", "lastName": "Moradiya"},
+      {"firstName": "Chaitanya", "lastName": "Patel"},
+      {"firstName": "Manan", "lastName": "Patel"},
+      {"firstName": "Vraj", "lastName": ""},
+      {"firstName": "Jay", "lastName": "Patel"},
+      {"firstName": "Rajdeep", "lastName": "Zala"},
+      {"firstName": "Deepesh", "lastName": "Padhiyar"},
+      {"firstName": "Param", "lastName": "Sukhadiya"}
+    ]
+  },
+  {
+    "teamName": "Kitchner Titans",
+    "players": [
+      {"firstName": "Sahaj", "lastName": "Limbani"},
+      {"firstName": "Shubam", "lastName": "Singh"},
+      {"firstName": "Pruthvi", "lastName": "Viradiya"},
+      {"firstName": "Gyan", "lastName": "Pandya"},
+      {"firstName": "Himanshu", "lastName": "Parmar"},
+      {"firstName": "Vandan", "lastName": "Jethwa"},
+      {"firstName": "Jignesh", "lastName": "Solanki"},
+      {"firstName": "Bhargav", "lastName": "Pansara"}
+    ]
+  },
+  {
+    "teamName": "Cambridge Super Kings",
+    "players": [
+      {"firstName": "Kishan", "lastName": ""},
+      {"firstName": "Kishan", "lastName": "Patel"},
+      {"firstName": "Vrajesh", "lastName": "Tailor"},
+      {"firstName": "Parth", "lastName": ""},
+      {"firstName": "Mihir", "lastName": ""},
+      {"firstName": "Swapnil", "lastName": ""},
+      {"firstName": "Harsh", "lastName": ""},
+      {"firstName": "Tapan", "lastName": ""}
+    ]
+  },
+  {
+    "teamName": "Royal Challengers Hamilton",
+    "players": [
+      {"firstName": "Dhruv", "lastName": "Rana"},
+      {"firstName": "Yash", "lastName": "Patel"},
+      {"firstName": "Trushar", "lastName": "Bhavsar"},
+      {"firstName": "Vaibhav", "lastName": "Surti"},
+      {"firstName": "Dhruvesh", "lastName": "Patel"},
+      {"firstName": "Deep", "lastName": "Mistry"},
+      {"firstName": "Tirth", "lastName": "Raval"},
+      {"firstName": "Tirth", "lastName": "Soni"}
+    ]
+  },
+  {
+    "teamName": "Etobicoke Titans",
+    "players": [
+      {"firstName": "Harsh", "lastName": "Patel"},
+      {"firstName": "Vinit", "lastName": ""},
+      {"firstName": "Jenish", "lastName": "Patel"},
+      {"firstName": "Rajiv", "lastName": "Tarsarya"},
+      {"firstName": "Vivek", "lastName": "Patel"},
+      {"firstName": "Bankim", "lastName": "Modi"},
+      {"firstName": "Dhyeykumar", "lastName": "Patel"},
+      {"firstName": "Harsh", "lastName": "Patel"}
+    ]
+  },
+  {
+    "teamName": "Etobicoke Eagles",
+    "players": [
+      {"firstName": "Rahil", "lastName": "Kanani"},
+      {"firstName": "Dhaval", "lastName": "Patel"},
+      {"firstName": "Ritesh", "lastName": "Patel"},
+      {"firstName": "Jenish", "lastName": "Patel"},
+      {"firstName": "Nisarg", "lastName": "Patel"},
+      {"firstName": "Devashish", "lastName": "Thakkar"},
+      {"firstName": "Vipul", "lastName": "Patel"},
+      {"firstName": "Dweep", "lastName": ""}
+    ]
+  },
+  {
+    "teamName": "Etobicoke Kings",
+    "players": [
+      {"firstName": "Jetani", "lastName": "Harsh"},
+      {"firstName": "Tirth", "lastName": "Patel"},
+      {"firstName": "Vivek", "lastName": "Jethva"},
+      {"firstName": "Smit", "lastName": "Patel"},
+      {"firstName": "Jasmin", "lastName": "Patel"},
+      {"firstName": "Rutul", "lastName": "Patel"},
+      {"firstName": "Siddharth", "lastName": "Goswami"},
+      {"firstName": "Yash", "lastName": "Khandla"}
+    ]
+  },
+  {
+    "teamName": "Etobicoke Capitals",
+    "players": [
+      {"firstName": "Tarang", "lastName": "Patel"},
+      {"firstName": "Darshnik", "lastName": "Patel"},
+      {"firstName": "Vansh", "lastName": "Patel"},
+      {"firstName": "Siddhant", "lastName": "Patel"},
+      {"firstName": "Meet", "lastName": "Makwana"},
+      {"firstName": "Tilak", "lastName": "Jethwa"},
+      {"firstName": "Parth", "lastName": "Patel"},
+      {"firstName": "Anuj", "lastName": "Gadhiya"},
+      {"firstName": "Bhavesh", "lastName": "Waghela"}
+    ]
+  }
+  
+]

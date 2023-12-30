@@ -74,6 +74,7 @@ const Teams = () => {
         }
       ]
     },
+
     {
       "teamName": "Brampton Lions",
       "players": [
@@ -388,6 +389,10 @@ const Teams = () => {
           }
         ]
       },
+
+
+
+
       {
         "teamName": "Cambridge Super Kings",
         "players": [
@@ -587,6 +592,10 @@ const Teams = () => {
           }
         ]
       },
+
+
+
+
       {
         "teamName": "London Strikers",
         "players": [
@@ -969,6 +978,8 @@ const Teams = () => {
           }
         ]
       },
+
+      
       {
         "teamName": "Kitchener Titans",
         "players": [
