@@ -75,6 +75,22 @@
 
 }
 
+.overnews{
+  color:red;
+  font-size: 40px;
+  margin-left: 20px;
+  margin-top: 1em;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+.overnewss{
+  color:white;
+  font-size: 40px;
+  margin-left: 20px;
+  margin-top: 1em;
+  font-family: 'Times New Roman', Times, serif;
+
+}
 
 .circle {
     position: absolute;
