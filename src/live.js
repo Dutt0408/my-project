@@ -12,17 +12,17 @@ function live() {
 
 <div className="team10">
 
-<div className="teamname">L.Strikers</div> 
+<div className="teamname">S.Strikers</div> 
 <div className="scorer">
-<div className="scorelive">0/0</div>
-<div className="Over">(0)</div>
+<div className="scorelive">4/1</div>
+<div className="Over">(1)</div>
 </div>
 </div>
 
 
 <div className="team10">
 <div className="circle pos1"></div>
-<div className="teamname">S.Strikers</div> 
+<div className="teamname">L.Strikers</div> 
 <div className="scorer">
 <div className="score">0/0</div>
 <div className="Over">(0)</div>
@@ -31,7 +31,7 @@ function live() {
 
 
 <div className="overnews"> Update/News: </div>
-<div className="overnewss">  </div>
+<div className="overnewss"> Parth and Manav on Bat </div>
 </div>
 
 
