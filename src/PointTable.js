@@ -140,7 +140,7 @@ export default function Schedule() {
       won: 2,
       lost: 0,
       NRR: 8.3,
-      pts: 2,
+      pts: 4,
       last3: "GPoint,GPoint,DPoint",
     },
     {
@@ -179,7 +179,7 @@ export default function Schedule() {
       won: 2,
       lost: 0,
       NRR: 8.55,
-      pts: 2,
+      pts: 4,
       last3: "GPoint,GPoint,DPoint",
     },
     {
