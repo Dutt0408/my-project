@@ -319,7 +319,10 @@ export default function Schedule() {
             </thead>
             <tbody className="bg-gray-800">
               {sortedTeams.map((team, index) => (
-                <TeamRow key={index} {...team} />
+                <React.Fragment key={index}>
+                  <TeamRow {...team} />
+                  {index === 7 && <tr className="border-t border-gray-600"></tr>}
+                </React.Fragment>
               ))}
             </tbody>
           </table>
