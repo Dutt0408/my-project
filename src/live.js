@@ -5,14 +5,14 @@ function live() {
   return (
     <div className='Livesection'>
               
-<div className="wontoss"> B.Lions Choose to Bat</div>
+<div className="wontoss"> K.Titans Choose to Bat</div>
 
 
 <div className="teamlo">
 
 <div className="team10">
 
-<div className="teamname">Team 1</div> 
+<div className="teamname">K.Titans</div> 
 <div className="scorer">
 <div className="scorelive">141/7</div>
 <div className="Over">(11.2)</div>
