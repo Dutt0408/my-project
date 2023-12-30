@@ -33,7 +33,7 @@ function live() {
 
 
 <div className="overnews"> Update/News: </div>
-<div className="overnewss">  KISHAN on Fire!!!! </div>
+<div className="overnewss">  KISHAN 22(7) on Fire!!!! </div>
 {/* <div className="overnewsss"> Nehanshu OUT!!!</div>  */}
 </div>
 
