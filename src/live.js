@@ -14,8 +14,8 @@ function live() {
 
 <div className="teamname">RCH</div> 
 <div className="scorer">
-<div className="scorelive">18/0</div>
-<div className="Over">(2)</div>
+<div className="scorelive">34/0</div>
+<div className="Over">(3)</div>
 </div>
 </div>
 
@@ -49,7 +49,7 @@ function live() {
 
 <div className="team10">
 
-<div className="teamname"></div> 
+<div className="teamname">L.Strikers</div> 
 <div className="scorer">
 <div className="scorelive">0/0</div>
 <div className="Over">(0)</div>
@@ -59,7 +59,7 @@ function live() {
 
 <div className="team10">
 <div className="circle pos1"></div>
-<div className="teamname"></div> 
+<div className="teamname">S.Strikers</div> 
 <div className="scorer">
 <div className="score">0/0</div>
 <div className="Over">(0)</div>
