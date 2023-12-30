@@ -24,8 +24,33 @@ function live() {
 <div className="circle pos1"></div>
 <div className="teamname">S.Falcons</div> 
 <div className="scorer">
-<div className="score">42/2</div>
-<div className="Over">(5)</div>
+<div className="score">47/4</div>
+<div className="Over">(6)</div>
+</div>
+</div>
+</div>
+<div className="next">Upcoming </div>
+<div className="wontoss"> E.Capitals Choose to Bowling !!</div>
+
+
+<div className="teamlo">
+
+<div className="team10">
+
+<div className="teamname">RCH</div> 
+<div className="scorer">
+<div className="scorelive">0/0</div>
+<div className="Over">(0)</div>
+</div>
+</div>
+
+
+<div className="team10">
+<div className="circle pos1"></div>
+<div className="teamname">E.Capitals</div> 
+<div className="scorer">
+<div className="score">0/0</div>
+<div className="Over">(0)</div>
 </div>
 </div>
 </div>
