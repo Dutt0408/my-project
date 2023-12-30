@@ -24,8 +24,8 @@ function live() {
 <div className="circle pos1"></div>
 <div className="teamname">S.Falcons</div> 
 <div className="scorer">
-<div className="score">65/5</div>
-<div className="Over">(8)</div>
+<div className="score">69/5</div>
+<div className="Over">(8.1)</div>
 </div>
 </div>
 </div>
