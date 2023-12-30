@@ -167,11 +167,11 @@ export default function Schedule() {
       
       teamName: "B.Lions",
       match: 1,
-      won: 0,
+      won: 1,
       lost: 1,
       NRR: 0,
       pts: 0,
-      last3: "RPoint,DPoint,DPoint",
+      last3: "RPoint,GPoint,DPoint",
     },
     {
       teamName: "B.Tigers",
@@ -216,10 +216,10 @@ export default function Schedule() {
       teamName: "S.Spartans",
       match: 1,
       won: 0,
-      lost: 1,
+      lost: 2,
       NRR: 0,
       pts: 0,
-      last3: "RPoint,DPoint,DPoint",
+      last3: "RPoint,RPoint,DPoint",
     },
     {
 
