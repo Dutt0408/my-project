@@ -31,7 +31,7 @@ function live() {
 
 
 <div className="overnews"> Update/News: </div>
-<div className="overnewss"> Parth and Manav on Bat </div>
+<div className="overnewss"> Parth(Sevak) and Manav on Bat </div>
 </div>
 
 
