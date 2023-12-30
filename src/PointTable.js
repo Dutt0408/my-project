@@ -184,12 +184,12 @@ export default function Schedule() {
     },
     {
       teamName: "RCB",
-      match: 2,
+      match: 3,
       won: 1,
-      lost: 1,
-      NRR: -7.29,
+      lost: 2,
+      NRR: -15.64,
       pts: 2,
-      last3: "RPoint,GPoint,DPoint",
+      last3: "RPoint,GPoint,RPoint",
     },
     {
       teamName: "S.Warriors",
@@ -247,12 +247,12 @@ export default function Schedule() {
 
 
       teamName: "C.SuperKings",
-      match: 1,
-      won: 0,
+      match: 2,
+      won: 1,
       lost: 1,
-      NRR: -5,
-      pts: 0,
-      last3: "RPoint,DPoint,DPoint",
+      NRR: 3.35,
+      pts: 2,
+      last3: "RPoint,GPoint,DPoint",
     },
     {
 
