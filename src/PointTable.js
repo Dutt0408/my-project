@@ -156,12 +156,12 @@ export default function Schedule() {
     {
    
       teamName: "B.Panthers",
-      match: 2,
+      match: 3,
       won: 1,
-      lost: 1,
-      NRR: 5.34,
+      lost: 2,
+      NRR: 4.94,
       pts: 2,
-      last3: "RPoint,GPoint,DPoint",
+      last3: "RPoint,GPoint,RPoint",
     },
     {
       
@@ -214,23 +214,23 @@ export default function Schedule() {
 
 
       teamName: "S.Spartans",
-      match: 1,
+      match: 3,
       won: 0,
-      lost: 2,
-      NRR: -7.4,
+      lost: 3,
+      NRR: -11.43,
       pts: 0,
-      last3: "RPoint,RPoint,DPoint",
+      last3: "RPoint,RPoint,RPoint",
     },
     {
 
 
       teamName: "S.Strikers",
-      match: 2,
-      won: 0,
+      match: 3,
+      won: 1,
       lost: 2,
-      NRR: -12.41,
-      pts: 0,
-      last3: "RPoint,RPoint,DPoint",
+      NRR: -12.01,
+      pts: 2,
+      last3: "RPoint,RPoint,GPoint",
     },
     {
 
@@ -247,12 +247,12 @@ export default function Schedule() {
 
 
       teamName: "C.SuperKings",
-      match: 2,
-      won: 1,
+      match: 3,
+      won: 2,
       lost: 1,
-      NRR: 3.35,
-      pts: 2,
-      last3: "RPoint,GPoint,DPoint",
+      NRR: 7.38,
+      pts: 4,
+      last3: "RPoint,GPoint,GPoint",
     },
     {
 
