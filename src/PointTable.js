@@ -145,12 +145,12 @@ export default function Schedule() {
     {
    
       teamName: "E.Capitals",
-      match: 0,
+      match: 1,
       won: 0,
-      lost: 0,
+      lost: 1,
       tied: 0,
       pts: 0,
-      last3: "DPoint,DPoint,DPoint",
+      last3: "RPoint,DPoint,DPoint",
     },
     {
    
@@ -159,7 +159,7 @@ export default function Schedule() {
       won: 0,
       lost: 1,
       tied: 0,
-      pts: -2,
+      pts: 0,
       last3: "RPoint,DPoint,DPoint",
     },
     {
@@ -169,7 +169,7 @@ export default function Schedule() {
       won: 0,
       lost: 1,
       tied: 0,
-      pts: -2,
+      pts: 0,
       last3: "RPoint,DPoint,DPoint",
     },
     {
@@ -183,12 +183,12 @@ export default function Schedule() {
     },
     {
       teamName: "RCB",
-      match: 1,
-      won: 0,
+      match: 2,
+      won: 1,
       lost: 1,
       tied: 0,
-      pts: -2,
-      last3: "RPoint,DPoint,DPoint",
+      pts: 2,
+      last3: "RPoint,GPoint,DPoint",
     },
     {
       teamName: "S.Warriors",
@@ -196,7 +196,7 @@ export default function Schedule() {
       won: 0,
       lost: 1,
       tied: 0,
-      pts: -2,
+      pts: 0,
       last3: "RPoint,DPoint,DPoint",
     },
     {
@@ -217,7 +217,7 @@ export default function Schedule() {
       won: 0,
       lost: 1,
       tied: 0,
-      pts: -2,
+      pts: 0,
       last3: "RPoint,DPoint,DPoint",
     },
     {
