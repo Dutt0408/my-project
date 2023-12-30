@@ -5,7 +5,7 @@ function live() {
   return (
     <div className='Livesection'>
               
-<div className="wontoss">RCB Choose to Bowl !! </div>
+<div className="wontoss">S.Warriors Choose to Bat !! </div>
 {/* <div className="wontoss">13 off 30 Ball </div> */}
 
 
@@ -14,26 +14,26 @@ function live() {
 
 <div className="team10">
 
-<div className="teamname">RCB</div> 
+<div className="teamname">S.Warriors</div> 
 <div className="scorer">
-<div className="scorelive">53/7</div>
-<div className="Over">(10)</div>
+<div className="scorelive">0/0</div>
+<div className="Over">(0)</div>
 </div>
 </div>
 
 
 <div className="team10">
 <div className="circle pos1"></div>
-<div className="teamname">C.Super Kings</div> 
+<div className="teamname">KITCHNER TITANS</div> 
 <div className="scorer">
-<div className="score">33/0</div>
-<div className="Over">(3)</div>
+<div className="score">0/0</div>
+<div className="Over">(0)</div>
 </div>
 </div>
 
 
 <div className="overnews"> Update/News: </div>
-<div className="overnewss">  KISHAN 22(7) on Fire!!!! </div>
+<div className="overnewss">   </div>
 {/* <div className="overnewsss"> Nehanshu OUT!!!</div>  */}
 </div>
 
@@ -46,10 +46,10 @@ function live() {
 
 
 
-{/* 
 
-<div className="next">Upcoming: </div>
-<div className="wontoss"> L.Strikers Choose to Bowl !!</div>
+
+{/* <div className="next">Upcoming: </div>
+<div className="wontoss"> S.Warriors Choose to Bat !!</div>
 
 
 <div className="teamlo">
