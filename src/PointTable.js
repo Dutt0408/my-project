@@ -170,7 +170,7 @@ export default function Schedule() {
       won: 1,
       lost: 1,
       NRR: 0.395,
-      pts: 0,
+      pts: 2,
       last3: "RPoint,GPoint,DPoint",
     },
     {
