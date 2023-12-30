@@ -225,12 +225,12 @@ export default function Schedule() {
 
 
       teamName: "S.Strikers",
-      match: 1,
+      match: 2,
       won: 0,
-      lost: 1,
-      NRR: -7.4,
+      lost: 2,
+      NRR: -12.41,
       pts: 0,
-      last3: "RPoint,DPoint,DPoint",
+      last3: "RPoint,RPoint,DPoint",
     },
     {
 
@@ -270,11 +270,11 @@ export default function Schedule() {
 
       teamName: "L.Strikers",
       match: 1,
-      won: 0,
+      won: 1,
       lost: 1,
-      NRR: -2.7,
-      pts: 0,
-      last3: "RPoint,DPoint,DPoint",
+      NRR: 2.31,
+      pts: 2,
+      last3: "RPoint,GPoint,DPoint",
     },
   ];
   const sortedTeams = [...teams].sort((a, b) => {
