@@ -146,12 +146,12 @@ export default function Schedule() {
     {
    
       teamName: "E.Capitals",
-      match: 1,
+      match: 2,
       won: 0,
-      lost: 1,
+      lost: 2,
       NRR: -4.21,
       pts: 0,
-      last3: "RPoint,DPoint,DPoint",
+      last3: "RPoint,RPoint,DPoint",
     },
     {
    
@@ -258,12 +258,12 @@ export default function Schedule() {
 
 
       teamName: "RCH",
-      match: 0,
-      won: 0,
+      match: 1,
+      won: 1,
       lost: 0,
       NRR: 0,
       pts: 0,
-      last3: "DPoint,DPoint,DPoint",
+      last3: "GPoint,DPoint,DPoint",
     },
     {
 
