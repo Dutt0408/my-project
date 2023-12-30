@@ -1,9 +1,81 @@
-import React from 'react';
+import React from 'react'
+import "./Live.css"
 
-function Live() {
+function live() {
   return (
-    <div className='text-white text-3xl'>Live IS DISABLED For Few Matches See you soon !!!</div>
-  );
+    <div className='Livesection'>
+              
+<div className="wontoss">E.Eagles Choose to Bat !! </div>
+
+
+
+
+<div className="teamlo">
+
+<div className="team10">
+
+<div className="teamname">E.Eagles</div> 
+<div className="scorer">
+<div className="scorelive">61/2</div>
+<div className="Over">(6)</div>
+</div>
+</div>
+
+
+<div className="team10">
+<div className="circle pos1"></div>
+<div className="teamname">L.Strikers</div> 
+<div className="scorer">
+<div className="score">0/0</div>
+<div className="Over">(0)</div>
+</div>
+</div>
+
+
+<div className="overnews"> Update/News: </div>
+<div className="overnewss">   </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+{/* <div className="next">Upcoming: </div>
+<div className="wontoss"> S.Warriors Choose to Bat !!</div>
+
+
+<div className="teamlo">
+
+<div className="team10">
+
+<div className="teamname">L.Strikers</div> 
+<div className="scorer">
+<div className="scorelive">0/0</div>
+<div className="Over">(0)</div>
+</div>
+</div>
+
+
+<div className="team10">
+<div className="circle pos1"></div>
+<div className="teamname">S.Strikers</div> 
+<div className="scorer">
+<div className="score">0/0</div>
+<div className="Over">(0)</div>
+</div>
+</div>
+</div> */}
+
+    </div>
+  )
 }
 
-export default Live;
+export default live
