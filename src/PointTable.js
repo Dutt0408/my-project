@@ -166,7 +166,7 @@ export default function Schedule() {
     {
       
       teamName: "B.Lions",
-      match: 1,
+      match: 2,
       won: 1,
       lost: 1,
       NRR: 0.395,
