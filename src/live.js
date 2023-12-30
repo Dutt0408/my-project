@@ -24,13 +24,13 @@ function live() {
 <div className="circle pos1"></div>
 <div className="teamname">E.Capitals</div> 
 <div className="scorer">
-<div className="score">29/5</div>
+<div className="score">39/5</div>
 <div className="Over">(7)</div>
 </div>
 </div>
 
 
-<div className="overnews"> Update : </div>
+<div className="overnews"> Update/News: </div>
 <div className="overnewss"> Tarang on Strike  </div>
 </div>
 
