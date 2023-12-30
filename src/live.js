@@ -2,7 +2,7 @@ import React from 'react';
 
 function Live() {
   return (
-    <div className='text-white text-3xl'>live IS DISABLED For This Match See you soon !!!1</div>
+    <div className='text-white text-3xl'>Live IS DISABLED For Few Matches See you soon !!!</div>
   );
 }
 
