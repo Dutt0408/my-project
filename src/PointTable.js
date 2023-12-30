@@ -203,12 +203,12 @@ export default function Schedule() {
     {
 
       teamName: "S.Falcons",
-      match: 1,
-      won: 0,
+      match: 2,
+      won: 1,
       lost: 1,
       NRR: -5.54,
-      pts: 0,
-      last3: "RPoint,DPoint,DPoint",
+      pts: 2,
+      last3: "RPoint,GPoint,DPoint",
     },
     {
 
@@ -236,12 +236,12 @@ export default function Schedule() {
 
 
       teamName: "K.Titans",
-      match: 0,
+      match: 1,
       won: 0,
-      lost: 0,
+      lost: 1,
       NRR: 0,
       pts: 0,
-      last3: "DPoint,DPoint,DPoint",
+      last3: "RPoint,DPoint,DPoint",
     },
     {
 
