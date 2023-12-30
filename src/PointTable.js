@@ -86,7 +86,7 @@ const TeamRow = ({
   match,
   won,
   lost,
-  tied,
+  NRR,
   pts,
   last3,
 }) => (
@@ -100,8 +100,9 @@ const TeamRow = ({
   <td className="team-cell py-5 text-center">{match}</td>
   <td className="team-cell py-3 text-center">{won}</td>
   <td className="team-cell py-3 text-center">{lost}</td>
-  <td className="team-cell py-3 text-center">{tied}</td>
   <td className="team-cell py-3 text-center">{pts}</td>
+  <td className="team-cell py-3 text-center">{NRR}</td>
+ 
   <td className="team-cell py-3 text-center">
     {generatePoints(last3, true)}
   </td>
@@ -118,7 +119,7 @@ export default function Schedule() {
       match: 2,
       won: 2,
       lost: 0,
-      tied: 0,
+      NRR: 15.2,
       pts: 4,
       last3: "GPoint,GPoint,DPoint",
     },
@@ -128,7 +129,7 @@ export default function Schedule() {
       match: 1,
       won: 1,
       lost: 0,
-      tied: 0,
+      NRR: 0,
       pts: 2,
       last3: "GPoint,DPoint,DPoint",
     },
@@ -138,7 +139,7 @@ export default function Schedule() {
       match: 1,
       won: 1,
       lost: 0,
-      tied: 0,
+      NRR: 0,
       pts: 2,
       last3: "GPoint,DPoint,DPoint",
     },
@@ -148,19 +149,19 @@ export default function Schedule() {
       match: 1,
       won: 0,
       lost: 1,
-      tied: 0,
+      NRR: 0,
       pts: 0,
       last3: "RPoint,DPoint,DPoint",
     },
     {
    
       teamName: "B.Panthers",
-      match: 1,
-      won: 0,
+      match: 2,
+      won: 1,
       lost: 1,
-      tied: 0,
-      pts: 0,
-      last3: "RPoint,DPoint,DPoint",
+      NRR: 0,
+      pts: 2,
+      last3: "RPoint,GPoint,DPoint",
     },
     {
       
@@ -168,7 +169,7 @@ export default function Schedule() {
       match: 1,
       won: 0,
       lost: 1,
-      tied: 0,
+      NRR: 0,
       pts: 0,
       last3: "RPoint,DPoint,DPoint",
     },
@@ -177,7 +178,7 @@ export default function Schedule() {
       match: 1,
       won: 1,
       lost: 0,
-      tied: 0,
+      NRR: 0,
       pts: 2,
       last3: "GPoint,DPoint,DPoint",
     },
@@ -186,7 +187,7 @@ export default function Schedule() {
       match: 2,
       won: 1,
       lost: 1,
-      tied: 0,
+      NRR: 0,
       pts: 2,
       last3: "RPoint,GPoint,DPoint",
     },
@@ -195,19 +196,19 @@ export default function Schedule() {
       match: 1,
       won: 0,
       lost: 1,
-      tied: 0,
+      NRR: 0,
       pts: 0,
       last3: "RPoint,DPoint,DPoint",
     },
     {
 
       teamName: "S.Falcons",
-      match: 0,
+      match: 1,
       won: 0,
-      lost: 0,
-      tied: 0,
+      lost: 1,
+      NRR: 0,
       pts: 0,
-      last3: "DPoint,DPoint,DPoint",
+      last3: "RPoint,DPoint,DPoint",
     },
     {
 
@@ -216,7 +217,7 @@ export default function Schedule() {
       match: 1,
       won: 0,
       lost: 1,
-      tied: 0,
+      NRR: 0,
       pts: 0,
       last3: "RPoint,DPoint,DPoint",
     },
@@ -227,7 +228,7 @@ export default function Schedule() {
       match: 0,
       won: 0,
       lost: 0,
-      tied: 0,
+      NRR: 0,
       pts: 0,
       last3: "DPoint,DPoint,DPoint",
     },
@@ -238,7 +239,7 @@ export default function Schedule() {
       match: 0,
       won: 0,
       lost: 0,
-      tied: 0,
+      NRR: 0,
       pts: 0,
       last3: "DPoint,DPoint,DPoint",
     },
@@ -249,7 +250,7 @@ export default function Schedule() {
       match: 0,
       won: 0,
       lost: 0,
-      tied: 0,
+      NRR: 0,
       pts: 0,
       last3: "DPoint,DPoint,DPoint",
     },
@@ -260,7 +261,7 @@ export default function Schedule() {
       match: 0,
       won: 0,
       lost: 0,
-      tied: 0,
+      NRR: 0,
       pts: 0,
       last3: "DPoint,DPoint,DPoint",
     },
@@ -271,7 +272,7 @@ export default function Schedule() {
       match: 0,
       won: 0,
       lost: 0,
-      tied: 0,
+      NRR: 0,
       pts: 0,
       last3: "DPoint,DPoint,DPoint",
     },
@@ -297,11 +298,12 @@ export default function Schedule() {
                 <th scope="col" className=" py-1 text-left tracking-wider text-center">
                   Lost
                 </th>
-                <th scope="col" className=" py-1 text-left tracking-wider text-center">
-                  Tied
-                </th>
+               
                 <th scope="col" className=" py-1 text-left tracking-wider text-center">
                   Pts
+                </th>
+                <th scope="col" className=" py-1 text-left tracking-wider text-center">
+                  NRR
                 </th>
                 <th scope="col" className=" py-1 text-left tracking-wider text-center">
                   Last 3
