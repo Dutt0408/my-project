@@ -5,7 +5,7 @@ function live() {
   return (
     <div className='Livesection'>
               
-<div className="wontoss">112 off 48 balls </div>
+<div className="wontoss">110 off 42 balls </div>
 
 
 <div className="teamlo">
@@ -24,8 +24,8 @@ function live() {
 <div className="circle pos1"></div>
 <div className="teamname">E.Capitals</div> 
 <div className="scorer">
-<div className="score">12/3</div>
-<div className="Over">(2)</div>
+<div className="score">13/3</div>
+<div className="Over">(3)</div>
 </div>
 </div>
 </div>
