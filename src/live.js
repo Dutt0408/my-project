@@ -1,41 +1,52 @@
+// import React from 'react'
+// import "./Live.css"
+
+// function live() {
+//   return (
+//     <div className='Livesection'>
+              
+// <div className="wontoss">S.Warriors Choose to Bat !! </div>
+
+
+
 import React from 'react'
-import "./Live.css"
 
 function live() {
   return (
-    <div className='Livesection'>
-              
-<div className="wontoss">S.Warriors Choose to Bat !! </div>
-{/* <div className="wontoss">13 off 30 Ball </div> */}
+    <div className='text-white text-3xl'>Live is DISABLED &nbsp;  For This Match We will Resume Soon... Jay Swaminarayan</div>
+  )
+}
+
+export default live
 
 
 
-<div className="teamlo">
+// <div className="teamlo">
 
-<div className="team10">
+// <div className="team10">
 
-<div className="teamname">S.Warriors</div> 
-<div className="scorer">
-<div className="scorelive">0/0</div>
-<div className="Over">(0)</div>
-</div>
-</div>
-
-
-<div className="team10">
-<div className="circle pos1"></div>
-<div className="teamname">K.TITANS</div> 
-<div className="scorer">
-<div className="score">0/0</div>
-<div className="Over">(0)</div>
-</div>
-</div>
+// <div className="teamname">S.Warriors</div> 
+// <div className="scorer">
+// <div className="scorelive">0/0</div>
+// <div className="Over">(0)</div>
+// </div>
+// </div>
 
 
-<div className="overnews"> Update/News: </div>
-<div className="overnewss">   </div>
-{/* <div className="overnewsss"> Nehanshu OUT!!!</div>  */}
-</div>
+// <div className="team10">
+// <div className="circle pos1"></div>
+// <div className="teamname">K.TITANS</div> 
+// <div className="scorer">
+// <div className="score">0/0</div>
+// <div className="Over">(0)</div>
+// </div>
+// </div>
+
+
+// <div className="overnews"> Update/News: </div>
+// <div className="overnewss">   </div>
+
+// </div>
 
 
 
@@ -74,8 +85,12 @@ function live() {
 </div>
 </div> */}
 
-    </div>
-  )
-}
 
-export default live
+
+
+
+//     </div>
+//   )
+// }
+
+// export default live

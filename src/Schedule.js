@@ -90,7 +90,7 @@ const Schedule = () => {
                 
                 <button
               onClick={() => handleResultButtonClick(match.ResultURL)}
-              className={`trophy-button ${match.isOver ? 'full-opacity' : ''}`}
+              className={`trophy-button  ${match.isOver ? 'full-opacity' : ''}`}
             >
               <img
                 className="h-7 w-auto trophy-icon"
