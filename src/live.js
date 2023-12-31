@@ -14,14 +14,14 @@ const Live = () => {
       // Simulate updating data manually
       setData(prevData => ({
         ...prevData,
-        team1: { ...prevData.team1, score: '0/0' },
+        team1: { ...prevData.team1, score: '26/1' },
         team2: { ...prevData.team2, score: '0/0' }
       }));
     };
 
     const updateInterval = setInterval(() => {
       updateData(); // Simulate data update at regular intervals
-    }, 5000); // Update every 5 seconds (adjust as needed)
+    }, 2000); // Update every 5 seconds (adjust as needed)
 
     // Cleanup the interval when the component unmounts
     return () => clearInterval(updateInterval);
