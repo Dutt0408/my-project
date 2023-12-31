@@ -139,8 +139,8 @@ export default function Schedule() {
       match: 3,
       won: 3,
       lost: 0,
-      NRR: 8.3,
-      pts: 9.93,
+      NRR: 9.93,
+      pts: 6,
       last3: "GPoint,GPoint,GPoint",
     },
     {
