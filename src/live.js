@@ -18,7 +18,7 @@ class Live extends Component {
       // Update your state with new data here
       // For now, let's just increment the scores
       this.setState((prevState) => ({
-        team1: { ...prevState.team1, score: '0/0' },
+        team1: { ...prevState.team1, score: '16/0' },
         team2: { ...prevState.team2, score: '0/0' }
       }));
     }, 2000); // Update every 5 seconds (adjust as needed)
