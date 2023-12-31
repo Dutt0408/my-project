@@ -136,22 +136,22 @@ export default function Schedule() {
     {
       
       teamName: "E.Titans",
-      match: 2,
-      won: 2,
+      match: 3,
+      won: 3,
       lost: 0,
       NRR: 8.3,
-      pts: 4,
-      last3: "GPoint,GPoint,DPoint",
+      pts: 9.93,
+      last3: "GPoint,GPoint,GPoint",
     },
     {
    
       teamName: "E.Capitals",
-      match: 2,
+      match: 3,
       won: 0,
-      lost: 2,
-      NRR: -10.41,
+      lost: 3,
+      NRR: -14.34,
       pts: 0,
-      last3: "RPoint,RPoint,DPoint",
+      last3: "RPoint,RPoint,RPoint",
     },
     {
    

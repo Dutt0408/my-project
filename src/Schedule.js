@@ -30,8 +30,8 @@ const scheduleData = {
     { "Match": 20, "Team1": "S.STRIKERS", "Team2": "BRAMPTON PANTHERS", "TimeFrame": "5pm-6pm","Day": "Saturday","isOver": true,"ResultURL": "Result20.png","Winner":"S.Strikers won!!" },
     { "Match": 21, "Team1": "ETOBICOKE KINGS", "Team2": "Royal Challangers.H", "TimeFrame": "6pm-7pm","Day": "Saturday","isOver":true,"ResultURL": "Result21.png","Winner":"ETOBICOKE KINGS won!!" },
     { "Match": 22, "Team1": "KITCHNER TITANS", "Team2": "BRAMPTON TIGERS", "TimeFrame": "7pm-8pm","Day": "Saturday","isOver": true,"ResultURL": "Result22.png","Winner":"KITCHNER TITANS won!!" },
-    { "Match": 23, "Team1": "ETOBICOKE TITANS", "Team2": "ETOBICOKE CAPITALS", "TimeFrame": "8pm-9pm","Day": "Saturday","isOver": false,"ResultURL": "Result23.png","Winner":"" },
-    { "Match": 24, "Team1": "S.WARRIORS", "Team2": "S.FALCONS", "TimeFrame": "9pm-10pm","Day": "Saturday","isOver": false,"ResultURL": "Result24.png","Winner":"" }
+    { "Match": 23, "Team1": "ETOBICOKE TITANS", "Team2": "ETOBICOKE CAPITALS", "TimeFrame": "8pm-9pm","Day": "Saturday","isOver": true,"ResultURL": "Result23.png","Winner":"ETOBICOKE TITANS won!!" },
+    { "Match": 24, "Team1": "S.WARRIORS", "Team2": "S.FALCONS", "TimeFrame": "9pm-10pm","Day": "Saturday","isOver": false,"ResultURL": "Result24.png","Winner":"S.FALCONS won!!" }
   ],
   "sunday": [
     { "Match": 25, "Team1": "QF1--1", "Team2": "QF1--2", "TimeFrame": "7am-8am","Day": "Sunday","isOver": false,"ResultURL": "Result25.png","Winner":"" },
