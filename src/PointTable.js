@@ -175,12 +175,12 @@ export default function Schedule() {
     },
     {
       teamName: "B.Tigers",
-      match: 3,
+      match: 4,
       won: 2,
-      lost: 1,
+      lost: 2,
       NRR: 8.53,
       pts: 4,
-      last3: "GPoint,GPoint,RPoint",
+      last3: "GPoint,RPoint,RPoint",
     },
     {
       teamName: "RCB",
@@ -203,12 +203,12 @@ export default function Schedule() {
     {
 
       teamName: "S.Falcons",
-      match: 3,
-      won: 2,
+      match: 4,
+      won: 3,
       lost: 1,
       NRR: 8.47,
-      pts: 4,
-      last3: "RPoint,GPoint,GPoint",
+      pts: 6,
+      last3: "GPoint,GPoint,GPoint",
     },
     {
 
