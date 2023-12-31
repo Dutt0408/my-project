@@ -5,7 +5,7 @@ class Live extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      team1: { name: 'E.Eagles', score: '8/0', overs: '(0.4)' },
+      team1: { name: 'E.Eagles', score: '16/0', overs: '(1)' },
       team2: { name: 'E.Titans', score: '0/0', overs: '(0)' },
       breakMessage: 'Live',
       newsMessage: 'E.Kings Get Tickets For Finals'
