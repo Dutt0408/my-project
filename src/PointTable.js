@@ -116,12 +116,12 @@ export default function Schedule() {
     {
       
       teamName: "E.Kings",
-      match: 2,
-      won: 2,
+      match: 3,
+      won: 3,
       lost: 0,
-      NRR: 15.2,
-      pts: 4,
-      last3: "GPoint,GPoint,DPoint",
+      NRR: 19.53,
+      pts: 6,
+      last3: "GPoint,GPoint,GPoint",
     },
     {
      
@@ -175,12 +175,12 @@ export default function Schedule() {
     },
     {
       teamName: "B.Tigers",
-      match: 2,
+      match: 3,
       won: 2,
-      lost: 0,
-      NRR: 8.55,
+      lost: 1,
+      NRR: 8.53,
       pts: 4,
-      last3: "GPoint,GPoint,DPoint",
+      last3: "GPoint,GPoint,RPoint",
     },
     {
       teamName: "RCB",
@@ -236,12 +236,12 @@ export default function Schedule() {
 
 
       teamName: "K.Titans",
-      match: 2,
-      won: 1,
+      match: 3,
+      won: 2,
       lost: 1,
-      NRR: 5.08,
-      pts: 2,
-      last3: "RPoint,GPoint,DPoint",
+      NRR: 5.102,
+      pts: 4,
+      last3: "RPoint,GPoint,GPoint",
     },
     {
 
@@ -258,12 +258,12 @@ export default function Schedule() {
 
 
       teamName: "RCH",
-      match: 2,
+      match: 3,
       won: 1,
-      lost: 1,
-      NRR: 2.05,
+      lost: 2,
+      NRR: -2.28,
       pts: 2,
-      last3: "GPoint,RPoint,DPoint",
+      last3: "GPoint,RPoint,RPoint",
     },
     {
 
@@ -322,8 +322,11 @@ export default function Schedule() {
       <React.Fragment key={index}>
         <TeamRow {...team} />
         {index === 7 && (
-          <tr className="md:border-t md:border-gray-600"></tr>
-        )}
+  <tr className="md:border-t md:border-gray-600">
+    <td colSpan="7"></td>
+  </tr>
+)}
+
       </React.Fragment>
     ))}
   </tbody>
