@@ -14,26 +14,26 @@ function live() {
 
 <div className="team10">
 
-<div className="teamname">S.Falcons</div> 
+<div className="teamname">E.Kings</div> 
 <div className="scorer">
-<div className="scorelive">102/3</div>
-<div className="Over">(12)</div>
+<div className="scorelive">2/0</div>
+<div className="Over">(0.4)</div>
 </div>
 </div>
 
 
 <div className="team10">
 {/* <div className="circle pos1"></div> */}
-<div className="teamname">E.Kings</div> 
+<div className="teamname">S.Falcons</div> 
 <div className="scorer">
-<div className="score">0/0</div>
-<div className="Over">(0)</div>
+<div className="score">102/3</div>
+<div className="Over">(12)</div>
 </div>
 </div>
 
 
-<div className="overnews"> BREAK TIME 10 MINS </div>
-<div className="overnewss"> 103 Runs off 120 Balls  </div>
+<div className="overnews"> Live Now  </div>
+<div className="overnewss"> </div>
 
 </div>
 
