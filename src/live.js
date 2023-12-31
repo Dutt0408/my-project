@@ -33,7 +33,7 @@ function live() {
 
 
 <div className="overnews"> BREAK TIME 10 MINS </div>
-<div className="overnewss">   </div>
+<div className="overnewss"> 103 Runs off 120 Balls  </div>
 
 </div>
 
