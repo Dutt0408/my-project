@@ -193,22 +193,22 @@ export default function Schedule() {
     },
     {
       teamName: "S.Warriors",
-      match: 2,
+      match: 3,
       won: 0,
-      lost: 2,
+      lost: 3,
       NRR: -12.65,
       pts: 0,
-      last3: "RPoint,RPoint,DPoint",
+      last3: "RPoint,RPoint,RPoint",
     },
     {
 
       teamName: "S.Falcons",
-      match: 2,
-      won: 1,
+      match: 3,
+      won: 2,
       lost: 1,
       NRR: -3.82,
-      pts: 2,
-      last3: "RPoint,GPoint,DPoint",
+      pts: 4,
+      last3: "RPoint,GPoint,GPoint",
     },
     {
 
