@@ -32,8 +32,8 @@ function live() {
 </div>
 
 
-<div className="overnews"> Update/News: </div>
-<div className="overnewss"> Live NOW  </div>
+<div className="overnews"> BREAK TIME 10 MINS </div>
+<div className="overnewss">   </div>
 
 </div>
 
