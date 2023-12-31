@@ -1,91 +1,63 @@
-import React from 'react'
-import "./Live.css"
+import React, { Component } from 'react';
+import "./Live.css";
 
-function live() {
-  return (
-    <div className='Livesection'>
-              
-<div className="wontoss">SEMI FINAL</div>
+class Live extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      team1: { name: 'E.Eagles', score: '0/0', overs: '(0)' },
+      team2: { name: 'E.Titans', score: '0/0', overs: '(0)' },
+      breakMessage: 'Live',
+      newsMessage: 'E.Kings Get Tickets For Finals'
+    };
+  }
 
+  componentDidMount() {
+    // Simulate live updates with a timer
+    this.updateInterval = setInterval(() => {
+      // Update your state with new data here
+      // For now, let's just increment the scores
+      this.setState((prevState) => ({
+        team1: { ...prevState.team1, score: '0/0' },
+        team2: { ...prevState.team2, score: '0/0' }
+      }));
+    }, 2000); // Update every 5 seconds (adjust as needed)
+  }
 
+  componentWillUnmount() {
+    clearInterval(this.updateInterval);
+  }
 
+  render() {
+    const { team1, team2, breakMessage, newsMessage } = this.state;
 
-<div className="teamlo">
+    return (
+      <div className='Livesection'>
+        <div className="wontoss">SEMI FINAL-2</div>
 
-<div className="team10">
+        <div className="teamlo">
+          <div className="team10">
+            <div className="teamname">{team1.name}</div>
+            <div className="scorer">
+              <div className="scorelive">{team1.score}</div>
+              <div className="Over">{team1.overs}</div>
+            </div>
+          </div>
 
-<div className="teamname">E.Kings</div> 
-<div className="scorer">
-<div className="scorelive">105/1</div>
-<div className="Over">(9.4)</div>
-</div>
-</div>
+          <div className="team10">
+            <div className="teamname">{team2.name}</div>
+            <div className="scorer">
+              <div className="score">{team2.score}</div>
+              <div className="Over">{team2.overs}</div>
+            </div>
+          </div>
 
-
-<div className="team10">
-{/* <div className="circle pos1"></div> */}
-<div className="teamname">S.Falcons</div> 
-<div className="scorer">
-<div className="score">102/3</div>
-<div className="Over">(12)</div>
-</div>
-</div>
-
-
-<div className="overnews"> ON Break  </div>
-<div className="overnewss"> E.Kings Get Tickets For Finals</div>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-{/* <div className="next">Upcoming: </div>
-<div className="wontoss"> S.Warriors Choose to Bat !!</div>
-
-
-<div className="teamlo">
-
-<div className="team10">
-
-<div className="teamname">L.Strikers</div> 
-<div className="scorer">
-<div className="scorelive">0/0</div>
-<div className="Over">(0)</div>
-</div>
-</div>
-
-
-<div className="team10">
-<div className="circle pos1"></div>
-<div className="teamname">S.Strikers</div> 
-<div className="scorer">
-<div className="score">0/0</div>
-<div className="Over">(0)</div>
-</div>
-</div>
-</div> */}
-
-    </div>
-  )
+          <div className="overnews">{breakMessage}</div>
+          <div className="overnewss">{newsMessage}</div>
+        </div>
+      </div>
+    );
+  }
 }
 
-export default live
-
-// import React from 'react'
-
-// function live() {
-//   return (
-//     <div className='text-white text-3xl'>Live IS DISABLED For This Match See you soon !!!</div>
-//   )
-// }
-
-// export default live
+export default Live;
