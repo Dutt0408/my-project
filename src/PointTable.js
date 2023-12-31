@@ -322,7 +322,7 @@ export default function Schedule() {
       <React.Fragment key={index}>
         <TeamRow {...team} />
         {index === 7 && (
-  <tr className="md:border-t md:border-gray-600">
+  <tr className="border-t border-gray-600 ">
     <td colSpan="7"></td>
   </tr>
 )}
