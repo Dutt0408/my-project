@@ -7,10 +7,10 @@ const scheduleData = {
   
  
   "sunday": [
-    { "Match": 25, "Team1": "E.Kings", "Team2": "B.Lions", "TimeFrame": "7am-8am","Day": "Sunday","isOver": false,"ResultURL": "Result25.png","Winner":"" },
-    { "Match": 26, "Team1": "E.Titans", "Team2": "K.Titans", "TimeFrame": "8am-9am","Day": "Sunday","isOver": false,"ResultURL": "Result26.png","Winner":"" },
-    { "Match": 27, "Team1": "E.Eagles", "Team2": "C.SuperKings", "TimeFrame": "9am-10am","Day": "Sunday","isOver": false,"ResultURL": "Result27.png","Winner":"" },
-    { "Match": 28, "Team1": "B.Tigers", "Team2": "S.Falcons", "TimeFrame": "10am-11am","Day": "Sunday","isOver": false,"ResultURL": "Result28.png","Winner":"" },
+    { "Match": 25, "Team1": "E.Kings", "Team2": "B.Lions", "TimeFrame": "7am-8am","Day": "Sunday","isOver": false,"ResultURL": "Result25.png","Winner":"QF-1" },
+    { "Match": 26, "Team1": "E.Titans", "Team2": "K.Titans", "TimeFrame": "8am-9am","Day": "Sunday","isOver": false,"ResultURL": "Result26.png","Winner":"QF-2" },
+    { "Match": 27, "Team1": "E.Eagles", "Team2": "C.SuperKings", "TimeFrame": "9am-10am","Day": "Sunday","isOver": false,"ResultURL": "Result27.png","Winner":"QF-3" },
+    { "Match": 28, "Team1": "B.Tigers", "Team2": "S.Falcons", "TimeFrame": "10am-11am","Day": "Sunday","isOver": false,"ResultURL": "Result28.png","Winner":"QF-4" },
     { "Match": 29, "Team1": "SEMI FINAL 1", "Team2": "-", "TimeFrame": "11am-12pm","Day": "Sunday","isOver": false,"ResultURL": "Result29.png","Winner":"" },
     { "Match": 30, "Team1": "SEMI FINAL 2", "Team2": "-", "TimeFrame": "12pm-1pm","Day": "Sunday","isOver": false,"ResultURL": "Result30.png","Winner":"" },
     { "Match": 31, "Team1": "Final", "Team2": "-", "TimeFrame": "1pm-2pm","Day": "Sunday","isOver": false,"ResultURL": "Result31.png","Winner":"" }
