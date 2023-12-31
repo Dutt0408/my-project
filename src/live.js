@@ -33,7 +33,7 @@ function live() {
 
 
 <div className="overnews"> ON Break  </div>
-<div className="overnewss"> E.Kings Gets Tickets For Finals</div>
+<div className="overnewss"> E.Kings Get Tickets For Finals</div>
 
 </div>
 
