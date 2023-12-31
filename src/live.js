@@ -32,7 +32,7 @@ function live() {
 </div>
 
 
-<div className="overnews"> Live Now  </div>
+<div className="overnews"> ON Break  </div>
 <div className="overnewss"> E.Kings Gets Tickets For Finals</div>
 
 </div>
