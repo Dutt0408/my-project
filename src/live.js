@@ -5,7 +5,7 @@ function live() {
   return (
     <div className='Livesection'>
               
-<div className="wontoss">QF Match-1</div>
+<div className="wontoss">SEMI FINAL</div>
 
 
 
@@ -14,17 +14,17 @@ function live() {
 
 <div className="team10">
 
-<div className="teamname">E.Kings</div> 
+<div className="teamname">S.Falcons</div> 
 <div className="scorer">
-<div className="scorelive">0/0</div>
-<div className="Over">(0)</div>
+<div className="scorelive">9/0</div>
+<div className="Over">(1)</div>
 </div>
 </div>
 
 
 <div className="team10">
 {/* <div className="circle pos1"></div> */}
-<div className="teamname">B.Lions</div> 
+<div className="teamname">E.Kings</div> 
 <div className="scorer">
 <div className="score">0/0</div>
 <div className="Over">(0)</div>
@@ -33,7 +33,7 @@ function live() {
 
 
 <div className="overnews"> Update/News: </div>
-<div className="overnewss"> Live From 7AM  </div>
+<div className="overnewss"> Live NOW  </div>
 
 </div>
 
