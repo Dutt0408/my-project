@@ -246,7 +246,7 @@ export default function Schedule() {
     {
 
 
-      teamName: "C.SuperKings",
+      teamName: "CSK",
       match: 3,
       won: 2,
       lost: 1,
