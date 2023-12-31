@@ -60,7 +60,7 @@ import React from 'react'
 
 function live() {
   return (
-    <div className='text-white text-3xl'>live is disable We will continue Soon ..</div>
+    <div className='text-white text-3xl'>Live is Disabled  We will be Returning Soon ..</div>
   )
 }
 
