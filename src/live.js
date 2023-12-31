@@ -1,63 +1,58 @@
-import React, { Component } from 'react';
+import React, { useState, useEffect } from 'react';
 import "./Live.css";
 
-class Live extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      team1: { name: 'E.Eagles', score: '16/0', overs: '(1)' },
-      team2: { name: 'E.Titans', score: '0/0', overs: '(0)' },
-      breakMessage: 'Live',
-      newsMessage: 'E.Kings Get Tickets For Finals'
-    };
-  }
+const Live = () => {
+  const [data, setData] = useState({
+    team1: { name: 'E.Eagles', score: '26/1', overs: '(2.2)' },
+    team2: { name: 'E.Titans', score: '0/0', overs: '(0)' },
+    breakMessage: 'Live',
+    newsMessage: 'E.Kings Get Tickets For Finals'
+  });
 
-  componentDidMount() {
-    // Simulate live updates with a timer
-    this.updateInterval = setInterval(() => {
-      // Update your state with new data here
-      // For now, let's just increment the scores
-      this.setState((prevState) => ({
-        team1: { ...prevState.team1, score: '16/0' },
-        team2: { ...prevState.team2, score: '0/0' }
+  useEffect(() => {
+    const updateData = () => {
+      // Simulate updating data manually
+      setData(prevData => ({
+        ...prevData,
+        team1: { ...prevData.team1, score: '106/1' },
+        team2: { ...prevData.team2, score: '103/3' }
       }));
-    }, 2000); // Update every 5 seconds (adjust as needed)
-  }
+    };
 
-  componentWillUnmount() {
-    clearInterval(this.updateInterval);
-  }
+    const updateInterval = setInterval(() => {
+      updateData(); // Simulate data update at regular intervals
+    }, 5000); // Update every 5 seconds (adjust as needed)
 
-  render() {
-    const { team1, team2, breakMessage, newsMessage } = this.state;
+    // Cleanup the interval when the component unmounts
+    return () => clearInterval(updateInterval);
+  }, []); // Empty dependency array ensures useEffect runs only once on mount
 
-    return (
-      <div className='Livesection'>
-        <div className="wontoss">SEMI FINAL-2</div>
+  return (
+    <div className='Livesection'>
+      <div className="wontoss">SEMI FINAL</div>
 
-        <div className="teamlo">
-          <div className="team10">
-            <div className="teamname">{team1.name}</div>
-            <div className="scorer">
-              <div className="scorelive">{team1.score}</div>
-              <div className="Over">{team1.overs}</div>
-            </div>
+      <div className="teamlo">
+        <div className="team10">
+          <div className="teamname">{data.team1.name}</div>
+          <div className="scorer">
+            <div className="scorelive">{data.team1.score}</div>
+            <div className="Over">{data.team1.overs}</div>
           </div>
-
-          <div className="team10">
-            <div className="teamname">{team2.name}</div>
-            <div className="scorer">
-              <div className="score">{team2.score}</div>
-              <div className="Over">{team2.overs}</div>
-            </div>
-          </div>
-
-          <div className="overnews">{breakMessage}</div>
-          <div className="overnewss">{newsMessage}</div>
         </div>
+
+        <div className="team10">
+          <div className="teamname">{data.team2.name}</div>
+          <div className="scorer">
+            <div className="score">{data.team2.score}</div>
+            <div className="Over">{data.team2.overs}</div>
+          </div>
+        </div>
+
+        <div className="overnews">{data.breakMessage}</div>
+        <div className="overnewss">{data.newsMessage}</div>
       </div>
-    );
-  }
-}
+    </div>
+  );
+};
 
 export default Live;
