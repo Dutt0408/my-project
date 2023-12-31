@@ -116,19 +116,19 @@ export default function Schedule() {
     {
       
       teamName: "E.Kings",
-      match: 4,
-      won: 4,
+      match: 5,
+      won: 5,
       lost: 0,
       NRR: 28.03,
-      pts: 8,
+      pts: 810,
       last3: "GPoint,GPoint,GPoint",
     },
     {
      
       teamName: "E.Eagles",
-      match: 4,
+      match: 5,
       won: 4,
-      lost: 0,
+      lost: 1,
       NRR: 12.3,
       pts: 8,
       last3: "GPoint,GPoint,GPoint",
@@ -136,11 +136,11 @@ export default function Schedule() {
     {
       
       teamName: "E.Titans",
-      match: 4,
-      won: 4,
+      match: 5,
+      won: 5,
       lost: 0,
       NRR: 20.08,
-      pts: 8,
+      pts: 10,
       last3: "GPoint,GPoint,GPoint",
     },
     {
@@ -203,9 +203,9 @@ export default function Schedule() {
     {
 
       teamName: "S.Falcons",
-      match: 4,
+      match: 5,
       won: 3,
-      lost: 1,
+      lost: 2,
       NRR: 10.48,
       pts: 6,
       last3: "GPoint,GPoint,GPoint",
