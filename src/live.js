@@ -14,8 +14,8 @@ const Live = () => {
       // Simulate updating data manually
       setData(prevData => ({
         ...prevData,
-        team1: { ...prevData.team1, score: '106/1' },
-        team2: { ...prevData.team2, score: '103/3' }
+        team1: { ...prevData.team1, score: '0/0' },
+        team2: { ...prevData.team2, score: '0/0' }
       }));
     };
 
