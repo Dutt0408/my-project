@@ -120,7 +120,7 @@ export default function Schedule() {
       won: 5,
       lost: 0,
       NRR: 28.03,
-      pts: 810,
+      pts: 10,
       last3: "GPoint,GPoint,GPoint",
     },
     {
