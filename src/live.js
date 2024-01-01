@@ -4,7 +4,7 @@ import "./Live.css";
 function Live() {
   // Initialize state for scores
   const [scores, setScores] = useState({
-    team1: { runs: 39, wickets: 1, overs: 4.2 },
+    team1: { runs: 41, wickets: 2, overs: 4.4 },
     team2: { runs: 0, wickets: 0, overs: 0 },
   });
 
