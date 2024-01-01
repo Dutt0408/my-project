@@ -1,82 +1,45 @@
-import React from 'react'
-import "./Live.css"
+import React from 'react';
+import './Live.css';
 
-function live() {
+function Live() {
   return (
     <div className='Livesection'>
-              
-<div className="wontoss"> FINAL</div>
-
-
-
-
-<div className="teamlo">
-
-<div className="team10">
-
-<div className="teamname">E.Titans</div> 
-<div className="scorer">
-<div className="scorelive">22/0</div>
-<div className="Over">(2.5)</div>
-</div>
-</div>
-
-
-<div className="team10">
-{/* <div className="circle pos1"></div> */}
-<div className="teamname">E.Kings</div> 
-<div className="scorer">
-<div className="score">102/6</div>
-<div className="Over">(12)</div>
-</div>
-</div>
-
-
-<div className="overnews"> Live  </div>
-<div className="overnewss"> 103 to win !!! </div>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-{/* <div className="next">Upcoming: </div>
-<div className="wontoss"> S.Warriors Choose to Bat !!</div>
-
-
-<div className="teamlo">
-
-<div className="team10">
-
-<div className="teamname">L.Strikers</div> 
-<div className="scorer">
-<div className="scorelive">0/0</div>
-<div className="Over">(0)</div>
-</div>
-</div>
-
-
-<div className="team10">
-<div className="circle pos1"></div>
-<div className="teamname">S.Strikers</div> 
-<div className="scorer">
-<div className="score">0/0</div>
-<div className="Over">(0)</div>
-</div>
-</div>
-</div> */}
-
+      <div className="wontoss"> FINAL</div>
+      
+      <div className="teamlo">
+        <div className="team10">
+          <div className="teamname">E.Titans</div> 
+          <div className="scorer">
+            <div className="scorelive">22/0</div>
+            <div className="Over">(2.5)</div>
+          </div>
+        </div>
+  
+        <div className="team10">
+          <div className="teamname">E.Kings</div> 
+          <div className="scorer">
+            <div className="score">102/6</div>
+            <div className="Over">(12)</div>
+          </div>
+        </div>
+  
+        <div className="overnews"> Live  </div>
+        <div className="overnewss"> 103 to win !!! </div>
+      </div>
+      
+      {/* Updated YouTube video embed with autoplay and border */}
+      <div style={{ border: '5px solid #ccc', padding: '10px' }}>
+        <iframe 
+          title="YouTube Video"
+          width="560" 
+          height="315" 
+          src="https://www.youtube.com/embed/6n6Kz1FcDuQ?autoplay=1" 
+          frameBorder="0" 
+          allowFullScreen
+        ></iframe>
+      </div>
     </div>
-  )
+  );
 }
 
-export default live
-
+export default Live;
