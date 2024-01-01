@@ -31,7 +31,7 @@ function Live() {
       <div style={{ border: '5px solid #ccc', padding: '10px' }}>
         <iframe 
           title="YouTube Video"
-          width="560" 
+          width="100%" 
           height="315" 
           src="https://www.youtube.com/embed/6n6Kz1FcDuQ?autoplay=1" 
           frameBorder="0" 
