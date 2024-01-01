@@ -10,7 +10,7 @@ function Live() {
         <div className="team10">
           <div className="teamname">E.Titans</div> 
           <div className="scorer">
-            <div className="scorelive">61/0</div>
+            <div className="scorelive">Live On Video</div>
             <div className="Over">(8)</div>
           </div>
         </div>
@@ -30,6 +30,7 @@ function Live() {
       {/* Updated YouTube video embed with autoplay and border */}
       <div style={{ border: '5px solid #ccc', padding: '10px' }}>
         <iframe 
+          
           title="YouTube Video"
           width="100%" 
           height="315" 

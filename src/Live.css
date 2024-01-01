@@ -156,4 +156,6 @@
       transform: scale(0.8);
     }
   }
-  
+  .video-container {
+  overflow: hidden; /* Hide any content that overflows the container */
+}
