@@ -3,7 +3,7 @@ import "./Live.css";
 
 function Live() {
   const [scores, setScores] = useState({
-    team1: { runs: 70, wickets: 5, overs: 8 },
+    team1: { runs: 72, wickets: 5, overs: 8 },
     team2: { runs: 0, wickets: 0, overs: 0 },
   });
 
@@ -55,7 +55,7 @@ function Live() {
         </div>
         <div className="overnews">Live</div>
         <div className="overnewss"></div>
-        <button onClick={manualUpdateScores}>Manual Update</button>
+        <button onClick={manualUpdateScores}></button>
       </div>
     </div>
   );
