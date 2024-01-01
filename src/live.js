@@ -16,8 +16,8 @@ function live() {
 
 <div className="teamname">E.Titans</div> 
 <div className="scorer">
-<div className="scorelive">12/0</div>
-<div className="Over">(1.5)</div>
+<div className="scorelive">13/0</div>
+<div className="Over">(2)</div>
 </div>
 </div>
 
