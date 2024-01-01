@@ -1,20 +1,38 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import "./Live.css";
 
 function Live() {
-  // Initialize state for scores
   const [scores, setScores] = useState({
-    team1: { runs: 41, wickets: 2, overs: 4.4 },
+    team1: { runs: 70, wickets: 5, overs: 8 },
     team2: { runs: 0, wickets: 0, overs: 0 },
   });
 
-  // Function to manually update scores
-  const manualUpdateScores = () => {
-    // Update the scores state
-    setScores({
-      team1: { runs: 5, wickets: 1, overs: 2 },
-      team2: { runs: 0, wickets: 0, overs: 0 },
+  useEffect(() => {
+    // Connect to the WebSocket server (replace 'ws://localhost:8080' with your server's WebSocket URL)
+    const socket = new WebSocket('ws://http://localhost:3000/Live');
+
+    // Listen for messages from the WebSocket server
+    socket.addEventListener('message', (event) => {
+      const newScores = JSON.parse(event.data);
+      setScores(newScores);
     });
+
+    // Clean up the WebSocket connection on component unmount
+    return () => socket.close();
+  }, []);
+
+  const manualUpdateScores = () => {
+    // Simulate sending an update to the server
+    const updatedScores = {
+      team1: { runs: 69, wickets: 2, overs: 4.4 },
+      team2: { runs: 0, wickets: 0, overs: 0 },
+    };
+
+    // Update the local state immediately for a responsive UI
+    setScores(updatedScores);
+
+    // Simulate sending the update to the server
+    // In a real application, you would send this data to the server using WebSocket.send()
   };
 
   return (
@@ -37,7 +55,7 @@ function Live() {
         </div>
         <div className="overnews">Live</div>
         <div className="overnewss"></div>
-        <button onClick={manualUpdateScores}></button>
+        <button onClick={manualUpdateScores}>Manual Update</button>
       </div>
     </div>
   );
