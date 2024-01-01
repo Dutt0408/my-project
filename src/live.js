@@ -5,7 +5,7 @@ function live() {
   return (
     <div className='Livesection'>
               
-<div className="wontoss">SEMI FINAL</div>
+<div className="wontoss"> FINAL</div>
 
 
 
