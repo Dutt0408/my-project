@@ -5,9 +5,7 @@ import Home from "./Home";
 import Schedule from "./Schedule";
 import Teams from "./Teams";
 import PointTable from "./PointTable";
-import Winner from "./Winner";
-import Live from "./live"
-
+import Sponsors from "./Sponsors"
 
 // import { PrimeReactProvider } from "primereact/api";
 import { Routes, Route } from "react-router-dom";
@@ -25,8 +23,7 @@ function App() {
         <Route path="/Schedule" element={<Schedule />} />
         <Route path="/Teams" element={<Teams />} />
         <Route path="/PointTable" element={<PointTable />} />
-        <Route path="/Winner" element={<Winner />} />
-        <Route path="/Live" element={<Live/>}/>
+        <Route path="/Sponsors" element={<Sponsors/>}/>
        
       </Routes>
       {/* <Home/>

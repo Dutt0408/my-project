@@ -1,32 +1,40 @@
-.homepage{
-    /* background-color: #1f1f1f; */
-    height:65rem;
-    
+.homepage {
+  text-align: center;
+  margin: 0; /* Keep the margin outside the container */
+  padding: 0; /* Add padding inside the container */
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  align-items: center; /* Center-align all children horizontally */
+  justify-content: center; /* Center-align content vertically */
+  min-height: 60%; /* Increase the container height (e.g., from 100vh to 120vh) */
+  box-sizing: border-box; /* Ensure padding is included in size calculations */
+}
 
+.Oiscthead {
+  font-size: 1.8em;
+  margin-bottom: 10px;
 }
-.Oimg{
-    border-radius: 13px;
+
+.htexts {
+  font-size: 1.2em;
+  line-height: 1.6;
 }
-.htexts{
-padding: 1.5rem;
-border-radius: 10px;
-margin-bottom: 1rem;
+
+.paragraph {
+  margin: 20px auto;
+  max-width: 800px;
+  line-height: 1.8;
+  font-size: 1em;
 }
-.paragraph{
-    padding: 1.5rem;
-    border-radius: 10px;
-    margin-bottom: 1rem;
-    margin-top: -40px;
-    opacity:0.6;
+
+a {
+  color: blue;
+  text-decoration: underline;
 }
-.timeslot{
-    margin-left: 100px;
-    margin-top: -20px;
+
+.PClogo {
+  max-width: 100%; /* Ensure the image scales within its container */
+  height: 80%; /* Maintain the aspect ratio */
+  display: block; /* Center the image as a block element */
+  margin: 0; /* Remove any margins around the image */
 }
-@media screen and (min-width: 1559) {
-    .homepage{
-     
-        
-    }
-    }
-    

@@ -2,54 +2,60 @@ body, button, fieldset, ul {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-   }
-   
-   body {
+}
+
+body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
-    background-color: #f7f7f7;
-   }
-   
-   .container {
+    background-color: white; /* Background color set to white */
+    color: black; /* Text color set to black */
+}
+
+.container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 2rem;
-   }
-   
-   .fieldset {
+}
+
+.fieldset {
     border-width: 2px;
     padding: 1.5rem;
-    background-color: #fff;
-   }
-   
-   .fieldset legend {
+    background-color: white; /* Background color set to white */
+    color: black; /* Text color set to black */
+}
+
+.fieldset legend {
     padding: 0 1rem;
-    background-color: #f1f1f1;
+    background-color: #f1f1f1; /* Neutral light gray for contrast */
+    color: black; /* Text color set to black */
     font-weight: bold;
     font-size: 1.25rem;
-   }
-   
-   .fieldset ul {
+}
+
+.fieldset ul {
     padding: 1rem 2rem;
     list-style-type: none;
-   }
-   
-   .fieldset li {
+}
+
+.fieldset li {
     padding: 0.5rem 0;
     font-size: 1rem;
-   }
-   
-   /* button {
-    background-color: #e8e8e8;
-    color: #444;
+    color: black; /* Text color set to black */
+}
+
+/* Button styling updated */
+button {
+    background-color: black; /* Button background color set to black */
+    color: white; /* Button text color set to white for contrast */
     font-size: 1rem;
     font-weight: bold;
     text-align: center;
     border-radius: 0.25rem;
     cursor: pointer;
     transition: background-color 0.2s ease-in-out;
-   } */
-   
-   /* button:hover {
-    background-color: #d6d6d6;
-   } */
+}
+
+button:hover {
+    background-color: #444; /* Darker hover effect */
+    color: white; /* Text remains white */
+}

@@ -1,22 +1,10 @@
 import React from "react";
 import { Fieldset } from "primereact/fieldset";
-import "./dutt.css";
+import "./Rules.css";
 
 export default function ToggleableDemo() {
   return (
     <div className="section blackbg">
-      <div className="imgsec relative h-96 overflow-auto">
-        <div
-          className="bg-cover bg-center h-full transition-transform duration-300 transform-gpu hover:scale-105 focus:scale-105 active:scale-105 grayscale-50 hover:filter-none focus:filter-none active:filter-none"
-          style={{
-            backgroundImage: `url("./Rlpage.jpg")`,
-            backgroundSize: "cover", // Ensure the background image covers the entire container
-            borderRadius: "28px",
-          }}
-          tabIndex="0" // This makes the div focusable
-        ></div>
-      </div>
-
       <div className="card">
         <Fieldset
           legend={
