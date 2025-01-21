@@ -1,6 +1,6 @@
 import React from 'react';
 import "./Home.css";
-import logoHome from './images/trialCopy.svg'; // Corrected path
+import logoHome from './images/Homepage.png'; // Corrected path
 
 function Home() {
   return (
