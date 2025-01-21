@@ -1,160 +1,91 @@
-// Teams.js
 import React, { useState } from 'react';
-import "./Team.css"
+import 'tailwindcss/tailwind.css';
+import { IoIosArrowBack } from 'react-icons/io';
+import teamsData from "./Data/Team.json"
 
 
-const Teams = () => {
-  const teamsData = [
-  
-    {
-      "teamName": "Brampton Panthers",
-      "players": [
-        {
-          "firstName": "Paras",
-          "lastName": "Patel",
-          "profilePhoto": "https://drive.google.com/uc?id=1unfiXOGaVmgL0aE_RBHmZunT2w7tBdI7",
-          "skill": "Bowling",
-          "id": "1CH9oG51LvDGBg9FSspi2eiAkqhsXap2g"
-        },
-        {
-          "firstName": "Jalat",
-          "lastName": "Patel",
-          "profilePhoto": "https://drive.google.com/uc?id=1CH9oG51LvDGBg9FSspi2eiAkqhsXap2g",
-          "skill": "Both",
-          "id": "1CH9oG51LvDGBg9FSspi2eiAkqhsXap2g"
-        }
-      ]
-    },
-
-    {
-      "teamName": "Brampton Lions",
-      "players": [
-        
-        {
-          "firstName": "Jagdish",
-          "lastName": "Patel",
-          "profilePhoto": "https://drive.google.com/uc?id=1Vt1NMFhPCRjXnVJTH838rDh1eQRY1r0c",
-          "skill": "Both",
-          "id": "1Vt1NMFhPCRjXnVJTH838rDh1eQRY1r0c"
-        },
-        {
-          "firstName": "Samarth",
-          "lastName": "Patel",
-          "profilePhoto": "https://drive.google.com/uc?id=1-fIjCaQNRDF65PIlg2TcPCe-sz1vx_Qf",
-          "skill": "Both",
-          "id": "1-fIjCaQNRDF65PIlg2TcPCe-sz1vx_Qf"
-        },
-        {
-          "firstName": "Kaushal",
-          "lastName": "Barot",
-          "profilePhoto": "https://drive.google.com/uc?id=1qw7hdUy7gtoY0jjrghSqqhRoL5uQW5mP",
-          "skill": "Both",
-          "id": "1qw7hdUy7gtoY0jjrghSqqhRoL5uQW5mP"
-        }
-      ]
-    },
-    {
-      "teamName": "Royal Challengers Brampton",
-      "players": [
-        {
-          "firstName": "Kaushal",
-          "lastName": "Soni",
-          "profilePhoto": "https://drive.google.com/uc?id=1OUBFJtHIRl_8nR9st_bRsbA15eEEBebC",
-          "skill": "Batting",
-          "id": "1OUBFJtHIRl_8nR9st_bRsbA15eEEBebC"
-        },
-        {
-          "firstName": "Het",
-          "lastName": "Dave",
-          "profilePhoto": "https://cdn.pixabay.com/photo/2016/08/08/09/17/avatar-1577909_640.png",
-          "skill": "Both",
-          "id": "1HEZgctXVeO8sP55yT1VZnRIYPRE6sDO4"
-        }
-      ]
-    } 
-   
-
-  
-  ];
-  
-
-  const Team = ({ teamName, onSelect }) => {
-    return (
-      <div className="card-container" onClick={() => onSelect(teamName)}>
-        <div className="card">
-          <span></span>
-          <div className="content">
-            {/* Card content can be left empty or styled differently */}
-          </div>
-        </div>
-        <h3 className="team-name">{teamName}</h3>
-      </div>
-    );
-  };
-  
-  
-
-const TeamList = ({ onSelectTeam }) => (
-  <div>
-    <h1>.</h1>
-    {teamsData.map((team, index) => (
-      <Team key={index} teamName={team.teamName} onSelect={onSelectTeam} />
-    ))}
-  </div>
-);
- 
-const TeamDetail = ({ selectedTeam, onGoBack }) => {
-  const team = teamsData.find((t) => t.teamName === selectedTeam);
-
-  return (
-    <div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4">
-        {team.players.map((player, index) => (
-          <div key={index} className="border-custom p-4 m-24 shadow-lg">
-            <div className="mt-2 imgtm-container">
-              <img src={player.profilePhoto} alt="Profile" className="w-full h-auto imgtm" />
-              <div className={`imgtm-text ${player.skill ? player.skill.toLowerCase() : 'na'}`}>
-                {player.skill === 'Both' ? 'Bat/Bowl' :
-                  player.skill === 'Batting' ? 'Batsman' :
-                    player.skill === 'Bowling' ? 'Bowler' : 'NA'}
-              </div>
-            </div>
-            <div className="flex items-center justify-center mt-2">
-              <strong>{player.firstName} {player.lastName}</strong>
-            </div>
-          </div>
-        ))}
-      </div>
-      <button onClick={onGoBack} className="mt-4 bg-blue-500 text-white px-4 py-2 rounded">Go Back</button>
-    </div>
-  );
-};
-
+export default function Teams() {
   const [selectedTeam, setSelectedTeam] = useState(null);
 
-  const onSelectTeam = (teamName) => {
-    setSelectedTeam(teamName);
-  };
-
-  const onGoBack = () => {
-    setSelectedTeam(null);
+  const renderStars = (rating) => {
+    return Array.from({ length: 5 }, (_, index) => (
+      <span key={index} className={index < rating ? "text-yellow-500" : "text-gray-300"}>
+        ★
+      </span>
+    ));
   };
 
   return (
-    <div className="teams-container">
-      {selectedTeam ? (
-        <TeamDetail selectedTeam={selectedTeam} onGoBack={onGoBack} />
+    <div key={selectedTeam ? selectedTeam.teamName : "team-list"} className="p-6 bg-gray-100 min-h-screen">
+      {!selectedTeam ? (
+        <div>
+          <h1 className="text-3xl font-bold text-center mb-6">Teams</h1>
+          <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">
+            {teamsData.map((team, index) => (
+              <div
+                key={index}
+                className="w-36 h-48 bg-white rounded-lg shadow-lg cursor-pointer transform hover:scale-105 transition-transform mx-auto 
+                          sm:w-40 sm:h-52 lg:w-48 lg:h-60 
+                          [@media(max-width:350px)]:w-28 [@media(max-width:350px)]:h-36"
+                onClick={() => setSelectedTeam(team)}
+              >
+                <div className="h-2/3 bg-blue-200 rounded-t-lg flex items-center justify-center">
+                  <img
+                    src={team.teamImage}
+                    alt={team.teamName}
+                    className="w-14 h-14 rounded-full"
+                  />
+                </div>
+                <div className="h-1/3 p-1 flex items-center justify-center">
+                  <h2 className="text-xs font-semibold text-center">{team.teamName}</h2>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
       ) : (
-        <div className="team-container">
-        <TeamList onSelectTeam={onSelectTeam} />
+        <div>
+          <div className="flex items-center mb-4">
+            <button
+              className="text-black mr-2"
+              onClick={() => setSelectedTeam(null)}
+            >
+              <IoIosArrowBack size={24} />
+            </button>
+            <h2 className="text-2xl font-bold">{selectedTeam.teamName} Players</h2>
+          </div>
+          <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">
+            {selectedTeam.players.map(player => (
+              <div
+                key={player.id}
+                className="w-36 h-48 bg-white rounded-lg shadow-lg mx-auto 
+                           sm:w-40 sm:h-52 lg:w-48 lg:h-60 
+                           [@media(max-width:350px)]:w-28 [@media(max-width:350px)]:h-36"
+              >
+                <div className="h-2/3 bg-gray-200 rounded-t-lg flex items-center justify-center">
+                  <img
+                    src={player.profilePhoto}
+                    alt={`${player.firstName} ${player.lastName}`}
+                    className="w-14 h-14 rounded-full"
+                  />
+                </div>
+                <div className="h-1/3 p-1">
+                  <h3 className="text-xs sm:text-sm lg:text-base [@media(max-width:350px)]:text-[10px] font-semibold text-center">
+                    {`${player.firstName} ${player.lastName}`}
+                  </h3>
+                  <p className="text-xs sm:text-sm lg:text-base [@media(max-width:350px)]:text-[9px] text-center">
+                    Batting: {renderStars(player.battingSkill)}
+                  </p>
+                  <p className="text-xs sm:text-sm lg:text-base [@media(max-width:350px)]:text-[9px] text-center">
+                    Bowling: {renderStars(player.bowlingSkill)}
+                  </p>
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
       )}
-      </div>
-  
-  
-    
-
+    </div>
   );
   
-};
-export default Teams;
+}

@@ -1,0 +1,99 @@
+[
+    {
+      "teamName": "Team 1",
+      "teamImage": "https://tse2.mm.bing.net/th?id=OIP.oUaJfBnFYgzEcJUxfiSZZQHaJg&pid=Api&P=0&h=180",
+      "players": [
+        {
+          "firstName": "FirstName",
+          "lastName": "LastName",
+          "profilePhoto": "https://tse2.mm.bing.net/th?id=OIP.oUaJfBnFYgzEcJUxfiSZZQHaJg&pid=Api&P=0&h=180",
+          "battingSkill": 5,
+          "bowlingSkill": 5,
+          "id": "1CH9oG51LvDGBg9FSspi2eiAkqhsXap2g"
+        },
+        {
+          "firstName": "Jalat",
+          "lastName": "Patel",
+          "profilePhoto": "https://source.unsplash.com/random/100x100/?person",
+          "battingSkill": 2,
+          "bowlingSkill": 5,
+          "id": "1CH9oG51LvDGBg9FSspi2eiAkqhsXap2g"
+        }
+      ]
+    },
+    {
+      "teamName": "Brampton Lions",
+      "teamImage": "https://source.unsplash.com/random/150x150/?team",
+      "players": [
+        {
+          "firstName": "Jagdish",
+          "lastName": "Patel",
+          "profilePhoto": "https://source.unsplash.com/random/100x100/?person",
+          "battingSkill": 4,
+          "bowlingSkill": 3,
+          "id": "1Vt1NMFhPCRjXnVJTH838rDh1eQRY1r0c"
+        },
+        {
+          "firstName": "Samarth",
+          "lastName": "Patel",
+          "profilePhoto": "https://source.unsplash.com/random/100x100/?person",
+          "battingSkill": 5,
+          "bowlingSkill": 2,
+          "id": "1-fIjCaQNRDF65PIlg2TcPCe-sz1vx_Qf"
+        },
+        {
+          "firstName": "Kaushal",
+          "lastName": "Barot",
+          "profilePhoto": "https://source.unsplash.com/random/100x100/?person",
+          "battingSkill": 3,
+          "bowlingSkill": 3,
+          "id": "1qw7hdUy7gtoY0jjrghSqqhRoL5uQW5mP"
+        }
+      ]
+    },
+    {
+      "teamName": "Royal Challengers Brampton",
+      "teamImage": "https://source.unsplash.com/random/150x150/?team",
+      "players": [
+        {
+          "firstName": "Kaushal",
+          "lastName": "Soni",
+          "profilePhoto": "https://source.unsplash.com/random/100x100/?person",
+          "battingSkill": 4,
+          "bowlingSkill": 1,
+          "id": "1OUBFJtHIRl_8nR9st_bRsbA15eEEBebC"
+        },
+        {
+          "firstName": "Het",
+          "lastName": "Dave",
+          "profilePhoto": "https://source.unsplash.com/random/100x100/?person",
+          "battingSkill": 3,
+          "bowlingSkill": 4,
+          "id": "1HEZgctXVeO8sP55yT1VZnRIYPRE6sDO4"
+        }
+      ]
+    },
+    {
+      "teamName": "Toronto Tigers",
+      "teamImage": "https://source.unsplash.com/random/150x150/?team",
+      "players": [
+        {
+          "firstName": "Rohan",
+          "lastName": "Sharma",
+          "profilePhoto": "https://source.unsplash.com/random/100x100/?person",
+          "battingSkill": 5,
+          "bowlingSkill": 5,
+          "id": "2SH4oG51LvDGBg9FSspi2eiAkqhsXap2g"
+        },
+        {
+          "firstName": "Aryan",
+          "lastName": "Mehta",
+          "profilePhoto": "https://source.unsplash.com/random/100x100/?person",
+          "battingSkill": 2,
+          "bowlingSkill": 3,
+          "id": "2HEZgctXVeO8sP55yT1VZnRIYPRE6sDO4"
+        }
+      ]
+    }
+  ]
+  

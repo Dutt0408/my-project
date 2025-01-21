@@ -1,21 +1,22 @@
 import React from 'react';
-import "./Home.css";
-import logoHome from './images/Homepage.png'; // Corrected path
+import './Home.css';
+import logoHome from './images/Homepage.png';
+import bapsCh from './images/bapsCh.svg';
 
 function Home() {
+  console.log('Home component loaded');
+
   return (
     <div className="homepage">
-      {/* Replaced logo with the imported SVG */}
-      <img className="PClogo" src={logoHome} alt="BAPS Charities Logo"/>
+      <img className="PClogo" src={logoHome} alt="BAPS Charities Logo" />
 
       <h1 className="Oiscthead htexts">
-        Welcome to the annual
-        <strong> BAPS Charities Pramukh Cup 2025 Cricket Tournament </strong>
+        Welcome to the annual <strong>BAPS Charities Pramukh Cup 2025 Cricket Tournament</strong>
       </h1>
 
       <div>
         <p className="htexts">
-          The tournament will be held on: <strong> February 14th to 17th. </strong>
+          The tournament will be held on: <strong>February 14th to 17th.</strong>
         </p>
         <p className="htexts">
           <strong>Venue:</strong> BAPS Swaminarayan Complex, 61 Claireville Dr., Toronto
@@ -23,7 +24,7 @@ function Home() {
       </div>
 
       <div className="paragraph">
-        This tournament strives to engage youth in a spirit of equity, diversity and inclusion while promoting an active lifestyle. It also brings the volunteers together for their selfless service to the community.
+        This tournament strives to engage youth in a spirit of equity, diversity, and inclusion while promoting an active lifestyle. It also brings volunteers together for their selfless service to the community.
       </div>
 
       <div className="paragraph">
@@ -31,11 +32,13 @@ function Home() {
       </div>
 
       <div className="paragraph">
-        Throughout the year, BAPS Charities in Canada hosts health fairs, walkathons, health education seminars, disaster relief operations, blood donation drives, and much more. For additional information on BAPS Charities, please visit
+        Throughout the year, BAPS Charities in Canada hosts health fairs, walkathons, health education seminars, disaster relief operations, blood donation drives, and much more. For additional information on BAPS Charities, please visit{' '}
         <a href="https://www.bapscharities.org/canada/" target="_blank" rel="noopener noreferrer">
-          www.bapscharities.org/canada/.
-        </a>
+          www.bapscharities.org/canada/
+        </a>.
       </div>
+
+      <img className="bapsCh" src={bapsCh} alt="BAPS Charities" />
     </div>
   );
 }
