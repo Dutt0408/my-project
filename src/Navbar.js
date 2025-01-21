@@ -94,7 +94,7 @@ export default function Navbar() {
                   href={item.href}
                   className={classNames(
                     location.pathname === item.href
-                      ? "bg-gray-900 text-white"
+                      ? "bg-blue-900 text-white"
                       : "text-black hover:bg-gray-200 hover:text-black",
                     "block rounded-md px-3 py-2 text-lg font-normal"
                   )}

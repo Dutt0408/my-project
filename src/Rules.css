@@ -56,6 +56,6 @@ button {
 }
 
 button:hover {
-    background-color: #444; /* Darker hover effect */
+    /* Darker hover effect */
     color: white; /* Text remains white */
 }
