@@ -1,7 +1,7 @@
 import React from 'react';
 import './Home.css';
 import logoHome from './images/Homepage.png';
-import bapsCh from './images/bapsCh.svg';
+import BAPScharities from './images/Sponsors/BAPSCharities.png';
 
 function Home() {
   console.log('Home component loaded');
@@ -38,7 +38,7 @@ function Home() {
         </a>.
       </div>
 
-      <img className="bapsCh" src={bapsCh} alt="BAPS Charities" />
+      <img className="bapsCh" src={BAPScharities} alt="BAPS Charities" />
     </div>
   );
 }

@@ -2,6 +2,6 @@ import React from 'react'
 
 export default function Schedule() {
   return (
-    <div> Under Dev  </div>
+    <div> Under Dev .. </div>
   )
 }
