@@ -1,9 +1,7 @@
 import React from 'react'
 
-function live() {
+export default function Sponsors() {
   return (
-    <div className='text-white text-3xl'> E.Kings Won the Final Tournament</div>
+    <div>Under Dev...</div>
   )
 }
-
-export default live
