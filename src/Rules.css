@@ -1,3 +1,4 @@
+/* Reset and Base Styling */
 body, button, fieldset, ul {
     margin: 0;
     padding: 0;
@@ -7,8 +8,8 @@ body, button, fieldset, ul {
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
-    background-color: white; /* Background color set to white */
-    color: black; /* Text color set to black */
+    background-color: #f8f9fa; /* Light gray background for contrast */
+    color: #01366c; /* Dark gray text */
 }
 
 .container {
@@ -17,45 +18,49 @@ body {
     padding: 2rem;
 }
 
+/* Fieldset Styling */
 .fieldset {
-    border-width: 2px;
+    border: 2px solid #6c757d; /* Neutral gray border */
+    border-radius: 0.5rem;
     padding: 1.5rem;
-    background-color: white; /* Background color set to white */
-    color: black; /* Text color set to black */
+    background-color: #ffffff; /* White background */
+    color: #01366c; /* Dark gray text */
 }
 
 .fieldset legend {
-    padding: 0 1rem;
-    background-color: #f1f1f1; /* Neutral light gray for contrast */
-    color: black; /* Text color set to black */
+    padding: 0.5rem 1rem;
+    background-color: #343a40; /* Dark gray for better contrast */
+    color: #01366c; /* White text */
     font-weight: bold;
     font-size: 1.25rem;
+    border-radius: 0.25rem;
 }
 
 .fieldset ul {
     padding: 1rem 2rem;
-    list-style-type: none;
+    list-style-type: disc;
+    color: #01366c; /* Medium gray for text */
 }
 
 .fieldset li {
-    padding: 0.5rem 0;
+    margin-bottom: 0.75rem;
     font-size: 1rem;
-    color: black; /* Text color set to black */
 }
 
-/* Button styling updated */
+/* Button Styling */
 button {
-    background-color: black; /* Button background color set to black */
-    color: white; /* Button text color set to white for contrast */
+    background-color: #343a40; /* Dark gray background */
+    color: #01366c; /* White text */
+    padding: 0.5rem 1rem;
     font-size: 1rem;
     font-weight: bold;
-    text-align: center;
     border-radius: 0.25rem;
+    border: none;
     cursor: pointer;
-    transition: background-color 0.2s ease-in-out;
+    transition: background-color 0.3s ease;
 }
 
 button:hover {
-    /* Darker hover effect */
-    color: white; /* Text remains white */
+    background-color: #495057; /* Slightly lighter gray for hover */
+    color: #023867; /* Maintain white text */
 }

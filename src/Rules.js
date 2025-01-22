@@ -1,19 +1,32 @@
 import React from "react";
 import { Fieldset } from "primereact/fieldset";
 import "./Rules.css";
+import Titleimage from './images/Titleimage.png';
 
 export default function ToggleableDemo() {
   return (
     <div className="section blackbg">
       <div className="card">
+        {/* Image section */}
+        <div className="relative flex justify-center items-center m-0 p-0">
+          <img src={Titleimage} alt="Title" className="w-full h-auto object-cover" />
+          
+          {/* Title with underline, centered on the image */}
+          <div className="absolute flex justify-center items-center top-0 left-0 right-0 bottom-0">
+            <h2 className="text-5xl font-bold text-[#023867] underline" style={{ textDecorationColor: "#e53e50" }}>
+              RULES
+            </h2>
+          </div>
+        </div>
+
+        {/* Fieldset for Code of Conduct */}
         <Fieldset
           legend={
             <span className="font-semibold">
               <button
-                className="button border border-gray-400 p-4 rounded bg-gray-100 text-gray-700"
+                className="button border border-gray-400 p-4 rounded bg-gray-300 text-gray-700"
                 style={{ width: "180px" }}
               >
-                {" "}
                 Code of Conduct
               </button>
             </span>
@@ -22,120 +35,45 @@ export default function ToggleableDemo() {
           className="mt-9 border border-gray-400 p-4 rounded"
         >
           <ul className="main text-gray-700 list-disc m-0 mb-4 ml-4 sm:ml-8 space-y-4">
-            <li>
-              No player shall abuse the cricket equipment, playing area or
-              fixtures.
-            </li>
-            <li>
-              Showing dissent at an umpire’s decision by action or verbal abuse
-              is prohibited. Umpire’s decision is final.
-            </li>
-            <li>
-              Only Captains are to come up to the umpires to report any concerns
-              during the match.
-            </li>
-            <li>
-              {" "}
-              If umpires are unable to make a decision, then they may consult
-              the committee members. Final decision shall be respected by both
-              captains.
-            </li>
-            <li>
-              No player shall use language that is obscene, offensive and/or an
-              action which is of an obscene nature toward the umpire or the
-              opponent.
-            </li>
+            <li>No player shall abuse the cricket equipment, playing area or fixtures.</li>
+            <li>Showing dissent at an umpire’s decision by action or verbal abuse is prohibited. Umpire’s decision is final.</li>
+            <li>Only Captains are to come up to the umpires to report any concerns during the match.</li>
+            <li>If umpires are unable to make a decision, then they may consult the committee members. Final decision shall be respected by both captains.</li>
+            <li>No player shall use language that is obscene, offensive and/or an action which is of an obscene nature toward the umpire or the opponent.</li>
             <li>Repeated excessive appealing is not allowed.</li>
-            <li>
-              {" "}
-              Inappropriate and deliberate physical contact towards the umpire
-              or the opponent will result in that player being dismissed from
-              the match with immediate effect.
-            </li>
-            <li>
-              Repeat of above behavior may result in that player being taken out
-              of the tournament in its entirety.
-            </li>
-            <li>
-              When the main umpire or leg umpire's decision is questionable, the
-              captain can take the review (no limits). The process to follow is
-              this:
+            <li>Inappropriate and deliberate physical contact towards the umpire or the opponent will result in that player being dismissed from the match with immediate effect.</li>
+            <li>Repeat of above behavior may result in that player being taken out of the tournament in its entirety.</li>
+            <li>When the main umpire or leg umpire's decision is questionable, the captain can take the review (no limits). The process to follow is this:
               <ol className="main text-gray-700 list-disc m-0 mb-4 ml-4 sm:ml-8 space-y-4">
-                <li>
-                  Only the captain is allowed to discuss the matter with the
-                  umpire. Any player should not talk with the umpire directly to
-                  question a decision but should bring it up to their captain.
-                  The captain should politely ask the umpire to reconsider the
-                  decision with the reason.
-                </li>
-                <li>
-                  The umpire, should they choose to, can ask the other umpire
-                  and match referees for additional insight. Other umpires and
-                  referees WILL NOT interact with the decision-making umpire
-                  even if they know the decision is wrong UNLESS they are asked
-                  by the decision-making umpire. This is to hold the
-                  decision-making umpire as the main decision-maker. Referees
-                  and other umpires are just additional feedback if they are
-                  asked for assistance.
-                </li>
-                <li>
-                  The captain or players cannot approach other umpires or
-                  referees or scores or the audience. Scorers will not be
-                  providing any opinions and will focus on scoring.
-                </li>
-                <li>
-                  Avoid group discussions to avoid creating unnecessary scenes.
-                  Captain should solely discuss the matter with decision making
-                  umpire. Other players should not be participating or listening
-                  as It's not a group discussion along with players.
-                  <br></br>
-                  <strong>Note:</strong> Understand that wrong decisions will be
-                  made that could change the outcome. Respect wrong decisions
-                  without getting upset because umpiring is a challenging thing
-                  to do and we are playing to increase unity. Wrong decisions
-                  are made frequently even by professional umpires at an
-                  international level.
+                <li>Only the captain is allowed to discuss the matter with the umpire. Any player should not talk with the umpire directly to question a decision but should bring it up to their captain. The captain should politely ask the umpire to reconsider the decision with the reason.</li>
+                <li>The umpire, should they choose to, can ask the other umpire and match referees for additional insight. Other umpires and referees WILL NOT interact with the decision-making umpire even if they know the decision is wrong UNLESS they are asked by the decision-making umpire. This is to hold the decision-making umpire as the main decision-maker. Referees and other umpires are just additional feedback if they are asked for assistance.</li>
+                <li>The captain or players cannot approach other umpires or referees or scores or the audience. Scorers will not be providing any opinions and will focus on scoring.</li>
+                <li>Avoid group discussions to avoid creating unnecessary scenes. Captain should solely discuss the matter with decision making umpire. Other players should not be participating or listening as It's not a group discussion along with players.
+                  <br></br><strong>Note:</strong> Understand that wrong decisions will be made that could change the outcome. Respect wrong decisions without getting upset because umpiring is a challenging thing to do and we are playing to increase unity. Wrong decisions are made frequently even by professional umpires at an international level.
                 </li>
               </ol>
             </li>
-            <li>
-              Any deviation in the above process or poor sportsman shown by
-              anyone is considered an offense that will result in the following:
+            <li>Any deviation in the above process or poor sportsmanship shown by anyone is considered an offense that will result in the following:
               <ol className="main text-gray-700 list-disc m-0 mb-4 ml-4 sm:ml-8 space-y-4">
                 <li>1st offence: Warning and no penalty</li>
                 <li>2nd offence: 5 runs deducted when batting.</li>
-                <li>
-                  3rd offence: 10 runs deducted when batting.
-                  <br></br>
-                  <strong>Note:</strong> 1st, 2nd & 3rd Offences will be applied
-                  per game and doesn’t carry over to next game. Meaning if a
-                  team has two offences in 1st game & get 5 runs deducted and if
-                  they get one offence in next game, the counter will start
-                  again with “Warning-no penalty”.
+                <li>3rd offence: 10 runs deducted when batting.
+                  <br></br><strong>Note:</strong> 1st, 2nd & 3rd Offences will be applied per game and doesn’t carry over to next game. Meaning if a team has two offences in 1st game & get 5 runs deducted and if they get one offence in next game, the counter will start again with “Warning-no penalty”.
                 </li>
                 <li>4th offence: Disqualification (see Rule 11)</li>
               </ol>
             </li>
-            <li>
-              Offence Disqualification: If any team has, cumulatively throughout
-              their games, accumulated 4 offences, the team will be disqualified
-              of their next match/tournament, irrespective of whether it is an
-              elimination game.
-              <br></br>
-              <strong>Note:</strong> These 4 offences will be monitored
-              cumulatively. Meaning if a team gets 1 offence in 1st Game and 2nd
-              offence in 2nd game and 3rd offence in 3rd game, they will not
-              have any runs deducted in those individual games. But the offence
-              counter is adding those offences and with the 4th Offence in any
-              game up to Final, they will get disqualified.
+            <li>Offence Disqualification: If any team has, cumulatively throughout their games, accumulated 4 offences, the team will be disqualified from their next match/tournament, irrespective of whether it is an elimination game.
+              <br></br><strong>Note:</strong> These 4 offences will be monitored cumulatively. Meaning if a team gets 1 offence in 1st Game and 2nd offence in 2nd game and 3rd offence in 3rd game, they will not have any runs deducted in those individual games. But the offence counter is adding those offences and with the 4th Offence in any game up to Final, they will get disqualified.
             </li>
           </ul>
         </Fieldset>
+
         <Fieldset
           legend={
             <span className="font-semibold">
               <button
-                className="button border border-gray-400 p-4 rounded bg-gray-100 text-gray-700"
+                className="button border border-gray-400 p-4 rounded bg-gray-300 text-gray-700"
                 style={{ width: "180px" }}
               >
                 {" "}
@@ -181,7 +119,7 @@ export default function ToggleableDemo() {
           legend={
             <span className="font-semibold">
               <button
-                className="button border border-gray-400 p-4 rounded bg-gray-100 text-gray-700"
+                className="button border border-gray-400 p-4 rounded bg-gray-300 text-gray-700"
                 style={{ width: "180px" }}
               >
                 {" "}
@@ -249,7 +187,7 @@ export default function ToggleableDemo() {
           legend={
             <span className="font-semibold">
               <button
-                className="button border border-gray-400 p-4 rounded bg-gray-100 text-gray-700"
+                className="button border border-gray-400 p-4 rounded bg-gray-300 text-gray-700"
                 style={{ width: "180px" }}
               >
                 {" "}
@@ -290,7 +228,7 @@ export default function ToggleableDemo() {
           legend={
             <span className="font-semibold">
               <button
-                className="button border border-gray-400 p-4 rounded bg-gray-100 text-gray-700"
+                className="button border border-gray-400 p-4 rounded bg-gray-300 text-gray-700"
                 style={{ width: "180px" }}
               >
                 {" "}
@@ -329,7 +267,7 @@ export default function ToggleableDemo() {
           legend={
             <span className="font-semibold">
               <button
-                className="button border border-gray-400 p-4 rounded bg-gray-100 text-gray-700"
+                className="button border border-gray-400 p-4 rounded bg-gray-300 text-gray-700"
                 style={{ width: "180px" }}
               >
                 {" "}

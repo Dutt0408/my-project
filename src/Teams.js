@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import 'tailwindcss/tailwind.css';
 import { IoIosArrowBack } from 'react-icons/io';
-import teamsData from "./Data/Team.json"
-
+import teamsData from "./Data/Team.json";
+import Titleimage from './images/Titleimage.png';
 
 export default function Teams() {
   const [selectedTeam, setSelectedTeam] = useState(null);
@@ -16,16 +16,25 @@ export default function Teams() {
   };
 
   return (
-    <div key={selectedTeam ? selectedTeam.teamName : "team-list"} className="p-6 bg-gray-100 min-h-screen">
+    <div className="relative m-0 p-0">
+      <div className="relative w-full">
+        <img src={Titleimage} alt="Title" className="w-full h-auto object-cover" />
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#023867] underline" style={{ textDecorationColor: "#e53e50" }}>
+            TEAMS
+          </h2>
+        </div>
+      </div>
+
+      {/* Teams Listing */}
       {!selectedTeam ? (
-        <div>
-          <h1 className="text-3xl font-bold text-center mb-6">Teams</h1>
+        <div className="mt-12">
           <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4">
             {teamsData.map((team, index) => (
               <div
                 key={index}
-                className="w-36 h-48 bg-white rounded-lg shadow-lg cursor-pointer transform hover:scale-105 transition-transform mx-auto 
-                          sm:w-40 sm:h-52 lg:w-48 lg:h-60 
+                className="w-36 h-48 bg-white rounded-lg shadow-lg cursor-pointer transform hover:scale-105 transition-transform mx-auto
+                          sm:w-40 sm:h-52 lg:w-48 lg:h-60
                           [@media(max-width:350px)]:w-28 [@media(max-width:350px)]:h-36"
                 onClick={() => setSelectedTeam(team)}
               >
@@ -87,5 +96,4 @@ export default function Teams() {
       )}
     </div>
   );
-  
 }

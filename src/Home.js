@@ -1,11 +1,24 @@
 import React from 'react';
-import logoHome from './images/Homepage.png';
+import HomepageMobile from './images/HomepageMobile.png';
+import HomepageDesktop from './images/HomepageDesktop.png';
 import BAPScharities from './images/Sponsors/BAPSCharities.png';
 
 function Home() {
   return (
-    <div className="bg-gray-100 min-h-screen flex flex-col items-center justify-center p-4">
-      <img className="max-w-full h-auto mb-6" src={logoHome} alt="BAPS Charities Logo" />
+    <div className="bg-gray-100 min-h-screen flex flex-col items-center justify-center">
+      {/* Mobile view */}
+      <img
+        className="w-full h-auto object-cover mb-6 md:hidden"
+        src={HomepageMobile}
+        alt="Homepage Mobile"
+      />
+
+      {/* Desktop view */}
+      <img
+        className="w-full h-auto object-cover mb-6 hidden md:block"
+        src={HomepageDesktop}
+        alt="Homepage Desktop"
+      />
 
       <h1 className="text-red-600 text-xl md:text-2xl font-bold mb-4 text-center">
         Welcome to the annual <strong>BAPS Charities Pramukh Cup 2025 Cricket Tournament</strong>
@@ -40,7 +53,11 @@ function Home() {
         </a>.
       </div>
 
-      <img className="max-w-xs md:max-w-sm h-auto mt-8" src={BAPScharities} alt="BAPS Charities" />
+      <img
+        className="max-w-xs md:max-w-sm h-auto mt-8"
+        src={BAPScharities}
+        alt="BAPS Charities"
+      />
     </div>
   );
 }

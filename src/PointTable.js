@@ -1,6 +1,8 @@
 import React from "react";
 import "./index.css";
-import "./Table.css"
+import "./Table.css";
+import Titleimage from './images/Titleimage.png';
+
 const GPoint = () => (
   <svg
     className="w-4 fill-current text-green-600 ml-1"
@@ -78,7 +80,6 @@ const generatePoints = (score, isLast3 = false) => {
   return null;
 };
 
-
 const TeamRow = ({
   rank,
   logo,
@@ -91,30 +92,24 @@ const TeamRow = ({
   last3,
 }) => (
   <tr className="team-row">
-  <td className="team-cell">
-    <img className="team-logo" src={logo} alt="" />
-    <span className="font-medium teamrow overflow-hidden max-h-16 team-name">
-      {teamName}
-    </span>
-  </td>
-  <td className="team-cell py-5 text-center">{match}</td>
-  <td className="team-cell py-3 text-center">{won}</td>
-  <td className="team-cell py-3 text-center">{lost}</td>
-  <td className="team-cell py-3 text-center">{pts}</td>
-  <td className="team-cell py-3 text-center">{NRR}</td>
- 
-  <td className="team-cell py-3 text-center">
-    {generatePoints(last3, true)}
-  </td>
-</tr>
+    <td className="team-cell">
+      <img className="team-logo" src={logo} alt="" />
+      <span className="font-medium teamrow overflow-hidden max-h-16 team-name">
+        {teamName}
+      </span>
+    </td>
+    <td className="team-cell py-5 text-center">{match}</td>
+    <td className="team-cell py-3 text-center">{won}</td>
+    <td className="team-cell py-3 text-center">{lost}</td>
+    <td className="team-cell py-3 text-center">{pts}</td>
+    <td className="team-cell py-3 text-center">{NRR}</td>
+    <td className="team-cell py-3 text-center">{generatePoints(last3, true)}</td>
+  </tr>
 );
-
-
 
 export default function Schedule() {
   const teams = [
     {
-      
       teamName: "E.Kings",
       match: 5,
       won: 5,
@@ -124,7 +119,6 @@ export default function Schedule() {
       last3: "GPoint,GPoint,GPoint",
     },
     {
-     
       teamName: "E.Eagles",
       match: 5,
       won: 4,
@@ -134,7 +128,6 @@ export default function Schedule() {
       last3: "GPoint,GPoint,GPoint",
     },
     {
-      
       teamName: "E.Titans",
       match: 5,
       won: 5,
@@ -144,7 +137,6 @@ export default function Schedule() {
       last3: "GPoint,GPoint,GPoint",
     },
     {
-   
       teamName: "E.Capitals",
       match: 3,
       won: 0,
@@ -154,7 +146,6 @@ export default function Schedule() {
       last3: "RPoint,RPoint,RPoint",
     },
     {
-   
       teamName: "B.Panthers",
       match: 3,
       won: 1,
@@ -164,7 +155,6 @@ export default function Schedule() {
       last3: "RPoint,GPoint,RPoint",
     },
     {
-      
       teamName: "B.Lions",
       match: 4,
       won: 2,
@@ -201,7 +191,6 @@ export default function Schedule() {
       last3: "RPoint,RPoint,RPoint",
     },
     {
-
       teamName: "S.Falcons",
       match: 5,
       won: 3,
@@ -211,8 +200,6 @@ export default function Schedule() {
       last3: "GPoint,GPoint,GPoint",
     },
     {
-
-
       teamName: "S.Spartans",
       match: 3,
       won: 0,
@@ -222,8 +209,6 @@ export default function Schedule() {
       last3: "RPoint,RPoint,RPoint",
     },
     {
-
-
       teamName: "S.Strikers",
       match: 3,
       won: 1,
@@ -233,8 +218,6 @@ export default function Schedule() {
       last3: "RPoint,RPoint,GPoint",
     },
     {
-
-
       teamName: "K.Titans",
       match: 4,
       won: 2,
@@ -244,8 +227,6 @@ export default function Schedule() {
       last3: "GPoint,GPoint,RPoint",
     },
     {
-
-
       teamName: "CSK",
       match: 4,
       won: 2,
@@ -255,8 +236,6 @@ export default function Schedule() {
       last3: "GPoint,GPoint,RPoint",
     },
     {
-
-
       teamName: "RCH",
       match: 3,
       won: 1,
@@ -266,8 +245,6 @@ export default function Schedule() {
       last3: "GPoint,RPoint,RPoint",
     },
     {
-
-
       teamName: "L.Strikers",
       match: 3,
       won: 1,
@@ -277,62 +254,50 @@ export default function Schedule() {
       last3: "RPoint,GPoint,RPoint",
     },
   ];
+
   const sortedTeams = [...teams].sort((a, b) => {
-    if (b.pts !== a.pts) {
-      return b.pts - a.pts;
-    }
-
-    
-    return b.NRR - a.NRR;
+    if (b.pts !== a.pts) return b.pts - a.pts;
+    if (b.NRR !== a.NRR) return b.NRR - a.NRR;
+    return 0;
   });
-  return (
-    <div className="flex flex-col items-center justify-center w-screen min-h-screen bg-gray-900 py-10">
-      <h1 className="text-lg text-gray-400 font-medium"> OISCT POINT TABLE 2023</h1>
-      <div className="mt-6">
-        <div className="shadow sm:rounded-lg lg:rounded-none overflow-x-auto">
-          <table className="w-full min-w-full text-sm text-gray-400">
-            <thead className="bg-gray-800 text-xs md:text-sm lg:text-base uppercase font-medium">
-              <tr className="teamrow">
-                <th scope="col" className=" py-3 text-left tracking-wider text-center ">
-                  Team
-                </th>
-                <th scope="col" className=" py-1 text-left tracking-wider text-center">
-                  Match
-                </th>
-                <th scope="col" className=" py-1 text-left tracking-wider text-center">
-                  Won
-                </th>
-                <th scope="col" className=" py-1 text-left tracking-wider text-center">
-                  Lost
-                </th>
-               
-                <th scope="col" className=" py-1 text-left tracking-wider text-center">
-                  Pts
-                </th>
-                <th scope="col" className=" py-1 text-left tracking-wider text-center">
-                  NRR
-                </th>
-                <th scope="col" className=" py-1 text-left tracking-wider text-center">
-                  Last 3
-                </th>
-              </tr>
-            </thead>
-            <tbody className="bg-gray-800">
-    {sortedTeams.map((team, index) => (
-      <React.Fragment key={index}>
-        <TeamRow {...team} />
-        {index === 7 && (
-  <tr className="border-t border-gray-600 ">
-    <td colSpan="7"></td>
-  </tr>
-)}
 
-      </React.Fragment>
-    ))}
-  </tbody>
-</table>
+  return (
+    <div className="container mx-auto p-0">
+      <div className="relative flex justify-center items-center">
+        <img
+          src={Titleimage}
+          alt="Title"
+          className="w-full h-auto object-cover"
+        />
+        {/* Title with underline, centered on the image */}
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-[#023867] underline" style={{ textDecorationColor: "#e53e50" }}>
+            POINTS TABLE
+          </h2>
         </div>
+      </div>
+  
+      {/* Scrollable table */}
+      <div className="overflow-x-auto mt-8">
+        <table className="team-table min-w-full">
+          <thead>
+            <tr className="font-bold">
+              <th>Team</th>
+              <th>Matches</th>
+              <th>Won</th>
+              <th>Lost</th>
+              <th>Points</th>
+              <th>NRR</th>
+              <th>Last 3</th>
+            </tr>
+          </thead>
+          <tbody>
+            {sortedTeams.map((team, index) => (
+              <TeamRow key={index} {...team} />
+            ))}
+          </tbody>
+        </table>
       </div>
     </div>
   );
-}
+}  
