@@ -61,6 +61,6 @@ button {
 }
 
 button:hover {
-    background-color: #495057; /* Slightly lighter gray for hover */
-    color: #023867; /* Maintain white text */
+    background-color: #0c3761; /* Slightly lighter gray for hover */
+    color: white; /* Maintain white text */
 }

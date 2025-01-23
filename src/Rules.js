@@ -34,7 +34,7 @@ export default function ToggleableDemo() {
           toggleable
           className="mt-9 border border-gray-400 p-4 rounded"
         >
-          <ul className="main text-gray-700 list-disc m-0 mb-4 ml-4 sm:ml-8 space-y-4">
+          <ol className="main text-gray-700 list-disc m-0 mb-4 ml-4 sm:ml-8 space-y-4">
             <li>No player shall abuse the cricket equipment, playing area or fixtures.</li>
             <li>Showing dissent at an umpire’s decision by action or verbal abuse is prohibited. Umpire’s decision is final.</li>
             <li>Only Captains are to come up to the umpires to report any concerns during the match.</li>
@@ -66,7 +66,7 @@ export default function ToggleableDemo() {
             <li>Offence Disqualification: If any team has, cumulatively throughout their games, accumulated 4 offences, the team will be disqualified from their next match/tournament, irrespective of whether it is an elimination game.
               <br></br><strong>Note:</strong> These 4 offences will be monitored cumulatively. Meaning if a team gets 1 offence in 1st Game and 2nd offence in 2nd game and 3rd offence in 3rd game, they will not have any runs deducted in those individual games. But the offence counter is adding those offences and with the 4th Offence in any game up to Final, they will get disqualified.
             </li>
-          </ul>
+          </ol>
         </Fieldset>
 
         <Fieldset

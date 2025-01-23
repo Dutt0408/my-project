@@ -1,99 +1,1160 @@
 [
-    {
-      "teamName": "Team 1",
-      "teamImage": "https://tse2.mm.bing.net/th?id=OIP.oUaJfBnFYgzEcJUxfiSZZQHaJg&pid=Api&P=0&h=180",
-      "players": [
-        {
-          "firstName": "FirstName",
-          "lastName": "LastName",
-          "profilePhoto": "https://tse2.mm.bing.net/th?id=OIP.oUaJfBnFYgzEcJUxfiSZZQHaJg&pid=Api&P=0&h=180",
-          "battingSkill": 5,
-          "bowlingSkill": 5,
-          "id": "1CH9oG51LvDGBg9FSspi2eiAkqhsXap2g"
-        },
-        {
-          "firstName": "Jalat",
-          "lastName": "Patel",
-          "profilePhoto": "https://source.unsplash.com/random/100x100/?person",
-          "battingSkill": 2,
-          "bowlingSkill": 5,
-          "id": "1CH9oG51LvDGBg9FSspi2eiAkqhsXap2g"
-        }
-      ]
-    },
-    {
-      "teamName": "Brampton Lions",
-      "teamImage": "https://source.unsplash.com/random/150x150/?team",
-      "players": [
-        {
-          "firstName": "Jagdish",
-          "lastName": "Patel",
-          "profilePhoto": "https://source.unsplash.com/random/100x100/?person",
-          "battingSkill": 4,
-          "bowlingSkill": 3,
-          "id": "1Vt1NMFhPCRjXnVJTH838rDh1eQRY1r0c"
-        },
-        {
-          "firstName": "Samarth",
-          "lastName": "Patel",
-          "profilePhoto": "https://source.unsplash.com/random/100x100/?person",
-          "battingSkill": 5,
-          "bowlingSkill": 2,
-          "id": "1-fIjCaQNRDF65PIlg2TcPCe-sz1vx_Qf"
-        },
-        {
-          "firstName": "Kaushal",
-          "lastName": "Barot",
-          "profilePhoto": "https://source.unsplash.com/random/100x100/?person",
-          "battingSkill": 3,
-          "bowlingSkill": 3,
-          "id": "1qw7hdUy7gtoY0jjrghSqqhRoL5uQW5mP"
-        }
-      ]
-    },
-    {
-      "teamName": "Royal Challengers Brampton",
-      "teamImage": "https://source.unsplash.com/random/150x150/?team",
-      "players": [
-        {
-          "firstName": "Kaushal",
-          "lastName": "Soni",
-          "profilePhoto": "https://source.unsplash.com/random/100x100/?person",
-          "battingSkill": 4,
-          "bowlingSkill": 1,
-          "id": "1OUBFJtHIRl_8nR9st_bRsbA15eEEBebC"
-        },
-        {
-          "firstName": "Het",
-          "lastName": "Dave",
-          "profilePhoto": "https://source.unsplash.com/random/100x100/?person",
-          "battingSkill": 3,
-          "bowlingSkill": 4,
-          "id": "1HEZgctXVeO8sP55yT1VZnRIYPRE6sDO4"
-        }
-      ]
-    },
-    {
-      "teamName": "Toronto Tigers",
-      "teamImage": "https://source.unsplash.com/random/150x150/?team",
-      "players": [
-        {
-          "firstName": "Rohan",
-          "lastName": "Sharma",
-          "profilePhoto": "https://source.unsplash.com/random/100x100/?person",
-          "battingSkill": 5,
-          "bowlingSkill": 5,
-          "id": "2SH4oG51LvDGBg9FSspi2eiAkqhsXap2g"
-        },
-        {
-          "firstName": "Aryan",
-          "lastName": "Mehta",
-          "profilePhoto": "https://source.unsplash.com/random/100x100/?person",
-          "battingSkill": 2,
-          "bowlingSkill": 3,
-          "id": "2HEZgctXVeO8sP55yT1VZnRIYPRE6sDO4"
-        }
-      ]
-    }
-  ]
-  
+  {
+    "teamName": "(B5) Chirag's7",
+    "captainName": "Chirag Patel",
+    "jerseyColor": "#ebebeb",
+    "teamImage": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2FChirag?alt=media&token=7c2a99dd-eb08-4ea8-ae0c-22748b7d0a56",
+    "players": [
+      {
+        "firstName": "Jigar ",
+        "lastName": "Patel",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 4,
+        "bowlingSkill": 4
+      },
+      {
+        "firstName": "Bhargav",
+        "lastName": "Raval",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 4,
+        "bowlingSkill": 4
+      },
+      {
+        "firstName": "Vraj",
+        "lastName": "Patel",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 3,
+        "bowlingSkill": 4
+      },
+      {
+        "firstName": "Bhavik",
+        "lastName": "Patel",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 4,
+        "bowlingSkill": 3
+      },
+      {
+        "firstName": "Sharad",
+        "lastName": "Tank",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 3,
+        "bowlingSkill": 3
+      },
+      {
+        "firstName": "kunal",
+        "lastName": "dhakan",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 3,
+        "bowlingSkill": 3
+      },
+      {
+        "firstName": "Amit",
+        "lastName": "Moradiya",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 2,
+        "bowlingSkill": 1
+      }
+    ]
+  },
+  {
+    "teamName": "(A7) Devashish's7",
+    "captainName": "Devashish Thakkar",
+    "jerseyColor": "#6869f7",
+    "teamImage": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fdevashish?alt=media&token=384c7e7e-12c8-4a1e-8266-2e18fc89bb4b",
+    "players": [
+      {
+        "firstName": "Vraj",
+        "lastName": "Patel",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 4,
+        "bowlingSkill": 4
+      },
+      {
+        "firstName": "Tarangkumar",
+        "lastName": "Patel",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 3,
+        "bowlingSkill": 4
+      },
+      {
+        "firstName": "Vandan",
+        "lastName": "Patel",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 4,
+        "bowlingSkill": 3
+      },
+      {
+        "firstName": "YOGI",
+        "lastName": "Panchal",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 3,
+        "bowlingSkill": 3
+      },
+      {
+        "firstName": "Krish",
+        "lastName": "Patel",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 3,
+        "bowlingSkill": 3
+      },
+      {
+        "firstName": "Vaibhav",
+        "lastName": "Patel",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 2,
+        "bowlingSkill": 1
+      },
+      {
+        "firstName": "Siddharth",
+        "lastName": "Patel",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 3,
+        "bowlingSkill": 2
+      }
+    ]
+  },
+  {
+    "teamName": "(B7) Harit's7",
+    "captainName": "Harit Patel",
+    "jerseyColor": "#82807f",
+    "teamImage": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2FHarit's7?alt=media&token=0a8c72a1-b57a-472e-95d5-d4ad9969bf84",
+    "players": [
+      {
+        "firstName": "Smit",
+        "lastName": "Patel",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 5,
+        "bowlingSkill": 5
+      },
+      {
+        "firstName": "Keyur",
+        "lastName": "Patel",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 4,
+        "bowlingSkill": 4
+      },
+      {
+        "firstName": "Renil",
+        "lastName": "Sonani",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 4,
+        "bowlingSkill": 3
+      },
+      {
+        "firstName": "Akshar",
+        "lastName": "Patel",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 4,
+        "bowlingSkill": 3
+      },
+      {
+        "firstName": "Yogesh",
+        "lastName": "Patel",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 3,
+        "bowlingSkill": 2
+      },
+      {
+        "firstName": "Bhavesh",
+        "lastName": "Patel",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 3,
+        "bowlingSkill": 1
+      },
+      {
+        "firstName": "Akshar",
+        "lastName": "Patel ",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 3,
+        "bowlingSkill": 1
+      }
+    ]
+  },
+  {
+    "teamName": "(A2) Harsh's7",
+    "captainName": "Harsh Patel",
+    "jerseyColor": "#fafc74",
+    "teamImage": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2FHarsh's7?alt=media&token=1edf41e6-4b0f-4a64-a237-d3c8254097ca",
+    "players": [
+      {
+        "firstName": "Bhavesh",
+        "lastName": "Waghela ",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 4,
+        "bowlingSkill": 5
+      },
+      {
+        "firstName": "Chirag",
+        "lastName": "Gajjar",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 4,
+        "bowlingSkill": 4
+      },
+      {
+        "firstName": "Krushit",
+        "lastName": "Patel",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 4,
+        "bowlingSkill": 3
+      },
+      {
+        "firstName": "Harush",
+        "lastName": "Patel",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 3,
+        "bowlingSkill": 3
+      },
+      {
+        "firstName": "Tilak",
+        "lastName": "Suthar",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 3,
+        "bowlingSkill": 3
+      },
+      {
+        "firstName": "Ashish",
+        "lastName": "Tank",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 3,
+        "bowlingSkill": 3
+      },
+      {
+        "firstName": "Kaushal",
+        "lastName": "Barot",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 4,
+        "bowlingSkill": 2
+      }
+    ]
+  },
+  {
+    "teamName": "(A6) Harshil's8",
+    "captainName": "Harshil Bhatt",
+    "jerseyColor": "#5e5e5d",
+    "teamImage": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2FHarshil's8?alt=media&token=2b3c72f3-9ef7-4379-b125-090ae0391595",
+    "players": [
+      {
+        "firstName": "Bhavesh",
+        "lastName": "Patel",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 4,
+        "bowlingSkill": 4
+      },
+      {
+        "firstName": "Chintan",
+        "lastName": "Patel",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 3,
+        "bowlingSkill": 4
+      },
+      {
+        "firstName": "Nirav",
+        "lastName": "Parekh",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 4,
+        "bowlingSkill": 3
+      },
+      {
+        "firstName": "yogesh",
+        "lastName": "jodhani",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 3,
+        "bowlingSkill": 3
+      },
+      {
+        "firstName": "Mayur",
+        "lastName": "Patel",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 3,
+        "bowlingSkill": 3
+      },
+      {
+        "firstName": "Nishant",
+        "lastName": "Patel",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 2,
+        "bowlingSkill": 2
+      },
+      {
+        "firstName": "Dev",
+        "lastName": "Patel",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 4,
+        "bowlingSkill": 2
+      },
+      {
+        "firstName": "Vaibhav",
+        "lastName": "Barot",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 3,
+        "bowlingSkill": 1
+      }
+    ]
+  },
+  {
+    "teamName": "(A3) Het's7",
+    "captainName": "Het Surani",
+    "jerseyColor": "#59acc9",
+    "teamImage": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2FHet's7?alt=media&token=596645af-b6d5-4572-afc0-e1d6e60ecf8c",
+    "players": [
+      {
+        "firstName": "Parth",
+        "lastName": "Patel",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 5,
+        "bowlingSkill": 5
+      },
+      {
+        "firstName": "Kalpitkumar",
+        "lastName": "Parekh",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 4,
+        "bowlingSkill": 5
+      },
+      {
+        "firstName": "Nikul",
+        "lastName": "Jethwa",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 4,
+        "bowlingSkill": 3
+      },
+      {
+        "firstName": "Rajdeep",
+        "lastName": "Zala",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 3,
+        "bowlingSkill": 4
+      },
+      {
+        "firstName": "Samarth",
+        "lastName": "Panchal",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 4,
+        "bowlingSkill": 3
+      },
+      {
+        "firstName": "Pinakin ",
+        "lastName": "Patel",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 3,
+        "bowlingSkill": 3
+      },
+      {
+        "firstName": "Chintan",
+        "lastName": "Gandhi",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 3,
+        "bowlingSkill": 3
+      }
+    ]
+  },
+  {
+    "teamName": "(A9) JaiminGor's7",
+    "captainName": "Jaimin Gor",
+    "jerseyColor": "#7c9bd9",
+    "teamImage": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fjaimin?alt=media&token=77c1940d-f565-47a9-b193-028357c94498",
+    "players": [
+      {
+        "firstName": "Siddharth",
+        "lastName": "Patel",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 5,
+        "bowlingSkill": 4
+      },
+      {
+        "firstName": "Akshar",
+        "lastName": "Patel",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 4,
+        "bowlingSkill": 4
+      },
+      {
+        "firstName": "Paresh",
+        "lastName": "Patel",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 4,
+        "bowlingSkill": 3
+      },
+      {
+        "firstName": "Harsh",
+        "lastName": "Madhu",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 3,
+        "bowlingSkill": 4
+      },
+      {
+        "firstName": "Vasant",
+        "lastName": "Boghara",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 3,
+        "bowlingSkill": 3
+      },
+      {
+        "firstName": "Piyush",
+        "lastName": "Patel",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 3,
+        "bowlingSkill": 3
+      },
+      {
+        "firstName": "Rushi",
+        "lastName": "Barot",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 1,
+        "bowlingSkill": 1
+      }
+    ]
+  },
+  {
+    "teamName": "(A9) JasminPatel's7",
+    "captainName": "Jasmin Patel",
+    "jerseyColor": "#f58282",
+    "teamImage": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fjasmin?alt=media&token=0dcaf3d6-23a3-4aac-ae94-995f7020a872",
+    "players": [
+      {
+        "firstName": "Ruchir",
+        "lastName": "Prajapati",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 4,
+        "bowlingSkill": 4
+      },
+      {
+        "firstName": "Tarun",
+        "lastName": "Pandya",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 4,
+        "bowlingSkill": 4
+      },
+      {
+        "firstName": "Jaahanava",
+        "lastName": "Joshi",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 4,
+        "bowlingSkill": 3
+      },
+      {
+        "firstName": "Bhagyesh",
+        "lastName": "Valand",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 4,
+        "bowlingSkill": 3
+      },
+      {
+        "firstName": "Rahul ",
+        "lastName": "Prajapati ",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 3,
+        "bowlingSkill": 3
+      },
+      {
+        "firstName": "Smit",
+        "lastName": "Patel",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 2,
+        "bowlingSkill": 5
+      },
+      {
+        "firstName": "Tarun",
+        "lastName": "Parmar",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 2,
+        "bowlingSkill": 3
+      }
+    ]
+  },
+  {
+    "teamName": "(B1) Jay's7",
+    "captainName": "Jay Patel",
+    "jerseyColor": "#96cdf2",
+    "teamImage": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fjay?alt=media&token=66f66034-e055-4cac-9d7e-e615fef16399",
+    "players": [
+      {
+        "firstName": "Akshar",
+        "lastName": "Patel",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 4,
+        "bowlingSkill": 5
+      },
+      {
+        "firstName": "Mihin",
+        "lastName": "Patel",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 4,
+        "bowlingSkill": 4
+      },
+      {
+        "firstName": "Ravi",
+        "lastName": "Patel",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 3,
+        "bowlingSkill": 4
+      },
+      {
+        "firstName": "Hardik",
+        "lastName": "Patel",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 3,
+        "bowlingSkill": 3
+      },
+      {
+        "firstName": "Harshit ",
+        "lastName": "Patel",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 3,
+        "bowlingSkill": 2
+      },
+      {
+        "firstName": "Dhruv ",
+        "lastName": "Rajpara",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 2,
+        "bowlingSkill": 4
+      },
+      {
+        "firstName": "Nikhil ",
+        "lastName": "Patel",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 2,
+        "bowlingSkill": 3
+      }
+    ]
+  },
+  {
+    "teamName": "(A4) Jayesh's7",
+    "captainName": "Jayesh Amodra",
+    "jerseyColor": "#83de83",
+    "teamImage": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fjayesh?alt=media&token=95d321ec-e942-4685-86ae-e09be3403405",
+    "players": [
+      {
+        "firstName": "Hari",
+        "lastName": "Lakhani",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 4,
+        "bowlingSkill": 4
+      },
+      {
+        "firstName": "Darshan",
+        "lastName": "Patel",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 3,
+        "bowlingSkill": 3
+      },
+      {
+        "firstName": "Mitul",
+        "lastName": "Patel",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 3,
+        "bowlingSkill": 3
+      },
+      {
+        "firstName": "Jenish ",
+        "lastName": "Vekariya",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 3,
+        "bowlingSkill": 3
+      },
+      {
+        "firstName": "Kishan",
+        "lastName": "Desai",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 3,
+        "bowlingSkill": 3
+      },
+      {
+        "firstName": "Darpankumar",
+        "lastName": "Patel",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 4,
+        "bowlingSkill": 2
+      },
+      {
+        "firstName": "Dhaval",
+        "lastName": "Bhatt",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 3,
+        "bowlingSkill": 2
+      }
+    ]
+  },
+  {
+    "teamName": "(A10) Nehanshu's7",
+    "captainName": "Nehanshu Nai",
+    "teamImage": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fnehanshu?alt=media&token=edb52d04-36a9-45db-aaef-22701e664ff5",
+    "players": [
+      {
+        "firstName": "Vrajesh",
+        "lastName": "Tailor",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 4,
+        "bowlingSkill": 5
+      },
+      {
+        "firstName": "Dhaval",
+        "lastName": "Patel",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 3,
+        "bowlingSkill": 5
+      },
+      {
+        "firstName": "Anand",
+        "lastName": "Patel",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 5,
+        "bowlingSkill": 3
+      },
+      {
+        "firstName": "Ritesh ",
+        "lastName": "Dalwadi ",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 3,
+        "bowlingSkill": 3
+      },
+      {
+        "firstName": "Trushar",
+        "lastName": "Bhavsar",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 2,
+        "bowlingSkill": 2
+      },
+      {
+        "firstName": "Jaykumar Pareshbhai",
+        "lastName": "Parekh",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 1,
+        "bowlingSkill": 1
+      },
+      {
+        "firstName": "Alpesh ",
+        "lastName": "Parekh",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 4,
+        "bowlingSkill": 1
+      }
+    ]
+  },
+  {
+    "teamName": "(A8) Parth's7",
+    "captainName": "Parth Patel",
+    "teamImage": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fparth's7?alt=media&token=83fcc91a-e0c7-45ba-a190-b581ccc3df32",
+    "players": [
+      {
+        "firstName": "Aksharkumar",
+        "lastName": "Chhatriwala",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 5,
+        "bowlingSkill": 4
+      },
+      {
+        "firstName": "Yogesh",
+        "lastName": "Patel",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 3,
+        "bowlingSkill": 4
+      },
+      {
+        "firstName": "Biren",
+        "lastName": "Patel ",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 4,
+        "bowlingSkill": 3
+      },
+      {
+        "firstName": "Hiren",
+        "lastName": "Patel",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 3,
+        "bowlingSkill": 3
+      },
+      {
+        "firstName": "GunjanKumar",
+        "lastName": "Patel",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 3,
+        "bowlingSkill": 3
+      },
+      {
+        "firstName": "Jay",
+        "lastName": "Beldar",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 3,
+        "bowlingSkill": 2
+      },
+      {
+        "firstName": "Parthav",
+        "lastName": "Kher",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 3,
+        "bowlingSkill": 1
+      }
+    ]
+  },
+  {
+    "teamName": "(B8) Pavan's7",
+    "captainName": "Pavan Patel",
+    "teamImage": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fpavan?alt=media&token=1960e959-5901-4c95-8407-5ef025648555",
+    "players": [
+      {
+        "firstName": "Jalat(Sunny)",
+        "lastName": "Patel",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 5,
+        "bowlingSkill": 4
+      },
+      {
+        "firstName": "JIGARKUMAR ",
+        "lastName": "PATEL",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 4,
+        "bowlingSkill": 4
+      },
+      {
+        "firstName": "Jainish",
+        "lastName": "Patel",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 4,
+        "bowlingSkill": 3
+      },
+      {
+        "firstName": "Manav",
+        "lastName": "Parekh",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 3,
+        "bowlingSkill": 3
+      },
+      {
+        "firstName": "Anand",
+        "lastName": "Patel",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 3,
+        "bowlingSkill": 3
+      },
+      {
+        "firstName": "Paras",
+        "lastName": "Patel",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 1,
+        "bowlingSkill": 1
+      },
+      {
+        "firstName": "Darshnik",
+        "lastName": "Patel",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 4,
+        "bowlingSkill": 2
+      }
+    ]
+  },
+  {
+    "teamName": "(A1) Pradeep's7",
+    "captainName": "Pradeep Moradiya",
+    "teamImage": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fpradeep?alt=media&token=70e97ff2-2582-40a2-ab3f-4e877d340c60",
+    "players": [
+      {
+        "firstName": "Amrish ",
+        "lastName": "Kotecha ",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 4,
+        "bowlingSkill": 4
+      },
+      {
+        "firstName": "Varun",
+        "lastName": "Gangadia",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 3,
+        "bowlingSkill": 5
+      },
+      {
+        "firstName": "Hariraj",
+        "lastName": "Jadeja",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 4,
+        "bowlingSkill": 4
+      },
+      {
+        "firstName": "Umeshkumar ",
+        "lastName": "Patel ",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 3,
+        "bowlingSkill": 3
+      },
+      {
+        "firstName": "Rahul",
+        "lastName": "Kathiriya",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 2,
+        "bowlingSkill": 2
+      },
+      {
+        "firstName": "Parth",
+        "lastName": "Patel",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 3,
+        "bowlingSkill": 1
+      },
+      {
+        "firstName": "Prakash",
+        "lastName": "Patel",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 2,
+        "bowlingSkill": 3
+      }
+    ]
+  },
+  {
+    "teamName": "(B4) Purvesh's7",
+    "captainName": "Purvesh Patel",
+    "teamImage": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2FPurvesh's7?alt=media&token=ed5a48ba-2297-4764-9171-c4a858b79fd9",
+    "players": [
+      {
+        "firstName": "Vinay ",
+        "lastName": "Patel",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 4,
+        "bowlingSkill": 4
+      },
+      {
+        "firstName": "Harshid",
+        "lastName": "Patel",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 4,
+        "bowlingSkill": 4
+      },
+      {
+        "firstName": "Drashy",
+        "lastName": "Gajjar",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 4,
+        "bowlingSkill": 4
+      },
+      {
+        "firstName": "Shlok ",
+        "lastName": "Patel ",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 2,
+        "bowlingSkill": 2
+      },
+      {
+        "firstName": "Sharad",
+        "lastName": "Salia",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 1,
+        "bowlingSkill": 1
+      },
+      {
+        "firstName": "Jigs",
+        "lastName": "Patel",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 4,
+        "bowlingSkill": 2
+      },
+      {
+        "firstName": "chintan ",
+        "lastName": "patel",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 3,
+        "bowlingSkill": 2
+      }
+    ]
+  },
+  {
+    "teamName": "(B2) Rajiv's8",
+    "captainName": "Rajiv Tarsarya",
+    "teamImage": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2FRajiv's8?alt=media&token=d1d934ec-8840-4876-b0bb-baec08d8c39f",
+    "players": [
+      {
+        "firstName": "Rutul",
+        "lastName": "Patel",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 4,
+        "bowlingSkill": 4
+      },
+      {
+        "firstName": "Divyesh",
+        "lastName": "Parekh",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 4,
+        "bowlingSkill": 4
+      },
+      {
+        "firstName": "VIPUL ",
+        "lastName": "Patel",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 4,
+        "bowlingSkill": 2
+      },
+      {
+        "firstName": "Tirth",
+        "lastName": "Patel",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 3,
+        "bowlingSkill": 2
+      },
+      {
+        "firstName": "Anant",
+        "lastName": "Patel",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 3,
+        "bowlingSkill": 2
+      },
+      {
+        "firstName": "Nirav",
+        "lastName": "Patel",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 3,
+        "bowlingSkill": 1
+      },
+      {
+        "firstName": "Jayesh",
+        "lastName": "Makwana",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 3,
+        "bowlingSkill": 1
+      },
+      {
+        "firstName": "Sharad",
+        "lastName": "Vaghasiya",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 3,
+        "bowlingSkill": 2
+      }
+    ]
+  },
+  {
+    "teamName": "(B10) Rakshit's7",
+    "captainName": "Rakshit Patel",
+    "teamImage": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2FRakshit's7?alt=media&token=655dad08-5d56-4d14-89f1-41e8a889b0fa",
+    "players": [
+      {
+        "firstName": "Dharmik ",
+        "lastName": "Tailor ",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 5,
+        "bowlingSkill": 5
+      },
+      {
+        "firstName": "Anuj",
+        "lastName": "Gadia",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 4,
+        "bowlingSkill": 4
+      },
+      {
+        "firstName": "Nihal ",
+        "lastName": "Patel",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 3,
+        "bowlingSkill": 4
+      },
+      {
+        "firstName": "Hemanshu ",
+        "lastName": "Patel",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 3,
+        "bowlingSkill": 3
+      },
+      {
+        "firstName": "Anuj",
+        "lastName": "Patel",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 3,
+        "bowlingSkill": 3
+      },
+      {
+        "firstName": "Dhyey",
+        "lastName": "Patel",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 1,
+        "bowlingSkill": 1
+      },
+      {
+        "firstName": "Hem",
+        "lastName": "Patel",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 4,
+        "bowlingSkill": 4
+      }
+    ]
+  },
+  {
+    "teamName": "(A5) Ritesh's7",
+    "captainName": "Ritesh Patel",
+    "teamImage": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fritesh?alt=media&token=4feeb4d8-174c-43ed-9875-7b5f24021c4d",
+    "players": [
+      {
+        "firstName": "Vedant",
+        "lastName": "Pandya",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 3,
+        "bowlingSkill": 4
+      },
+      {
+        "firstName": "Tejas",
+        "lastName": "Patel",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 3,
+        "bowlingSkill": 3
+      },
+      {
+        "firstName": "Mit",
+        "lastName": "Patel",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 3,
+        "bowlingSkill": 3
+      },
+      {
+        "firstName": "Dhyeykumar",
+        "lastName": "patel",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 4,
+        "bowlingSkill": 2
+      },
+      {
+        "firstName": "Maharshi",
+        "lastName": "Desai",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 4,
+        "bowlingSkill": 2
+      },
+      {
+        "firstName": "Anuj",
+        "lastName": "Patel",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 4,
+        "bowlingSkill": 1
+      },
+      {
+        "firstName": "Aniket",
+        "lastName": "Prajapati",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 3,
+        "bowlingSkill": 1
+      }
+    ]
+  },
+  {
+    "teamName": "(B3) Rohan's8",
+    "captainName": "Rohan Patel",
+    "teamImage": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2FRohan's8?alt=media&token=7075984d-bf97-42cd-b701-2998d1bcd2fb",
+    "players": [
+      {
+        "firstName": "Rakesh ",
+        "lastName": "Soni",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 3,
+        "bowlingSkill": 4
+      },
+      {
+        "firstName": "Ravin",
+        "lastName": "Inamdar ",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 4,
+        "bowlingSkill": 3
+      },
+      {
+        "firstName": "Raj",
+        "lastName": "Patel",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 4,
+        "bowlingSkill": 3
+      },
+      {
+        "firstName": "Hemant",
+        "lastName": "Patel",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 3,
+        "bowlingSkill": 4
+      },
+      {
+        "firstName": "Chirag",
+        "lastName": "Patel",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 3,
+        "bowlingSkill": 3
+      },
+      {
+        "firstName": "Chaitanya",
+        "lastName": "Bhatt",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 1,
+        "bowlingSkill": 2
+      },
+      {
+        "firstName": "Kalpesh",
+        "lastName": "Prajapati",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 4,
+        "bowlingSkill": 2
+      },
+      {
+        "firstName": "Milan",
+        "lastName": "Patel",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 4,
+        "bowlingSkill": 1
+      }
+    ]
+  },
+  {
+    "teamName": "(B9) Yogesh's8",
+    "captainName": "Yogesh Patel",
+    "teamImage": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2FYogesh'8?alt=media&token=643af049-56f5-4103-9f9b-604c0a41a358",
+    "players": [
+      {
+        "firstName": "Vivek",
+        "lastName": "Patel",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 3,
+        "bowlingSkill": 5
+      },
+      {
+        "firstName": "Ved",
+        "lastName": "Patel ",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 4,
+        "bowlingSkill": 4
+      },
+      {
+        "firstName": "DARPAN",
+        "lastName": "PATEL",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 4,
+        "bowlingSkill": 4
+      },
+      {
+        "firstName": "Rahil",
+        "lastName": "Kanani",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 3,
+        "bowlingSkill": 4
+      },
+      {
+        "firstName": "DHRUV",
+        "lastName": "PATEL",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 4,
+        "bowlingSkill": 3
+      },
+      {
+        "firstName": "Vijay",
+        "lastName": "Patel",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 3,
+        "bowlingSkill": 3
+      },
+      {
+        "firstName": "Utsav",
+        "lastName": "Kalathiya",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 3,
+        "bowlingSkill": 3
+      },
+      {
+        "firstName": "Jeet",
+        "lastName": "Sangani",
+        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
+        "battingSkill": 4,
+        "bowlingSkill": 2
+      }
+    ]
+  }
+]
