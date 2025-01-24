@@ -54,7 +54,7 @@ function Home() {
       </div>
 
       <img
-        className="max-w-xs md:max-w-sm h-auto mt-8"
+        className="max-w-xs md:max-w-sm h-auto mt-8 mb-8"
         src={BAPScharities}
         alt="BAPS Charities"
       />

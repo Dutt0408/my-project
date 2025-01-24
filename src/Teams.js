@@ -63,8 +63,8 @@ export default function Teams() {
           {/* Team Header */}
           <div
             className="text-white p-6 rounded-lg mb-6"
-            style={{ backgroundColor: selectedTeam.jerseyColor,
-              color: "black"
+            style={{ backgroundColor: "rgb(10 64 109 / 82%)",
+              color: "white"
              }}
           >
             <h2 className="text-xl font-bold">{selectedTeam.teamName}</h2>

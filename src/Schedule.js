@@ -6,7 +6,7 @@ export default function Schedule() {
   const data = [
     {
       id: 1,
-      match: "Anjuman-I-Islam Allana English School vs Modern English School",
+      match: " Pradeep's 7 vs Yogesh's 7",
       date: "2025-01-20",
       status: "Past",
       teamAScore: 28,
@@ -14,7 +14,7 @@ export default function Schedule() {
     },
     {
       id: 2,
-      match: "Modern English School vs Matunga Premier School",
+      match: "Harshil's 8 vs Jayesh's 7",
       date: "2025-01-22",
       status: "Past",
       teamAScore: 226,
@@ -22,23 +22,26 @@ export default function Schedule() {
     },
     {
       id: 3,
-      match: "IES VN Sule English School vs Anjuman-I-Islam Allana English School",
+      match: "Parth's 7 vs Pavan's 7",
       date: "2025-01-24",
-      status: "Past",
+      status: "Upcoming",
       teamAScore: 76,
       teamBScore: 79,
     },
     {
       id: 4,
-      match: "Anjuman-I-Islam Allana English School vs National English School",
+      match: "Nehanshu's 7 vs Rohan's 7 ",
       date: "2025-01-25",
       status: "Live",
-      teamAScore: 0,
+      teamAScore: 4,
       teamBScore: 0,
+      overs: "1.2",
+      toss: "Nehanshu's 7",
+      elected: "bat",
     },
     {
       id: 5,
-      match: "Matunga Premier School vs Modern English School",
+      match: "Yogesh's 7 vs Purvesh's 7",
       date: "2025-01-26",
       status: "Upcoming",
       teamAScore: null,
@@ -46,25 +49,12 @@ export default function Schedule() {
     },
   ];
 
-  // Determine match result based on scores
-  const enhancedData = data.map((match) => {
-    if (match.teamAScore !== null && match.teamBScore !== null) {
-      if (match.teamAScore > match.teamBScore) {
-        match.result = `${match.match.split(' vs ')[0]} won by ${match.teamAScore - match.teamBScore} runs`;
-      } else if (match.teamBScore > match.teamAScore) {
-        match.result = `${match.match.split(' vs ')[1]} won by ${match.teamBScore - match.teamAScore} runs`;
-      } else {
-        match.result = "Match Drawn";
-      }
-    }
-    return match;
-  });
-
   // Tabs state
   const [activeTab, setActiveTab] = useState("Live");
 
   // Filter data based on active tab
-  const filteredData = enhancedData.filter((match) => match.status === activeTab);
+  const filteredData = data.filter((match) => match.status === activeTab);
+  const liveMatch = data.find((match) => match.status === "Live");
 
   return (
     <div>
@@ -102,7 +92,31 @@ export default function Schedule() {
         </div>
 
         <div className="space-y-4">
-          {filteredData.length > 0 ? (
+          {activeTab === "Live" && liveMatch ? (
+            <div className="bg-white p-4 rounded-lg shadow-md border">
+              <h3 className="text-center font-semibold text-gray-500 mb-2">Pramukh Cup 2025</h3>
+              <div className="flex justify-between items-center mb-4">
+                <p className="text-gray-700 text-sm">
+                  {liveMatch.date}, 10 Overs
+                </p>
+                <div className="flex items-center space-x-2">
+                  <span className="bg-red-600 text-white px-2 py-1 text-xs rounded-full animate-pulse">LIVE</span>
+                </div>
+              </div>
+              <div className="flex justify-between items-center">
+                <div>
+                  <p className="text-lg font-bold text-green-700">{liveMatch.match.split(' vs ')[0]}</p>
+                  <p className="text-sm text-gray-500">{liveMatch.toss} won the toss and elected to {liveMatch.elected}</p>
+                </div>
+                <div className="text-right">
+                  <p className="text-2xl font-bold text-blue-900">{liveMatch.teamAScore}/{liveMatch.teamBScore}</p>
+                  <p className="text-sm text-gray-500">({liveMatch.overs})</p>
+                </div>
+              </div>
+            </div>
+          ) : activeTab === "Live" ? (
+            <p className="text-gray-500 text-center">No live matches currently.</p>
+          ) : filteredData.length > 0 ? (
             filteredData.map((match) => (
               <div
                 key={match.id}
@@ -110,27 +124,6 @@ export default function Schedule() {
               >
                 <h3 className="font-bold text-lg">{match.match}</h3>
                 <p className="text-gray-600">Date: {match.date}</p>
-                {activeTab === "Past" && (
-                  <div className="flex justify-between items-center mt-2">
-                    <p
-                      className={`font-semibold ${
-                        match.teamAScore > match.teamBScore ? "text-green-600" : "text-gray-600"
-                      }`}
-                    >
-                      Team A: {match.teamAScore}
-                    </p>
-                    <p
-                      className={`font-semibold ${
-                        match.teamBScore > match.teamAScore ? "text-green-600" : "text-gray-600"
-                      }`}
-                    >
-                      Team B: {match.teamBScore}
-                    </p>
-                  </div>
-                )}
-                {match.result && <p className="text-green-600 mt-2">Result: {match.result}</p>}
-                {activeTab === "Live" && <p className="text-red-500 font-semibold mt-2">Live Now</p>}
-                {activeTab === "Upcoming" && <p className="text-blue-500 font-semibold mt-2">Upcoming</p>}
               </div>
             ))
           ) : (

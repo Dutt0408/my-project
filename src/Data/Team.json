@@ -2,577 +2,567 @@
   {
     "teamName": "(B5) Chirag's7",
     "captainName": "Chirag Patel",
-    "jerseyColor": "#ebebeb",
     "teamImage": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2FChirag?alt=media&token=7c2a99dd-eb08-4ea8-ae0c-22748b7d0a56",
     "players": [
       {
         "firstName": "Jigar ",
         "lastName": "Patel",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 4,
-        "bowlingSkill": 4
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fjigar_chirag?alt=media&token=97d77400-4bc7-47eb-8dc2-9e412f908baa",
+        "battingSkill": "★★★★",
+        "bowlingSkill": "★★★★"
       },
       {
         "firstName": "Bhargav",
         "lastName": "Raval",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 4,
-        "bowlingSkill": 4
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fbhargav_chirag?alt=media&token=697379b6-bfce-4a57-95e0-d9da21c1da2b",
+        "battingSkill": "★★★★",
+        "bowlingSkill": "★★★★"
       },
       {
         "firstName": "Vraj",
         "lastName": "Patel",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 3,
-        "bowlingSkill": 4
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fvraj_chirag?alt=media&token=6bbb2c3c-ea95-46d8-9d00-da0ddb8a5610",
+        "battingSkill": "★★★",
+        "bowlingSkill": "★★★★"
       },
       {
         "firstName": "Bhavik",
         "lastName": "Patel",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 4,
-        "bowlingSkill": 3
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fbhavik_chirag?alt=media&token=8e388312-d193-46a3-8163-01d5f8a44a7c",
+        "battingSkill": "★★★★",
+        "bowlingSkill": "★★★"
       },
       {
         "firstName": "Sharad",
         "lastName": "Tank",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 3,
-        "bowlingSkill": 3
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fsharad_chirag?alt=media&token=53ac3a25-9d22-41e6-982a-48e8683a7f42",
+        "battingSkill": "★★★★",
+        "bowlingSkill": "★★★"
       },
       {
         "firstName": "kunal",
         "lastName": "dhakan",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 3,
-        "bowlingSkill": 3
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fkunal_chirag?alt=media&token=d78f31df-0788-44f5-8032-5e33b35a913b",
+        "battingSkill": "★★★",
+        "bowlingSkill": "★★★"
       },
       {
         "firstName": "Amit",
         "lastName": "Moradiya",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 2,
-        "bowlingSkill": 1
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Famit_chirag?alt=media&token=a07ac760-4b70-488a-8b1e-fed71fc955b0",
+        "battingSkill": "★★",
+        "bowlingSkill": "★"
       }
     ]
   },
   {
     "teamName": "(A7) Devashish's7",
     "captainName": "Devashish Thakkar",
-    "jerseyColor": "#6869f7",
     "teamImage": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fdevashish?alt=media&token=384c7e7e-12c8-4a1e-8266-2e18fc89bb4b",
     "players": [
       {
         "firstName": "Vraj",
         "lastName": "Patel",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 4,
-        "bowlingSkill": 4
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fvraj_devashish?alt=media&token=fca1348e-6ba1-4fad-92e8-b1a7d1ae34e8",
+        "battingSkill": "★★★★",
+        "bowlingSkill": "★★★★"
       },
       {
         "firstName": "Tarangkumar",
         "lastName": "Patel",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 3,
-        "bowlingSkill": 4
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Ftarang_devashish?alt=media&token=f1362949-b09c-4e91-b616-a9bec6bbe95b",
+        "battingSkill": "★★★",
+        "bowlingSkill": "★★★★"
       },
       {
         "firstName": "Vandan",
         "lastName": "Patel",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 4,
-        "bowlingSkill": 3
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fvandan_devashish?alt=media&token=fcd42279-1a03-4ea6-9ea3-05e2cf9f642a",
+        "battingSkill": "★★★★",
+        "bowlingSkill": "★★★"
       },
       {
-        "firstName": "YOGI",
+        "firstName": "Yogi",
         "lastName": "Panchal",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 3,
-        "bowlingSkill": 3
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fyogi_devashish?alt=media&token=f131c4c1-2d7d-4e79-b45e-64f8a51ebddd",
+        "battingSkill": "★★★",
+        "bowlingSkill": "★★★"
       },
       {
         "firstName": "Krish",
         "lastName": "Patel",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 3,
-        "bowlingSkill": 3
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fkrish_devashish?alt=media&token=3541c83f-7a7d-4a8b-abd1-e2347dd6caf4",
+        "battingSkill": "★★★",
+        "bowlingSkill": "★★★"
       },
       {
         "firstName": "Vaibhav",
         "lastName": "Patel",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 2,
-        "bowlingSkill": 1
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fvaibhav_devashish?alt=media&token=8a0fc067-8224-400c-a8b9-aa3498d50316",
+        "battingSkill": "★★",
+        "bowlingSkill": "★"
       },
       {
         "firstName": "Siddharth",
         "lastName": "Patel",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 3,
-        "bowlingSkill": 2
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fsiddharth_devashish?alt=media&token=c481481b-8fda-48de-94b0-38f0462230ac",
+        "battingSkill": "★★★",
+        "bowlingSkill": "★★"
       }
     ]
   },
   {
     "teamName": "(B7) Harit's7",
     "captainName": "Harit Patel",
-    "jerseyColor": "#82807f",
     "teamImage": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2FHarit's7?alt=media&token=0a8c72a1-b57a-472e-95d5-d4ad9969bf84",
     "players": [
       {
         "firstName": "Smit",
         "lastName": "Patel",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 5,
-        "bowlingSkill": 5
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fsmit_harit?alt=media&token=45ca04c5-76f6-4825-8f53-27d5cf1fcaae",
+        "battingSkill": "★★★★★",
+        "bowlingSkill": "★★★★★"
       },
       {
         "firstName": "Keyur",
         "lastName": "Patel",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 4,
-        "bowlingSkill": 4
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fkeyur_harit?alt=media&token=88d7f01e-87b7-4d20-bd04-b5ba960d712c",
+        "battingSkill": "★★★★",
+        "bowlingSkill": "★★★★"
       },
       {
         "firstName": "Renil",
         "lastName": "Sonani",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 4,
-        "bowlingSkill": 3
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Frenil_harit?alt=media&token=c2b62ca9-b841-469f-9c3f-4eff70ebe74d",
+        "battingSkill": "★★★★",
+        "bowlingSkill": "★★★"
       },
       {
         "firstName": "Akshar",
         "lastName": "Patel",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 4,
-        "bowlingSkill": 3
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fakshar_harit?alt=media&token=b4a9b7fa-baa0-417f-ac02-8ddb1fb2fceb",
+        "battingSkill": "★★★★",
+        "bowlingSkill": "★★★"
       },
       {
         "firstName": "Yogesh",
         "lastName": "Patel",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 3,
-        "bowlingSkill": 2
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fyogesh_harit?alt=media&token=4cc363c0-cce6-45e4-89ae-544108498e9e",
+        "battingSkill": "★★★",
+        "bowlingSkill": "★★"
       },
       {
         "firstName": "Bhavesh",
         "lastName": "Patel",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 3,
-        "bowlingSkill": 1
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fbhavesh_harit?alt=media&token=69e5f184-c467-46b7-895d-738ba672b6b8",
+        "battingSkill": "★★★",
+        "bowlingSkill": "★"
       },
       {
         "firstName": "Akshar",
         "lastName": "Patel ",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 3,
-        "bowlingSkill": 1
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Faksharras_harit?alt=media&token=86ca8056-1a9b-4468-b21c-383b1a652e29",
+        "battingSkill": "★★★",
+        "bowlingSkill": "★"
       }
     ]
   },
   {
     "teamName": "(A2) Harsh's7",
     "captainName": "Harsh Patel",
-    "jerseyColor": "#fafc74",
     "teamImage": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2FHarsh's7?alt=media&token=1edf41e6-4b0f-4a64-a237-d3c8254097ca",
     "players": [
       {
         "firstName": "Bhavesh",
         "lastName": "Waghela ",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 4,
-        "bowlingSkill": 5
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fbhavesh_harsh?alt=media&token=372eb321-a356-4681-b2c9-9bb5dda3c256",
+        "battingSkill": "★★★★",
+        "bowlingSkill": "★★★★★"
       },
       {
         "firstName": "Chirag",
         "lastName": "Gajjar",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 4,
-        "bowlingSkill": 4
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fchirag_harsh?alt=media&token=b842fe01-8a68-45ff-9d07-d59030d78559",
+        "battingSkill": "★★★★",
+        "bowlingSkill": "★★★★"
       },
       {
         "firstName": "Krushit",
         "lastName": "Patel",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 4,
-        "bowlingSkill": 3
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fkrushit_harsh?alt=media&token=a56d6a6e-35d6-4710-acf1-978c8310f511",
+        "battingSkill": "★★★★",
+        "bowlingSkill": "★★★"
       },
       {
         "firstName": "Harush",
         "lastName": "Patel",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 3,
-        "bowlingSkill": 3
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fharush_harsh?alt=media&token=8c1dc613-db28-48ea-927e-d377d3f4c994",
+        "battingSkill": "★★★",
+        "bowlingSkill": "★★★"
       },
       {
         "firstName": "Tilak",
         "lastName": "Suthar",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 3,
-        "bowlingSkill": 3
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Ftilak_harsh?alt=media&token=2af80824-6b5b-4986-84bb-611af84c7c76",
+        "battingSkill": "★★★",
+        "bowlingSkill": "★★★"
       },
       {
         "firstName": "Ashish",
         "lastName": "Tank",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 3,
-        "bowlingSkill": 3
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fashish_harsh?alt=media&token=f9485bf6-f0a4-4799-8af7-c31d26cd94c4",
+        "battingSkill": "★★★",
+        "bowlingSkill": "★★★"
       },
       {
         "firstName": "Kaushal",
         "lastName": "Barot",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 4,
-        "bowlingSkill": 2
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fkaushal_harsh?alt=media&token=33201167-77d2-4da3-bff9-29b9a07e0469",
+        "battingSkill": "★★★★",
+        "bowlingSkill": "★★"
       }
     ]
   },
   {
     "teamName": "(A6) Harshil's8",
     "captainName": "Harshil Bhatt",
-    "jerseyColor": "#5e5e5d",
     "teamImage": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2FHarshil's8?alt=media&token=2b3c72f3-9ef7-4379-b125-090ae0391595",
     "players": [
       {
         "firstName": "Bhavesh",
         "lastName": "Patel",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 4,
-        "bowlingSkill": 4
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fbhavesh_harshil?alt=media&token=85622a81-eca7-4728-bd00-202826358055",
+        "battingSkill": "★★★★",
+        "bowlingSkill": "★★★★"
       },
       {
         "firstName": "Chintan",
         "lastName": "Patel",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 3,
-        "bowlingSkill": 4
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fchintan_harshil?alt=media&token=c3915b8a-a415-4b8e-8e8b-c8b022b250d7",
+        "battingSkill": "★★★",
+        "bowlingSkill": "★★★★"
       },
       {
         "firstName": "Nirav",
         "lastName": "Parekh",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 4,
-        "bowlingSkill": 3
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fnirav_harshil?alt=media&token=b895b2cb-4698-4a55-b4e7-a440ca42e577",
+        "battingSkill": "★★★★",
+        "bowlingSkill": "★★★"
       },
       {
         "firstName": "yogesh",
         "lastName": "jodhani",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 3,
-        "bowlingSkill": 3
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fyogesh_harshil?alt=media&token=c4d981f5-898a-4f52-a532-6e0e50c5d1ec",
+        "battingSkill": "★★★",
+        "bowlingSkill": "★★★"
       },
       {
         "firstName": "Mayur",
         "lastName": "Patel",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 3,
-        "bowlingSkill": 3
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fmayur_harshil?alt=media&token=899ba652-124b-44d4-bb6a-077dd4c60709",
+        "battingSkill": "★★★",
+        "bowlingSkill": "★★★"
       },
       {
         "firstName": "Nishant",
         "lastName": "Patel",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 2,
-        "bowlingSkill": 2
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fnishant_harshil?alt=media&token=4bdde542-9c22-480e-a777-164155a311a9",
+        "battingSkill": "★★",
+        "bowlingSkill": "★★"
       },
       {
         "firstName": "Dev",
         "lastName": "Patel",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 4,
-        "bowlingSkill": 2
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fdev_harshil?alt=media&token=9a52fbb6-447f-4252-b613-51406888405b",
+        "battingSkill": "★★★★",
+        "bowlingSkill": "★★"
       },
       {
         "firstName": "Vaibhav",
         "lastName": "Barot",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 3,
-        "bowlingSkill": 1
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fvaibhav_harshil?alt=media&token=a92442d7-703b-4a1d-a9a6-6666f07805aa",
+        "battingSkill": "★★★",
+        "bowlingSkill": "★"
       }
     ]
   },
   {
     "teamName": "(A3) Het's7",
     "captainName": "Het Surani",
-    "jerseyColor": "#59acc9",
     "teamImage": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2FHet's7?alt=media&token=596645af-b6d5-4572-afc0-e1d6e60ecf8c",
     "players": [
       {
         "firstName": "Parth",
         "lastName": "Patel",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 5,
-        "bowlingSkill": 5
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fparth_het?alt=media&token=2b9c015c-b9f1-4ce4-9d87-cf1f6eccd71f",
+        "battingSkill": "★★★★★",
+        "bowlingSkill": "★★★★★"
       },
       {
         "firstName": "Kalpitkumar",
         "lastName": "Parekh",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 4,
-        "bowlingSkill": 5
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fkalpit_het?alt=media&token=bfc27878-9694-4deb-bcc2-063e28721574",
+        "battingSkill": "★★★★",
+        "bowlingSkill": "★★★★★"
       },
       {
         "firstName": "Nikul",
         "lastName": "Jethwa",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 4,
-        "bowlingSkill": 3
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fnikul_het?alt=media&token=4817f224-b410-4210-a56f-69cf30776d9d",
+        "battingSkill": "★★★★",
+        "bowlingSkill": "★★★"
       },
       {
         "firstName": "Rajdeep",
         "lastName": "Zala",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 3,
-        "bowlingSkill": 4
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Frajdeep_het?alt=media&token=429ffc3d-47ce-4a95-9c0d-8ee109d84303",
+        "battingSkill": "★★★",
+        "bowlingSkill": "★★★★"
       },
       {
         "firstName": "Samarth",
         "lastName": "Panchal",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 4,
-        "bowlingSkill": 3
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fsamarth_het?alt=media&token=1f8d09c5-8dc4-44bb-991d-542b118809cb",
+        "battingSkill": "★★★★",
+        "bowlingSkill": "★★★"
       },
       {
         "firstName": "Pinakin ",
         "lastName": "Patel",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 3,
-        "bowlingSkill": 3
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fpinakin_het?alt=media&token=8f6633e9-7456-40e6-8f65-b83cb69dec07",
+        "battingSkill": "★★★",
+        "bowlingSkill": "★★★"
       },
       {
         "firstName": "Chintan",
         "lastName": "Gandhi",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 3,
-        "bowlingSkill": 3
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fchintan_het?alt=media&token=1ee03e3c-f5ff-4a51-92af-759e30ccc45e",
+        "battingSkill": "★★★",
+        "bowlingSkill": "★★★"
       }
     ]
   },
   {
     "teamName": "(A9) JaiminGor's7",
     "captainName": "Jaimin Gor",
-    "jerseyColor": "#7c9bd9",
     "teamImage": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fjaimin?alt=media&token=77c1940d-f565-47a9-b193-028357c94498",
     "players": [
       {
         "firstName": "Siddharth",
         "lastName": "Patel",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 5,
-        "bowlingSkill": 4
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fsiddhartj_jaimin?alt=media&token=c6f7c0f9-5eff-4a7f-b081-7d1a5ddf504b",
+        "battingSkill": "★★★★★",
+        "bowlingSkill": "★★★★"
       },
       {
         "firstName": "Akshar",
         "lastName": "Patel",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 4,
-        "bowlingSkill": 4
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fakshar_jaimin?alt=media&token=3b110561-1c46-4d37-b948-bd010ea59ad0",
+        "battingSkill": "★★★★",
+        "bowlingSkill": "★★★★"
       },
       {
         "firstName": "Paresh",
         "lastName": "Patel",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 4,
-        "bowlingSkill": 3
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fparesh_jaimin?alt=media&token=03e7b79d-1ce3-4905-9a92-e465b86174cf",
+        "battingSkill": "★★★★",
+        "bowlingSkill": "★★★"
       },
       {
         "firstName": "Harsh",
         "lastName": "Madhu",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 3,
-        "bowlingSkill": 4
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fharsh_jaimin?alt=media&token=6cb05804-99cb-449a-933e-cff7688c3dfe",
+        "battingSkill": "★★★",
+        "bowlingSkill": "★★★★"
       },
       {
         "firstName": "Vasant",
         "lastName": "Boghara",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 3,
-        "bowlingSkill": 3
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fvasant_jaimin?alt=media&token=4583de13-abde-40fd-8ebb-145a901a99df",
+        "battingSkill": "★★★",
+        "bowlingSkill": "★★★"
       },
       {
         "firstName": "Piyush",
         "lastName": "Patel",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 3,
-        "bowlingSkill": 3
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fpiyush_jaimin?alt=media&token=aa0085ca-6f08-41b3-9437-a30c3cb4cf71",
+        "battingSkill": "★★★",
+        "bowlingSkill": "★★★"
       },
       {
         "firstName": "Rushi",
         "lastName": "Barot",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 1,
-        "bowlingSkill": 1
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Frushi_jaimin?alt=media&token=655b49c2-3dba-4572-b0e4-fc5d04ba6020",
+        "battingSkill": "★",
+        "bowlingSkill": "★"
       }
     ]
   },
   {
     "teamName": "(A9) JasminPatel's7",
     "captainName": "Jasmin Patel",
-    "jerseyColor": "#f58282",
     "teamImage": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fjasmin?alt=media&token=0dcaf3d6-23a3-4aac-ae94-995f7020a872",
     "players": [
       {
         "firstName": "Ruchir",
         "lastName": "Prajapati",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 4,
-        "bowlingSkill": 4
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fruchir_jasmin?alt=media&token=adf721c5-bfca-412b-bf79-0a0226d03978",
+        "battingSkill": "★★★★",
+        "bowlingSkill": "★★★★"
       },
       {
         "firstName": "Tarun",
         "lastName": "Pandya",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 4,
-        "bowlingSkill": 4
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2FtarunP_jasmin?alt=media&token=19df40b6-5317-4b4f-9ebc-d742ad2a2dc0",
+        "battingSkill": "★★★★",
+        "bowlingSkill": "★★★★"
       },
       {
         "firstName": "Jaahanava",
         "lastName": "Joshi",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 4,
-        "bowlingSkill": 3
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fjaahanava_jasmin?alt=media&token=d4b4134a-e0ac-4733-9ee0-aa37633eabe1",
+        "battingSkill": "★★★★",
+        "bowlingSkill": "★★★"
       },
       {
         "firstName": "Bhagyesh",
         "lastName": "Valand",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 4,
-        "bowlingSkill": 3
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fbhagyesh_jasmin?alt=media&token=d65ee622-90f6-400b-9acf-813eb86ffe39",
+        "battingSkill": "★★★★",
+        "bowlingSkill": "★★★"
       },
       {
         "firstName": "Rahul ",
         "lastName": "Prajapati ",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 3,
-        "bowlingSkill": 3
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Frahul_jasmin?alt=media&token=0e2c9e89-b907-475a-a53a-b976ee8da7b7",
+        "battingSkill": "★★★",
+        "bowlingSkill": "★★★"
       },
       {
         "firstName": "Smit",
         "lastName": "Patel",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 2,
-        "bowlingSkill": 5
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fsmit_jasmin?alt=media&token=2a033a2e-ecc7-48df-8c4f-6a7264e4fae3",
+        "battingSkill": "★★",
+        "bowlingSkill": "★★★★★"
       },
       {
         "firstName": "Tarun",
         "lastName": "Parmar",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 2,
-        "bowlingSkill": 3
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Ftarun_jasmin?alt=media&token=a02982ff-e833-4487-afd0-7a2f8e0c6e51",
+        "battingSkill": "★★",
+        "bowlingSkill": "★★★"
       }
     ]
   },
   {
     "teamName": "(B1) Jay's7",
     "captainName": "Jay Patel",
-    "jerseyColor": "#96cdf2",
     "teamImage": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fjay?alt=media&token=66f66034-e055-4cac-9d7e-e615fef16399",
     "players": [
       {
         "firstName": "Akshar",
         "lastName": "Patel",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 4,
-        "bowlingSkill": 5
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fakshar_jay?alt=media&token=27fed15b-2a86-4ba4-900c-2bd1fdf8d03c",
+        "battingSkill": "★★★★",
+        "bowlingSkill": "★★★★★"
       },
       {
         "firstName": "Mihin",
         "lastName": "Patel",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 4,
-        "bowlingSkill": 4
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fmihin_jay?alt=media&token=40d02bde-30eb-4a26-b8fc-1e5ec50a51a9",
+        "battingSkill": "★★★★",
+        "bowlingSkill": "★★★★"
       },
       {
         "firstName": "Ravi",
         "lastName": "Patel",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 3,
-        "bowlingSkill": 4
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fravi_jay?alt=media&token=a2e658da-1e88-4ef7-8514-82585605ba01",
+        "battingSkill": "★★★",
+        "bowlingSkill": "★★★★"
       },
       {
         "firstName": "Hardik",
         "lastName": "Patel",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 3,
-        "bowlingSkill": 3
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fhardik_jay?alt=media&token=8f10ce62-d40e-4e22-b08b-8e2e2428aabf",
+        "battingSkill": "★★★",
+        "bowlingSkill": "★★★"
       },
       {
         "firstName": "Harshit ",
         "lastName": "Patel",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 3,
-        "bowlingSkill": 2
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fharshit_jay?alt=media&token=6c65bb53-9a3b-4a51-aed2-ec0a3cf5d39b",
+        "battingSkill": "★★★",
+        "bowlingSkill": "★★"
       },
       {
         "firstName": "Dhruv ",
         "lastName": "Rajpara",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 2,
-        "bowlingSkill": 4
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fdhruv_jay?alt=media&token=f25b334e-f793-483c-b4ff-090065f71f41",
+        "battingSkill": "★★",
+        "bowlingSkill": "★★★★"
       },
       {
         "firstName": "Nikhil ",
         "lastName": "Patel",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 2,
-        "bowlingSkill": 3
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fnikhil_jay?alt=media&token=9a856733-2f45-4cfe-b1cb-571e337eb05e",
+        "battingSkill": "★★",
+        "bowlingSkill": "★★★"
       }
     ]
   },
   {
     "teamName": "(A4) Jayesh's7",
     "captainName": "Jayesh Amodra",
-    "jerseyColor": "#83de83",
     "teamImage": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fjayesh?alt=media&token=95d321ec-e942-4685-86ae-e09be3403405",
     "players": [
       {
         "firstName": "Hari",
         "lastName": "Lakhani",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 4,
-        "bowlingSkill": 4
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fhari_jayesh?alt=media&token=db7a9ed7-0595-4d5d-a331-79fc52a2a7d6",
+        "battingSkill": "★★★★",
+        "bowlingSkill": "★★★★"
       },
       {
         "firstName": "Darshan",
         "lastName": "Patel",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 3,
-        "bowlingSkill": 3
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fdarshan_jayesh?alt=media&token=46175203-c9e7-48a1-a47c-ca7c386696c3",
+        "battingSkill": "★★★",
+        "bowlingSkill": "★★★"
       },
       {
         "firstName": "Mitul",
         "lastName": "Patel",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 3,
-        "bowlingSkill": 3
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fmitul_jayesh?alt=media&token=cca37a21-8fed-4d28-867a-e53dfc740159",
+        "battingSkill": "★★★",
+        "bowlingSkill": "★★★"
       },
       {
         "firstName": "Jenish ",
         "lastName": "Vekariya",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 3,
-        "bowlingSkill": 3
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fjenish_jayesh?alt=media&token=f40d68f3-7fdd-4505-bd21-2ef4b9ed1020",
+        "battingSkill": "★★★",
+        "bowlingSkill": "★★★"
       },
       {
         "firstName": "Kishan",
         "lastName": "Desai",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 3,
-        "bowlingSkill": 3
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fkishan_jayesh?alt=media&token=8d3ba2c4-130b-4b6a-b41c-cf3f2a4959d6",
+        "battingSkill": "★★★",
+        "bowlingSkill": "★★★"
       },
       {
         "firstName": "Darpankumar",
         "lastName": "Patel",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 4,
-        "bowlingSkill": 2
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fdarpan_jayesh?alt=media&token=9d190df1-7073-4ec7-bd2d-9367c35a00bc",
+        "battingSkill": "★★★★",
+        "bowlingSkill": "★★"
       },
       {
         "firstName": "Dhaval",
         "lastName": "Bhatt",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 3,
-        "bowlingSkill": 2
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fdhaval_jayesh?alt=media&token=4b2a0c2f-418f-4606-bb1f-0b49ab9078ac",
+        "battingSkill": "★★★",
+        "bowlingSkill": "★★"
       }
     ]
   },
@@ -584,51 +574,51 @@
       {
         "firstName": "Vrajesh",
         "lastName": "Tailor",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 4,
-        "bowlingSkill": 5
+        "profilePhoto": " https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fvrajesh_nehanshu?alt=media&token=e37e9229-1a80-40ac-99e7-fde4bba86686",
+        "battingSkill": "★★★★",
+        "bowlingSkill": "★★★★★"
       },
       {
         "firstName": "Dhaval",
         "lastName": "Patel",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 3,
-        "bowlingSkill": 5
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fdhaval_nehanshu?alt=media&token=71d24a28-61bf-4b55-962f-182050ff02d4",
+        "battingSkill": "★★★",
+        "bowlingSkill": "★★★★★"
       },
       {
         "firstName": "Anand",
         "lastName": "Patel",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 5,
-        "bowlingSkill": 3
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fanand_nehanshu?alt=media&token=cbcf7131-2ab7-46af-8383-79c43e68a456",
+        "battingSkill": "★★★★★",
+        "bowlingSkill": "★★★"
       },
       {
         "firstName": "Ritesh ",
         "lastName": "Dalwadi ",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 3,
-        "bowlingSkill": 3
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fritesh1_jayesh?alt=media&token=3f55d960-9e4e-4e04-8954-689c57acee6d",
+        "battingSkill": "★★★",
+        "bowlingSkill": "★★★"
       },
       {
         "firstName": "Trushar",
         "lastName": "Bhavsar",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 2,
-        "bowlingSkill": 2
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Ftrushar_nehanshu?alt=media&token=9f2a4acc-dc46-4dff-b3a4-b7ca5e75f811",
+        "battingSkill": "★★",
+        "bowlingSkill": "★★"
       },
       {
         "firstName": "Jaykumar Pareshbhai",
         "lastName": "Parekh",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 1,
-        "bowlingSkill": 1
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fjay1_jayesh?alt=media&token=4cb9a799-386f-42d3-bff7-80a856d9e614",
+        "battingSkill": "★",
+        "bowlingSkill": "★"
       },
       {
         "firstName": "Alpesh ",
         "lastName": "Parekh",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 4,
-        "bowlingSkill": 1
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Falpesh_nehanshu?alt=media&token=6fb18904-0c5f-4e3d-b198-912041b1fa55",
+        "battingSkill": "★★★★",
+        "bowlingSkill": "★"
       }
     ]
   },
@@ -640,51 +630,51 @@
       {
         "firstName": "Aksharkumar",
         "lastName": "Chhatriwala",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 5,
-        "bowlingSkill": 4
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fakshar_parth?alt=media&token=3fcab1ec-1951-449a-95d8-56c247586abe",
+        "battingSkill": "★★★★★",
+        "bowlingSkill": "★★★★"
       },
       {
         "firstName": "Yogesh",
         "lastName": "Patel",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 3,
-        "bowlingSkill": 4
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fyogesh_parth?alt=media&token=f2aeb1ee-c071-4249-ad84-88c7d2547ff8",
+        "battingSkill": "★★★",
+        "bowlingSkill": "★★★★"
       },
       {
         "firstName": "Biren",
         "lastName": "Patel ",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 4,
-        "bowlingSkill": 3
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fbiren_parth?alt=media&token=9d2e803f-8d90-49f8-8aed-ca1b677f82b5",
+        "battingSkill": "★★★★",
+        "bowlingSkill": "★★★"
       },
       {
         "firstName": "Hiren",
         "lastName": "Patel",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 3,
-        "bowlingSkill": 3
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fhiren_parth?alt=media&token=2b9824a1-1b8e-4161-929e-e2272d1a8caf",
+        "battingSkill": "★★★",
+        "bowlingSkill": "★★★"
       },
       {
         "firstName": "GunjanKumar",
         "lastName": "Patel",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 3,
-        "bowlingSkill": 3
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fgunj_parth?alt=media&token=c612891e-dc71-4977-b59b-889d1c4f2f71",
+        "battingSkill": "★★★",
+        "bowlingSkill": "★★★"
       },
       {
         "firstName": "Jay",
         "lastName": "Beldar",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 3,
-        "bowlingSkill": 2
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fjay_parth?alt=media&token=6dd416e2-8b18-471d-9ea7-56a4236e410e",
+        "battingSkill": "★★★",
+        "bowlingSkill": "★★"
       },
       {
         "firstName": "Parthav",
         "lastName": "Kher",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 3,
-        "bowlingSkill": 1
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fparhav_parth?alt=media&token=42c07dc9-91f9-41b1-8221-ace8e53eaf13",
+        "battingSkill": "★★★",
+        "bowlingSkill": "★"
       }
     ]
   },
@@ -696,51 +686,51 @@
       {
         "firstName": "Jalat(Sunny)",
         "lastName": "Patel",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 5,
-        "bowlingSkill": 4
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fjalat_pavan?alt=media&token=98f4b830-1ce0-408c-9714-da84d8ef73b2",
+        "battingSkill": "★★★★★",
+        "bowlingSkill": "★★★★"
       },
       {
         "firstName": "JIGARKUMAR ",
         "lastName": "PATEL",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 4,
-        "bowlingSkill": 4
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fjigar_pavan?alt=media&token=61afb715-1ead-4287-8497-c531665e8c20",
+        "battingSkill": "★★★★",
+        "bowlingSkill": "★★★★"
       },
       {
         "firstName": "Jainish",
         "lastName": "Patel",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 4,
-        "bowlingSkill": 3
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fjainish_pavan?alt=media&token=daafd9dd-dc0f-4488-ac78-f5d3d6c7c135",
+        "battingSkill": "★★★★",
+        "bowlingSkill": "★★★"
       },
       {
         "firstName": "Manav",
         "lastName": "Parekh",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 3,
-        "bowlingSkill": 3
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fmanav_pavan?alt=media&token=22fdd777-e863-4ee8-ba90-3872b5bbe538",
+        "battingSkill": "★★★",
+        "bowlingSkill": "★★★"
       },
       {
         "firstName": "Anand",
         "lastName": "Patel",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 3,
-        "bowlingSkill": 3
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fanand_pavan?alt=media&token=41197b94-f74a-497f-85a0-66e884ca5e4c",
+        "battingSkill": "★★★",
+        "bowlingSkill": "★★★"
       },
       {
         "firstName": "Paras",
         "lastName": "Patel",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 1,
-        "bowlingSkill": 1
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fparas_pavan?alt=media&token=8e3fd5d1-dbf6-4105-a022-38bcfd781d42",
+        "battingSkill": "★",
+        "bowlingSkill": "★"
       },
       {
         "firstName": "Darshnik",
         "lastName": "Patel",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 4,
-        "bowlingSkill": 2
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fdarshnik_pavan?alt=media&token=9099aa15-8c55-406b-9019-97a9bc47323f",
+        "battingSkill": "★★★★",
+        "bowlingSkill": "★★"
       }
     ]
   },
@@ -752,51 +742,51 @@
       {
         "firstName": "Amrish ",
         "lastName": "Kotecha ",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 4,
-        "bowlingSkill": 4
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Famrish_pradeep?alt=media&token=37206a46-3425-43d7-abf6-3a417b4ffe3b",
+        "battingSkill": "★★★★",
+        "bowlingSkill": "★★★★"
       },
       {
         "firstName": "Varun",
         "lastName": "Gangadia",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 3,
-        "bowlingSkill": 5
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fvarun_pradeep?alt=media&token=24496314-2059-4ae7-be35-5d6b57890cfb",
+        "battingSkill": "★★★",
+        "bowlingSkill": "★★★★★"
       },
       {
         "firstName": "Hariraj",
         "lastName": "Jadeja",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 4,
-        "bowlingSkill": 4
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fhariraj_pradeep?alt=media&token=7e9f5ec7-c1a5-4f01-809f-005f0188c18c",
+        "battingSkill": "★★★★",
+        "bowlingSkill": "★★★★"
       },
       {
         "firstName": "Umeshkumar ",
         "lastName": "Patel ",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 3,
-        "bowlingSkill": 3
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fumesh_pradeep?alt=media&token=ce6038e7-ea1f-4c20-b04f-1f91dbcec2dc",
+        "battingSkill": "★★★",
+        "bowlingSkill": "★★★"
       },
       {
         "firstName": "Rahul",
         "lastName": "Kathiriya",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 2,
-        "bowlingSkill": 2
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Frahul_pradeep?alt=media&token=999e3caa-47b0-400b-a4da-d679b089ef71",
+        "battingSkill": "★★",
+        "bowlingSkill": "★★"
       },
       {
         "firstName": "Parth",
         "lastName": "Patel",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 3,
-        "bowlingSkill": 1
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fparth_pradeep?alt=media&token=c71969d5-5851-4255-83d9-c12845e08bbc",
+        "battingSkill": "★★★",
+        "bowlingSkill": "★"
       },
       {
         "firstName": "Prakash",
         "lastName": "Patel",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 2,
-        "bowlingSkill": 3
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fprakash_pradeep?alt=media&token=1d6257ae-486f-420c-9d48-1abd5e5728f4",
+        "battingSkill": "★★",
+        "bowlingSkill": "★★★"
       }
     ]
   },
@@ -808,51 +798,51 @@
       {
         "firstName": "Vinay ",
         "lastName": "Patel",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 4,
-        "bowlingSkill": 4
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fvinay_purvesh?alt=media&token=6ba76e30-f73f-4e71-864f-7e4d38ae77c5",
+        "battingSkill": "★★★★",
+        "bowlingSkill": "★★★★"
       },
       {
         "firstName": "Harshid",
         "lastName": "Patel",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 4,
-        "bowlingSkill": 4
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fharshid_purvesh?alt=media&token=dc14ea01-b0b3-40af-b7b0-6f38e6e84a41",
+        "battingSkill": "★★★★",
+        "bowlingSkill": "★★★★"
       },
       {
         "firstName": "Drashy",
         "lastName": "Gajjar",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 4,
-        "bowlingSkill": 4
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fdrashy_purvesh?alt=media&token=44f836c1-a5cb-4904-8b5d-284fa14a842c",
+        "battingSkill": "★★★★",
+        "bowlingSkill": "★★★★"
       },
       {
         "firstName": "Shlok ",
         "lastName": "Patel ",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 2,
-        "bowlingSkill": 2
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fshlok_purvesh?alt=media&token=839a3b1c-98ba-466f-931c-69e75b7a8579",
+        "battingSkill": "★★",
+        "bowlingSkill": "★★"
       },
       {
         "firstName": "Sharad",
         "lastName": "Salia",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 1,
-        "bowlingSkill": 1
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fsharad1_purvesh?alt=media&token=b011c1ae-1bee-411a-863a-ff50c4b42e13",
+        "battingSkill": "★",
+        "bowlingSkill": "★"
       },
       {
         "firstName": "Jigs",
         "lastName": "Patel",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 4,
-        "bowlingSkill": 2
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fjigs_purvesh?alt=media&token=1c45694d-0a3b-4eab-a060-c8d9f9e00e3e",
+        "battingSkill": "★★★★",
+        "bowlingSkill": "★★"
       },
       {
         "firstName": "chintan ",
         "lastName": "patel",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 3,
-        "bowlingSkill": 2
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fchintan_purvesh?alt=media&token=d9063e02-80a0-4d1f-a4cf-a564c00c89c5",
+        "battingSkill": "★★★",
+        "bowlingSkill": "★★"
       }
     ]
   },
@@ -864,58 +854,58 @@
       {
         "firstName": "Rutul",
         "lastName": "Patel",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 4,
-        "bowlingSkill": 4
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2FRutul_Rajiv?alt=media&token=b1bef3a6-d141-4f5f-bfe6-dcbab8faac39",
+        "battingSkill": "★★★★",
+        "bowlingSkill": "★★★★"
       },
       {
         "firstName": "Divyesh",
         "lastName": "Parekh",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 4,
-        "bowlingSkill": 4
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2FDivyesh_Rajiv?alt=media&token=595780ca-41bd-41da-af58-827aecc78ef3",
+        "battingSkill": "★★★★",
+        "bowlingSkill": "★★★★"
       },
       {
         "firstName": "VIPUL ",
         "lastName": "Patel",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 4,
-        "bowlingSkill": 2
+        "profilePhoto": " https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2F%20VIPUL_Rajiv?alt=media&token=69f0a473-df7f-4932-8e81-3a9cd32cd3b2",
+        "battingSkill": "★★★",
+        "bowlingSkill": "★★"
       },
       {
         "firstName": "Tirth",
         "lastName": "Patel",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 3,
-        "bowlingSkill": 2
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2FTirth_Rajiv%20?alt=media&token=11eb27ff-76c0-47e8-a45f-c4c56b048e6e",
+        "battingSkill": "★★★",
+        "bowlingSkill": "★★"
       },
       {
         "firstName": "Anant",
         "lastName": "Patel",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 3,
-        "bowlingSkill": 2
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2FAnant_Rajiv%20?alt=media&token=a47d95d3-e83c-4a52-ba7a-03ca79a10e34",
+        "battingSkill": "★★★",
+        "bowlingSkill": "★★"
       },
       {
         "firstName": "Nirav",
         "lastName": "Patel",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 3,
-        "bowlingSkill": 1
+        "profilePhoto": " https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2FNirav_Rajiv%20?alt=media&token=ba8cecde-973b-4f0b-bdad-cae27af3b9c6",
+        "battingSkill": "★★★",
+        "bowlingSkill": "★"
       },
       {
         "firstName": "Jayesh",
         "lastName": "Makwana",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 3,
-        "bowlingSkill": 1
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2FJayesh_Rajiv%20?alt=media&token=fb436c4a-1685-42ae-9a88-98dd62a69de0",
+        "battingSkill": "★★★",
+        "bowlingSkill": "★"
       },
       {
         "firstName": "Sharad",
         "lastName": "Vaghasiya",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 3,
-        "bowlingSkill": 2
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2FSharad_Rajiv?alt=media&token=151b19c5-d4bb-4ad1-bf97-1ccaa9b15387",
+        "battingSkill": "★★★",
+        "bowlingSkill": "★★"
       }
     ]
   },
@@ -927,51 +917,51 @@
       {
         "firstName": "Dharmik ",
         "lastName": "Tailor ",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 5,
-        "bowlingSkill": 5
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2FDharmik_Rakshit?alt=media&token=b5af2b09-2961-4f01-8a9d-b8f1da95f769",
+        "battingSkill": "★★★★★",
+        "bowlingSkill": "★★★★★"
       },
       {
         "firstName": "Anuj",
         "lastName": "Gadia",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 4,
-        "bowlingSkill": 4
+        "profilePhoto": " https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2FAnuj__Rakshit?alt=media&token=456aec6b-8168-484d-b635-3337c7633a11",
+        "battingSkill": "★★★★",
+        "bowlingSkill": "★★★★"
       },
       {
         "firstName": "Nihal ",
         "lastName": "Patel",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 3,
-        "bowlingSkill": 4
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2FNihal__Rakshit?alt=media&token=72d5e7b5-187b-4a53-af75-e490116da540",
+        "battingSkill": "★★★",
+        "bowlingSkill": "★★★★"
       },
       {
         "firstName": "Hemanshu ",
         "lastName": "Patel",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 3,
-        "bowlingSkill": 3
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2FHemanshu__Rakshit?alt=media&token=f4ec1d34-b790-4763-8e8c-638ace5bf005",
+        "battingSkill": "★★★",
+        "bowlingSkill": "★★★"
       },
       {
         "firstName": "Anuj",
         "lastName": "Patel",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 3,
-        "bowlingSkill": 3
+        "profilePhoto": " https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2FAnuj__Rakshit?alt=media&token=f8048917-6d73-4231-aa35-bd17e1608d89",
+        "battingSkill": "★★★",
+        "bowlingSkill": "★★★"
       },
       {
         "firstName": "Dhyey",
         "lastName": "Patel",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 1,
-        "bowlingSkill": 1
+        "profilePhoto": " https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2FDhyey__Rakshit%20?alt=media&token=b162f854-0925-445d-8ecf-d1b9b075728d",
+        "battingSkill": "★",
+        "bowlingSkill": "★"
       },
       {
         "firstName": "Hem",
         "lastName": "Patel",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 4,
-        "bowlingSkill": 4
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2FHem__Rakshit?alt=media&token=5397e86b-21a1-4a8c-b096-45c06a1b03a5",
+        "battingSkill": "★★★★",
+        "bowlingSkill": "★★★★"
       }
     ]
   },
@@ -983,51 +973,51 @@
       {
         "firstName": "Vedant",
         "lastName": "Pandya",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 3,
-        "bowlingSkill": 4
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2FVedant_Ritesh?alt=media&token=1f358049-fb4d-43b0-8485-54e8f8c09a90",
+        "battingSkill": "★★★",
+        "bowlingSkill": "★★★★"
       },
       {
         "firstName": "Tejas",
         "lastName": "Patel",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 3,
-        "bowlingSkill": 3
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2FTejas_Ritesh?alt=media&token=a8ad5bc2-698e-40f6-9f50-7c5bca474492",
+        "battingSkill": "★★★",
+        "bowlingSkill": "★★★"
       },
       {
         "firstName": "Mit",
         "lastName": "Patel",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 3,
-        "bowlingSkill": 3
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2FMit_Ritesh?alt=media&token=927525d0-e727-4605-9dc8-119f58a900f0",
+        "battingSkill": "★★★",
+        "bowlingSkill": "★★★"
       },
       {
         "firstName": "Dhyeykumar",
-        "lastName": "patel",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 4,
-        "bowlingSkill": 2
+        "lastName": "Patel",
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2FDhyeykumar_Ritesh?alt=media&token=26fefc9b-c765-4128-90ab-79453dbaa3af",
+        "battingSkill": "★★★★",
+        "bowlingSkill": "★★"
       },
       {
         "firstName": "Maharshi",
         "lastName": "Desai",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 4,
-        "bowlingSkill": 2
+        "profilePhoto": " https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2FMaharshi_Ritesh?alt=media&token=1c330165-3be3-4854-9bfa-3839b80827f7",
+        "battingSkill": "★★★★",
+        "bowlingSkill": "★★"
       },
       {
         "firstName": "Anuj",
         "lastName": "Patel",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 4,
-        "bowlingSkill": 1
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2FAnuj_Ritesh?alt=media&token=a2e23892-cfbb-4e82-acf8-2d444a7250a9",
+        "battingSkill": "★★★★",
+        "bowlingSkill": "★"
       },
       {
         "firstName": "Aniket",
         "lastName": "Prajapati",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 3,
-        "bowlingSkill": 1
+        "profilePhoto": " https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2FAniket_Ritesh?alt=media&token=f4dcb39a-b9f6-42aa-9718-379aaa02ef6d",
+        "battingSkill": "★★★",
+        "bowlingSkill": "★"
       }
     ]
   },
@@ -1039,58 +1029,58 @@
       {
         "firstName": "Rakesh ",
         "lastName": "Soni",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 3,
-        "bowlingSkill": 4
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2FRakesh%20_Rohan?alt=media&token=2b71423f-3fc0-49da-b68b-7da1c94000ca",
+        "battingSkill": "★★★",
+        "bowlingSkill": "★★★★"
       },
       {
         "firstName": "Ravin",
         "lastName": "Inamdar ",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 4,
-        "bowlingSkill": 3
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2FRavin%20_Rohan?alt=media&token=bddf18c2-2127-441d-b37b-ea5b1650d27e",
+        "battingSkill": "★★★★",
+        "bowlingSkill": "★★★"
       },
       {
         "firstName": "Raj",
         "lastName": "Patel",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 4,
-        "bowlingSkill": 3
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2FRaj%20_Rohan?alt=media&token=0a003e38-9c46-4348-afe2-8e30d2140dde",
+        "battingSkill": "★★★★",
+        "bowlingSkill": "★★★"
       },
       {
         "firstName": "Hemant",
         "lastName": "Patel",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 3,
-        "bowlingSkill": 4
+        "profilePhoto": " https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2FHemant%20_Rohan?alt=media&token=b8b95639-8d73-4c31-9a60-c7eeac8c1f2f",
+        "battingSkill": "★★★",
+        "bowlingSkill": "★★★★"
       },
       {
         "firstName": "Chirag",
         "lastName": "Patel",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 3,
-        "bowlingSkill": 3
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2FChirag%20_Rohan?alt=media&token=58922fca-b297-420c-9cf3-116c35caea85",
+        "battingSkill": "★★★",
+        "bowlingSkill": "★★★"
       },
       {
         "firstName": "Chaitanya",
         "lastName": "Bhatt",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 1,
-        "bowlingSkill": 2
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2FChaitanya%20_Rohan?alt=media&token=ba3ab95c-88e8-489b-b43e-216aaa1ebbc1",
+        "battingSkill": "★",
+        "bowlingSkill": "★★"
       },
       {
         "firstName": "Kalpesh",
         "lastName": "Prajapati",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 4,
-        "bowlingSkill": 2
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2FKalpesh%20_Rohan?alt=media&token=a3dfb438-cddb-4c16-bc1b-3ba4c3007bab",
+        "battingSkill": "★★★★",
+        "bowlingSkill": "★★"
       },
       {
         "firstName": "Milan",
         "lastName": "Patel",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 4,
-        "bowlingSkill": 1
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2FMilan_Rohan?alt=media&token=dc8a4ae0-85cc-40b1-a28c-af73aeb83d1c",
+        "battingSkill": "★★★★",
+        "bowlingSkill": "★"
       }
     ]
   },
@@ -1102,58 +1092,58 @@
       {
         "firstName": "Vivek",
         "lastName": "Patel",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 3,
-        "bowlingSkill": 5
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2FVivek?alt=media&token=a8e09efd-4fab-49af-af6d-7a387c27fd7a",
+        "battingSkill": "★★★",
+        "bowlingSkill": "★★★★★"
       },
       {
         "firstName": "Ved",
         "lastName": "Patel ",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 4,
-        "bowlingSkill": 4
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2FVed?alt=media&token=bacc91d1-f289-484c-ba5d-95f1152cddbf",
+        "battingSkill": "★★★★",
+        "bowlingSkill": "★★★★"
       },
       {
-        "firstName": "DARPAN",
+        "firstName": "Darpan",
         "lastName": "PATEL",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 4,
-        "bowlingSkill": 4
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2FDARPAN?alt=media&token=46712d6e-6261-4beb-813a-6831905ffefc",
+        "battingSkill": "★★★★",
+        "bowlingSkill": "★★★★"
       },
       {
         "firstName": "Rahil",
         "lastName": "Kanani",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 3,
-        "bowlingSkill": 4
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2F%20Rahil%20?alt=media&token=a3cc426f-89b0-4707-b9c5-64668faed713",
+        "battingSkill": "★★★",
+        "bowlingSkill": "★★★★"
       },
       {
         "firstName": "DHRUV",
         "lastName": "PATEL",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 4,
-        "bowlingSkill": 3
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2FDHRUV%20?alt=media&token=29c97a1d-f99c-4994-bdf0-54d7c72e5bed",
+        "battingSkill": "★★★★",
+        "bowlingSkill": "★★★"
       },
       {
         "firstName": "Vijay",
         "lastName": "Patel",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 3,
-        "bowlingSkill": 3
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2FVijay?alt=media&token=fb88a0f3-623a-4fa0-939b-e49c3a4cbaba",
+        "battingSkill": "★★★",
+        "bowlingSkill": "★★★"
       },
       {
         "firstName": "Utsav",
         "lastName": "Kalathiya",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 3,
-        "bowlingSkill": 3
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2F%20Utsav%20?alt=media&token=c88634a6-2ecb-4e3f-aef6-e0846cb44976",
+        "battingSkill": "★★★",
+        "bowlingSkill": "★★★"
       },
       {
         "firstName": "Jeet",
         "lastName": "Sangani",
-        "profilePhoto": "https://static.vecteezy.com/system/resources/thumbnails/001/840/612/small_2x/picture-profile-icon-male-icon-human-or-people-sign-and-symbol-free-vector.jpg",
-        "battingSkill": 4,
-        "bowlingSkill": 2
+        "profilePhoto": " https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2FJeet?alt=media&token=02e53a75-4e11-429e-b693-b3cd1669bebc",
+        "battingSkill": "★★★★",
+        "bowlingSkill": "★★"
       }
     ]
   }

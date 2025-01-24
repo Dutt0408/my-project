@@ -6,7 +6,7 @@ import Titleimage from './images/Titleimage.png';
 export default function ToggleableDemo() {
   return (
     <div className="section blackbg">
-      <div className="card">
+      <div className="card mb-4">
         {/* Image section */}
         <div className="relative flex justify-center items-center m-0 p-0">
           <img src={Titleimage} alt="Title" className="w-full h-auto object-cover" />
