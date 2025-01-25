@@ -513,8 +513,15 @@
   {
     "teamName": "(B1) Jay's7",
     "captainName": "Jay Patel",
-    "teamImage": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fjay?alt=media&token=66f66034-e055-4cac-9d7e-e615fef16399",
+    "teamImage": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fjay_captain?alt=media&token=fa96d456-21e5-497f-b764-5006e005fd0e",
     "players": [
+      {
+        "firstName": "Jay",
+        "lastName": "Patel",
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fjay_captain?alt=media&token=fa96d456-21e5-497f-b764-5006e005fd0e",
+        "battingSkill": "★★★★",
+        "bowlingSkill": "★★★"
+      },
       {
         "firstName": "Akshar",
         "lastName": "Patel",
@@ -569,8 +576,15 @@
   {
     "teamName": "(A4) Jayesh's7",
     "captainName": "Jayesh Amodra",
-    "teamImage": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fjayesh?alt=media&token=95d321ec-e942-4685-86ae-e09be3403405",
+    "teamImage": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fjayesh_captain?alt=media&token=4c781c9d-1738-45b2-9b13-a1fbbf448222",
     "players": [
+      {
+        "firstName": "Jayesh",
+        "lastName": "Amodra",
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fjayesh_captain?alt=media&token=4c781c9d-1738-45b2-9b13-a1fbbf448222",
+        "battingSkill": "★★★",
+        "bowlingSkill": "★★★"
+      },
       {
         "firstName": "Hari",
         "lastName": "Lakhani",
@@ -625,8 +639,15 @@
   {
     "teamName": "(A10) Nehanshu's7",
     "captainName": "Nehanshu Nai",
-    "teamImage": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fnehanshu?alt=media&token=edb52d04-36a9-45db-aaef-22701e664ff5",
+    "teamImage": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fnehanshu_captain?alt=media&token=6fb01aa7-dfcb-443b-8b8f-9e8b2f955b7d",
     "players": [
+      {
+        "firstName": "Nehanshu",
+        "lastName": "Nai",
+        "profilePhoto": " https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fnehanshu_captain?alt=media&token=6fb01aa7-dfcb-443b-8b8f-9e8b2f955b7d",
+        "battingSkill": "★★★★",
+        "bowlingSkill": "★★★★★"
+      },
       {
         "firstName": "Vrajesh",
         "lastName": "Tailor",
