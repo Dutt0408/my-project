@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "tailwindcss/tailwind.css";
 import { IoIosArrowBack } from "react-icons/io";
 import teamsData from "./Data/Team.json";
@@ -6,6 +6,10 @@ import Titleimage from "./images/Titleimage.png";
 
 export default function Teams() {
   const [selectedTeam, setSelectedTeam] = useState(null);
+
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }, [selectedTeam]);
 
   return (
     <div className="relative m-0 p-0">
@@ -27,29 +31,36 @@ export default function Teams() {
       {/* Teams Listing or Expanded View */}
       {!selectedTeam ? (
         <div className="mt-12">
-        <div className="grid grid-cols-2 gap-x-10 gap-y-10 sm:grid-cols-3 lg:grid-cols-5 justify-center max-w-screen-lg mx-0 px-10">
-          {teamsData.map((team, index) => (
-            <div
-              key={index}
-              className="w-34 h-48 bg-white rounded-lg shadow-lg cursor-pointer transform hover:scale-105 transition-transform mx-auto sm:w-40 sm:h-56 lg:w-44 lg:h-60 flex flex-col pb-4"
-              onClick={() => setSelectedTeam(team)}
-            >
-              <div className="flex-grow bg-blue-200 rounded-lg overflow-hidden">
-                <img
-                  src={team.teamImage}
-                  alt={team.teamName}
-                  className="w-full h-full object-cover"
-                />
-              </div>
-              <div className="p-2 flex items-center justify-center bg-white">
-                <h2 className="text-xs font-semibold text-center sm:text-sm">{team.teamName}</h2>
-              </div>
-            </div>
-          ))}
+          <div className="grid grid-cols-2 gap-x-10 gap-y-10 sm:grid-cols-3 lg:grid-cols-5 justify-center max-w-screen-lg mx-0 px-10">
+            {teamsData.map((team, index) => {
+              const isLeftCard = index % 2 === 0; // Check if the card is on the left or right
+              return (
+                <div
+                  key={index}
+                  className="w-34 h-48 bg-white rounded-lg shadow-lg cursor-pointer transform hover:scale-105 transition-transform mx-auto sm:w-40 sm:h-56 lg:w-44 lg:h-60 flex flex-col pb-4"
+                  onClick={() => setSelectedTeam(team)}
+                  style={{
+                    animation: `${
+                      isLeftCard ? "slideFromLeft" : "slideFromRight"
+                    } 1s ease-out ${index * 0.2}s forwards`,
+                    opacity: 0,
+                  }}
+                >
+                  <div className="flex-grow bg-blue-200 rounded-lg overflow-hidden">
+                    <img
+                      src={team.teamImage}
+                      alt={team.teamName}
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                  <div className="p-2 flex items-center justify-center bg-white">
+                    <h2 className="text-xs font-semibold text-center sm:text-sm">{team.teamName}</h2>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
         </div>
-      </div>
-      
-      
       ) : (
         <div>
           {/* Back Button */}
@@ -63,14 +74,14 @@ export default function Teams() {
           {/* Team Header */}
           <div
             className="text-white p-6 rounded-lg mb-6"
-            style={{ backgroundColor: "rgb(10 64 109 / 82%)",
-              color: "white"
-             }}
+            style={{
+              backgroundColor: "rgb(10 64 109 / 82%)",
+              color: "white",
+            }}
           >
             <h2 className="text-xl font-bold">{selectedTeam.teamName}</h2>
             <p className="text-lg font-medium mt-2">Captain: {selectedTeam.captainName}</p>
           </div>
-
 
           {/* Player Cards */}
           <div className="space-y-6">
@@ -78,6 +89,10 @@ export default function Teams() {
               <div
                 key={index}
                 className="flex items-center bg-white shadow-lg rounded-lg p-3 space-x-3 sm:flex-col sm:items-center sm:space-x-0"
+                style={{
+                  animation: `slideIn 1.2s ease-out ${index * 0.2}s forwards`,
+                  opacity: 0,
+                }}
               >
                 {/* Fixed size for the image container */}
                 <div className="w-24 h-24 flex-shrink-0">
@@ -99,6 +114,44 @@ export default function Teams() {
           </div>
         </div>
       )}
+
+      {/* CSS Animations */}
+      <style>
+        {`
+          @keyframes slideFromLeft {
+            from {
+              transform: translateX(-50%);
+              opacity: 0;
+            }
+            to {
+              transform: translateX(0);
+              opacity: 1;
+            }
+          }
+
+          @keyframes slideFromRight {
+            from {
+              transform: translateX(50%);
+              opacity: 0;
+            }
+            to {
+              transform: translateX(0);
+              opacity: 1;
+            }
+          }
+
+          @keyframes slideIn {
+            from {
+              transform: translateX(-50%);
+              opacity: 0;
+            }
+            to {
+              transform: translateX(0);
+              opacity: 1;
+            }
+          }
+        `}
+      </style>
     </div>
   );
 }

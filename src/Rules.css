@@ -64,3 +64,8 @@ button:hover {
     background-color: #0c3761; /* Slightly lighter gray for hover */
     color: white; /* Maintain white text */
 }
+
+.section .fieldset {
+    transition: opacity 0.7s ease, max-height 0.7s ease;
+  }
+  
