@@ -137,12 +137,15 @@ export default function Schedule() {
         />
         {/* Title with underline, centered on the image */}
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center">
-          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-[#023867] underline" style={{ textDecorationColor: "#e53e50" }}>
+          <h2
+            className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-[#023867] underline"
+            style={{ textDecorationColor: "#e53e50" }}
+          >
             POINTS TABLE
           </h2>
         </div>
       </div>
-  
+
       {/* Scrollable table */}
       <div className="overflow-x-auto mt-8">
         <table className="team-table min-w-full">
@@ -159,7 +162,15 @@ export default function Schedule() {
           </thead>
           <tbody>
             {sortedTeams.map((team, index) => (
-              <TeamRow key={index} {...team} />
+              <>
+                <TeamRow key={index} {...team} />
+                {/* Add a line after the 10th row */}
+                {index === 9 && (
+                  <tr key="separator">
+                    <td colSpan="7" className="border-t-2 border-gray-400"></td>
+                  </tr>
+                )}
+              </>
             ))}
           </tbody>
         </table>
@@ -167,3 +178,4 @@ export default function Schedule() {
     </div>
   );
 }
+

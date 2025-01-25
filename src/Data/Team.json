@@ -705,6 +705,13 @@
     "teamImage": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fparth_captain?alt=media&token=d8208d60-2afd-4f7c-9374-f0625f37e394",
     "players": [
       {
+        "firstName": "Parth",
+        "lastName": "Patel",
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fparth_captain?alt=media&token=d8208d60-2afd-4f7c-9374-f0625f37e394",
+        "battingSkill": "★★★",
+        "bowlingSkill": "★★★"
+      },
+      {
         "firstName": "Aksharkumar",
         "lastName": "Chhatriwala",
         "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fakshar_parth?alt=media&token=3fcab1ec-1951-449a-95d8-56c247586abe",
@@ -758,8 +765,15 @@
   {
     "teamName": "(B8) Pavan's7",
     "captainName": "Pavan Patel",
-    "teamImage": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fpavan?alt=media&token=1960e959-5901-4c95-8407-5ef025648555",
+    "teamImage": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fpavan_captain?alt=media&token=bc59788c-175b-46aa-b6e2-f3a3ef5c9764",
     "players": [
+      {
+        "firstName": "Pavan",
+        "lastName": "Patel",
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fpavan_captain?alt=media&token=bc59788c-175b-46aa-b6e2-f3a3ef5c9764",
+        "battingSkill": "★★★",
+        "bowlingSkill": "★★★"
+      },
       {
         "firstName": "Jalat(Sunny)",
         "lastName": "Patel",
@@ -814,8 +828,15 @@
   {
     "teamName": "(A1) Pradeep's7",
     "captainName": "Pradeep Moradiya",
-    "teamImage": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fpradeep?alt=media&token=70e97ff2-2582-40a2-ab3f-4e877d340c60",
+    "teamImage": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fpradeep_captain?alt=media&token=d85bb847-1a6a-4873-8bd4-39ccb8d16ab1",
     "players": [
+      {
+        "firstName": "Pradeep",
+        "lastName": "Moradiya",
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fpradeep_captain?alt=media&token=d85bb847-1a6a-4873-8bd4-39ccb8d16ab1",
+        "battingSkill": "★★★★",
+        "bowlingSkill": "★★★★"
+      },
       {
         "firstName": "Amrish ",
         "lastName": "Kotecha ",
@@ -870,8 +891,15 @@
   {
     "teamName": "(B4) Purvesh's7",
     "captainName": "Purvesh Patel",
-    "teamImage": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2FPurvesh's7?alt=media&token=ed5a48ba-2297-4764-9171-c4a858b79fd9",
+    "teamImage": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fpurvesh_captain?alt=media&token=8f02de38-ab12-4de4-811c-8a308cd54586",
     "players": [
+      {
+        "firstName": "Purvesh",
+        "lastName": "Patel",
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fpurvesh_captain?alt=media&token=8f02de38-ab12-4de4-811c-8a308cd54586",
+        "battingSkill": "★★★",
+        "bowlingSkill": "★★★"
+      },
       {
         "firstName": "Vinay ",
         "lastName": "Patel",
@@ -926,8 +954,15 @@
   {
     "teamName": "(B2) Rajiv's8",
     "captainName": "Rajiv Tarsarya",
-    "teamImage": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2FRajiv's8?alt=media&token=d1d934ec-8840-4876-b0bb-baec08d8c39f",
+    "teamImage": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Frajiv_captain?alt=media&token=d7a44b12-5597-47ac-a4c6-39d09000278e",
     "players": [
+      {
+        "firstName": "Rajiv",
+        "lastName": "Tarsarya",
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Frajiv_captain?alt=media&token=d7a44b12-5597-47ac-a4c6-39d09000278e",
+        "battingSkill": "★★★★",
+        "bowlingSkill": "★★★★"
+      },
       {
         "firstName": "Rutul",
         "lastName": "Patel",
@@ -989,8 +1024,15 @@
   {
     "teamName": "(B10) Rakshit's7",
     "captainName": "Rakshit Patel",
-    "teamImage": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2FRakshit's7?alt=media&token=655dad08-5d56-4d14-89f1-41e8a889b0fa",
+    "teamImage": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Frakshit_captain?alt=media&token=f3429737-3f63-40a3-bc4e-d0665762d3b5",
     "players": [
+      {
+        "firstName": "Rakshit ",
+        "lastName": "Patel",
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Frakshit_captain?alt=media&token=f3429737-3f63-40a3-bc4e-d0665762d3b5",
+        "battingSkill": "★★★★★",
+        "bowlingSkill": "★★"
+      },
       {
         "firstName": "Dharmik ",
         "lastName": "Tailor ",
@@ -1045,8 +1087,15 @@
   {
     "teamName": "(A5) Ritesh's7",
     "captainName": "Ritesh Patel",
-    "teamImage": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fritesh?alt=media&token=4feeb4d8-174c-43ed-9875-7b5f24021c4d",
+    "teamImage": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fritesh_captain?alt=media&token=895756a8-629c-42aa-97bd-3f1da9758258",
     "players": [
+      {
+        "firstName": "Ritesh",
+        "lastName": "Patel",
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fritesh_captain?alt=media&token=895756a8-629c-42aa-97bd-3f1da9758258",
+        "battingSkill": "★★★",
+        "bowlingSkill": "★★★★"
+      },
       {
         "firstName": "Vedant",
         "lastName": "Pandya",
@@ -1101,8 +1150,15 @@
   {
     "teamName": "(B3) Rohan's8",
     "captainName": "Rohan Patel",
-    "teamImage": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2FRohan's8?alt=media&token=7075984d-bf97-42cd-b701-2998d1bcd2fb",
+    "teamImage": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Frohan_captain?alt=media&token=322f391c-9bb4-4063-8507-aff9b881562e",
     "players": [
+      {
+        "firstName": "Rohan",
+        "lastName": "Patel",
+        "profilePhoto": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Frohan_captain?alt=media&token=322f391c-9bb4-4063-8507-aff9b881562e",
+        "battingSkill": "★★★★",
+        "bowlingSkill": "★★★"
+      },
       {
         "firstName": "Rakesh ",
         "lastName": "Soni",
@@ -1164,8 +1220,15 @@
   {
     "teamName": "(B9) Yogesh's8",
     "captainName": "Yogesh Patel",
-    "teamImage": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2FYogesh'8?alt=media&token=643af049-56f5-4103-9f9b-604c0a41a358",
+    "teamImage": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2Fyogesh_captain?alt=media&token=ab97816c-984b-4906-a86c-335572580a98",
     "players": [
+      {
+        "firstName": "Yogesh",
+        "lastName": "Patel",
+        "profilePhoto": "09.appspot.com/o/images%2FVivek?alt=media&token=a8e09efd-4fab-49af-af6d-7a387c27fd7a",
+        "battingSkill": "★★★",
+        "bowlingSkill": "★★★★★"
+      },
       {
         "firstName": "Vivek",
         "lastName": "Patel",

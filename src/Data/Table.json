@@ -1,6 +1,6 @@
 [
     {
-      "teamName": "Chirag's 7",
+      "teamName": "Pradeep's 7",
       "match": 0,
       "won": 0,
       "lost": 0,
@@ -13,46 +13,7 @@
       "oppositionOvers": 0  
     },
     {
-      "teamName": "Devashish's 7",
-      "match": 0,
-      "won": 0,
-      "lost": 0,
-      "NRR": 0,
-      "pts": 0,
-      "last3": "DPoint,DPoint,DPoint",
-      "teamRuns": 0,  
-      "teamOvers": 0,   
-      "oppositionRuns": 0, 
-      "oppositionOvers": 0
-    },
-    {
-      "teamName": "Harit's 7",
-      "match": 0,
-      "won": 0,
-      "lost": 0,
-      "NRR": 0,
-      "pts": 0,
-      "last3": "DPoint,DPoint,DPoint",
-      "teamRuns": 0,  
-      "teamOvers": 0,   
-      "oppositionRuns": 0, 
-      "oppositionOvers": 0
-    },
-    {
       "teamName": "Harsh's 7",
-      "match": 0,
-      "won": 0,
-      "lost": 0,
-      "NRR": 0,
-      "pts": 0,
-      "last3": "DPoint,DPoint,DPoint",
-      "teamRuns": 0,  
-      "teamOvers": 0,   
-      "oppositionRuns": 0, 
-      "oppositionOvers": 0 
-    },
-    {
-     "teamName": "Harshil's 8",
       "match": 0,
       "won": 0,
       "lost": 0,
@@ -75,10 +36,49 @@
       "teamRuns": 0,  
       "teamOvers": 0,   
       "oppositionRuns": 0, 
+      "oppositionOvers": 0
+    },
+    {
+      "teamName": "Jayesh's 7",
+      "match": 0,
+      "won": 0,
+      "lost": 0,
+      "NRR": 0,
+      "pts": 0,
+      "last3": "DPoint,DPoint,DPoint",
+      "teamRuns": 0,  
+      "teamOvers": 0,   
+      "oppositionRuns": 0, 
       "oppositionOvers": 0 
     },
     {
-      "teamName": "Jaimin.G's 7",
+     "teamName": "Ritesh's 8",
+      "match": 0,
+      "won": 0,
+      "lost": 0,
+      "NRR": 0,
+      "pts": 0,
+      "last3": "DPoint,DPoint,DPoint",
+      "teamRuns": 0,  
+      "teamOvers": 0,   
+      "oppositionRuns": 0, 
+      "oppositionOvers": 0
+    },
+    {
+      "teamName": "Harshil's 7",
+      "match": 0,
+      "won": 0,
+      "lost": 0,
+      "NRR": 0,
+      "pts": 0,
+      "last3": "DPoint,DPoint,DPoint",
+      "teamRuns": 0,  
+      "teamOvers": 0,   
+      "oppositionRuns": 0, 
+      "oppositionOvers": 0 
+    },
+    {
+      "teamName": "Devashish.G's 7",
       "match": 0, 
       "won": 0,
       "lost": 0,
@@ -91,7 +91,7 @@
       "oppositionOvers": 0
     },
     {
-      "teamName": "Jaimin.P's 7",
+      "teamName": "Parth's 7",
       "match": 0,
       "won": 0,
       "lost": 0,
@@ -104,20 +104,7 @@
       "oppositionOvers": 0
     },
     {
-      "teamName": "Jay's7",
-      "match": 0,
-      "won": 0,
-      "lost": 0,
-      "NRR": 0,
-      "pts": 0,
-      "last3": "DPoint,DPoint,DPoint",
-      "teamRuns": 0,  
-      "teamOvers": 0,   
-      "oppositionRuns": 0, 
-      "oppositionOvers": 0
-    },
-    {
-      "teamName": "Jayesh's 7",
+      "teamName": "Jaimin's7",
       "match": 0,
       "won": 0,
       "lost": 0,
@@ -140,10 +127,23 @@
       "teamRuns": 0,  
       "teamOvers": 0,   
       "oppositionRuns": 0, 
+      "oppositionOvers": 0
+    },
+    {
+      "teamName": "Jay's 7",
+      "match": 0,
+      "won": 0,
+      "lost": 0,
+      "NRR": 0,
+      "pts": 0,
+      "last3": "DPoint,DPoint,DPoint",
+      "teamRuns": 0,  
+      "teamOvers": 0,   
+      "oppositionRuns": 0, 
       "oppositionOvers": 0 
     },
     {
-      "teamName": "Parth's 7",
+      "teamName": "Rajiv's 7",
       "match": 0,
       "won": 0,
       "lost": 0,
@@ -156,7 +156,7 @@
       "oppositionOvers": 0
     },
     {
-      "teamName": "Pavan's 7",
+      "teamName": "Rohan's 7",
       "match": 0,
       "won": 0,
       "lost": 0,
@@ -167,19 +167,6 @@
       "teamOvers": 0,   
       "oppositionRuns": 0, 
       "oppositionOvers": 0
-    },
-    {
-      "teamName": "Pradeep's 7",
-      "match": 0,
-      "won": 0,
-      "lost": 0,
-      "NRR": 0,
-      "pts": 0,
-      "last3": "DPoint,DPoint,DPoint",
-      "teamRuns": 0,  
-      "teamOvers": 0,   
-      "oppositionRuns": 0, 
-      "oppositionOvers": 0 
     },
     {
       "teamName": "Purvesh's 7",
@@ -192,10 +179,23 @@
       "teamRuns": 0,  
       "teamOvers": 0,   
       "oppositionRuns": 0, 
+      "oppositionOvers": 0 
+    },
+    {
+      "teamName": "Chirag's 7",
+      "match": 0,
+      "won": 0,
+      "lost": 0,
+      "NRR": 0,
+      "pts": 0,
+      "last3": "DPoint,DPoint,DPoint",
+      "teamRuns": 0,  
+      "teamOvers": 0,   
+      "oppositionRuns": 0, 
       "oppositionOvers": 0
     },
     {
-      "teamName": "Rajiv's 8",
+      "teamName": "Jasmin's 7",
       "match": 0,
       "won": 0,
       "lost": 0,
@@ -208,7 +208,7 @@
       "oppositionOvers": 0 
     },
     {
-      "teamName": "Rakshit's 7",
+      "teamName": "Harit's 7",
       "match": 0,
       "won": 0,
       "lost": 0,
@@ -221,20 +221,7 @@
       "oppositionOvers": 0 
     },
     {
-      "teamName": "Ritesh's 7",
-      "match": 0,
-      "won": 0,
-      "lost": 0,
-      "NRR": 0,
-      "pts": 0,
-      "last3": "DPoint,DPoint,DPoint",
-      "teamRuns": 0,  
-      "teamOvers": 0,   
-      "oppositionRuns": 0, 
-      "oppositionOvers": 0 
-    },
-    {
-      "teamName": "Rohan's 8",
+      "teamName": "Pavan's 8",
       "match": 0,
       "won": 0,
       "lost": 0,
@@ -248,6 +235,19 @@
     },
     {
       "teamName": "Yogesh's 8",
+      "match": 0,
+      "won": 0,
+      "lost": 0,
+      "NRR": 0,
+      "pts": 0,
+      "last3": "DPoint,DPoint,DPoint",
+      "teamRuns": 0,  
+      "teamOvers": 0,   
+      "oppositionRuns": 0, 
+      "oppositionOvers": 0 
+    },
+    {
+      "teamName": "Rakshit's 8",
       "match": 0,
       "won": 0,
       "lost": 0,
