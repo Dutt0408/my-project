@@ -1,32 +1,8 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import { Fieldset } from "primereact/fieldset";
 import "./Rules.css";
 
 export default function ToggleableDemo() {
-
-  const [inView, setInView] = useState(false);
-
-  useEffect(() => {
-    const container = document.querySelector(".section");
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting) {
-          setInView(true);
-        }
-      },
-      { threshold: 0.3 } // Trigger when 30% of the container is visible
-    );
-
-    if (container) {
-      observer.observe(container);
-    }
-
-    return () => {
-      if (container) observer.unobserve(container);
-    };
-  }, []);
-
-
   return (
     <div className="section blackbg">
       <div className="card mb-4">
@@ -57,7 +33,7 @@ export default function ToggleableDemo() {
             </span>
           }
           toggleable
-          collapsed={!inView}
+          collapsed={true}
           className="mt-9 border border-gray-400 p-4 rounded"
         >
           <ol className="main text-gray-700 list-disc m-0 mb-4 ml-4 sm:ml-8 space-y-4">
