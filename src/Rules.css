@@ -69,3 +69,15 @@ button:hover {
     transition: opacity 0.7s ease, max-height 0.7s ease;
   }
   
+  .fieldset-animation {
+    transition: opacity 0.5s ease, max-height 0.7s ease;
+    overflow: hidden;
+}
+.fieldset-animation[collapsed="false"] {
+    opacity: 1;
+    max-height: 1000px; /* Opened height */
+}
+.fieldset-animation[collapsed="true"] {
+    opacity: 0;
+    max-height: 0; /* Collapsed height */
+}

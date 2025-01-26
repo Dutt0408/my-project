@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import Titleimage from './images/Titleimage.png';
 
 export default function Schedule() {
   // Updated data with correct results based on scores
@@ -70,7 +69,9 @@ export default function Schedule() {
   return (
     <div>
       <div className="relative flex justify-center items-center m-0 p-0">
-        <img src={Titleimage} alt="Title" className="w-full h-auto object-cover" />
+        <img 
+          src="https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2FtitleImage?alt=media&token=ead58780-eac4-4af5-9ef8-be67e75919a2"
+          alt="Title" className="w-full h-auto object-cover" />
         <div className="absolute flex justify-center items-center top-0 left-0 right-0 bottom-0">
           <h2
             className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#023867] underline"

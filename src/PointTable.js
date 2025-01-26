@@ -1,7 +1,6 @@
 import React from "react";
 import "./index.css";
 import "./Table.css";
-import Titleimage from './images/Titleimage.png';
 import teams from "./Data/Table.json";
 
 const GPoint = () => (
@@ -131,7 +130,7 @@ export default function Schedule() {
     <div className="container mx-auto p-0">
       <div className="relative flex justify-center items-center">
         <img
-          src={Titleimage}
+          src="https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2FTitleImage?alt=media&token=107e3160-04b3-4056-b69c-199c1fe31408"
           alt="Title"
           className="w-full h-auto object-cover"
         />

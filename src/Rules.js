@@ -1,15 +1,40 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Fieldset } from "primereact/fieldset";
 import "./Rules.css";
-import Titleimage from './images/Titleimage.png';
 
 export default function ToggleableDemo() {
+
+  const [inView, setInView] = useState(false);
+
+  useEffect(() => {
+    const container = document.querySelector(".section");
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setInView(true);
+        }
+      },
+      { threshold: 0.3 } // Trigger when 30% of the container is visible
+    );
+
+    if (container) {
+      observer.observe(container);
+    }
+
+    return () => {
+      if (container) observer.unobserve(container);
+    };
+  }, []);
+
+
   return (
     <div className="section blackbg">
       <div className="card mb-4">
         {/* Image section */}
         <div className="relative flex justify-center items-center m-0 p-0">
-          <img src={Titleimage} alt="Title" className="w-full h-auto object-cover" />
+          <img 
+            src="https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2FTitleImage?alt=media&token=107e3160-04b3-4056-b69c-199c1fe31408" 
+            alt="Title" className="w-full h-auto object-cover" />
           
           {/* Title with underline, centered on the image */}
           <div className="absolute flex justify-center items-center top-0 left-0 right-0 bottom-0">
@@ -32,6 +57,7 @@ export default function ToggleableDemo() {
             </span>
           }
           toggleable
+          collapsed={!inView}
           className="mt-9 border border-gray-400 p-4 rounded"
         >
           <ol className="main text-gray-700 list-disc m-0 mb-4 ml-4 sm:ml-8 space-y-4">
@@ -82,6 +108,7 @@ export default function ToggleableDemo() {
             </span>
           }
           toggleable
+          collapsed={true}
           className="mt-9 border border-gray-400 p-4 rounded"
         >
           <ul className="main text-gray-700 list-disc m-0 mb-4 ml-4 sm:ml-8 space-y-4">
@@ -128,6 +155,7 @@ export default function ToggleableDemo() {
             </span>
           }
           toggleable
+          collapsed={true}
           className="mt-9 border border-gray-400 p-4 rounded"
         >
           <ul className="main text-gray-700 list-disc m-0 mb-4 ml-4 sm:ml-8 space-y-4">
@@ -196,6 +224,7 @@ export default function ToggleableDemo() {
             </span>
           }
           toggleable
+          collapsed={true}
           className="mt-9 border border-gray-400 p-4 rounded"
         >
           <ul className="main text-gray-700 list-disc m-0 mb-4 ml-4 sm:ml-8 space-y-4">
@@ -237,6 +266,7 @@ export default function ToggleableDemo() {
             </span>
           }
           toggleable
+          collapsed={true}
           className="mt-9 border border-gray-400 p-4 rounded"
         >
           <ul className="main text-gray-700 list-disc m-0 mb-4 ml-4 sm:ml-8 space-y-4">
@@ -276,6 +306,7 @@ export default function ToggleableDemo() {
             </span>
           }
           toggleable
+          collapsed={true}
           className="mt-9 border border-gray-400 p-4 rounded"
         >
           <ul className="main text-gray-700 list-disc m-0 mb-4 ml-4 sm:ml-8 space-y-4">

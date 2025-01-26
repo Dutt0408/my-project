@@ -1,13 +1,12 @@
 import React, { useEffect, useState } from "react";
-import Titleimage from "./images/Titleimage.png";
-import BAPScharities from './images/Sponsors/BAPSCharities.png';
+
 
 const sponsorsData = [
-  { id: 1, image: {BAPScharities} },
-  { id: 2, image: {BAPScharities} },
-  { id: 3, image: {BAPScharities} },
-  { id: 4, image: {BAPScharities} },
-  { id: 5, image: {BAPScharities} },
+  { id: 1, image: "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2FBAPSch?alt=media&token=303c296c-996f-49ca-b1c1-a4ebe0c5f2c7" },
+  { id: 2, image: "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2FBAPSch?alt=media&token=303c296c-996f-49ca-b1c1-a4ebe0c5f2c7" },
+  { id: 3, image: "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2FBAPSch?alt=media&token=303c296c-996f-49ca-b1c1-a4ebe0c5f2c7" },
+  { id: 4, image: "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2FBAPSch?alt=media&token=303c296c-996f-49ca-b1c1-a4ebe0c5f2c7" },
+  { id: 5, image: "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2FBAPSch?alt=media&token=303c296c-996f-49ca-b1c1-a4ebe0c5f2c7" },
 ];
 
 export default function Sponsors() {
@@ -35,7 +34,9 @@ export default function Sponsors() {
     <div>
       {/* Title Section */}
       <div className="relative flex justify-center items-center m-0 p-0">
-        <img src={Titleimage} alt="Title" className="w-full h-auto object-cover" />
+        <img 
+          src="https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2FTitleImage?alt=media&token=107e3160-04b3-4056-b69c-199c1fe31408"
+          alt="Title" className="w-full h-auto object-cover" />
         <div className="absolute flex justify-center items-center top-0 left-0 right-0 bottom-0">
           <h2
             className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#023867] underline"
@@ -57,7 +58,9 @@ export default function Sponsors() {
             }`}
           >
             <div className="bg-white shadow-lg rounded-lg p-6 h-48 flex justify-center items-center">
-              <img src={BAPScharities} alt={`Sponsor ${sponsor.id}`} className="w-full h-auto object-contain" />
+              <img 
+                src="https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2FBAPSch?alt=media&token=303c296c-996f-49ca-b1c1-a4ebe0c5f2c7"
+                alt={`Sponsor ${sponsor.id}`} className="w-full h-auto object-contain" />
             </div>
           </div>
         ))}

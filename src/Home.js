@@ -1,7 +1,4 @@
 import React, { useEffect, useState, useRef } from 'react';
-import HomepageMobile from './images/HomepageMobile.png';
-import HomepageDesktop from './images/HomepageDesktop.png';
-import BAPScharities from './images/Sponsors/BAPSCharities.png';
 
 function FadeInOnScroll({ children }) {
   const ref = useRef(null);
@@ -46,8 +43,9 @@ function Home() {
       <FadeInOnScroll>
         <img
           className="w-full h-auto object-cover mb-6 md:hidden"
-          src={HomepageMobile}
+          src="https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2FHomeMobileView?alt=media&token=fbf1e8c0-c29d-4c7c-b0a9-65d05b385c53"
           alt="Homepage Mobile"
+          loading='lazy'
         />
       </FadeInOnScroll>
 
@@ -55,7 +53,7 @@ function Home() {
       <FadeInOnScroll>
         <img
           className="w-full h-auto object-cover mb-6 hidden md:block"
-          src={HomepageDesktop}
+          src="https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2FHomeDesktopView?alt=media&token=fa679050-8836-49a0-afe8-e929d55e475d"
           alt="Homepage Desktop"
         />
       </FadeInOnScroll>
@@ -112,7 +110,7 @@ function Home() {
       <FadeInOnScroll>
         <img
           className="max-w-xs md:max-w-sm h-auto mt-8 mb-8"
-          src={BAPScharities}
+          src="https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2FBAPSch?alt=media&token=303c296c-996f-49ca-b1c1-a4ebe0c5f2c7"
           alt="BAPS Charities"
         />
       </FadeInOnScroll>
