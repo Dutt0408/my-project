@@ -1,11 +1,38 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "tailwindcss/tailwind.css";
 import { IoIosArrowBack } from "react-icons/io";
-import teamsData from "./Data/Team.json";
 import Titleimage from "./images/Titleimage.png";
 
 export default function Teams() {
   const [selectedTeam, setSelectedTeam] = useState(null);
+  const [teamsData, setTeamsData] = useState([]);
+
+  // Fetch teams data from localStorage or API
+  useEffect(() => {
+    // Check if data is already in localStorage
+    const storedData = localStorage.getItem('teamsData');
+    if (storedData) {
+      // Parse and set data from localStorage if available
+      setTeamsData(JSON.parse(storedData));
+    } else {
+      // Otherwise, fetch from the API (you can replace this with an actual API call)
+      fetchTeamsData();
+    }
+  }, []);
+
+  // Function to fetch data from API and store it in localStorage
+  const fetchTeamsData = async () => {
+    try {
+      // Replace the URL with your API endpoint
+      const response = await fetch("https://your-api-endpoint.com/teams");
+      const data = await response.json();
+      setTeamsData(data);
+      // Save the data to localStorage
+      localStorage.setItem("teamsData", JSON.stringify(data));
+    } catch (error) {
+      console.error("Error fetching teams data:", error);
+    }
+  };
 
   return (
     <div className="relative m-0 p-0">
@@ -27,29 +54,27 @@ export default function Teams() {
       {/* Teams Listing or Expanded View */}
       {!selectedTeam ? (
         <div className="mt-12">
-        <div className="grid grid-cols-2 gap-x-10 gap-y-10 sm:grid-cols-3 lg:grid-cols-5 justify-center max-w-screen-lg mx-0 px-10">
-          {teamsData.map((team, index) => (
-            <div
-              key={index}
-              className="w-34 h-48 bg-white rounded-lg shadow-lg cursor-pointer transform hover:scale-105 transition-transform mx-auto sm:w-40 sm:h-56 lg:w-44 lg:h-60 flex flex-col pb-4"
-              onClick={() => setSelectedTeam(team)}
-            >
-              <div className="flex-grow bg-blue-200 rounded-lg overflow-hidden">
-                <img
-                  src={team.teamImage}
-                  alt={team.teamName}
-                  className="w-full h-full object-cover"
-                />
+          <div className="grid grid-cols-2 gap-x-10 gap-y-10 sm:grid-cols-3 lg:grid-cols-5 justify-center max-w-screen-lg mx-0 px-10">
+            {teamsData.map((team, index) => (
+              <div
+                key={index}
+                className="w-34 h-48 bg-white rounded-lg shadow-lg cursor-pointer transform hover:scale-105 transition-transform mx-auto sm:w-40 sm:h-56 lg:w-44 lg:h-60 flex flex-col pb-4"
+                onClick={() => setSelectedTeam(team)}
+              >
+                <div className="flex-grow bg-blue-200 rounded-lg overflow-hidden">
+                  <img
+                    src={team.teamImage}
+                    alt={team.teamName}
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <div className="p-2 flex items-center justify-center bg-white">
+                  <h2 className="text-xs font-semibold text-center sm:text-sm">{team.teamName}</h2>
+                </div>
               </div>
-              <div className="p-2 flex items-center justify-center bg-white">
-                <h2 className="text-xs font-semibold text-center sm:text-sm">{team.teamName}</h2>
-              </div>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
-      </div>
-
-
       ) : (
         <div>
           {/* Back Button */}
@@ -63,15 +88,11 @@ export default function Teams() {
           {/* Team Header */}
           <div
             className="text-white p-6 rounded-lg mb-6"
-          
-            style={{ backgroundColor: "rgb(10 64 109 / 82%)",
-              color: "white"
-             }}
+            style={{ backgroundColor: "rgb(10 64 109 / 82%)", color: "white" }}
           >
             <h2 className="text-xl font-bold">{selectedTeam.teamName}</h2>
             <p className="text-lg font-medium mt-2">Captain: {selectedTeam.captainName}</p>
           </div>
-
 
           {/* Player Cards */}
           <div className="space-y-6">
