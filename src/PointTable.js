@@ -54,7 +54,6 @@ const mapSymbolToComponent = {
   DPoint,
 };
 
-// Function to generate points (Same as before)
 const generatePoints = (score, isLast3 = false) => {
   if (!isLast3 && Array.isArray(score)) {
     return score.map((symbol, index) => {
@@ -65,7 +64,7 @@ const generatePoints = (score, isLast3 = false) => {
 
   if (isLast3) {
     const symbols = score.split(",");
-    const last3Symbols = symbols.slice(-3); // Take only the last 3 symbols
+    const last3Symbols = symbols.slice(-3);
     return (
       <div className="flex">
         {last3Symbols.map((symbol, index) => {
@@ -81,7 +80,6 @@ const generatePoints = (score, isLast3 = false) => {
   return null;
 };
 
-// Function to calculate NRR dynamically
 const calculateNRR = (teamRuns, teamOvers, oppositionRuns, oppositionOvers) => {
   return (teamRuns / teamOvers) - (oppositionRuns / oppositionOvers);
 };
@@ -98,9 +96,8 @@ const TeamRow = ({
   oppositionRuns,
   oppositionOvers,
 }) => {
-  // Calculate NRR dynamically
   const NRR = calculateNRR(teamRuns, teamOvers, oppositionRuns, oppositionOvers);
-  
+
   return (
     <tr className="team-row">
       <td className="team-cell">
@@ -118,34 +115,20 @@ const TeamRow = ({
   );
 };
 
-export default function Schedule() {
-  // Sort teams by Points and NRR
+const GroupTable = ({ groupName, teams }) => {
   const sortedTeams = [...teams].sort((a, b) => {
     if (b.pts !== a.pts) return b.pts - a.pts;
-    if (b.NRR !== a.NRR) return b.NRR - a.NRR;
     return 0;
   });
 
   return (
-    <div className="container mx-auto p-0">
-      <div className="relative flex justify-center items-center">
-        <img
-          src="https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2FTitleImage?alt=media&token=107e3160-04b3-4056-b69c-199c1fe31408"
-          alt="Title"
-          className="w-full h-auto object-cover"
-        />
-        {/* Title with underline, centered on the image */}
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center">
-          <h2
-            className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-[#023867] underline"
-            style={{ textDecorationColor: "#e53e50" }}
-          >
-            POINTS TABLE
-          </h2>
-        </div>
-      </div>
-
-      {/* Scrollable table */}
+    <div className="mb-12">
+      <h2
+        className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-[#023867] underline text-center"
+        style={{ textDecorationColor: "#e53e50" }}
+      >
+        {groupName}
+      </h2>
       <div className="overflow-x-auto mt-8">
         <table className="team-table min-w-full">
           <thead>
@@ -161,20 +144,38 @@ export default function Schedule() {
           </thead>
           <tbody>
             {sortedTeams.map((team, index) => (
-              <>
-                <TeamRow key={index} {...team} />
-                {/* Add a line after the 10th row */}
-                {index === 9 && (
-                  <tr key="separator">
-                    <td colSpan="7" className="border-t-2 border-gray-400"></td>
-                  </tr>
-                )}
-              </>
+              <TeamRow key={index} {...team} />
             ))}
           </tbody>
         </table>
       </div>
     </div>
   );
-}
+};
 
+export default function Schedule() {
+  const groupA = teams.filter((team) => team.group === "A");
+  const groupB = teams.filter((team) => team.group === "B");
+
+  return (
+    <div className="container mx-auto p-0">
+      <div className="relative flex justify-center items-center">
+        <img
+          src="https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2FTitleImage?alt=media&token=107e3160-04b3-4056-b69c-199c1fe31408"
+          alt="Title"
+          className="w-full h-auto object-cover"
+        />
+        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center">
+          <h1
+            className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-[#023867] underline"
+            style={{ textDecorationColor: "#e53e50" }}
+          >
+            POINTS TABLE
+          </h1>
+        </div>
+      </div>
+      <GroupTable groupName="Group A" teams={groupA} />
+      <GroupTable groupName="Group B" teams={groupB} />
+    </div>
+  );
+}

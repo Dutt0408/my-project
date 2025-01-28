@@ -10,7 +10,8 @@
       "teamRuns": 0,  
       "teamOvers": 0,   
       "oppositionRuns": 0, 
-      "oppositionOvers": 0  
+      "oppositionOvers": 0 ,
+      "group": "A"
     },
     {
       "teamName": "Harsh's 7",
@@ -23,7 +24,8 @@
       "teamRuns": 0,  
       "teamOvers": 0,   
       "oppositionRuns": 0, 
-      "oppositionOvers": 0
+      "oppositionOvers": 0,
+      "group": "A"
     },
     {
       "teamName": "Het's 7",
@@ -36,7 +38,8 @@
       "teamRuns": 0,  
       "teamOvers": 0,   
       "oppositionRuns": 0, 
-      "oppositionOvers": 0
+      "oppositionOvers": 0,
+      "group": "A"
     },
     {
       "teamName": "Jayesh's 7",
@@ -49,7 +52,8 @@
       "teamRuns": 0,  
       "teamOvers": 0,   
       "oppositionRuns": 0, 
-      "oppositionOvers": 0 
+      "oppositionOvers": 0,
+      "group": "A"
     },
     {
      "teamName": "Ritesh's 8",
@@ -62,7 +66,8 @@
       "teamRuns": 0,  
       "teamOvers": 0,   
       "oppositionRuns": 0, 
-      "oppositionOvers": 0
+      "oppositionOvers": 0,
+      "group": "A"
     },
     {
       "teamName": "Harshil's 7",
@@ -75,10 +80,11 @@
       "teamRuns": 0,  
       "teamOvers": 0,   
       "oppositionRuns": 0, 
-      "oppositionOvers": 0 
+      "oppositionOvers": 0,
+      "group": "A"
     },
     {
-      "teamName": "Devashish.G's 7",
+      "teamName": "Devashish's 7",
       "match": 0, 
       "won": 0,
       "lost": 0,
@@ -88,7 +94,8 @@
       "teamRuns": 0,  
       "teamOvers": 0,   
       "oppositionRuns": 0, 
-      "oppositionOvers": 0
+      "oppositionOvers": 0,
+      "group": "A"
     },
     {
       "teamName": "Parth's 7",
@@ -101,7 +108,8 @@
       "teamRuns": 0,  
       "teamOvers": 0,   
       "oppositionRuns": 0, 
-      "oppositionOvers": 0
+      "oppositionOvers": 0,
+      "group": "A"
     },
     {
       "teamName": "Jaimin's7",
@@ -114,7 +122,8 @@
       "teamRuns": 0,  
       "teamOvers": 0,   
       "oppositionRuns": 0, 
-      "oppositionOvers": 0
+      "oppositionOvers": 0,
+      "group": "A"
     },
     {
       "teamName": "Nehanshu's 7",
@@ -127,7 +136,8 @@
       "teamRuns": 0,  
       "teamOvers": 0,   
       "oppositionRuns": 0, 
-      "oppositionOvers": 0
+      "oppositionOvers": 0,
+      "group": "A"
     },
     {
       "teamName": "Jay's 7",
@@ -140,7 +150,8 @@
       "teamRuns": 0,  
       "teamOvers": 0,   
       "oppositionRuns": 0, 
-      "oppositionOvers": 0 
+      "oppositionOvers": 0,
+      "group": "B" 
     },
     {
       "teamName": "Rajiv's 7",
@@ -153,7 +164,8 @@
       "teamRuns": 0,  
       "teamOvers": 0,   
       "oppositionRuns": 0, 
-      "oppositionOvers": 0
+      "oppositionOvers": 0,
+      "group": "B"
     },
     {
       "teamName": "Rohan's 7",
@@ -166,7 +178,8 @@
       "teamRuns": 0,  
       "teamOvers": 0,   
       "oppositionRuns": 0, 
-      "oppositionOvers": 0
+      "oppositionOvers": 0,
+      "group": "B"
     },
     {
       "teamName": "Purvesh's 7",
@@ -179,7 +192,8 @@
       "teamRuns": 0,  
       "teamOvers": 0,   
       "oppositionRuns": 0, 
-      "oppositionOvers": 0 
+      "oppositionOvers": 0,
+      "group": "B"
     },
     {
       "teamName": "Chirag's 7",
@@ -205,7 +219,8 @@
       "teamRuns": 0,  
       "teamOvers": 0,   
       "oppositionRuns": 0, 
-      "oppositionOvers": 0 
+      "oppositionOvers": 0,
+      "group": "B"
     },
     {
       "teamName": "Harit's 7",
@@ -218,7 +233,8 @@
       "teamRuns": 0,  
       "teamOvers": 0,   
       "oppositionRuns": 0, 
-      "oppositionOvers": 0 
+      "oppositionOvers": 0,
+      "group": "B"
     },
     {
       "teamName": "Pavan's 8",
@@ -231,7 +247,8 @@
       "teamRuns": 0,  
       "teamOvers": 0,   
       "oppositionRuns": 0, 
-      "oppositionOvers": 0 
+      "oppositionOvers": 0,
+      "group": "B"
     },
     {
       "teamName": "Yogesh's 8",
@@ -244,7 +261,8 @@
       "teamRuns": 0,  
       "teamOvers": 0,   
       "oppositionRuns": 0, 
-      "oppositionOvers": 0 
+      "oppositionOvers": 0,
+      "group": "B"
     },
     {
       "teamName": "Rakshit's 8",
@@ -257,6 +275,7 @@
       "teamRuns": 0,  
       "teamOvers": 0,   
       "oppositionRuns": 0, 
-      "oppositionOvers": 0 
+      "oppositionOvers": 0,
+      "group": "B"
     }
   ]
