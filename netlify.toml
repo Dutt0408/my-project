@@ -7,3 +7,5 @@
   from = "/images/*"
   to = "http://34.54.58.73/images/:splat"
   status = 200
+  force = true
+

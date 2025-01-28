@@ -302,7 +302,7 @@ export default function ToggleableDemo() {
         {/* Image section */}
         <div className="relative flex justify-center items-center m-0 p-0">
           <img 
-            src="http://34.54.58.73/images/TitleImage" 
+            src="https://34.54.58.73/images/TitleImage" 
             alt="Title" className="w-full h-auto object-cover" />
           
           {/* Title with underline, centered on the image */}

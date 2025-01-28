@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
 
 const sponsorsData = [
-  { id: 1, image: "http://34.54.58.73/images/BAPSch" },
-  { id: 2, image: "http://34.54.58.73/images/Sponsor4" },
-  { id: 3, image: "http://34.54.58.73/images/Sponsor2" },
-  { id: 4, image: "hhttp://34.54.58.73/images/Sponsor3" },
-  { id: 5, image: "http://34.54.58.73/images/Sponsor5" },
+  { id: 1, image: "https://34.54.58.73/images/BAPSch" },
+  { id: 2, image: "https://34.54.58.73/images/Sponsor4" },
+  { id: 3, image: "https://34.54.58.73/images/Sponsor2" },
+  { id: 4, image: "https://34.54.58.73/images/Sponsor3" },
+  { id: 5, image: "https://34.54.58.73/images/Sponsor5" },
 ];
 
 export default function Sponsors() {
@@ -34,7 +34,7 @@ export default function Sponsors() {
       {/* Title Section */}
       <div className="relative flex justify-center items-center m-0 p-0">
         <img
-          src="http://34.54.58.73/images/TitleImage"
+          src="https://34.54.58.73/images/TitleImage"
           alt="Title"
           className="w-full h-auto object-cover"
         />

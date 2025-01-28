@@ -43,7 +43,7 @@ function Home() {
       <FadeInOnScroll>
         <img
           className="w-full h-auto object-cover mb-6 md:hidden"
-          src="http://34.54.58.73/images/HomeMobileView"
+          src="https://34.54.58.73/images/HomeMobileView"
           alt="Homepage Mobile"
           loading='lazy'
         />
@@ -53,7 +53,7 @@ function Home() {
       <FadeInOnScroll>
         <img
           className="w-full h-auto object-cover mb-6 hidden md:block"
-          src="http://34.54.58.73/images/HomeDesktopView"
+          src="https://34.54.58.73/images/HomeDesktopView"
           alt="Homepage Desktop"
         />
       </FadeInOnScroll>
