@@ -70,7 +70,7 @@ export default function Schedule() {
     <div>
       <div className="relative flex justify-center items-center m-0 p-0">
         <img 
-          src="https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2FTitleImage?alt=media&token=107e3160-04b3-4056-b69c-199c1fe31408"
+          src="http://34.54.58.73/images/TitleImage"
           alt="Title" className="w-full h-auto object-cover" />
         <div className="absolute flex justify-center items-center top-0 left-0 right-0 bottom-0">
           <h2

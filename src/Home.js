@@ -43,7 +43,7 @@ function Home() {
       <FadeInOnScroll>
         <img
           className="w-full h-auto object-cover mb-6 md:hidden"
-          src="https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2FHomeMobileView?alt=media&token=fbf1e8c0-c29d-4c7c-b0a9-65d05b385c53"
+          src="http://34.54.58.73/images/HomeMobileView"
           alt="Homepage Mobile"
           loading='lazy'
         />
@@ -53,7 +53,7 @@ function Home() {
       <FadeInOnScroll>
         <img
           className="w-full h-auto object-cover mb-6 hidden md:block"
-          src="https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2FHomeDesktopView?alt=media&token=fa679050-8836-49a0-afe8-e929d55e475d"
+          src="http://34.54.58.73/images/HomeDesktopView"
           alt="Homepage Desktop"
         />
       </FadeInOnScroll>

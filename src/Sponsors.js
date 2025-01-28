@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
 
 const sponsorsData = [
-  { id: 1, image: "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2FBAPSch?alt=media&token=303c296c-996f-49ca-b1c1-a4ebe0c5f2c7" },
-  { id: 2, image: "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2FSponsor4?alt=media&token=416dfc6d-3864-4682-bcac-e21db79075fa" },
-  { id: 3, image: "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2FSponsor2?alt=media&token=de759122-776e-41c7-b07f-d85948ff7fcf" },
-  { id: 4, image: "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2FSponsor3?alt=media&token=1e758acb-fa0f-4453-b9d5-566a157bfcae" },
-  { id: 5, image: "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2FSponsor5?alt=media&token=7c11077e-b265-4bfc-8124-c127dfb9521f" },
+  { id: 1, image: "http://34.54.58.73/images/BAPSch" },
+  { id: 2, image: "http://34.54.58.73/images/Sponsor4" },
+  { id: 3, image: "http://34.54.58.73/images/Sponsor2" },
+  { id: 4, image: "hhttp://34.54.58.73/images/Sponsor3" },
+  { id: 5, image: "http://34.54.58.73/images/Sponsor5" },
 ];
 
 export default function Sponsors() {
@@ -33,9 +33,11 @@ export default function Sponsors() {
     <div>
       {/* Title Section */}
       <div className="relative flex justify-center items-center m-0 p-0">
-        <img 
-          src="https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2FTitleImage?alt=media&token=107e3160-04b3-4056-b69c-199c1fe31408"
-          alt="Title" className="w-full h-auto object-cover" />
+        <img
+          src="http://34.54.58.73/images/TitleImage"
+          alt="Title"
+          className="w-full h-auto object-cover"
+        />
         <div className="absolute flex justify-center items-center top-0 left-0 right-0 bottom-0">
           <h2
             className="text-3xl sm:text-4xl md:text-5xl font-bold text-[#023867] underline"
@@ -56,11 +58,11 @@ export default function Sponsors() {
               visibleCards.includes(String(sponsor.id)) ? "opacity-100 scale-100 translate-y-0" : ""
             }`}
           >
-            <div className="bg-white shadow-lg rounded-lg p-6 h-48 flex justify-center items-center">
-              <img 
-                src={sponsor.image} // Dynamically use the correct image link
-                alt={`Sponsor ${sponsor.id}`} 
-                className="w-full h-auto object-contain" 
+            <div className="bg-white shadow-lg rounded-lg p-6 h-48 flex justify-center items-center overflow-hidden">
+              <img
+                src={sponsor.image}
+                alt={`Sponsor ${sponsor.id}`}
+                className="max-w-full max-h-full object-contain"
               />
             </div>
           </div>
@@ -69,3 +71,4 @@ export default function Sponsors() {
     </div>
   );
 }
+
