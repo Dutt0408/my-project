@@ -1,4 +1,10 @@
 [[redirects]]
-from ="/*"
-to="index.html"
-status=200
+  from = "/*"
+  to = "index.html"
+  status = 200
+
+
+[[redirects]]
+  from = "/images/*"
+  to = "http://34.54.58.73/images/:splat"
+  status = 200
