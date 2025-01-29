@@ -1,30 +1,49 @@
 import React, { useState, useEffect } from "react";
 import "tailwindcss/tailwind.css";
 import { IoIosArrowBack } from "react-icons/io";
-import teamsData from "./Data/Team.json"; // Your initial data
+import teamsData from "./Data/Team.json";
 import Titleimage from "./images/Titleimage.png";
+import "./Team.css";
 
 export default function Teams() {
   const [selectedTeam, setSelectedTeam] = useState(null);
   const [teams, setTeams] = useState([]);
 
   useEffect(() => {
-    // Check if data exists in localStorage
     const storedTeams = localStorage.getItem("teamsData");
-
     if (storedTeams) {
-      // If data exists in localStorage, use it
       setTeams(JSON.parse(storedTeams));
     } else {
-      // If no data in localStorage, save the initial teamsData to it
       localStorage.setItem("teamsData", JSON.stringify(teamsData));
       setTeams(teamsData);
     }
   }, []);
 
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("animate-slide-in");
+          }
+        });
+      },
+      { threshold: 0.2 }
+    );
+
+    document.querySelectorAll(".player-card").forEach((card) => {
+      observer.observe(card);
+    });
+
+    return () => {
+      document.querySelectorAll(".player-card").forEach((card) => {
+        observer.unobserve(card);
+      });
+    };
+  }, [selectedTeam]);
+
   return (
     <div className="relative m-0 p-0">
-      {/* Header Section */}
       {!selectedTeam && (
         <div className="relative w-full">
           <img src={Titleimage} alt="Title" className="w-full h-auto object-cover" />
@@ -39,7 +58,6 @@ export default function Teams() {
         </div>
       )}
 
-      {/* Teams Listing or Expanded View */}
       {!selectedTeam ? (
         <div className="mt-12">
           <div className="grid grid-cols-2 gap-x-10 gap-y-10 sm:grid-cols-3 lg:grid-cols-5 justify-center max-w-screen-lg mx-0 px-10">
@@ -65,7 +83,6 @@ export default function Teams() {
         </div>
       ) : (
         <div>
-          {/* Back Button */}
           <div className="flex items-center mb-4">
             <button className="text-black mr-2" onClick={() => setSelectedTeam(null)}>
               <IoIosArrowBack size={24} />
@@ -73,26 +90,20 @@ export default function Teams() {
             <h2 className="text-2xl font-bold">{selectedTeam.teamName} Players</h2>
           </div>
 
-          {/* Team Header */}
           <div
             className="text-white p-6 rounded-lg mb-6"
-            style={{
-              backgroundColor: "rgb(10 64 109 / 82%)",
-              color: "white",
-            }}
+            style={{ backgroundColor: "rgb(10 64 109 / 82%)", color: "white" }}
           >
             <h2 className="text-xl font-bold">{selectedTeam.teamName}</h2>
             <p className="text-lg font-medium mt-2">Captain: {selectedTeam.captainName}</p>
           </div>
 
-          {/* Player Cards */}
           <div className="space-y-6">
             {selectedTeam.players.map((player, index) => (
               <div
                 key={index}
-                className="flex items-center bg-white shadow-lg rounded-lg p-3 space-x-3 sm:flex-col sm:items-center sm:space-x-0"
+                className="player-card flex items-center bg-white shadow-lg rounded-lg p-3 space-x-3 sm:flex-col sm:items-center sm:space-x-0"
               >
-                {/* Fixed size for the image container */}
                 <div className="w-24 h-24 flex-shrink-0">
                   <img
                     src={player.profilePhoto}
@@ -101,9 +112,7 @@ export default function Teams() {
                   />
                 </div>
                 <div className="flex-1 mt-3 sm:mt-2 text-center">
-                  <h3 className="font-bold">
-                    {player.firstName} {player.lastName}
-                  </h3>
+                  <h3 className="font-bold">{player.firstName} {player.lastName}</h3>
                   <p>Batting: {player.battingSkill}</p>
                   <p>Bowling: {player.bowlingSkill}</p>
                 </div>

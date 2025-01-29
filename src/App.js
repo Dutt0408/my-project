@@ -1,11 +1,10 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
-// import Navbar from "./Navbar";
+import Navbar from "./Navbar";
 import Rules from "./Rules";
 import Home from "./Home";
 import Teams from "./Teams";
 import PointTable from "./PointTable";
-import Memories from "./Memories";
 import Sponsors from "./Sponsors";
 import Schedule from "./Schedule";
 import Soon from "./Soon";
@@ -44,15 +43,14 @@ function App() {
 
       {!isLoading && (
         <>
-          {/* <Navbar /> */}
+          <Navbar />
           <Routes>
-            <Route path="/" element={<Soon />} />
+            <Route path="/" element={<Home />} />
             <Route path="/Rules" element={<Rules />} />
             <Route path="/Home" element={<Home />} />
             <Route path="/Schedule" element={<Schedule />} />
             <Route path="/Teams" element={<Teams />} />
             <Route path="/PointTable" element={<PointTable />} />
-            <Route path="/Memories" element={<Memories/>} />
             <Route path="/Sponsors" element={<Sponsors />} />
             <Route path="/Soon" element={<Soon />} />
           </Routes>
