@@ -56,7 +56,7 @@ const Rules = () => {
     <>
       <div className="relative flex justify-center items-center m-0 p-0">
         <img 
-          src="https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2FTitleImage?alt=media&token=107e3160-04b3-4056-b69c-199c1fe31408" 
+          src="https://swamishreeji.com/images/TitleImage" 
           alt="Title" 
           className="w-full h-auto object-cover"
         />
