@@ -22,6 +22,12 @@ export default function Teams() {
   }, []);
 
   useEffect(() => {
+    if (selectedTeam) {
+      window.scrollTo(0, 0); // Jump directly to the top when a team is selected
+    }
+  }, [selectedTeam]);
+  
+  useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
