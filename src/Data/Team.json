@@ -1,5 +1,131 @@
 [
   {
+    "teamName": "(A1) Pradeep's7",
+    "captainName": "Pradeep Moradiya",
+    "teamImage": "https://swamishreeji.com/images/pradeep_captain",
+    "players": [
+      {
+        "firstName": "Pradeep",
+        "lastName": "Moradiya",
+        "profilePhoto": "https://swamishreeji.com/images/pradeep_captain",
+        "battingSkill": "4",
+        "bowlingSkill": "4"
+      },
+      {
+        "firstName": "Amrish ",
+        "lastName": "Kotecha ",
+        "profilePhoto": "https://swamishreeji.com/images/amrish_pradeep",
+        "battingSkill": "4",
+        "bowlingSkill": "4"
+      },
+      {
+        "firstName": "Varun",
+        "lastName": "Gangadia",
+        "profilePhoto": "https://swamishreeji.com/images/varun_pradeep",
+        "battingSkill": "3",
+        "bowlingSkill": "5"
+      },
+      {
+        "firstName": "Hariraj",
+        "lastName": "Jadeja",
+        "profilePhoto": "https://swamishreeji.com/images/hariraj_pradeep",
+        "battingSkill": "4",
+        "bowlingSkill": "4"
+      },
+      {
+        "firstName": "Umeshkumar ",
+        "lastName": "Patel ",
+        "profilePhoto": "https://swamishreeji.com/images/umesh_pradeep",
+        "battingSkill": "3",
+        "bowlingSkill": "3"
+      },
+      {
+        "firstName": "Rahul",
+        "lastName": "Kathiriya",
+        "profilePhoto": "https://swamishreeji.com/images/rahul_pradeep",
+        "battingSkill": "2",
+        "bowlingSkill": "2"
+      },
+      {
+        "firstName": "Parth",
+        "lastName": "Patel",
+        "profilePhoto": "https://swamishreeji.com/images/parth_pradeep",
+        "battingSkill": "3",
+        "bowlingSkill": "1"
+      },
+      {
+        "firstName": "Prakash",
+        "lastName": "Patel",
+        "profilePhoto": "https://swamishreeji.com/images/prakash_pradeep",
+        "battingSkill": "2",
+        "bowlingSkill": "3"
+      }
+    ]
+  },
+  {
+    "teamName": "(A2) Harsh's7",
+    "captainName": "Harsh Patel",
+    "teamImage": "https://swamishreeji.com/images/harsh_captain",
+    "players": [
+      {
+        "firstName": "Harsh",
+        "lastName": "Patel",
+        "profilePhoto": "https://swamishreeji.com/images/harsh_captain?",
+        "battingSkill": "4",
+        "bowlingSkill": "5"
+      },
+      {
+        "firstName": "Bhavesh",
+        "lastName": "Waghela ",
+        "profilePhoto": "https://swamishreeji.com/images/bhavesh_harsh?",
+        "battingSkill": "4",
+        "bowlingSkill": "5"
+      },
+      {
+        "firstName": "Chirag",
+        "lastName": "Gajjar",
+        "profilePhoto": "https://swamishreeji.com/images/chirag_harsh?",
+        "battingSkill": "4",
+        "bowlingSkill": "4"
+      },
+      {
+        "firstName": "Krushit",
+        "lastName": "Patel",
+        "profilePhoto": "https://swamishreeji.com/images/krushit_harsh?",
+        "battingSkill": "4",
+        "bowlingSkill": "3"
+      },
+      {
+        "firstName": "Harush",
+        "lastName": "Patel",
+        "profilePhoto": "https://swamishreeji.com/images/harush_harsh?",
+        "battingSkill": "3",
+        "bowlingSkill": "3"
+      },
+      {
+        "firstName": "Tilak",
+        "lastName": "Suthar",
+        "profilePhoto": "https://swamishreeji.com/images/tilak_harsh?",
+        "battingSkill": "3",
+        "bowlingSkill": "3"
+      },
+      {
+        "firstName": "Ashish",
+        "lastName": "Tank",
+        "profilePhoto": "https://swamishreeji.com/images/ashish_harsh?",
+        "battingSkill": "3",
+        "bowlingSkill": "3"
+      },
+      {
+        "firstName": "Kaushal",
+        "lastName": "Barot",
+        "profilePhoto": "https://swamishreeji.com/images/kaushal_harsh?",
+        "battingSkill": "4",
+        "bowlingSkill": "2"
+      }
+    ]
+  },
+  {
     "teamName": "(B5) Chirag's7",
     "captainName": "Chirag Patel",
     "teamImage": "https://swamishreeji.com/images/chirag_captain",
@@ -188,69 +314,7 @@
       }
     ]
   },
-  {
-    "teamName": "(A2) Harsh's7",
-    "captainName": "Harsh Patel",
-    "teamImage": "https://swamishreeji.com/images/harsh_captain",
-    "players": [
-      {
-        "firstName": "Harsh",
-        "lastName": "Patel",
-        "profilePhoto": "https://swamishreeji.com/images/harsh_captain?",
-        "battingSkill": "4",
-        "bowlingSkill": "5"
-      },
-      {
-        "firstName": "Bhavesh",
-        "lastName": "Waghela ",
-        "profilePhoto": "https://swamishreeji.com/images/bhavesh_harsh?",
-        "battingSkill": "4",
-        "bowlingSkill": "5"
-      },
-      {
-        "firstName": "Chirag",
-        "lastName": "Gajjar",
-        "profilePhoto": "https://swamishreeji.com/images/chirag_harsh?",
-        "battingSkill": "4",
-        "bowlingSkill": "4"
-      },
-      {
-        "firstName": "Krushit",
-        "lastName": "Patel",
-        "profilePhoto": "https://swamishreeji.com/images/krushit_harsh?",
-        "battingSkill": "4",
-        "bowlingSkill": "3"
-      },
-      {
-        "firstName": "Harush",
-        "lastName": "Patel",
-        "profilePhoto": "https://swamishreeji.com/images/harush_harsh?",
-        "battingSkill": "3",
-        "bowlingSkill": "3"
-      },
-      {
-        "firstName": "Tilak",
-        "lastName": "Suthar",
-        "profilePhoto": "https://swamishreeji.com/images/tilak_harsh?",
-        "battingSkill": "3",
-        "bowlingSkill": "3"
-      },
-      {
-        "firstName": "Ashish",
-        "lastName": "Tank",
-        "profilePhoto": "https://swamishreeji.com/images/ashish_harsh?",
-        "battingSkill": "3",
-        "bowlingSkill": "3"
-      },
-      {
-        "firstName": "Kaushal",
-        "lastName": "Barot",
-        "profilePhoto": "https://swamishreeji.com/images/kaushal_harsh?",
-        "battingSkill": "4",
-        "bowlingSkill": "2"
-      }
-    ]
-  },
+  
   {
     "teamName": "(A6) Harshil's8",
     "captainName": "Harshil Bhatt",
@@ -825,69 +889,7 @@
       }
     ]
   },
-  {
-    "teamName": "(A1) Pradeep's7",
-    "captainName": "Pradeep Moradiya",
-    "teamImage": "https://swamishreeji.com/images/pradeep_captain",
-    "players": [
-      {
-        "firstName": "Pradeep",
-        "lastName": "Moradiya",
-        "profilePhoto": "https://swamishreeji.com/images/pradeep_captain",
-        "battingSkill": "4",
-        "bowlingSkill": "4"
-      },
-      {
-        "firstName": "Amrish ",
-        "lastName": "Kotecha ",
-        "profilePhoto": "https://swamishreeji.com/images/amrish_pradeep",
-        "battingSkill": "4",
-        "bowlingSkill": "4"
-      },
-      {
-        "firstName": "Varun",
-        "lastName": "Gangadia",
-        "profilePhoto": "https://swamishreeji.com/images/varun_pradeep",
-        "battingSkill": "3",
-        "bowlingSkill": "5"
-      },
-      {
-        "firstName": "Hariraj",
-        "lastName": "Jadeja",
-        "profilePhoto": "https://swamishreeji.com/images/hariraj_pradeep",
-        "battingSkill": "4",
-        "bowlingSkill": "4"
-      },
-      {
-        "firstName": "Umeshkumar ",
-        "lastName": "Patel ",
-        "profilePhoto": "https://swamishreeji.com/images/umesh_pradeep",
-        "battingSkill": "3",
-        "bowlingSkill": "3"
-      },
-      {
-        "firstName": "Rahul",
-        "lastName": "Kathiriya",
-        "profilePhoto": "https://swamishreeji.com/images/rahul_pradeep",
-        "battingSkill": "2",
-        "bowlingSkill": "2"
-      },
-      {
-        "firstName": "Parth",
-        "lastName": "Patel",
-        "profilePhoto": "https://swamishreeji.com/images/parth_pradeep",
-        "battingSkill": "3",
-        "bowlingSkill": "1"
-      },
-      {
-        "firstName": "Prakash",
-        "lastName": "Patel",
-        "profilePhoto": "https://swamishreeji.com/images/prakash_pradeep",
-        "battingSkill": "2",
-        "bowlingSkill": "3"
-      }
-    ]
-  },
+  
   {
     "teamName": "(B4) Purvesh's7",
     "captainName": "Purvesh Patel",

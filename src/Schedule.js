@@ -7,12 +7,15 @@ export default function Schedule() {
       id: 1,
       match: "Pradeep's 7 vs Yogesh's 7",
       date: "2025-01-20",
+      day:"Thursday",
+      Time:"4:00Pm",
       result: "Pradeep's 7 won by 5 runs.",
       status: "Past",
-      teamAScore: 168,
-      teamBScore: 160,
+      teamAScore: 168/2,
+      teamBScore: 160/5,
       teamADetails: { batsmen: ["Player 1: 45", "Player 2: 50"], bowlers: ["Player A: 3/20"] },  // Example scorecard
       teamBDetails: { batsmen: ["Player X: 40", "Player Y: 60"], bowlers: ["Player B: 2/30"] },
+      Scorecard:"https://swamishreeji.com/Scorecards/Borad_Exam_Ashirwad_f.jpg"
     },
     {
       id: 2,

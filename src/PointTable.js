@@ -85,14 +85,32 @@ const GroupTable = ({ groupName, teams }) => {
   );
 };
 
-export default function Schedule() {
+
+export default function PointTable() {
   const groupA = teams.filter((team) => team.group === "A");
   const groupB = teams.filter((team) => team.group === "B");
 
   return (
-    <div className="container mx-auto p-0">
-      <GroupTable groupName="Group A" teams={groupA} />
-      <GroupTable groupName="Group B" teams={groupB} />
-    </div>
+    <>
+      {/* Title Image with Centered Text */}
+      <div className="relative mx-auto text-center">
+        <img 
+          src="https://swamishreeji.com/images/TitleImage" 
+          alt="Points Table" 
+          className="w-full h-auto object-cover mb-6"
+        />
+        <div className="absolute inset-0 flex items-center justify-center">
+          <h2 className="text-4xl font-bold text-[#023867] underline" style={{ textDecorationColor: "#e53e50" }}>
+            POINTS TABLE
+          </h2>
+        </div>
+      </div>
+
+      {/* Group Tables */}
+      <div className="container mx-auto p-0">
+        <GroupTable groupName="Group A" teams={groupA} />
+        <GroupTable groupName="Group B" teams={groupB} />
+      </div>
+    </>
   );
 }

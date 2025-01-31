@@ -8,7 +8,7 @@ import "./Team.css";
 export default function Teams() {
   const [selectedTeam, setSelectedTeam] = useState(null);
   const [teams, setTeams] = useState([]);
-  const [loading, setLoading] = useState(true); // Loading state to handle initial render
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     const storedTeams = localStorage.getItem("teamsData");
@@ -18,15 +18,15 @@ export default function Teams() {
       localStorage.setItem("teamsData", JSON.stringify(teamsData));
       setTeams(teamsData);
     }
-    setLoading(false); // Set loading to false once teams are set
+    setLoading(false);
   }, []);
 
   useEffect(() => {
     if (selectedTeam) {
-      window.scrollTo(0, 0); // Jump directly to the top when a team is selected
+      window.scrollTo(0, 0);
     }
   }, [selectedTeam]);
-  
+
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
@@ -39,12 +39,10 @@ export default function Teams() {
       { threshold: 0.2 }
     );
 
-    // Delay observing until after the page is rendered
     requestAnimationFrame(() => {
       document.querySelectorAll(".team-card").forEach((card) => {
         observer.observe(card);
       });
-
       document.querySelectorAll(".player-card").forEach((card) => {
         observer.observe(card);
       });
@@ -61,6 +59,10 @@ export default function Teams() {
   if (loading) {
     return <div className="loading">Loading...</div>;
   }
+
+  // Split teams into Group A and Group B
+  const groupA = teams.slice(0, 10); // A1-A10
+  const groupB = teams.slice(10, 20); // B1-B10
 
   return (
     <div className="relative m-0 p-0">
@@ -127,32 +129,64 @@ export default function Teams() {
       )}
 
       {!selectedTeam && (
-        <div className="mt-12">
-          <div className="grid grid-cols-2 gap-x-10 gap-y-10 sm:grid-cols-3 lg:grid-cols-5 justify-center max-w-screen-lg mx-0 px-10">
-            {teams.map((team, index) => (
-              <div
-                key={index}
-                className="team-card w-34 h-48 bg-white rounded-lg shadow-lg cursor-pointer transform hover:scale-105 transition-transform mx-auto sm:w-40 sm:h-56 lg:w-44 lg:h-60 flex flex-col pb-4"
-                onClick={() => setSelectedTeam(team)}
-              >
-                <div className="flex-grow bg-blue-200 rounded-lg overflow-hidden">
-                  <img
-                    src={team.teamImage}
-                    alt={team.teamName}
-                    className="w-full h-full object-cover"
-                  />
+        <div className="mt-4">
+          <div>
+            <h2 className="text-3xl pb-8 sm:text-4xl md:text-5xl lg:text-6xl font-bold text-[#023867] underline text-center" style={{ textDecorationColor: "rgb(229, 62, 80)" }}>
+              Group A
+            </h2>
+            <div className="grid grid-cols-2 gap-x-10 gap-y-10 sm:grid-cols-3 lg:grid-cols-5 justify-center max-w-screen-lg mx-0 px-10">
+              {groupA.map((team, index) => (
+                <div
+                  key={index}
+                  className="team-card w-34 h-48 bg-white rounded-lg shadow-lg cursor-pointer transform hover:scale-105 transition-transform mx-auto sm:w-40 sm:h-56 lg:w-44 lg:h-60 flex flex-col pb-4"
+                  onClick={() => setSelectedTeam(team)}
+                >
+                  <div className="flex-grow bg-blue-200 rounded-lg overflow-hidden">
+                    <img
+                      src={team.teamImage}
+                      alt={team.teamName}
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                  <div className="p-2 flex items-center justify-center bg-white">
+                    <h2 className="text-xs font-semibold text-center sm:text-sm">{team.teamName}</h2>
+                  </div>
                 </div>
-                <div className="p-2 flex items-center justify-center bg-white">
-                  <h2 className="text-xs font-semibold text-center sm:text-sm">{team.teamName}</h2>
+              ))}
+            </div>
+          </div>
+
+          <div className="mt-12">
+            <h2 className="text-3xl pb-10 sm:text-4xl md:text-5xl lg:text-6xl font-bold text-[#023867] underline text-center" style={{ textDecorationColor: "rgb(229, 62, 80)" }}>
+              Group B
+            </h2>
+            <div className="grid grid-cols-2 gap-x-10 gap-y-10 sm:grid-cols-3 lg:grid-cols-5 justify-center max-w-screen-lg mx-0 px-10">
+              {groupB.map((team, index) => (
+                <div
+                  key={index}
+                  className="team-card w-34 h-48 bg-white rounded-lg shadow-lg cursor-pointer transform hover:scale-105 transition-transform mx-auto sm:w-40 sm:h-56 lg:w-44 lg:h-60 flex flex-col pb-4"
+                  onClick={() => setSelectedTeam(team)}
+                >
+                  <div className="flex-grow bg-blue-200 rounded-lg overflow-hidden">
+                    <img
+                      src={team.teamImage}
+                      alt={team.teamName}
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                  <div className="p-2 flex items-center justify-center bg-white">
+                    <h2 className="text-xs font-semibold text-center sm:text-sm">{team.teamName}</h2>
+                  </div>
                 </div>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
         </div>
       )}
     </div>
   );
 }
+
 
 // import React, { useState, useEffect } from "react";
 // import "tailwindcss/tailwind.css";
