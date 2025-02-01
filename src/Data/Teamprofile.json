@@ -1,0 +1,1033 @@
+{
+    "Pradeep's 8": {
+      "profileImage": "https://swamishreeji.com/images/pradeep_captain",
+      "players": [
+        {
+          "name": "Pradeep",
+          "image": "https://swamishreeji.com/images/pradeep_captain"
+        },
+        {
+          "name": "Amrish ",
+          "image": "https://swamishreeji.com/images/amrish_pradeep"
+        },
+        {
+          "name": "Varun",
+          "image": "https://swamishreeji.com/images/varun_pradeep"
+        },
+        {
+          "name": "Hariraj",
+          "image": "https://swamishreeji.com/images/hariraj_pradeep"
+        },
+        {
+          "name": "Umeshkumar ",
+          "image": "https://swamishreeji.com/images/umesh_pradeep"
+        },
+        {
+          "name": "Rahul",
+          "image": "https://swamishreeji.com/images/rahul_pradeep"
+        },
+        {
+          "name": "Parth",
+          "image": "https://swamishreeji.com/images/parth_pradeep"
+        },
+        {
+          "name": "Prakash",
+          "image": "https://swamishreeji.com/images/prakash_pradeep"
+        }
+      ]
+    },
+    "Harsh's 8": {
+      "profileImage": "https://swamishreeji.com/images/pradeep_captain",
+      "players": [
+        {
+          "name": "Harsh",
+          "image": "https://swamishreeji.com/images/harsh_captain?"
+        },
+        {
+          "name": "Bhavesh",
+          "image": "https://swamishreeji.com/images/bhavesh_harsh?"
+        },
+        {
+          "name": "Chirag",
+          "image": "https://swamishreeji.com/images/chirag_harsh?"
+        },
+        {
+          "name": "Krushit",
+          "image": "https://swamishreeji.com/images/krushit_harsh?"
+        },
+        {
+          "name": "Harush",
+          "image": "https://swamishreeji.com/images/harush_harsh?"
+        },
+        {
+          "name": "Tilak",
+          "image": "https://swamishreeji.com/images/tilak_harsh?"
+        },
+        {
+          "name": "Ashish",
+          "image": "https://swamishreeji.com/images/ashish_harsh?"
+        },
+        {
+          "name": "Kaushal",
+          "image": "https://swamishreeji.com/images/kaushal_harsh?"
+        }
+      ]
+    },
+    "Het's 8": {
+      "profileImage": "https://swamishreeji.com/images/amrish_pradeep",
+      "players": [
+        {
+          "name": "Het",
+          "image": "https://swamishreeji.com/images/het_captain"
+        },
+        {
+          "name": "Parth",
+          "image": "https://swamishreeji.com/images/parth_het"
+        },
+        {
+          "name": "Kalpitkumar",
+          "image": "https://swamishreeji.com/images/kalpit_het"
+        },
+        {
+          "name": "Nikul",
+          "image": "https://swamishreeji.com/images/nikul_het"
+        },
+        {
+          "name": "Rajdeep",
+          "image": "https://swamishreeji.com/images/rajdeep_het"
+        },
+        {
+          "name": "Samarth",
+          "image": "https://swamishreeji.com/images/samarth_het"
+        },
+        {
+          "name": "Pinakin ",
+          "image": "https://swamishreeji.com/images/pinakin_het"
+        },
+        {
+          "name": "Chintan",
+          "image": "https://swamishreeji.com/images/chintan_het"
+
+        }
+      ]
+    },
+    "Jayesh's 8": {
+      "profileImage": "https://swamishreeji.com/images/amrish_pradeep",
+      "players": [
+        {
+          "name": "Jayesh",
+          "image": "https://swamishreeji.com/images/jayesh_captain"
+        },
+        {
+          "name": "Hari",
+          "image": "https://swamishreeji.com/images/hari_jayesh"
+        },
+        {
+          "name": "Darshan",
+          "image": "https://swamishreeji.com/images/darshan_jayesh"
+        },
+        {
+          "name": "Mitul",
+          "image": "https://swamishreeji.com/images/mitul_jayesh"
+        },
+        {
+          "name": "Jenish ",
+          "image": "https://swamishreeji.com/images/jenish_jayesh"
+        },
+        {
+          "name": "Kishan",
+          "image": "https://swamishreeji.com/images/kishan_jayesh"
+        },
+        {
+          "name": "Darpankumar",
+          "image": "https://swamishreeji.com/images/darpan_jayesh"
+        },
+        {
+          "name": "Dhaval",
+          "image": "https://swamishreeji.com/images/dhaval_jayesh"
+        }
+      ]
+    },
+    "Ritesh's 8": {
+      "profileImage": "https://swamishreeji.com/images/amrish_pradeep",
+      "players": [
+        {
+          "name": "Ritesh",
+          "image": "https://swamishreeji.com/images/ritesh_captain"
+        },
+        {
+          "name": "Vedant",
+          "image": "https://swamishreeji.com/images/Vedant_Ritesh"
+        },
+        {
+          "name": "Tejas",
+          "image": "https://swamishreeji.com/images/Tejas_Ritesh"
+        },
+        {
+          "name": "Mit",
+          "image": "https://swamishreeji.com/images/Mit_Ritesh"
+        },
+        {
+          "name": "Dhyeykumar",
+          "image": "https://swamishreeji.com/images/Dhyeykumar_Ritesh"
+        },
+        {
+          "name": "Maharshi",
+          "image": " https://swamishreeji.com/images/Maharshi_Ritesh"
+        },
+        {
+          "name": "Anuj",
+          "image": "https://swamishreeji.com/images/Anuj_Ritesh"
+        },
+        {
+          "name": "Aniket",
+          "image": " https://swamishreeji.com/images/Aniket_Ritesh"
+        }
+      ]
+    },
+    "Harshil's 9": {
+      "profileImage": "https://swamishreeji.com/images/amrish_pradeep",
+      "players": [
+        {
+          "name": "Harshil",
+          "image": "https://swamishreeji.com/images/harshil_captain"
+        },
+        {
+          "name": "Bhavesh",
+          "image": "https://swamishreeji.com/images/bhavesh_harshil2.png"
+        },
+        {
+          "name": "Chintan",
+          "image": "https://swamishreeji.com/images/chintan_harshil"
+        },
+        {
+          "name": "Nirav",
+          "image": "https://swamishreeji.com/images/nirav_harshil"
+        },
+        {
+          "name": "yogesh",
+          "image": "https://swamishreeji.com/images/yogesh_harshil"
+        },
+        {
+          "name": "Mayur",
+          "image": "https://swamishreeji.com/images/mayur_harshil"
+        },
+        {
+          "name": "Nishant",
+          "image": "https://swamishreeji.com/images/nishant_harshil"
+        },
+        {
+          "name": "Dev",
+          "image": "https://swamishreeji.com/images/Screenshot 2025-01-30 at 6.07.09 PM.png"
+        },
+        {
+          "name": "Vaibhav",
+          "image": "https://swamishreeji.com/images/vaibhav_harshil"
+        }
+      ]
+    },
+    "Devashish's": {
+      "profileImage": "https://swamishreeji.com/images/devashish_captain",
+      "players": [
+        {
+          "name": "Devashish",
+          "image": "https://swamishreeji.com/images/devashish_captain"
+        },
+        {
+          "name": "Vraj",
+          "image": "https://swamishreeji.com/images/vraj_devashish"
+        },
+        {
+          "name": "Tarangkumar",
+          "image": "https://swamishreeji.com/images/tarang_devashish"
+        },
+        {
+          "name": "Vandan",
+          "image": "https://swamishreeji.com/images/vandan_devashish"
+        },
+        {
+          "name": "Yogi",
+          "image": "https://swamishreeji.com/images/yogi_devashish"
+        },
+        {
+          "name": "Krish",
+          "image": "https://swamishreeji.com/images/krish_devashish"
+        },
+        {
+          "name": "Vaibhav",
+          "image": "https://swamishreeji.com/images/vaibhav_devashish"
+        },
+        {
+          "name": "Siddharth",
+          "image": "https://swamishreeji.com/images/siddharth_devashish"
+        }
+      ]
+    },
+    "Parth's 8": {
+      "profileImage": "https://swamishreeji.com/images/amrish_pradeep",
+      "players": [
+        {
+          "name": "Parth",
+          "image": "https://swamishreeji.com/images/parth_captain"
+        },
+        {
+          "name": "Aksharkumar",
+          "image": "https://swamishreeji.com/images/akshar_parth"
+        },
+        {
+          "name": "Yogesh",
+          "image": "https://swamishreeji.com/images/yogesh_parth"
+        },
+        {
+          "name": "Biren",
+          "image": "https://swamishreeji.com/images/biren_parth"
+        },
+        {
+          "name": "Hiren",
+          "image": "https://swamishreeji.com/images/hiren_parth"
+        },
+        {
+          "name": "GunjanKumar",
+          "image": "https://swamishreeji.com/images/gunj_parth2.png"
+        },
+        {
+          "name": "Jay",
+          "image": "https://swamishreeji.com/images/jay_parth"
+        },
+        {
+          "name": "Parthav",
+          "image": "https://swamishreeji.com/images/parhav_parth"
+        }
+      ]
+    },
+    "Jaimin's 8": {
+      "profileImage": "https://swamishreeji.com/images/amrish_pradeep",
+      "players": [
+        {
+          "name": "Jaimin",
+          "image": "https://swamishreeji.com/images/jaimin_captain"
+        },
+        {
+          "name": "Siddharth",
+          "image": "https://swamishreeji.com/images/siddhartj_jaimin"
+        },
+        {
+          "name": "Akshar",
+          "image": "https://swamishreeji.com/images/akshar_jaimin"
+        },
+        {
+          "name": "Paresh",
+          "image": "https://swamishreeji.com/images/paresh_jaimin"
+        },
+        {
+          "name": "Harsh",
+          "image": "https://swamishreeji.com/images/harsh_jaimin"
+        },
+        {
+          "name": "Vasant",
+          "image": "https://swamishreeji.com/images/vasant_jaimin"
+        },
+        {
+          "name": "Piyush",
+          "image": "https://swamishreeji.com/images/piyush_jaimin"
+        },
+        {
+          "name": "Rushi",
+          "image": "https://swamishreeji.com/images/rushi_jaimin"
+        }
+      ]
+    },
+    "Nehanshu's": {
+      "profileImage": "https://swamishreeji.com/images/amrish_pradeep",
+      "players": [
+        {
+          "name": "Nehanshu",
+          "lastName": "Nai",
+          "image": " https://swamishreeji.com/images/nehanshu_captain",
+          "battingSkill": "4",
+          "bowlingSkill": "5"
+        },
+        {
+          "name": "Vrajesh",
+          "lastName": "Tailor",
+          "image": " https://swamishreeji.com/images/vrajesh_nehanshu",
+          "battingSkill": "4",
+          "bowlingSkill": "5"
+        },
+        {
+          "name": "Dhaval",
+          "lastName": "Patel",
+          "image": "https://swamishreeji.com/images/dhaval_nehanshu",
+          "battingSkill": "3",
+          "bowlingSkill": "5"
+        },
+        {
+          "name": "Anand",
+          "lastName": "Patel",
+          "image": "https://swamishreeji.com/images/anand_nehanshu",
+          "battingSkill": "5",
+          "bowlingSkill": "3"
+        },
+        {
+          "name": "Ritesh ",
+          "lastName": "Dalwadi ",
+          "image": "https://swamishreeji.com/images/ritesh1_jayesh",
+          "battingSkill": "3",
+          "bowlingSkill": "3"
+        },
+        {
+          "name": "Trushar",
+          "lastName": "Bhavsar",
+          "image": "https://swamishreeji.com/images/trushar_nehanshu2.png",
+          "battingSkill": "2",
+          "bowlingSkill": "2"
+        },
+        {
+          "name": "Jay",
+          "lastName": "Parekh",
+          "image": "https://swamishreeji.com/images/jay1_jayesh",
+          "battingSkill": "1",
+          "bowlingSkill": "1"
+        },
+        {
+          "name": "Alpesh ",
+          "lastName": "Parekh",
+          "image": "https://swamishreeji.com/images/alpesh_nehanshu",
+          "battingSkill": "4",
+          "bowlingSkill": "1"
+        }
+      ]
+    },
+    "Jay's 8": {
+      "profileImage": "https://swamishreeji.com/images/amrish_pradeep",
+      "players": [
+        {
+          "name": "Jay",
+          "lastName": "Patel",
+          "image": "https://swamishreeji.com/images/jay_captain",
+          "battingSkill": "4",
+          "bowlingSkill": "3"
+        },
+        {
+          "name": "Akshar",
+          "lastName": "Patel",
+          "image": "https://swamishreeji.com/images/akshar_jay",
+          "battingSkill": "4",
+          "bowlingSkill": "5"
+        },
+        {
+          "name": "Mihin",
+          "lastName": "Patel",
+          "image": "https://swamishreeji.com/images/mihin_jay",
+          "battingSkill": "4",
+          "bowlingSkill": "4"
+        },
+        {
+          "name": "Ravi",
+          "lastName": "Patel",
+          "image": "https://swamishreeji.com/images/ravi_jay2.png",
+          "battingSkill": "3",
+          "bowlingSkill": "4"
+        },
+        {
+          "name": "Hardik",
+          "lastName": "Patel",
+          "image": "https://swamishreeji.com/images/hardik_jay",
+          "battingSkill": "3",
+          "bowlingSkill": "3"
+        },
+        {
+          "name": "Harshit ",
+          "lastName": "Patel",
+          "image": "https://swamishreeji.com/images/harshit_jay",
+          "battingSkill": "3",
+          "bowlingSkill": "2"
+        },
+        {
+          "name": "Dhruv ",
+          "lastName": "Rajpara",
+          "image": "https://swamishreeji.com/images/dhruv_jay",
+          "battingSkill": "2",
+          "bowlingSkill": "4"
+        },
+        {
+          "name": "Nikhil ",
+          "lastName": "Patel",
+          "image": "https://swamishreeji.com/images/nikhil_jay",
+          "battingSkill": "2",
+          "bowlingSkill": "3"
+        }
+      ]
+    },
+    "Rajiv's 9": {
+      "profileImage": "https://swamishreeji.com/images/rajiv_captain",
+      "players": [
+        {
+          "name": "Rajiv",
+          "lastName": "Tarsarya",
+          "image": "https://swamishreeji.com/images/rajiv_captain",
+          "battingSkill": "4",
+          "bowlingSkill": "4"
+        },
+        {
+          "name": "Rutul",
+          "lastName": "Patel",
+          "image": "https://swamishreeji.com/images/Rutul_Rajiv",
+          "battingSkill": "4",
+          "bowlingSkill": "4"
+        },
+        {
+          "name": "Divyesh",
+          "lastName": "Parekh",
+          "image": "https://swamishreeji.com/images/Divyesh_Rajiv",
+          "battingSkill": "4",
+          "bowlingSkill": "4"
+        },
+        {
+          "name": "VIPUL ",
+          "lastName": "Patel",
+          "image": " https://swamishreeji.com/images/%20VIPUL_Rajiv",
+          "battingSkill": "3",
+          "bowlingSkill": "2"
+        },
+        {
+          "name": "Tirth",
+          "lastName": "Patel",
+          "image": "https://swamishreeji.com/images/Tirth_Rajiv%20",
+          "battingSkill": "3",
+          "bowlingSkill": "2"
+        },
+        {
+          "name": "Anant",
+          "lastName": "Patel",
+          "image": "https://swamishreeji.com/images/Anant_Rajiv%20",
+          "battingSkill": "3",
+          "bowlingSkill": "2"
+        },
+        {
+          "name": "Nirav",
+          "lastName": "Patel",
+          "image": " https://swamishreeji.com/images/Nirav_Rajiv%20",
+          "battingSkill": "3",
+          "bowlingSkill": "1"
+        },
+        {
+          "name": "Jayesh",
+          "lastName": "Makwana",
+          "image": "https://swamishreeji.com/images/Jayesh_Rajiv%20",
+          "battingSkill": "3",
+          "bowlingSkill": "1"
+        },
+        {
+          "name": "Sharad",
+          "lastName": "Vaghasiya",
+          "image": "https://swamishreeji.com/images/Sharad_Rajiv",
+          "battingSkill": "3",
+          "bowlingSkill": "2"
+        }
+      ]
+    },
+    "Rohan's 9": {
+      "profileImage": "https://swamishreeji.com/images/amrish_pradeep",
+      "players": [
+        {
+          "name": "Rohan",
+          "lastName": "Patel",
+          "image": "https://swamishreeji.com/images/rohan_captain",
+          "battingSkill": "4",
+          "bowlingSkill": "3"
+        },
+        {
+          "name": "Rakesh ",
+          "lastName": "Soni",
+          "image": "https://swamishreeji.com/images/Rakesh%20_Rohan",
+          "battingSkill": "3",
+          "bowlingSkill": "4"
+        },
+        {
+          "name": "Ravin",
+          "lastName": "Inamdar ",
+          "image": "https://swamishreeji.com/images/Ravin%20_Rohan",
+          "battingSkill": "4",
+          "bowlingSkill": "3"
+        },
+        {
+          "name": "Raj",
+          "lastName": "Patel",
+          "image": "https://swamishreeji.com/images/Raj%20_Rohan",
+          "battingSkill": "4",
+          "bowlingSkill": "3"
+        },
+        {
+          "name": "Hemant",
+          "lastName": "Patel",
+          "image": " https://swamishreeji.com/images/Hemant%20_Rohan",
+          "battingSkill": "3",
+          "bowlingSkill": "4"
+        },
+        {
+          "name": "Chirag",
+          "lastName": "Patel",
+          "image": "https://swamishreeji.com/images/Chirag%20_Rohan",
+          "battingSkill": "3",
+          "bowlingSkill": "3"
+        },
+        {
+          "name": "Chaitanya",
+          "lastName": "Bhatt",
+          "image": "https://swamishreeji.com/images/Chaitanya%20_Rohan",
+          "battingSkill": "1",
+          "bowlingSkill": "2"
+        },
+        {
+          "name": "Kalpesh",
+          "lastName": "Prajapati",
+          "image": "https://swamishreeji.com/images/Kalpesh%20_Rohan",
+          "battingSkill": "4",
+          "bowlingSkill": "2"
+        },
+        {
+          "name": "Milan",
+          "lastName": "Patel",
+          "image": "https://swamishreeji.com/images/Milan_Rohan?",
+          "battingSkill": "4",
+          "bowlingSkill": "1"
+        }
+      ]
+    },
+    "Purvesh's 8": {
+      "profileImage": "https://swamishreeji.com/images/amrish_pradeep",
+      "players": [
+        {
+          "name": "Purvesh",
+          "lastName": "Patel",
+          "image": "https://swamishreeji.com/images/purvesh_captain",
+          "battingSkill": "3",
+          "bowlingSkill": "3"
+        },
+        {
+          "name": "Vinay ",
+          "lastName": "Patel",
+          "image": "https://swamishreeji.com/images/vinay_purvesh",
+          "battingSkill": "4",
+          "bowlingSkill": "4"
+        },
+        {
+          "name": "Harshid",
+          "lastName": "Patel",
+          "image": "https://swamishreeji.com/images/harshid_purvesh",
+          "battingSkill": "4",
+          "bowlingSkill": "4"
+        },
+        {
+          "name": "Drashy",
+          "lastName": "Gajjar",
+          "image": "https://swamishreeji.com/images/drashy_purvesh",
+          "battingSkill": "4",
+          "bowlingSkill": "4"
+        },
+        {
+          "name": "Shlok ",
+          "lastName": "Patel ",
+          "image": "https://swamishreeji.com/images/shlok_purvesh",
+          "battingSkill": "2",
+          "bowlingSkill": "2"
+        },
+        {
+          "name": "Sharad",
+          "lastName": "Salia",
+          "image": "https://swamishreeji.com/images/sharad1_purvesh",
+          "battingSkill": "1",
+          "bowlingSkill": "1"
+        },
+        {
+          "name": "Jigs",
+          "lastName": "Patel",
+          "image": "https://swamishreeji.com/images/jigs_purvesh",
+          "battingSkill": "4",
+          "bowlingSkill": "2"
+        },
+        {
+          "name": "chintan ",
+          "lastName": "patel",
+          "image": "https://swamishreeji.com/images/chintan_purvesh",
+          "battingSkill": "3",
+          "bowlingSkill": "2"
+        }
+      ]
+    },
+    "Chirag's 8": {
+      "profileImage": "https://swamishreeji.com/images/amrish_pradeep",
+      "players": [
+        {
+          "name": "Chirag",
+          "lastName": "Patel (C)",
+          "image": "https://swamishreeji.com/images/chirag_captain",
+          "battingSkill": "4",
+          "bowlingSkill": "5"
+        },
+        {
+          "name": "Jigar ",
+          "lastName": "Patel",
+          "image": "https://swamishreeji.com/images/jigar_chirag",
+          "battingSkill": "4",
+          "bowlingSkill": "4"
+        },
+        {
+          "name": "Bhargav",
+          "lastName": "Raval",
+          "image": "https://swamishreeji.com/images/bhargav_chirag",
+          "battingSkill": "4",
+          "bowlingSkill": "4"
+        },
+        {
+          "name": "Vraj",
+          "lastName": "Patel",
+          "image": "https://swamishreeji.com/images/vraj_chirag",
+          "battingSkill": "3",
+          "bowlingSkill": "4"
+        },
+        {
+          "name": "Bhavik",
+          "lastName": "Patel",
+          "image": "https://swamishreeji.com/images/bhavik_chirag",
+          "battingSkill": "4",
+          "bowlingSkill": "3"
+        },
+        {
+          "name": "Sharad",
+          "lastName": "Tank",
+          "image": "https://swamishreeji.com/images/sharad_chirag",
+          "battingSkill": "4",
+          "bowlingSkill": "3"
+        },
+        {
+          "name": "kunal",
+          "lastName": "dhakan",
+          "image": "https://swamishreeji.com/images/kunal_chirag",
+          "battingSkill": "3",
+          "bowlingSkill": "3"
+        },
+        {
+          "name": "Amit",
+          "lastName": "Moradiya",
+          "image": "https://swamishreeji.com/images/amit_chirag",
+          "battingSkill": "2",
+          "bowlingSkill": "1"
+        }
+      ]
+    },
+    "Jasmin's 8": {
+      "profileImage": "https://swamishreeji.com/images/amrish_pradeep",
+      "players": [
+        {
+          "name": "Jasmin",
+          "lastName": "Patel",
+          "image": "https://swamishreeji.com/images/jasmin_captain",
+          "battingSkill": "3",
+          "bowlingSkill": "3"
+        },
+        {
+          "name": "Ruchir",
+          "lastName": "Prajapati",
+          "image": "https://swamishreeji.com/images/ruchir_jasmin2.png",
+          "battingSkill": "4",
+          "bowlingSkill": "4"
+        },
+        {
+          "name": "Tarun",
+          "lastName": "Pandya",
+          "image": "https://swamishreeji.com/images/tarunP_jasmin2.png",
+          "battingSkill": "4",
+          "bowlingSkill": "4"
+        },
+        {
+          "name": "Jaahanava",
+          "lastName": "Joshi",
+          "image": "https://swamishreeji.com/images/jaahanava_jasmin",
+          "battingSkill": "4",
+          "bowlingSkill": "3"
+        },
+        {
+          "name": "Bhagyesh",
+          "lastName": "Valand",
+          "image": "https://swamishreeji.com/images/bhagyesh_jasmin",
+          "battingSkill": "4",
+          "bowlingSkill": "3"
+        },
+        {
+          "name": "Rahul ",
+          "lastName": "Prajapati ",
+          "image": "https://swamishreeji.com/images/rahul_jasmin",
+          "battingSkill": "3",
+          "bowlingSkill": "3"
+        },
+        {
+          "name": "Smit",
+          "lastName": "Patel",
+          "image": "https://swamishreeji.com/images/smit_jasmin",
+          "battingSkill": "2",
+          "bowlingSkill": "5"
+        },
+        {
+          "name": "Tarun",
+          "lastName": "Parmar",
+          "image": "https://swamishreeji.com/images/tarun_jasmin",
+          "battingSkill": "2",
+          "bowlingSkill": "3"
+        }
+      ]
+    },
+    "Harit's 8": {
+      "profileImage": "https://swamishreeji.com/images/amrish_pradeep",
+      "players": [
+        {
+          "name": "Harit",
+          "lastName": "Patel",
+          "image": "https://swamishreeji.com/images/harit_captain",
+          "battingSkill": "3",
+          "bowlingSkill": "4"
+        },
+        {
+          "name": "Smit",
+          "lastName": "Patel",
+          "image": "https://swamishreeji.com/images/smit_harit",
+          "battingSkill": "5",
+          "bowlingSkill": "5"
+        },
+        {
+          "name": "Keyur",
+          "lastName": "Patel",
+          "image": "https://swamishreeji.com/images/keyur_harit",
+          "battingSkill": "4",
+          "bowlingSkill": "4"
+        },
+        {
+          "name": "Renil",
+          "lastName": "Sonani",
+          "image": "https://swamishreeji.com/images/renil_harit",
+          "battingSkill": "4",
+          "bowlingSkill": "3"
+        },
+        {
+          "name": "Akshar",
+          "lastName": "Patel",
+          "image": "https://swamishreeji.com/images/akshar_harit",
+          "battingSkill": "4",
+          "bowlingSkill": "3"
+        },
+        {
+          "name": "Yogesh",
+          "lastName": "Patel",
+          "image": "https://swamishreeji.com/images/yogesh_harit",
+          "battingSkill": "3",
+          "bowlingSkill": "2"
+        },
+        {
+          "name": "Bhavesh",
+          "lastName": "Patel",
+          "image": "https://swamishreeji.com/images/bhavesh_harit",
+          "battingSkill": "3",
+          "bowlingSkill": "1"
+        },
+        {
+          "name": "Akshar",
+          "lastName": "Patel ",
+          "image": "https://swamishreeji.com/images/aksharras_harit",
+          "battingSkill": "3",
+          "bowlingSkill": "1"
+        }
+      ]
+    },
+    "Pavan's 8": {
+      "profileImage": "https://swamishreeji.com/images/amrish_pradeep",
+      "players": [
+        {
+          "name": "Pavan",
+          "lastName": "Patel",
+          "image": "https://swamishreeji.com/images/pavan_captain",
+          "battingSkill": "3",
+          "bowlingSkill": "3"
+        },
+        {
+          "name": "Jalat(Sunny)",
+          "lastName": "Patel",
+          "image": "https://swamishreeji.com/images/jalat_pavan",
+          "battingSkill": "5",
+          "bowlingSkill": "4"
+        },
+        {
+          "name": "JIGARKUMAR ",
+          "lastName": "PATEL",
+          "image": "https://swamishreeji.com/images/jigar_pavan",
+          "battingSkill": "4",
+          "bowlingSkill": "4"
+        },
+        {
+          "name": "Jainish",
+          "lastName": "Patel",
+          "image": "https://swamishreeji.com/images/jainish_pavan",
+          "battingSkill": "4",
+          "bowlingSkill": "3"
+        },
+        {
+          "name": "Manav",
+          "lastName": "Parekh",
+          "image": "https://swamishreeji.com/images/manav_pavan",
+          "battingSkill": "3",
+          "bowlingSkill": "3"
+        },
+        {
+          "name": "Anand",
+          "lastName": "Patel",
+          "image": "https://swamishreeji.com/images/anand_pavan",
+          "battingSkill": "3",
+          "bowlingSkill": "3"
+        },
+        {
+          "name": "Paras",
+          "lastName": "Patel",
+          "image": "https://swamishreeji.com/images/paras_pavan",
+          "battingSkill": "1",
+          "bowlingSkill": "1"
+        },
+        {
+          "name": "Darshnik",
+          "lastName": "Patel",
+          "image": "https://swamishreeji.com/images/darshnik_pavan",
+          "battingSkill": "4",
+          "bowlingSkill": "2"
+        }
+      ]
+    },
+    
+    "Yogesh's 9": {
+      "profileImage": "https://swamishreeji.com/images/amrish_pradeep",
+      "players": [
+        {
+          "name": "Yogesh",
+          "lastName": "Patel",
+          "image": "https://swamishreeji.com/images/yogesh_captain",
+          "battingSkill": "3",
+          "bowlingSkill": "5"
+        },
+        {
+          "name": "Vivek",
+          "lastName": "Patel",
+          "image": "https://swamishreeji.com/images/Vivek",
+          "battingSkill": "3",
+          "bowlingSkill": "5"
+        },
+        {
+          "name": "Ved",
+          "lastName": "Patel ",
+          "image": "https://swamishreeji.com/images/Ved",
+          "battingSkill": "4",
+          "bowlingSkill": "4"
+        },
+        {
+          "name": "Darpan",
+          "lastName": "PATEL",
+          "image": "https://swamishreeji.com/images/DARPAN",
+          "battingSkill": "4",
+          "bowlingSkill": "4"
+        },
+        {
+          "name": "Rahil",
+          "lastName": "Kanani",
+          "image": "https://swamishreeji.com/images/%20Rahil%20",
+          "battingSkill": "3",
+          "bowlingSkill": "4"
+        },
+        {
+          "name": "DHRUV",
+          "lastName": "PATEL",
+          "image": "https://swamishreeji.com/images/DHRUV%20",
+          "battingSkill": "4",
+          "bowlingSkill": "3"
+        },
+        {
+          "name": "Vijay",
+          "lastName": "Patel",
+          "image": "https://swamishreeji.com/images/Vijay",
+          "battingSkill": "3",
+          "bowlingSkill": "3"
+        },
+        {
+          "name": "Utsav",
+          "lastName": "Kalathiya",
+          "image": "https://swamishreeji.com/images/%20Utsav%20",
+          "battingSkill": "3",
+          "bowlingSkill": "3"
+        },
+        {
+          "name": "Jeet",
+          "lastName": "Sangani",
+          "image": "https://swamishreeji.com/images/Jeet",
+          "battingSkill": "4",
+          "bowlingSkill": "2"
+        }
+      ]
+    },
+    "Rakshit's 8": {
+      "profileImage": "https://swamishreeji.com/images/amrish_pradeep",
+      "players": [
+        {
+          "name": "Rakshit ",
+          "lastName": "Patel",
+          "image": "https://swamishreeji.com/images/rakshit_captain",
+          "battingSkill": "5",
+          "bowlingSkill": "2"
+        },
+        {
+          "name": "Dharmik ",
+          "lastName": "Tailor ",
+          "image": "https://swamishreeji.com/images/Dharmik_Rakshit",
+          "battingSkill": "5",
+          "bowlingSkill": "5"
+        },
+        {
+          "name": "Anuj ",
+          "lastName": "Patel",
+          "image": "https://swamishreeji.com/images/Anuj__Rakshit",
+          "battingSkill": "4",
+          "bowlingSkill": "4"
+        },
+        {
+          "name": "Nihal ",
+          "lastName": "Patel",
+          "image": "https://swamishreeji.com/images/Nihal__Rakshit",
+          "battingSkill": "3",
+          "bowlingSkill": "4"
+        },
+        {
+          "name": "Hemanshu",
+          "lastName": "Patel",
+          "image": "https://swamishreeji.com/images/Hemanshu__Rakshit",
+          "battingSkill": "3",
+          "bowlingSkill": "3"
+        },
+        {
+          "name": "Anuj",
+          "lastName": "Patel",
+          "image": "https://swamishreeji.com/images/Anuj__Rakshit",
+          "battingSkill": "3",
+          "bowlingSkill": "3"
+        },
+        {
+          "name": "Dhyey",
+          "lastName": "Patel",
+          "image": "https://swamishreeji.com/images/Dhyey__Rakshit%20",
+          "battingSkill": "1",
+          "bowlingSkill": "1"
+        },
+        {
+          "name": "Hem",
+          "lastName": "Patel",
+          "image": "https://swamishreeji.com/images/Hem__Rakshit",
+          "battingSkill": "4",
+          "bowlingSkill": "4"
+        }
+      ]
+    }
+  }

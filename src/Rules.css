@@ -84,3 +84,18 @@ button:hover {
     opacity: 0;
     max-height: 0; /* Collapsed height */
 }
+.collapsible-content {
+    overflow: hidden;
+    transition: max-height 1.2s ease-in-out, opacity 0.7s ease-in-out;
+    max-height: 0;
+    opacity: 0;
+    background-color: #023867;
+    color: white;
+  }
+  
+  .collapsible-content.open {
+    max-height: 5000px; /* Adjust this based on content size */
+    opacity: 1;
+    
+  }
+  

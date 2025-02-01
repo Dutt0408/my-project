@@ -1,7 +1,8 @@
 [
   {
-    "teamName": "(A1) Pradeep's7",
+    "teamName": "(A1) Pradeep's8",
     "captainName": "Pradeep Moradiya",
+    "group": "A",
     "teamImage": "https://swamishreeji.com/images/pradeep_captain",
     "players": [
       {
@@ -63,8 +64,9 @@
     ]
   },
   {
-    "teamName": "(A2) Harsh's7",
+    "teamName": "(A2) Harsh's8",
     "captainName": "Harsh Patel",
+    "group": "A",
     "teamImage": "https://swamishreeji.com/images/harsh_captain",
     "players": [
       {
@@ -126,7 +128,70 @@
     ]
   },
   {
-    "teamName": "(B5) Chirag's7",
+    "teamName": "(A3) Het's8",
+    "captainName": "Het Surani",
+    "teamImage": "https://swamishreeji.com/images/het_captain",
+    "players": [
+      {
+        "firstName": "Het",
+        "lastName": "Surani",
+        "profilePhoto": "https://swamishreeji.com/images/het_captain",
+        "battingSkill": "4",
+        "bowlingSkill": "2"
+      },
+      {
+        "firstName": "Parth",
+        "lastName": "Patel",
+        "profilePhoto": "https://swamishreeji.com/images/parth_het",
+        "battingSkill": "5",
+        "bowlingSkill": "5"
+      },
+      {
+        "firstName": "Kalpitkumar",
+        "lastName": "Parekh",
+        "profilePhoto": "https://swamishreeji.com/images/kalpit_het",
+        "battingSkill": "4",
+        "bowlingSkill": "5"
+      },
+      {
+        "firstName": "Nikul",
+        "lastName": "Jethwa",
+        "profilePhoto": "https://swamishreeji.com/images/nikul_het",
+        "battingSkill": "4",
+        "bowlingSkill": "3"
+      },
+      {
+        "firstName": "Rajdeep",
+        "lastName": "Zala",
+        "profilePhoto": "https://swamishreeji.com/images/rajdeep_het",
+        "battingSkill": "3",
+        "bowlingSkill": "4"
+      },
+      {
+        "firstName": "Samarth",
+        "lastName": "Panchal",
+        "profilePhoto": "https://swamishreeji.com/images/samarth_het",
+        "battingSkill": "4",
+        "bowlingSkill": "3"
+      },
+      {
+        "firstName": "Pinakin ",
+        "lastName": "Patel",
+        "profilePhoto": "https://swamishreeji.com/images/pinakin_het",
+        "battingSkill": "3",
+        "bowlingSkill": "3"
+      },
+      {
+        "firstName": "Chintan",
+        "lastName": "Gandhi",
+        "profilePhoto": "https://swamishreeji.com/images/chintan_het",
+        "battingSkill": "3",
+        "bowlingSkill": "3"
+      }
+    ]
+  },
+  {
+    "teamName": "(B5) Chirag's8",
     "captainName": "Chirag Patel",
     "teamImage": "https://swamishreeji.com/images/chirag_captain",
     "players": [
@@ -189,7 +254,7 @@
     ]
   },
   {
-    "teamName": "(A7) Devashish's7",
+    "teamName": "(A7) Devashish's8",
     "captainName": "Devashish Thakkar",
     "teamImage": "https://swamishreeji.com/images/devashish_captain",
     "players": [
@@ -252,7 +317,7 @@
     ]
   },
   {
-    "teamName": "(B7) Harit's7",
+    "teamName": "(B7) Harit's8",
     "captainName": "Harit Patel",
     "teamImage": "https://swamishreeji.com/images/harit_captain",
     "players": [
@@ -316,7 +381,7 @@
   },
   
   {
-    "teamName": "(A6) Harshil's8",
+    "teamName": "(A6) Harshil's9",
     "captainName": "Harshil Bhatt",
     "teamImage": "https://swamishreeji.com/images/harshil_captain?",
     "players": [
@@ -385,71 +450,9 @@
       }
     ]
   },
+  
   {
-    "teamName": "(A3) Het's7",
-    "captainName": "Het Surani",
-    "teamImage": "https://swamishreeji.com/images/het_captain",
-    "players": [
-      {
-        "firstName": "Het",
-        "lastName": "Surani",
-        "profilePhoto": "https://swamishreeji.com/images/het_captain",
-        "battingSkill": "4",
-        "bowlingSkill": "2"
-      },
-      {
-        "firstName": "Parth",
-        "lastName": "Patel",
-        "profilePhoto": "https://swamishreeji.com/images/parth_het",
-        "battingSkill": "5",
-        "bowlingSkill": "5"
-      },
-      {
-        "firstName": "Kalpitkumar",
-        "lastName": "Parekh",
-        "profilePhoto": "https://swamishreeji.com/images/kalpit_het",
-        "battingSkill": "4",
-        "bowlingSkill": "5"
-      },
-      {
-        "firstName": "Nikul",
-        "lastName": "Jethwa",
-        "profilePhoto": "https://swamishreeji.com/images/nikul_het",
-        "battingSkill": "4",
-        "bowlingSkill": "3"
-      },
-      {
-        "firstName": "Rajdeep",
-        "lastName": "Zala",
-        "profilePhoto": "https://swamishreeji.com/images/rajdeep_het",
-        "battingSkill": "3",
-        "bowlingSkill": "4"
-      },
-      {
-        "firstName": "Samarth",
-        "lastName": "Panchal",
-        "profilePhoto": "https://swamishreeji.com/images/samarth_het",
-        "battingSkill": "4",
-        "bowlingSkill": "3"
-      },
-      {
-        "firstName": "Pinakin ",
-        "lastName": "Patel",
-        "profilePhoto": "https://swamishreeji.com/images/pinakin_het",
-        "battingSkill": "3",
-        "bowlingSkill": "3"
-      },
-      {
-        "firstName": "Chintan",
-        "lastName": "Gandhi",
-        "profilePhoto": "https://swamishreeji.com/images/chintan_het",
-        "battingSkill": "3",
-        "bowlingSkill": "3"
-      }
-    ]
-  },
-  {
-    "teamName": "(A9) Jaimin's7",
+    "teamName": "(A9) Jaimin's8",
     "captainName": "Jaimin Gor",
     "teamImage": "https://swamishreeji.com/images/jaimin_captain",
     "players": [
@@ -512,7 +515,7 @@
     ]
   },
   {
-    "teamName": "(B6) Jasmin's7",
+    "teamName": "(B6) Jasmin's8",
     "captainName": "Jasmin Patel",
     "teamImage": "https://swamishreeji.com/images/jasmin_captain",
     "players": [
@@ -575,7 +578,7 @@
     ]
   },
   {
-    "teamName": "(B1) Jay's7",
+    "teamName": "(B1) Jay's8",
     "captainName": "Jay Patel",
     "teamImage": "https://swamishreeji.com/images/jay_captain",
     "players": [
@@ -638,8 +641,9 @@
     ]
   },
   {
-    "teamName": "(A4) Jayesh's7",
+    "teamName": "(A4) Jayesh's8",
     "captainName": "Jayesh Amodra",
+    "group": "A",
     "teamImage": "https://swamishreeji.com/images/jayesh_captain",
     "players": [
       {
@@ -701,7 +705,7 @@
     ]
   },
   {
-    "teamName": "(A10) Nehanshu's7",
+    "teamName": "(A10) Nehanshu's8",
     "captainName": "Nehanshu Nai",
     "teamImage": "https://swamishreeji.com/images/nehanshu_captain",
     "players": [
@@ -764,7 +768,7 @@
     ]
   },
   {
-    "teamName": "(A8) Parth's7",
+    "teamName": "(A8) Parth's8",
     "captainName": "Parth Patel",
     "teamImage": "https://swamishreeji.com/images/parth_captain",
     "players": [
@@ -827,7 +831,7 @@
     ]
   },
   {
-    "teamName": "(B8) Pavan's7",
+    "teamName": "(B8) Pavan's8",
     "captainName": "Pavan Patel",
     "teamImage": "https://swamishreeji.com/images/pavan_captain",
     "players": [
@@ -891,7 +895,7 @@
   },
   
   {
-    "teamName": "(B4) Purvesh's7",
+    "teamName": "(B4) Purvesh's8",
     "captainName": "Purvesh Patel",
     "teamImage": "https://swamishreeji.com/images/purvesh_captain",
     "players": [
@@ -954,7 +958,7 @@
     ]
   },
   {
-    "teamName": "(B2) Rajiv's8",
+    "teamName": "(B2) Rajiv's9",
     "captainName": "Rajiv Tarsarya",
     "teamImage": "https://swamishreeji.com/images/rajiv_captain",
     "players": [
@@ -1024,7 +1028,7 @@
     ]
   },
   {
-    "teamName": "(B10) Rakshit's7",
+    "teamName": "(B10) Rakshit's8",
     "captainName": "Rakshit Patel",
     "teamImage": "https://swamishreeji.com/images/rakshit_captain",
     "players": [
@@ -1087,7 +1091,7 @@
     ]
   },
   {
-    "teamName": "(A5) Ritesh's7",
+    "teamName": "(A5) Ritesh's8",
     "captainName": "Ritesh Patel",
     "teamImage": "https://swamishreeji.com/images/ritesh_captain",
     "players": [
@@ -1150,7 +1154,7 @@
     ]
   },
   {
-    "teamName": "(B3) Rohan's8",
+    "teamName": "(B3) Rohan's9",
     "captainName": "Rohan Patel",
     "teamImage": "https://swamishreeji.com/images/rohan_captain",
     "players": [
@@ -1220,7 +1224,7 @@
     ]
   },
   {
-    "teamName": "(B9) Yogesh's8",
+    "teamName": "(B9) Yogesh's9",
     "captainName": "Yogesh Patel",
     "teamImage": "https://swamishreeji.com/images/yogesh_captain",
     "players": [

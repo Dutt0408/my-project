@@ -1,0 +1,392 @@
+[
+    {
+      "id": 1,
+      "series": "Pramukh Cup - 2025",
+      "location": "Game 1",
+      "matchDate": "14th Feb",
+      "matchTime": "6pm - 7pm",
+      "team1": "Harshil's 9",
+      "team2": "Devashish's",
+      "matchstatus": "Upcoming"
+    },
+    {
+      "id": 2,
+      "series": "Pramukh Cup - 2025",
+      "location": "Game 2",
+      "matchDate": "14th Feb",
+      "matchTime": "7pm - 8pm",
+      "team1": "Rajiv's 9",
+      "team2": "Chirag's 8",
+      "matchstatus": "Upcoming"
+    },
+    {
+      "id": 3,
+      "series": "Pramukh Cup - 2025",
+      "location": "Game 3",
+      "matchDate": "14th Feb",
+      "matchTime": "8pm - 9pm",
+      "team1": "Nehanshu's",
+      "team2": "Het's 8",
+      "matchstatus": "Upcoming"
+    },
+    {
+      "id": 4,
+      "series": "Pramukh Cup - 2025",
+      "location": "Game 4",
+      "matchDate": "14th Feb",
+      "matchTime": "9pm-10pm",
+      "team1": "Purvesh's 8",
+      "team2": "Jay's 8",
+      "matchstatus": "Upcoming"
+    },
+    {
+      "id": 5,
+      "series": "Pramukh Cup - 2025",
+      "location": "Game 5",
+      "matchDate": "14th Feb",
+      "matchTime": "10pm-11pm",
+      "team1": "Pradeep's 8",
+      "team2": "Jaimin's 8",
+      "matchstatus": "Upcoming"
+    },
+    {
+      "id": 6,
+      "series": "Pramukh Cup - 2025",
+      "location": "Game 6",
+      "matchDate": "14th Feb",
+      "matchTime": "11pm-12am",
+      "team1": "Yogesh's 8",
+      "team2": "Harit's 8",
+      "matchstatus": "Upcoming"
+    },
+    {
+      "id": 7,
+      "series": "Pramukh Cup - 2025",
+      "location": "Game 7",
+      "matchDate": "15th Feb",
+      "matchTime": "8am-9am",
+      "team1": "Nehanshu's",
+      "team2": "Harshil's 9",
+      "matchstatus": "Upcoming"
+    },
+    {
+      "id": 8,
+      "series": "Pramukh Cup - 2025",
+      "location": "Game 8",
+      "matchDate": "15th Feb",
+      "matchTime": "9am-10am",
+      "team1": "Jay's 8",
+      "team2": "Rakshit's 8",
+      "matchstatus": "Upcoming"
+    },
+    {
+      "id": 9,
+      "series": "Pramukh Cup - 2025",
+      "location": "Game 9",
+      "matchDate": "15th Feb",
+      "matchTime": "10am - 11am",
+      "team1": "Parth's 8",
+      "team2": "Harsh's 8",
+      "matchstatus": "Upcoming"
+    },
+    {
+      "id": 10,
+      "series": "Pramukh Cup - 2025",
+      "location": "Game 10",
+      "matchDate": "15th Feb",
+      "matchTime": "11am - 12pm",
+      "team1": "Rajiv's 9",
+      "team2": "Pavan's 8",
+      "matchstatus": "Upcoming"
+    },
+    {
+      "id": 11,
+      "series": "Pramukh Cup - 2025",
+      "location": "Game 11",
+      "matchDate": "15th Feb",
+      "matchTime": "12pm - 1pm",
+      "team1": "Devashish's",
+      "team2": "Jaimin's 8",
+      "matchstatus": "Upcoming"
+    },
+    {
+      "id": 12,
+      "series": "Pramukh Cup - 2025",
+      "location": "Game 12",
+      "matchDate": "15th Feb",
+      "matchTime": "1pm - 2pm",
+      "team1": "Ritesh's 8",
+      "team2": "Jayesh's 8",
+      "matchstatus": "Upcoming"
+    },
+    {
+      "id": 13,
+      "series": "Pramukh Cup - 2025",
+      "location": "Game 13",
+      "matchDate": "15th Feb",
+      "matchTime": "2pm - 3pm",
+      "team1": "Chirag's 8",
+      "team2": "Yogesh's 8",
+      "matchstatus": "Upcoming"
+    },
+    {
+      "id": 14,
+      "series": "Pramukh Cup - 2025",
+      "location": "Game 14",
+      "matchDate": "15th Feb",
+      "matchTime": "3pm - 4pm",
+      "team1": "Rohan's 8",
+      "team2": "Jasmin's 8",
+      "matchstatus": "Upcoming"
+    },
+    {
+      "id": 15,
+      "series": "Pramukh Cup - 2025",
+      "location": "Game 15",
+      "matchDate": "15th Feb",
+      "matchTime": "8pm - 9pm",
+      "team1": "Jayesh's 8",
+      "team2": "Pradeep's 8",
+      "matchstatus": "Upcoming"
+    },
+    {
+      "id": 16,
+      "series": "Pramukh Cup - 2025",
+      "location": "Game 16",
+      "matchDate": "15th Feb",
+      "matchTime": "9pm - 10pm",
+      "team1": "Harit's 8",
+      "team2": "Rakshit's 8",
+      "matchstatus": "Upcoming"
+    },
+    {
+      "id": 17,
+      "series": "Pramukh Cup - 2025",
+      "location": "Game 17",
+      "matchDate": "15th Feb",
+      "matchTime": "10pm - 11pm",
+      "team1": "Ritesh's 8",
+      "team2": "Parth's 8",
+      "matchstatus": "Upcoming"
+    },
+    {
+      "id": 18,
+      "series": "Pramukh Cup - 2025",
+      "location": "Game 18",
+      "matchDate": "15th Feb",
+      "matchTime": "11pm - 12am",
+      "team1": "Rohan's 8",
+      "team2": "Pavan's 8",
+      "matchstatus": "Upcoming"
+    },
+    {
+      "id": 19,
+      "series": "Pramukh Cup - 2025",
+      "location": "Game 19",
+      "matchDate": "16th Feb",
+      "matchTime": "8am - 9am",
+      "team1": "Jasmin's 8",
+      "team2": "Chirag's 8",
+      "matchstatus": "Upcoming"
+    },
+    {
+      "id": 20,
+      "series": "Pramukh Cup - 2025",
+      "location": "Game 20",
+      "matchDate": "16th Feb",
+      "matchTime": "9am - 10am",
+      "team1": "Harshil's 9",
+      "team2": "Harsh's 8",
+      "matchstatus": "Upcoming"
+    },
+    {
+      "id": 21,
+      "series": "Pramukh Cup - 2025",
+      "location": "Game 21",
+      "matchDate": "16th Feb",
+      "matchTime": "10am - 11am",
+      "team1": "Rajiv's 9",
+      "team2": "Purvesh's 8",
+      "matchstatus": "Upcoming"
+    },
+    {
+      "id": 22,
+      "series": "Pramukh Cup - 2025",
+      "location": "Game 22",
+      "matchDate": "16th Feb",
+      "matchTime": "11am - 12pm",
+      "team1": "Jayesh's 8",
+      "team2": "Het's 8",
+      "matchstatus": "Upcoming"
+    },
+    {
+      "id": 23,
+      "series": "Pramukh Cup - 2025",
+      "location": "Game 23",
+      "matchDate": "16th Feb",
+      "matchTime": "12pm - 1pm",
+      "team1": "Yogesh's 8",
+      "team2": "Rakshit's 8",
+      "matchstatus": "Upcoming"
+    },
+    {
+      "id": 24,
+      "series": "Pramukh Cup - 2025",
+      "location": "Game 24",
+      "matchDate": "16th Feb",
+      "matchTime": "1pm - 2pm",
+      "team1": "Jaimin's 8",
+      "team2": "Parth's 8",
+      "matchstatus": "Upcoming"
+    },
+    {
+      "id": 25,
+      "series": "Pramukh Cup - 2025",
+      "location": "Game 25",
+      "matchDate": "16th Feb",
+      "matchTime": "2pm - 3pm",
+      "team1": "Jay's 8",
+      "team2": "Harit's 8",
+      "matchstatus": "Upcoming"
+    },
+    {
+      "id": 26,
+      "series": "Pramukh Cup - 2025",
+      "location": "Game 26",
+      "matchDate": "16th Feb",
+      "matchTime": "3pm - 4pm",
+      "team1": "Harsh's 8",
+      "team2": "Devashish's",
+      "matchstatus": "Upcoming"
+    },
+    {
+      "id": 27,
+      "series": "Pramukh Cup - 2025",
+      "location": "Game 27",
+      "matchDate": "16th Feb",
+      "matchTime": "8pm - 9pm",
+      "team1": "Pavan's 8",
+      "team2": "Jasmin's 8",
+      "matchstatus": "Upcoming"
+    },
+    {
+      "id": 28,
+      "series": "Pramukh Cup - 2025",
+      "location": "Game 28",
+      "matchDate": "16th Feb",
+      "matchTime": "9pm - 10pm",
+      "team1": "Nehanshu's",
+      "team2": "Ritesh's 8",
+      "matchstatus": "Upcoming"
+    },
+    {
+      "id": 29,
+      "series": "Pramukh Cup - 2025",
+      "location": "Game 29",
+      "matchDate": "16th Feb",
+      "matchTime": "10pm - 11pm",
+      "team1": "Rohan's 8",
+      "team2": "Purvesh's 8",
+      "matchstatus": "Upcoming"
+    },
+    {
+      "id": 30,
+      "series": "Pramukh Cup - 2025",
+      "location": "Game 30",
+      "matchDate": "16th Feb",
+      "matchTime": "11pm - 12am",
+      "team1": "Het's 8",
+      "team2": "Pradeep's 8",
+      "matchstatus": "Upcoming"
+    },
+    {
+      "id": 31,
+      "series": "Pramukh Cup - 2025",
+      "location": "QF 1",
+      "matchDate": "17th Feb",
+      "matchTime": "9am - 10am",
+      "team1": "2nd Place G-A",
+      "team2": "5th Place G-B",
+      "matchstatus": "Upcoming"
+    },
+    {
+      "id": 32,
+      "series": "Pramukh Cup - 2025",
+      "location": "QF 2",
+      "matchDate": "17th Feb",
+      "matchTime": "10am - 11am",
+      "team1": "3rd Place G-A",
+      "team2": "4th Place G-B",
+      "matchstatus": "Upcoming"
+    },
+    {
+      "id": 33,
+      "series": "Pramukh Cup - 2025",
+      "location": "QF 3",
+      "matchDate": "17th Feb",
+      "matchTime": "11am - 12pm",
+      "team1": "2nd Place G-B",
+      "team2": "5th Place G-A",
+      "matchstatus": "Upcoming"
+    },
+    {
+      "id": 34,
+      "series": "Pramukh Cup - 2025",
+      "location": "QF 4",
+      "matchDate": "17th Feb",
+      "matchTime": "12pm - 1pm",
+      "team1": "3rd Place G-B",
+      "team2": "4th Place G-A",
+      "matchstatus": "Upcoming"
+    },
+    {
+      "id": 35,
+      "series": "Pramukh Cup - 2025",
+      "location": "Play-in 1",
+      "matchDate": "17th Feb",
+      "matchTime": "1pm - 2pm",
+      "team1": "Winner of Q2",
+      "team2": "Winner of Q3",
+      "matchstatus": "Upcoming"
+    },
+    {
+      "id": 36,
+      "series": "Pramukh Cup - 2025",
+      "location": "Play-in 2",
+      "matchDate": "17th Feb",
+      "matchTime": "2pm - 3pm",
+      "team1": "Winner of Q1",
+      "team2": "Winner of Q4",
+      "matchstatus": "Upcoming"
+    },
+    {
+      "id": 37,
+      "series": "Pramukh Cup - 2025",
+      "location": "SF1",
+      "matchDate": "17th Feb",
+      "matchTime": "3pm - 4pm",
+      "team1": "Table Topper G-A",
+      "team2": "Winner Play-in 1",
+      "matchstatus": "Upcoming"
+    },
+    {
+      "id": 38,
+      "series": "Pramukh Cup - 2025",
+      "location": "SF2",
+      "matchDate": "17th Feb",
+      "matchTime": "4pm - 5pm",
+      "team1": "Table Topper G-B",
+      "team2": "Winner Play-in 2",
+      "matchstatus": "Upcoming"
+    },
+    {
+      "id": 39,
+      "series": "Pramukh Cup - 2025",
+      "location": "Final",
+      "matchDate": "17th Feb",
+      "matchTime": "7pm - 8pm",
+      "team1": "Winner SF1",
+      "team2": "Winner SF2",
+      "matchstatus": "Upcoming"
+    }
+  ]

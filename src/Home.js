@@ -69,10 +69,10 @@ function Home() {
       <FadeInOnScroll>
         <div className="text-center mb-6">
           <p className="text-gray-900 text-base md:text-lg">
-            The tournament will be held on: <strong>February 14th to 17th.</strong>
-          </p>
+            The tournament will be held on: <strong> 14th to 17th Feb</strong>
+          </p> <br/>
           <p className="text-gray-900 text-base md:text-lg">
-            <strong>Venue:</strong> BAPS Swaminarayan Complex, 61 Claireville Dr., Toronto
+            <strong>Venue:</strong> BAPS Swaminarayan Temple, Toronto
           </p>
         </div>
       </FadeInOnScroll>
