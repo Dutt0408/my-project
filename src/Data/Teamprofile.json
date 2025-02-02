@@ -37,7 +37,7 @@
       ]
     },
     "Harsh's 8": {
-      "profileImage": "https://swamishreeji.com/images/pradeep_captain",
+      "profileImage": "https://swamishreeji.com/images/harsh_captain?",
       "players": [
         {
           "name": "Harsh",
@@ -74,7 +74,7 @@
       ]
     },
     "Het's 8": {
-      "profileImage": "https://swamishreeji.com/images/amrish_pradeep",
+      "profileImage": "https://swamishreeji.com/images/het_captain",
       "players": [
         {
           "name": "Het",
@@ -112,7 +112,7 @@
       ]
     },
     "Jayesh's 8": {
-      "profileImage": "https://swamishreeji.com/images/amrish_pradeep",
+      "profileImage": "https://swamishreeji.com/images/jayesh_captain",
       "players": [
         {
           "name": "Jayesh",
@@ -149,7 +149,7 @@
       ]
     },
     "Ritesh's 8": {
-      "profileImage": "https://swamishreeji.com/images/amrish_pradeep",
+      "profileImage": "https://swamishreeji.com/images/ritesh_captain",
       "players": [
         {
           "name": "Ritesh",
@@ -186,7 +186,7 @@
       ]
     },
     "Harshil's 9": {
-      "profileImage": "https://swamishreeji.com/images/amrish_pradeep",
+      "profileImage": "https://swamishreeji.com/images/harshil_captain",
       "players": [
         {
           "name": "Harshil",
@@ -264,7 +264,7 @@
       ]
     },
     "Parth's 8": {
-      "profileImage": "https://swamishreeji.com/images/amrish_pradeep",
+      "profileImage": "https://swamishreeji.com/images/parth_captain",
       "players": [
         {
           "name": "Parth",
@@ -301,7 +301,7 @@
       ]
     },
     "Jaimin's 8": {
-      "profileImage": "https://swamishreeji.com/images/amrish_pradeep",
+      "profileImage": "https://swamishreeji.com/images/jaimin_captain",
       "players": [
         {
           "name": "Jaimin",
@@ -338,19 +338,19 @@
       ]
     },
     "Nehanshu's": {
-      "profileImage": "https://swamishreeji.com/images/amrish_pradeep",
+      "profileImage": "https://swamishreeji.com/images/nehanshu_captain",
       "players": [
         {
           "name": "Nehanshu",
           "lastName": "Nai",
-          "image": " https://swamishreeji.com/images/nehanshu_captain",
+          "image": "https://swamishreeji.com/images/nehanshu_captain",
           "battingSkill": "4",
           "bowlingSkill": "5"
         },
         {
           "name": "Vrajesh",
           "lastName": "Tailor",
-          "image": " https://swamishreeji.com/images/vrajesh_nehanshu",
+          "image": "https://swamishreeji.com/images/vrajesh_nehanshu",
           "battingSkill": "4",
           "bowlingSkill": "5"
         },
@@ -399,7 +399,7 @@
       ]
     },
     "Jay's 8": {
-      "profileImage": "https://swamishreeji.com/images/amrish_pradeep",
+      "profileImage": "https://swamishreeji.com/images/jay_captain",
       "players": [
         {
           "name": "Jay",
@@ -528,7 +528,7 @@
       ]
     },
     "Rohan's 9": {
-      "profileImage": "https://swamishreeji.com/images/amrish_pradeep",
+      "profileImage": "https://swamishreeji.com/images/rohan_captain",
       "players": [
         {
           "name": "Rohan",
@@ -596,7 +596,7 @@
       ]
     },
     "Purvesh's 8": {
-      "profileImage": "https://swamishreeji.com/images/amrish_pradeep",
+      "profileImage": "https://swamishreeji.com/images/purvesh_captain",
       "players": [
         {
           "name": "Purvesh",
@@ -657,7 +657,7 @@
       ]
     },
     "Chirag's 8": {
-      "profileImage": "https://swamishreeji.com/images/amrish_pradeep",
+      "profileImage": "https://swamishreeji.com/images/chirag_captain",
       "players": [
         {
           "name": "Chirag",
@@ -718,7 +718,7 @@
       ]
     },
     "Jasmin's 8": {
-      "profileImage": "https://swamishreeji.com/images/amrish_pradeep",
+      "profileImage": "https://swamishreeji.com/images/jasmin_captain",
       "players": [
         {
           "name": "Jasmin",
@@ -779,7 +779,7 @@
       ]
     },
     "Harit's 8": {
-      "profileImage": "https://swamishreeji.com/images/amrish_pradeep",
+      "profileImage": "https://swamishreeji.com/images/harit_captain",
       "players": [
         {
           "name": "Harit",
@@ -840,7 +840,7 @@
       ]
     },
     "Pavan's 8": {
-      "profileImage": "https://swamishreeji.com/images/amrish_pradeep",
+      "profileImage": "https://swamishreeji.com/images/pavan_captain",
       "players": [
         {
           "name": "Pavan",
@@ -902,7 +902,7 @@
     },
     
     "Yogesh's 9": {
-      "profileImage": "https://swamishreeji.com/images/amrish_pradeep",
+      "profileImage": "https://swamishreeji.com/images/yogesh_captain",
       "players": [
         {
           "name": "Yogesh",
@@ -970,7 +970,7 @@
       ]
     },
     "Rakshit's 8": {
-      "profileImage": "https://swamishreeji.com/images/amrish_pradeep",
+      "profileImage": "https://swamishreeji.com/images/rakshit_captain",
       "players": [
         {
           "name": "Rakshit ",
@@ -1030,4 +1030,6 @@
         }
       ]
     }
+
+
   }

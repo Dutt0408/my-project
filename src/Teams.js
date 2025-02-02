@@ -142,7 +142,7 @@ export default function Teams() {
         </div>
       ) : (
         <div>
-          <div className="flex items-center mb-4">
+          <div className="flex items-center mb-4 mt-8">
             <button
               className="text-black mr-2"
               onClick={() => setSelectedTeam(null)}

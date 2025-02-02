@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
-// import Navbar from "./Navbar";
+import Navbar from "./Navbar";
 import Rules from "./Rules";
 import Home from "./Home";
 import Teams from "./Teams";
@@ -43,9 +43,9 @@ function App() {
 
       {!isLoading && (
         <>
-          {/* <Navbar /> */}
+          <Navbar />
           <Routes>
-            <Route path="/" element={<Soon />} />
+            <Route path="/" element={<Home />} />
             <Route path="/Rules" element={<Rules />} />
             <Route path="/Home" element={<Home />} />
             <Route path="/Schedule" element={<Schedule />} />
