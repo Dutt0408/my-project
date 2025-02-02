@@ -5,7 +5,7 @@
       "location": "Game 1",
       "matchDate": "14th Feb",
       "matchTime": "6pm - 7pm",
-      "team1": "Harshil's 9",
+      "team1": "Harshil's",
       "team2": "Devashish's",
       "matchstatus": "Upcoming"
     },
@@ -15,8 +15,8 @@
       "location": "Game 2",
       "matchDate": "14th Feb",
       "matchTime": "7pm - 8pm",
-      "team1": "Rajiv's 9",
-      "team2": "Chirag's 8",
+      "team1": "Rajiv's",
+      "team2": "Chirag's",
       "matchstatus": "Upcoming"
     },
     {
@@ -26,7 +26,7 @@
       "matchDate": "14th Feb",
       "matchTime": "8pm - 9pm",
       "team1": "Nehanshu's",
-      "team2": "Het's 8",
+      "team2": "Het's",
       "matchstatus": "Upcoming"
     },
     {
@@ -35,8 +35,8 @@
       "location": "Game 4",
       "matchDate": "14th Feb",
       "matchTime": "9pm-10pm",
-      "team1": "Purvesh's 8",
-      "team2": "Jay's 8",
+      "team1": "Purvesh's",
+      "team2": "Jay's",
       "matchstatus": "Upcoming"
     },
     {
@@ -45,8 +45,8 @@
       "location": "Game 5",
       "matchDate": "14th Feb",
       "matchTime": "10pm-11pm",
-      "team1": "Pradeep's 8",
-      "team2": "Jaimin's 8",
+      "team1": "Pradeep's",
+      "team2": "Jaimin's",
       "matchstatus": "Upcoming"
     },
     {
@@ -55,8 +55,8 @@
       "location": "Game 6",
       "matchDate": "14th Feb",
       "matchTime": "11pm-12am",
-      "team1": "Yogesh's 9",
-      "team2": "Harit's 8",
+      "team1": "Yogesh's",
+      "team2": "Harit's",
       "matchstatus": "Upcoming"
     },
     {
@@ -66,7 +66,7 @@
       "matchDate": "15th Feb",
       "matchTime": "8am-9am",
       "team1": "Nehanshu's",
-      "team2": "Harshil's 9",
+      "team2": "Harshil's",
       "matchstatus": "Upcoming"
     },
     {
@@ -75,8 +75,8 @@
       "location": "Game 8",
       "matchDate": "15th Feb",
       "matchTime": "9am-10am",
-      "team1": "Jay's 8",
-      "team2": "Rakshit's 8",
+      "team1": "Jay's",
+      "team2": "Rakshit's",
       "matchstatus": "Upcoming"
     },
     {
@@ -85,8 +85,8 @@
       "location": "Game 9",
       "matchDate": "15th Feb",
       "matchTime": "10am - 11am",
-      "team1": "Parth's 8",
-      "team2": "Harsh's 8",
+      "team1": "Parth's",
+      "team2": "Harsh's",
       "matchstatus": "Upcoming"
     },
     {
@@ -95,8 +95,8 @@
       "location": "Game 10",
       "matchDate": "15th Feb",
       "matchTime": "11am - 12pm",
-      "team1": "Rajiv's 9",
-      "team2": "Pavan's 8",
+      "team1": "Rajiv's",
+      "team2": "Pavan's",
       "matchstatus": "Upcoming"
     },
     {
@@ -106,7 +106,7 @@
       "matchDate": "15th Feb",
       "matchTime": "12pm - 1pm",
       "team1": "Devashish's",
-      "team2": "Jaimin's 8",
+      "team2": "Jaimin's",
       "matchstatus": "Upcoming"
     },
     {
@@ -115,8 +115,8 @@
       "location": "Game 12",
       "matchDate": "15th Feb",
       "matchTime": "1pm - 2pm",
-      "team1": "Ritesh's 8",
-      "team2": "Jayesh's 8",
+      "team1": "Ritesh's",
+      "team2": "Jayesh's",
       "matchstatus": "Upcoming"
     },
     {
@@ -125,8 +125,8 @@
       "location": "Game 13",
       "matchDate": "15th Feb",
       "matchTime": "2pm - 3pm",
-      "team1": "Chirag's 8",
-      "team2": "Yogesh's 9",
+      "team1": "Chirag's",
+      "team2": "Yogesh's",
       "matchstatus": "Upcoming"
     },
     {
@@ -135,8 +135,8 @@
       "location": "Game 14",
       "matchDate": "15th Feb",
       "matchTime": "3pm - 4pm",
-      "team1": "Rohan's 9",
-      "team2": "Jasmin's 8",
+      "team1": "Rohan's",
+      "team2": "Jasmin's",
       "matchstatus": "Upcoming"
     },
     {
@@ -145,8 +145,8 @@
       "location": "Game 15",
       "matchDate": "15th Feb",
       "matchTime": "8pm - 9pm",
-      "team1": "Jayesh's 8",
-      "team2": "Pradeep's 8",
+      "team1": "Jayesh's",
+      "team2": "Pradeep's",
       "matchstatus": "Upcoming"
     },
     {
@@ -155,8 +155,8 @@
       "location": "Game 16",
       "matchDate": "15th Feb",
       "matchTime": "9pm - 10pm",
-      "team1": "Harit's 8",
-      "team2": "Rakshit's 8",
+      "team1": "Harit's",
+      "team2": "Rakshit's",
       "matchstatus": "Upcoming"
     },
     {
@@ -165,8 +165,8 @@
       "location": "Game 17",
       "matchDate": "15th Feb",
       "matchTime": "10pm - 11pm",
-      "team1": "Ritesh's 8",
-      "team2": "Parth's 8",
+      "team1": "Ritesh's",
+      "team2": "Parth's",
       "matchstatus": "Upcoming"
     },
     {
@@ -175,8 +175,8 @@
       "location": "Game 18",
       "matchDate": "15th Feb",
       "matchTime": "11pm - 12am",
-      "team1": "Rohan's 9",
-      "team2": "Pavan's 8",
+      "team1": "Rohan's",
+      "team2": "Pavan's",
       "matchstatus": "Upcoming"
     },
     {
@@ -185,8 +185,8 @@
       "location": "Game 19",
       "matchDate": "16th Feb",
       "matchTime": "8am - 9am",
-      "team1": "Jasmin's 8",
-      "team2": "Chirag's 8",
+      "team1": "Jasmin's",
+      "team2": "Chirag's",
       "matchstatus": "Upcoming"
     },
     {
@@ -195,8 +195,8 @@
       "location": "Game 20",
       "matchDate": "16th Feb",
       "matchTime": "9am - 10am",
-      "team1": "Harshil's 9",
-      "team2": "Harsh's 8",
+      "team1": "Harshil's",
+      "team2": "Harsh's",
       "matchstatus": "Upcoming"
     },
     {
@@ -205,8 +205,8 @@
       "location": "Game 21",
       "matchDate": "16th Feb",
       "matchTime": "10am - 11am",
-      "team1": "Rajiv's 9",
-      "team2": "Purvesh's 8",
+      "team1": "Rajiv's",
+      "team2": "Purvesh's",
       "matchstatus": "Upcoming"
     },
     {
@@ -215,8 +215,8 @@
       "location": "Game 22",
       "matchDate": "16th Feb",
       "matchTime": "11am - 12pm",
-      "team1": "Jayesh's 8",
-      "team2": "Het's 8",
+      "team1": "Jayesh's",
+      "team2": "Het's",
       "matchstatus": "Upcoming"
     },
     {
@@ -225,8 +225,8 @@
       "location": "Game 23",
       "matchDate": "16th Feb",
       "matchTime": "12pm - 1pm",
-      "team1": "Yogesh's 9",
-      "team2": "Rakshit's 8",
+      "team1": "Yogesh's",
+      "team2": "Rakshit's",
       "matchstatus": "Upcoming"
     },
     {
@@ -235,8 +235,8 @@
       "location": "Game 24",
       "matchDate": "16th Feb",
       "matchTime": "1pm - 2pm",
-      "team1": "Jaimin's 8",
-      "team2": "Parth's 8",
+      "team1": "Jaimin's",
+      "team2": "Parth's",
       "matchstatus": "Upcoming"
     },
     {
@@ -245,8 +245,8 @@
       "location": "Game 25",
       "matchDate": "16th Feb",
       "matchTime": "2pm - 3pm",
-      "team1": "Jay's 8",
-      "team2": "Harit's 8",
+      "team1": "Jay's",
+      "team2": "Harit's",
       "matchstatus": "Upcoming"
     },
     {
@@ -255,7 +255,7 @@
       "location": "Game 26",
       "matchDate": "16th Feb",
       "matchTime": "3pm - 4pm",
-      "team1": "Harsh's 8",
+      "team1": "Harsh's",
       "team2": "Devashish's",
       "matchstatus": "Upcoming"
     },
@@ -265,8 +265,8 @@
       "location": "Game 27",
       "matchDate": "16th Feb",
       "matchTime": "8pm - 9pm",
-      "team1": "Pavan's 8",
-      "team2": "Jasmin's 8",
+      "team1": "Pavan's",
+      "team2": "Jasmin's",
       "matchstatus": "Upcoming"
     },
     {
@@ -276,7 +276,7 @@
       "matchDate": "16th Feb",
       "matchTime": "9pm - 10pm",
       "team1": "Nehanshu's",
-      "team2": "Ritesh's 8",
+      "team2": "Ritesh's",
       "matchstatus": "Upcoming"
     },
     {
@@ -285,8 +285,8 @@
       "location": "Game 29",
       "matchDate": "16th Feb",
       "matchTime": "10pm - 11pm",
-      "team1": "Rohan's 9",
-      "team2": "Purvesh's 8",
+      "team1": "Rohan's",
+      "team2": "Purvesh's",
       "matchstatus": "Upcoming"
     },
     {
@@ -295,8 +295,8 @@
       "location": "Game 30",
       "matchDate": "16th Feb",
       "matchTime": "11pm - 12am",
-      "team1": "Het's 8",
-      "team2": "Pradeep's 8",
+      "team1": "Het's",
+      "team2": "Pradeep's",
       "matchstatus": "Upcoming"
     },
     {
