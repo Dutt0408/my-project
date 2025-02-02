@@ -126,7 +126,7 @@ export default function Schedule() {
       {/* Display Matches Based on Active Tab and Search */}
       <div className="space-y-4">
         {filterMatches().length === 0 ? (
-          <p className="text-gray-500 text-center">No matches found for {activeTab.toLowerCase()} matches.</p>
+          <p className="text-gray-500 text-center">No  {activeTab.toLowerCase()} matches</p>
         ) : (
           filterMatches().map((match) => (
             <div
