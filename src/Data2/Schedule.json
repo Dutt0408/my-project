@@ -74,9 +74,9 @@
       "series": "Pramukh Cup - 2025",
       "location": "Game 8",
       "matchDate": "15th Feb",
-      "matchTime": "9am-10am",
-      "team1": "Jay's",
-      "team2": "Rakshit's",
+      "matchTime": "9am - 10am",
+      "team1": "Rajiv's",
+      "team2": "Purvesh's",
       "matchstatus": "Upcoming"
     },
     {
@@ -204,11 +204,12 @@
       "series": "Pramukh Cup - 2025",
       "location": "Game 21",
       "matchDate": "16th Feb",
-      "matchTime": "10am - 11am",
-      "team1": "Rajiv's",
-      "team2": "Purvesh's",
+      "matchTime": "10am-11am",
+      "team1": "Jay's",
+      "team2": "Rakshit's",
       "matchstatus": "Upcoming"
     },
+    
     {
       "id": 22,
       "series": "Pramukh Cup - 2025",

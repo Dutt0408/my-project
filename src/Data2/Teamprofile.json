@@ -1,0 +1,769 @@
+{
+    "Pradeep's": {
+      "profileImage": "https://swamishreeji.com/images/pradeep_captain",
+      "players": [
+        {
+          "name": "Pradeep",
+          "image": "https://swamishreeji.com/images/pradeep_captain"
+        },
+        {
+          "name": "Amrish ",
+          "image": "https://swamishreeji.com/images/amrish_pradeep"
+        },
+        {
+          "name": "Varun",
+          "image": "https://swamishreeji.com/images/varun_pradeep"
+        },
+        {
+          "name": "Hariraj",
+          "image": "https://swamishreeji.com/images/hariraj_pradeep"
+        },
+        {
+          "name": "Umeshkumar ",
+          "image": "https://swamishreeji.com/images/umesh_pradeep"
+        },
+        {
+          "name": "Rahul",
+          "image": "https://swamishreeji.com/images/rahul_pradeep"
+        },
+        {
+          "name": "Parth",
+          "image": "https://swamishreeji.com/images/parth_pradeep"
+        },
+        {
+          "name": "Prakash",
+          "image": "https://swamishreeji.com/images/prakash_pradeep"
+        }
+      ]
+    },
+    "Harsh's": {
+      "profileImage": "https://swamishreeji.com/images/harsh_captain?",
+      "players": [
+        {
+          "name": "Harsh",
+          "image": "https://swamishreeji.com/images/harsh_captain?"
+        },
+        {
+          "name": "Bhavesh",
+          "image": "https://swamishreeji.com/images/bhavesh_harsh?"
+        },
+        {
+          "name": "Chirag",
+          "image": "https://swamishreeji.com/images/chirag_harsh?"
+        },
+        {
+          "name": "Krushit",
+          "image": "https://swamishreeji.com/images/krushit_harsh?"
+        },
+        {
+          "name": "Harush",
+          "image": "https://swamishreeji.com/images/harush_harsh?"
+        },
+        {
+          "name": "Tilak",
+          "image": "https://swamishreeji.com/images/tilak_harsh?"
+        },
+        {
+          "name": "Ashish",
+          "image": "https://swamishreeji.com/images/Ashish_tank2.jpg"
+        },
+        {
+          "name": "Kaushal",
+          "image": "https://swamishreeji.com/images/kaushal_harsh?"
+        }
+      ]
+    },
+    "Het's": {
+      "profileImage": "https://swamishreeji.com/images/het_captain",
+      "players": [
+        {
+          "name": "Het",
+          "image": "https://swamishreeji.com/images/het_captain"
+        },
+        {
+          "name": "Parth",
+          "image": "https://swamishreeji.com/images/parth_het"
+        },
+        {
+          "name": "Kalpitkumar",
+          "image": "https://swamishreeji.com/images/kalpit_het"
+        },
+        {
+          "name": "Nikul",
+          "image": "https://swamishreeji.com/images/nikul_het"
+        },
+        {
+          "name": "Rajdeep",
+          "image": "https://swamishreeji.com/images/rajdeep_het"
+        },
+        {
+          "name": "Samarth",
+          "image": "https://swamishreeji.com/images/samarth_het"
+        },
+        {
+          "name": "Pinakin ",
+          "image": "https://swamishreeji.com/images/pinakin_het"
+        },
+        {
+          "name": "Chintan",
+          "image": "https://swamishreeji.com/images/chintan_het"
+
+        }
+      ]
+    },
+    "Jayesh's": {
+      "profileImage": "https://swamishreeji.com/images/jayesh_captain",
+      "players": [
+        {
+          "name": "Jayesh",
+          "image": "https://swamishreeji.com/images/jayesh_captain"
+        },
+        {
+          "name": "Hari",
+          "image": "https://swamishreeji.com/images/hari_jayesh"
+        },
+        {
+          "name": "Darshan",
+          "image": "https://swamishreeji.com/images/darshan_jayesh"
+        },
+        {
+          "name": "Mitul",
+          "image": "https://swamishreeji.com/images/mitul_jayesh"
+        },
+        {
+          "name": "Jenish ",
+          "image": "https://swamishreeji.com/images/jenish_jayesh"
+        },
+        {
+          "name": "Kishan",
+          "image": "https://swamishreeji.com/images/kishan_jayesh"
+        },
+        {
+          "name": "Darpankumar",
+          "image": "https://swamishreeji.com/images/darpan_jayesh"
+        },
+        {
+          "name": "Dhaval",
+          "image": "https://swamishreeji.com/images/dhaval_jayesh"
+        }
+      ]
+    },
+    "Ritesh's": {
+      "profileImage": "https://swamishreeji.com/images/ritesh_captain",
+      "players": [
+        {
+          "name": "Ritesh",
+          "image": "https://swamishreeji.com/images/ritesh_captain"
+        },
+        {
+          "name": "Vedant",
+          "image": "https://swamishreeji.com/images/Vedant_Ritesh"
+        },
+        {
+          "name": "Tejas",
+          "image": "https://swamishreeji.com/images/Tejas_Ritesh"
+        },
+        {
+          "name": "Mit",
+          "image": "https://swamishreeji.com/images/Mit_Ritesh"
+        },
+        {
+          "name": "Dhyeykumar",
+          "image": "https://swamishreeji.com/images/Dhyeykumar_Ritesh"
+        },
+        {
+          "name": "Maharshi",
+          "image": " https://swamishreeji.com/images/Maharshi_Ritesh"
+        },
+        {
+          "name": "Anuj",
+          "image": "https://swamishreeji.com/images/Anuj_Ritesh"
+        },
+        {
+          "name": "Aniket",
+          "image": " https://swamishreeji.com/images/Aniket_Ritesh"
+        }
+      ]
+    },
+    "Harshil's": {
+      "profileImage": "https://swamishreeji.com/images/harshil_captain",
+      "players": [
+        {
+          "name": "Harshil",
+          "image": "https://swamishreeji.com/images/harshil_captain"
+        },
+        {
+          "name": "Bhavesh",
+          "image": "https://swamishreeji.com/images/bhavesh_harshil2.png"
+        },
+        {
+          "name": "Chintan",
+          "image": "https://swamishreeji.com/images/chintan_harshil"
+        },
+        {
+          "name": "Nirav",
+          "image": "https://swamishreeji.com/images/nirav_harshil"
+        },
+        {
+          "name": "yogesh",
+          "image": "https://swamishreeji.com/images/yogesh_harshil"
+        },
+        {
+          "name": "Mayur",
+          "image": "https://swamishreeji.com/images/mayur_harshil"
+        },
+        {
+          "name": "Nishant",
+          "image": "https://swamishreeji.com/images/nishant_harshil"
+        },
+        {
+          "name": "Dev",
+          "image": "https://swamishreeji.com/images/Screenshot 2025-01-30 at 6.07.09 PM.png"
+        },
+        {
+          "name": "Vaibhav",
+          "image": "https://swamishreeji.com/images/vaibhav_harshil"
+        }
+      ]
+    },
+    "Devashish's": {
+      "profileImage": "https://swamishreeji.com/images/devashish_captain",
+      "players": [
+        {
+          "name": "Devashish",
+          "image": "https://swamishreeji.com/images/devashish_captain"
+        },
+        {
+          "name": "Vraj",
+          "image": "https://swamishreeji.com/images/vraj_devashish"
+        },
+        {
+          "name": "Tarangkumar",
+          "image": "https://swamishreeji.com/images/tarang_devashish"
+        },
+        {
+          "name": "Vandan",
+          "image": "https://swamishreeji.com/images/vandan_devashish"
+        },
+        {
+          "name": "Yogi",
+          "image": "https://swamishreeji.com/images/yogi_devashish"
+        },
+        {
+          "name": "Krish",
+          "image": "https://swamishreeji.com/images/krish_devashish"
+        },
+        {
+          "name": "Vaibhav",
+          "image": "https://swamishreeji.com/images/vaibhav_devashish"
+        },
+        {
+          "name": "Siddharth",
+          "image": "https://swamishreeji.com/images/siddharth_devashish"
+        }
+      ]
+    },
+    "Parth's": {
+      "profileImage": "https://swamishreeji.com/images/parth_captain",
+      "players": [
+        {
+          "name": "Parth",
+          "image": "https://swamishreeji.com/images/parth_captain"
+        },
+        {
+          "name": "Aksharkumar",
+          "image": "https://swamishreeji.com/images/akshar_parth"
+        },
+        {
+          "name": "Yogesh",
+          "image": "https://swamishreeji.com/images/yogesh_parth"
+        },
+        {
+          "name": "Biren",
+          "image": "https://swamishreeji.com/images/biren_parth"
+        },
+        {
+          "name": "Hiren",
+          "image": "https://swamishreeji.com/images/hiren_parth"
+        },
+        {
+          "name": "GunjanKumar",
+          "image": "https://swamishreeji.com/images/gunj_parth2.png"
+        },
+        {
+          "name": "Jay",
+          "image": "https://swamishreeji.com/images/jay_parth"
+        },
+        {
+          "name": "Parthav",
+          "image": "https://swamishreeji.com/images/parhav_parth"
+        }
+      ]
+    },
+    "Jaimin's": {
+      "profileImage": "https://swamishreeji.com/images/jaimin_captain",
+      "players": [
+        {
+          "name": "Jaimin",
+          "image": "https://swamishreeji.com/images/jaimin_captain"
+        },
+        {
+          "name": "Siddharth",
+          "image": "https://swamishreeji.com/images/siddhartj_jaimin"
+        },
+        {
+          "name": "Akshar",
+          "image": "https://swamishreeji.com/images/akshar_jaimin"
+        },
+        {
+          "name": "Paresh",
+          "image": "https://swamishreeji.com/images/paresh_jaimin"
+        },
+        {
+          "name": "Harsh",
+          "image": "https://swamishreeji.com/images/harsh_jaimin"
+        },
+        {
+          "name": "Vasant",
+          "image": "https://swamishreeji.com/images/vasant_jaimin"
+        },
+        {
+          "name": "Piyush",
+          "image": "https://swamishreeji.com/images/piyush_jaimin"
+        },
+        {
+          "name": "Rushi",
+          "image": "https://swamishreeji.com/images/rushi_jaimin"
+        }
+      ]
+    },
+    "Nehanshu's": {
+      "profileImage": "https://swamishreeji.com/images/nehanshu_captain",
+      "players": [
+        {
+          "name": "Nehanshu",
+          "image": "https://swamishreeji.com/images/nehanshu_captain"
+         
+        },
+        {
+          "name": "Vrajesh",
+          "image": "https://swamishreeji.com/images/vrajesh_nehanshu"
+         
+        },
+        {
+          "name": "Dhaval",
+          "image": "https://swamishreeji.com/images/dhaval_nehanshu"
+        
+        },
+        {
+          "name": "Anand",
+          "image": "https://swamishreeji.com/images/anand_nehanshu"
+         
+        },
+        {
+          "name": "Ritesh ",
+          "image": "https://swamishreeji.com/images/ritesh1_jayesh"
+          
+        },
+        {
+          "name": "Trushar",
+          "image": "https://swamishreeji.com/images/trushar_nehanshu2.png"
+          
+        },
+        {
+          "name": "Jay",
+          "image": "https://swamishreeji.com/images/jay1_jayesh"
+         
+        },
+        {
+          "name": "Alpesh ",
+          "image": "https://swamishreeji.com/images/alpesh_nehanshu"
+        }
+      ]
+    },
+    "Jay's": {
+      "profileImage": "https://swamishreeji.com/images/jay_captain",
+      "players": [
+        {
+          "name": "Jay",
+          "image": "https://swamishreeji.com/images/jay_captain"
+        },
+        {
+          "name": "Akshar",
+          "image": "https://swamishreeji.com/images/akshar_jay"
+        },
+        {
+          "name": "Mihin",
+          "image": "https://swamishreeji.com/images/mihin_jay"
+        },
+        {
+          "name": "Ravi",
+          "image": "https://swamishreeji.com/images/ravi_jay2.png"
+        },
+        {
+          "name": "Hardik",
+          "image": "https://swamishreeji.com/images/hardik_jay"
+        },
+        {
+          "name": "Harshit ",
+          "image": "https://swamishreeji.com/images/harshit_jay"
+        },
+        {
+          "name": "Dhruv ",
+          "image": "https://swamishreeji.com/images/dhruv_jay"
+        },
+        {
+          "name": "Nikhil ",
+          "image": "https://swamishreeji.com/images/nikhil_jay"
+        }
+      ]
+    },
+    "Rajiv's": {
+      "profileImage": "https://swamishreeji.com/images/rajiv_captain",
+      "players": [
+        {
+          "name": "Rajiv",
+          "image": "https://swamishreeji.com/images/rajiv_captain"
+        },
+        {
+          "name": "Rutul",
+          "image": "https://swamishreeji.com/images/Rutul_Rajiv"
+        },
+        {
+          "name": "Divyesh",
+          "image": "https://swamishreeji.com/images/Divyesh_Rajiv"
+        },
+        {
+          "name": "VIPUL ",
+          "image": " https://swamishreeji.com/images/%20VIPUL_Rajiv"
+        },
+        {
+          "name": "Tirth",
+          "image": "https://swamishreeji.com/images/Tirth_Rajiv%20"
+        },
+        {
+          "name": "Anant",
+          "image": "https://swamishreeji.com/images/Anant_Rajiv%20"
+        },
+        {
+          "name": "Nirav",
+          "image": " https://swamishreeji.com/images/Nirav_Rajiv%20"
+        },
+        {
+          "name": "Jayesh",
+          "image": "https://swamishreeji.com/images/Jayesh_Rajiv%20"
+        },
+        {
+          "name": "Sharad",
+          "image": "https://swamishreeji.com/images/Sharad_Rajiv"
+        }
+      ]
+    },
+    "Rohan's": {
+      "profileImage": "https://swamishreeji.com/images/rohan_captain",
+      "players": [
+        {
+          "name": "Rohan",
+          "image": "https://swamishreeji.com/images/rohan_captain"
+        },
+        {
+          "name": "Rakesh ",
+          "image": "https://swamishreeji.com/images/Rakesh%20_Rohan"
+        },
+        {
+          "name": "Ravin",
+          "image": "https://swamishreeji.com/images/Ravin%20_Rohan"
+        },
+        {
+          "name": "Raj",
+          "image": "https://swamishreeji.com/images/Raj%20_Rohan"
+        },
+        {
+          "name": "Hemant",
+          "image": " https://swamishreeji.com/images/Hemant%20_Rohan"
+        },
+        {
+          "name": "Chirag",
+          "image": "https://swamishreeji.com/images/Chirag%20_Rohan"
+        },
+        {
+          "name": "Chaitanya",
+          "image": "https://swamishreeji.com/images/Chaitanya%20_Rohan"
+        },
+        {
+          "name": "Kalpesh",
+          "image": "https://swamishreeji.com/images/Kalpesh%20_Rohan"
+        },
+        {
+          "name": "Milan",
+          "image": "https://swamishreeji.com/images/Milan_Rohan?"
+        }
+      ]
+    },
+    "Purvesh's": {
+      "profileImage": "https://swamishreeji.com/images/purvesh_captain",
+      "players": [
+        {
+          "name": "Purvesh",
+          "image": "https://swamishreeji.com/images/purvesh_captain"
+        },
+        {
+          "name": "Vinay ",
+          "image": "https://swamishreeji.com/images/vinay_purvesh"
+        },
+        {
+          "name": "Harshid",
+          "image": "https://swamishreeji.com/images/harshid_purvesh"
+        },
+        {
+          "name": "Drashy",
+          "image": "https://swamishreeji.com/images/drashy_purvesh"
+        },
+        {
+          "name": "Shlok ",
+          "image": "https://swamishreeji.com/images/shlok_purvesh"
+        },
+        {
+          "name": "Sharad",
+          "image": "https://swamishreeji.com/images/sharad1_purvesh"
+        },
+        {
+          "name": "Jigs",
+          "image": "https://swamishreeji.com/images/jigs_purvesh"
+        },
+        {
+          "name": "chintan ",
+          "image": "https://swamishreeji.com/images/chintan_purvesh"
+        }
+      ]
+    },
+    "Chirag's": {
+      "profileImage": "https://swamishreeji.com/images/chirag_captain",
+      "players": [
+        {
+          "name": "Chirag",
+          "image": "https://swamishreeji.com/images/chirag_captain"
+        },
+        {
+          "name": "Jigar ",
+          "image": "https://swamishreeji.com/images/jigar_chirag"
+        },
+        {
+          "name": "Bhargav",
+          "image": "https://swamishreeji.com/images/bhargav_chirag"
+        },
+        {
+          "name": "Vraj",
+          "image": "https://swamishreeji.com/images/vraj_chirag"
+        },
+        {
+          "name": "Bhavik",
+          "image": "https://swamishreeji.com/images/bhavik_chirag"
+        },
+        {
+          "name": "Sharad",
+          "image": "https://swamishreeji.com/images/sharad_chirag"
+        },
+        {
+          "name": "kunal",
+          "image": "https://swamishreeji.com/images/kunal_chirag"
+        },
+        {
+          "name": "Amit",
+          "image": "https://swamishreeji.com/images/amit_chirag"
+        }
+      ]
+    },
+    "Jasmin's": {
+      "profileImage": "https://swamishreeji.com/images/jasmin_captain",
+      "players": [
+        {
+          "name": "Jasmin",
+          "image": "https://swamishreeji.com/images/jasmin_captain"
+        },
+        {
+          "name": "Ruchir",
+          "image": "https://swamishreeji.com/images/ruchir_jasmin2.png"
+        },
+        {
+          "name": "Tarun",
+          "image": "https://swamishreeji.com/images/tarunP_jasmin2.png"
+        },
+        {
+          "name": "Jaahanava",
+          "image": "https://swamishreeji.com/images/jaahanava_jasmin"
+        },
+        {
+          "name": "Bhagyesh",
+          "image": "https://swamishreeji.com/images/bhagyesh_jasmin"
+        },
+        {
+          "name": "Rahul ",
+          "image": "https://swamishreeji.com/images/rahul_jasmin"
+        },
+        {
+          "name": "Smit",
+          "image": "https://swamishreeji.com/images/smit_jasmin"
+        },
+        {
+          "name": "Tarun",
+          "image": "https://swamishreeji.com/images/tarun_jasmin"
+        }
+      ]
+    },
+    "Harit's": {
+      "profileImage": "https://swamishreeji.com/images/harit_captain",
+      "players": [
+        {
+          "name": "Harit",
+          "image": "https://swamishreeji.com/images/harit_captain"
+        },
+        {
+          "name": "Smit",
+          "image": "https://swamishreeji.com/images/smit_harit"
+        },
+        {
+          "name": "Keyur",
+          "image": "https://swamishreeji.com/images/keyur_harit"
+        },
+        {
+          "name": "Renil",
+          "image": "https://swamishreeji.com/images/renil_harit"
+        },
+        {
+          "name": "Akshar",
+          "image": "https://swamishreeji.com/images/akshar_harit"
+        },
+        {
+          "name": "Yogesh",
+          "image": "https://swamishreeji.com/images/yogesh_harit"
+        },
+        {
+          "name": "Bhavesh",
+          "image": "https://swamishreeji.com/images/bhavesh_harit"
+        },
+        {
+          "name": "Akshar",
+          "image": "https://swamishreeji.com/images/aksharras_harit"
+        }
+      ]
+    },
+    "Pavan's": {
+      "profileImage": "https://swamishreeji.com/images/pavan_captain",
+      "players": [
+        {
+          "name": "Pavan",
+          "image": "https://swamishreeji.com/images/pavan_captain"
+        },
+        {
+          "name": "Jalat(Sunny)",
+          "image": "https://swamishreeji.com/images/jalat_pavan"
+        },
+        {
+          "name": "JIGARKUMAR ",
+          "image": "https://swamishreeji.com/images/jigar_pavan"
+        },
+        {
+          "name": "Jainish",
+          "image": "https://swamishreeji.com/images/jainish_pavan"
+        },
+        {
+          "name": "Manav",
+          "image": "https://swamishreeji.com/images/manav_pavan"
+        },
+        {
+          "name": "Anand",
+          "image": "https://swamishreeji.com/images/anand_pavan"
+        },
+        {
+          "name": "Paras",
+          "image": "https://swamishreeji.com/images/paras_pavan"
+        },
+        {
+          "name": "Darshnik",
+          "image": "https://swamishreeji.com/images/darshnik_pavan"
+        }
+      ]
+    },
+    
+    "Yogesh's": {
+      "profileImage": "https://swamishreeji.com/images/yogesh_captain",
+      "players": [
+        {
+          "name": "Yogesh",
+          "image": "https://swamishreeji.com/images/yogesh_captain"
+        },
+        {
+          "name": "Vivek",
+          "image": "https://swamishreeji.com/images/Vivek"
+        },
+        {
+          "name": "Ved",
+          "image": "https://swamishreeji.com/images/Ved"
+        },
+        {
+          "name": "Darpan",
+          "image": "https://swamishreeji.com/images/DARPAN"
+        },
+        {
+          "name": "Rahil",
+          "image": "https://swamishreeji.com/images/%20Rahil%20"
+        },
+        {
+          "name": "DHRUV",
+          "image": "https://swamishreeji.com/images/DHRUV%20"
+        },
+        {
+          "name": "Vijay",
+          "image": "https://swamishreeji.com/images/Vijay"
+        },
+        {
+          "name": "Utsav",
+          "image": "https://swamishreeji.com/images/%20Utsav%20"
+        },
+        {
+          "name": "Jeet",
+          "image": "https://swamishreeji.com/images/Jeet"
+        }
+      ]
+    },
+    "Rakshit's": {
+      "profileImage": "https://swamishreeji.com/images/rakshit_captain",
+      "players": [
+        {
+          "name": "Rakshit ",
+          "image": "https://swamishreeji.com/images/rakshit_captain"
+        },
+        {
+          "name": "Dharmik ",
+          "image": "https://swamishreeji.com/images/Dharmik_Rakshit"
+        },
+        {
+          "name": "Anuj ",
+          "image": "https://swamishreeji.com/images/AnujGadia_Rakshit.jpg"
+        },
+        {
+          "name": "Nihal ",
+          "image": "https://swamishreeji.com/images/Nihal__Rakshit"
+        },
+        {
+          "name": "Hemanshu",
+          "image": "https://swamishreeji.com/images/Hemanshu__Rakshit"
+        },
+        {
+          "name": "Anuj",
+          "image": "https://swamishreeji.com/images/Anuj__Rakshit"
+        },
+        {
+          "name": "Dhyey",
+          "image": "https://swamishreeji.com/images/Dhyey__Rakshit%20"
+        },
+        {
+          "name": "Hem",
+          "image": "https://swamishreeji.com/images/Hem__Rakshit"
+        }
+      ]
+    }
+
+
+  }

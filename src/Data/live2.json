@@ -1,0 +1,322 @@
+[
+    
+
+    {
+      
+      "1": [
+
+         {
+     "Pradeep's": {
+       "profileImage": "https://swamishreeji.com/images/pradeep_captain",
+       "players": [
+         {
+           "name": "Pradeep",
+           "image": "https://swamishreeji.com/images/pradeep_captain",
+           "batting": {
+        "runs": 42,
+        "balls": 20,
+        "fours": 0,
+        "sixes": 0,
+        "dismissal": "c Harsh b Raj",
+        "isPlaying": true 
+      },
+      "bowling": {
+        "overs": 1,
+        "runs": 46,
+        "wickets": 3
+      }
+         },
+         {
+           "name": "Amrish ",
+           "image": "https://swamishreeji.com/images/amrish_pradeep",
+           "batting": {
+            "runs": 0,
+            "balls": 0,
+            "fours": 0,
+            "sixes": 0,
+        "dismissal": "c Harsh b Raj",
+        "isPlaying": false 
+          },
+          "bowling": {
+            "overs": 0,
+            "runs": 0,
+            "wickets": 0
+          }
+         },
+         {
+           "name": "Varun",
+           "image": "https://swamishreeji.com/images/varun_pradeep",
+           "batting": {
+            "runs": 25,
+            "balls": 10,
+            "fours": 3,
+            "sixes": 1,
+        "dismissal": "",
+        "isPlaying": true 
+          },
+          "bowling": {
+            "overs": 0,
+            "runs": 0,
+            "wickets": 0
+          }
+         },
+         {
+           "name": "Hariraj",
+           "image": "https://swamishreeji.com/images/hariraj_pradeep",
+           "batting": {
+            "runs": 0,
+            "balls": 0,
+            "fours": 0,
+            "sixes": 0,
+        "dismissal": "b Rahul",
+        "isPlaying": false 
+          },
+          "bowling": {
+            "overs": 0,
+            "runs": 0,
+            "wickets": 0
+          }
+         },
+         {
+           "name": "Umeshkumar ",
+           "image": "https://swamishreeji.com/images/umesh_pradeep",
+           "batting": {
+            "runs": 0,
+            "balls": 0,
+            "fours": 0,
+            "sixes": 0,
+        "dismissal": "b Bhavesh",
+        "isPlaying": false 
+          },
+          "bowling": {
+            "overs": 0,
+            "runs": 0,
+            "wickets": 0
+          }
+         },
+         {
+           "name": "Rahul",
+           "image": "https://swamishreeji.com/images/rahul_pradeep",
+           "batting": {
+            "runs": 0,
+            "balls": 0,
+            "fours": 0,
+            "sixes": 0,
+        "dismissal": "st Raj b Bhavesh",
+        "isPlaying": false 
+          },
+          "bowling": {
+            "overs": 0,
+            "runs": 0,
+            "wickets": 0
+          }
+         },
+         {
+           "name": "Parth",
+           "image": "https://swamishreeji.com/images/parth_pradeep",
+           "batting": {
+            "runs": 0,
+            "balls": 0,
+            "fours": 0,
+            "sixes": 0,
+        "dismissal": "Run Out Pradeep",
+        "isPlaying": false 
+          },
+          "bowling": {
+            "overs": 0,
+            "runs": 0,
+            "wickets": 0
+          }
+         },
+         {
+           "name": "Prakash",
+           "image": "https://swamishreeji.com/images/prakash_pradeep",
+           "batting": {
+            "runs": 0,
+            "balls": 0,
+            "fours": 0,
+            "sixes": 0,
+        "dismissal": "c Harsh b Raj",
+        "isPlaying": false 
+          },
+          "bowling": {
+            "overs": 0,
+            "runs": 0,
+            "wickets": 0
+          }
+         }
+       ],
+       "Wrickets":[
+        {
+            "Team1Wricket": "02",
+            "Team1Overs":"10.2",
+            "Team2Wricket": "02",
+            "Team2Overs":"10.2"
+            
+          }
+
+       ]
+       
+     },
+     "Harsh's": {
+       "profileImage": "https://swamishreeji.com/images/harsh_captain?",
+       "players": [
+         {
+           "name": "Harsh",
+           "image": "https://swamishreeji.com/images/harsh_captain?",
+           "batting": {
+            "runs": 0,
+            "balls": 0,
+            "fours": 0,
+            "sixes": 0,
+        "dismissal": "c Harsh b Raj",
+        "isPlaying": false 
+          },
+          "bowling": {
+            "overs": 0,
+            "runs": 0,
+            "wickets": 0
+          }
+         },
+         {
+           "name": "Bhavesh",
+           "image": "https://swamishreeji.com/images/bhavesh_harsh?",
+           "batting": {
+            "runs": 0,
+            "balls": 0,
+            "fours": 0,
+            "sixes": 0,
+        "dismissal": "c Harsh b Raj",
+        "isPlaying": false 
+          },
+          "bowling": {
+            "overs": 0,
+            "runs": 0,
+            "wickets": 0
+          }
+         },
+         {
+           "name": "Chirag",
+           "image": "https://swamishreeji.com/images/chirag_harsh?",
+           "batting": {
+            "runs": 0,
+            "balls": 0,
+            "fours": 0,
+            "sixes": 0,
+        "dismissal": "c Harsh b Raj",
+        "isPlaying": false 
+          },
+          "bowling": {
+            "overs": 0,
+            "runs": 0,
+            "wickets": 0
+          }
+         },
+         {
+           "name": "Krushit",
+           "image": "https://swamishreeji.com/images/krushit_harsh?",
+           "batting": {
+            "runs": 0,
+            "balls": 0,
+            "fours": 0,
+            "sixes": 0,
+        "dismissal": "c Harsh b Raj",
+        "isPlaying": false 
+          },
+          "bowling": {
+            "overs": 0,
+            "runs": 0,
+            "wickets": 0
+          }
+         },
+         {
+           "name": "Harush",
+           "image": "https://swamishreeji.com/images/harush_harsh?",
+           "batting": {
+            "runs": 0,
+            "balls": 0,
+            "fours": 0,
+            "sixes": 0,
+        "dismissal": "c Harsh b Raj",
+        "isPlaying": true 
+          },
+          "bowling": {
+            "overs": 0,
+            "runs": 0,
+            "wickets": 0
+          }
+         },
+         {
+           "name": "Tilak",
+           "image": "https://swamishreeji.com/images/tilak_harsh?",
+           "batting": {
+            "runs": 0,
+            "balls": 0,
+            "fours": 0,
+            "sixes": 0,
+        "dismissal": "c Harsh b Raj",
+        "isPlaying": false 
+          },
+          "bowling": {
+            "overs": 0,
+            "runs": 0,
+            "wickets": 0
+          }
+         },
+         {
+           "name": "Ashish",
+           "image": "https://swamishreeji.com/images/Ashish_tank2.jpg",
+           "batting": {
+            "runs": 0,
+            "balls": 0,
+            "fours": 0,
+            "sixes": 0,
+        "dismissal": "c Harsh b Raj",
+        "isPlaying": false 
+          },
+          "bowling": {
+            "overs": 0,
+            "runs": 0,
+            "wickets": 0
+          }
+         },
+         {
+           "name": "Kaushal",
+           "image": "https://swamishreeji.com/images/kaushal_harsh?",
+           "batting": {
+            "runs": 0,
+            "balls": 0,
+            "fours": 0,
+            "sixes": 0,
+        "dismissal": "c Harsh b Raj",
+        "isPlaying": true 
+          },
+          "bowling": {
+            "overs": 0,
+            "runs": 0,
+            "wickets": 0
+          }
+         }
+       ],
+       "Wrickets":[
+        {
+            "Team1Wricket": "02",
+            "Team1Overs":"10.2",
+            "Team2Wricket": "02",
+            "Team2Overs":"10.2"
+            
+          }
+
+       ]
+       
+     
+     }
+
+
+
+
+    }
+    
+      ]
+    }
+  ]

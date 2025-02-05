@@ -1,23 +1,50 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+import { fetchPointTableData } from "./firebase";
 import "./index.css";
 import "./Table.css";
-import teams from "./Data/Table.json";
 
 const GPoint = () => (
-  <svg className="w-4 fill-current text-green-600 ml-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-    <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+  <svg
+    className="w-4 fill-current text-green-600 ml-1"
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 20 20"
+    fill="currentColor"
+  >
+    <path
+      fillRule="evenodd"
+      d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+      clipRule="evenodd"
+    />
   </svg>
 );
 
 const RPoint = () => (
-  <svg className="w-4 fill-current text-red-500 ml-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-    <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clipRule="evenodd" />
+  <svg
+    className="w-4 fill-current text-red-500 ml-1"
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 20 20"
+    fill="currentColor"
+  >
+    <path
+      fillRule="evenodd"
+      d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z"
+      clipRule="evenodd"
+    />
   </svg>
 );
 
 const DPoint = () => (
-  <svg className="w-4 fill-current text-gray-400 ml-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
-    <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM7 9a1 1 0 000 2h6a1 1 0 100-2H7z" clipRule="evenodd" />
+  <svg
+    className="w-4 fill-current text-gray-400 ml-1"
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 20 20"
+    fill="currentColor"
+  >
+    <path
+      fillRule="evenodd"
+      d="M10 18a8 8 0 100-16 8 8 0 000 16zM7 9a1 1 0 000 2h6a1 1 0 100-2H7z"
+      clipRule="evenodd"
+    />
   </svg>
 );
 
@@ -37,32 +64,40 @@ const generatePoints = (score, isLast3 = false) => {
   return null;
 };
 
-const calculateNRR = (teamRuns, teamOvers, oppositionRuns, oppositionOvers) => {
-  return (teamRuns / teamOvers) - (oppositionRuns / oppositionOvers);
-};
-
-const TeamRow = ({ teamName, match, won, lost, pts, last3, teamRuns, teamOvers, oppositionRuns, oppositionOvers }) => {
-  const NRR = calculateNRR(teamRuns, teamOvers, oppositionRuns, oppositionOvers);
-
+const TeamRow = ({ teamName, match, won, lost, pts, last3, nrr }) => {
   return (
     <tr className="team-row bg-blue-50 border-b border-blue-200 hover:bg-blue-100">
-      <td className="team-cell px-4 py-2 text-left font-medium text-blue-900 whitespace-nowrap text-sm">{teamName}</td>
+      <td className="team-cell px-4 py-2 text-left font-medium text-blue-900 whitespace-nowrap text-sm">
+        {teamName}
+      </td>
       <td className="team-cell px-4 py-2 text-center text-sm">{match}</td>
       <td className="team-cell px-4 py-2 text-center text-sm">{won}</td>
       <td className="team-cell px-4 py-2 text-center text-sm">{lost}</td>
       <td className="team-cell px-4 py-2 text-center text-sm">{pts}</td>
-      <td className="team-cell px-4 py-2 text-center text-sm">{NRR.toFixed(2)}</td>
-      <td className="team-cell px-4 py-2 text-center text-sm">{generatePoints(last3, true)}</td>
+      <td className="team-cell px-4 py-2 text-center text-sm">{nrr}</td>
+      <td className="team-cell px-4 py-2 text-center text-sm">
+        {generatePoints(last3, true)}
+      </td>
     </tr>
   );
 };
 
 const GroupTable = ({ groupName, teams }) => {
-  const sortedTeams = [...teams].sort((a, b) => b.pts - a.pts);
+  const sortedTeams = [...teams].sort((a, b) => {
+    if (b.nrr !== a.nrr) {
+      return b.nrr - a.nrr; // Sort by higher NRR first
+    }
+    return b.pts - a.pts; // If NRR is equal, sort by points
+  });
 
   return (
     <div className="mb-12">
-      <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-[#023867] underline text-center" style={{ textDecorationColor: "#e53e50" }}>{groupName}</h2>
+      <h2
+        className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-[#023867] underline text-center"
+        style={{ textDecorationColor: "#e53e50" }}
+      >
+        {groupName}
+      </h2>
       <div className="overflow-x-auto mt-8">
         <table className="team-table min-w-full border border-blue-300">
           <thead>
@@ -77,7 +112,9 @@ const GroupTable = ({ groupName, teams }) => {
             </tr>
           </thead>
           <tbody>
-            {sortedTeams.map((team, index) => <TeamRow key={index} {...team} />)}
+            {sortedTeams.map((team, index) => (
+              <TeamRow key={index} {...team} />
+            ))}
           </tbody>
         </table>
       </div>
@@ -85,32 +122,32 @@ const GroupTable = ({ groupName, teams }) => {
   );
 };
 
-
 export default function PointTable() {
-  const groupA = teams.filter((team) => team.group === "A");
-  const groupB = teams.filter((team) => team.group === "B");
+  const [groupA, setGroupA] = useState([]);
+  const [groupB, setGroupB] = useState([]);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      const data = await fetchPointTableData();
+      console.log(data);
+
+      if (data && typeof data === "object" && !Array.isArray(data)) {
+        const teamsArray = Object.values(data);
+        setGroupA(teamsArray.filter((team) => team.group === "A"));
+        setGroupB(teamsArray.filter((team) => team.group === "B"));
+      } else {
+        console.error("Expected an object but got:", data);
+        setGroupA([]);
+        setGroupB([]);
+      }
+    };
+    fetchData();
+  }, []);
 
   return (
-    <>
-      {/* Title Image with Centered Text */}
-      <div className="relative mx-auto text-center">
-        <img 
-          src="https://swamishreeji.com/images/TitleImage" 
-          alt="Points Table" 
-          className="w-full h-auto object-cover mb-6"
-        />
-        <div className="absolute inset-0 flex items-center justify-center">
-          <h2 className="text-4xl font-bold text-[#023867] underline" style={{ textDecorationColor: "#e53e50" }}>
-            POINTS TABLE
-          </h2>
-        </div>
-      </div>
-
-      {/* Group Tables */}
-      <div className="container mx-auto p-0">
-        <GroupTable groupName="Group A" teams={groupA} />
-        <GroupTable groupName="Group B" teams={groupB} />
-      </div>
-    </>
+    <div className="container mx-auto p-0">
+      <GroupTable groupName="Group A" teams={groupA} />
+      <GroupTable groupName="Group B" teams={groupB} />
+    </div>
   );
 }

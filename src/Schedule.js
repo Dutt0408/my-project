@@ -1,20 +1,51 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect, useRef, Suspense } from "react";
 import { AiOutlineSearch } from "react-icons/ai";
-import scheduleData from "./Data/Schedule.json"; // Import schedule data
-import teamProfiles from "./Data/Teamprofile.json"; // Import team profiles
+import { fetchTeamProfiles, fetchScheduleData } from "./firebase";
+import Live from "./Live"
+import  "./Components/Loader.css"
 
 const DEFAULT_PROFILE_IMAGE = "https://icon-library.com/images/avatar-png-icon/avatar-png-icon-3.jpg";
 const DATE_FILTER_OPTIONS = ["14th Feb", "15th Feb", "16th Feb", "17th Feb"];
 
+// Dynamically import the Scorecard component
+const Scorecard = React.lazy(() => import("./Live"));
+
 export default function Schedule() {
-  const [data] = useState(scheduleData);
+  const [data, setData] = useState([]); // For schedule data
+  const [teamProfiles, setTeamProfiles] = useState({}); // For team profiles
   const [activeTab, setActiveTab] = useState("Upcoming");
   const [searchQuery, setSearchQuery] = useState("");
   const [isSearchOpen, setIsSearchOpen] = useState(false);
-  const [selectedMatch, setSelectedMatch] = useState(null); // Track selected match for modal
+  const [selectedMatch, setSelectedMatch] = useState(null);
   const [selectedDateFilter, setSelectedDateFilter] = useState("");
-  const [isSearchTriggered, setIsSearchTriggered] = useState(false); // Track if search is triggered
+  const [isSearchTriggered, setIsSearchTriggered] = useState(false);
   const searchInputRef = useRef(null);
+  const [isLoading, setIsLoading] = useState(true);
+
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setIsLoading(false);
+    }, 900000000); // 4 seconds delay
+
+    return () => clearTimeout(timer); // Clean up the timer when the component unmounts
+  }, []);
+  // Fetch all data from Firebase on component mount
+  useEffect(() => {
+    const fetchData = async () => {
+      const teamProfilesData = await fetchTeamProfiles();
+      const scheduleData = await fetchScheduleData();
+  
+      setTeamProfiles(teamProfilesData || {});
+      setData(scheduleData || []);
+    };
+  
+    fetchData(); // Initial fetch
+  
+    const interval = setInterval(fetchData, 10000); // Fetch data every 30 seconds
+  
+    return () => clearInterval(interval); // Cleanup on unmount
+  }, []);
 
   // Close search when clicking outside the search overlay
   useEffect(() => {
@@ -32,6 +63,7 @@ export default function Schedule() {
     };
   }, []);
 
+
   // Filter matches by status, search query, and date filter (except for Live tab)
   const filterMatches = () => {
     return data.filter(
@@ -45,12 +77,12 @@ export default function Schedule() {
     );
   };
 
-  // Handle card click to show player details
+  // Handle card click to show player details or scorecard for live matches
   const handleCardClick = (match) => {
     setSelectedMatch(match);
   };
 
-  // Close player details modal
+  // Close player details modal or scorecard
   const closeModal = () => {
     setSelectedMatch(null);
   };
@@ -68,12 +100,10 @@ export default function Schedule() {
   };
 
   return (
-    <div className="p-4 max-w-4xl mx-auto relative">
+    <div className={`relative ${activeTab !== "Live" ? "p-4 max-w-4xl mx-auto" : ""}`}>
       {/* Tab Selection */}
       <div className="flex justify-center space-x-4 mb-4">
-        {[
-          "Past", "Live", "Upcoming"
-        ].map((tab) => (
+        {["Past", "Live", "Upcoming"].map((tab) => (
           <button
             key={tab}
             className={`px-6 py-2 font-semibold text-sm rounded-full border-2 transition-all shadow-md ${
@@ -126,7 +156,7 @@ export default function Schedule() {
       {/* Display Matches Based on Active Tab and Search */}
       <div className="space-y-4">
         {filterMatches().length === 0 ? (
-          <p className="text-gray-500 text-center">No  {activeTab.toLowerCase()} matches</p>
+          <p className="text-gray-500 text-center">No {activeTab.toLowerCase()} matches</p>
         ) : (
           filterMatches().map((match) => (
             <div
@@ -135,9 +165,7 @@ export default function Schedule() {
               onClick={() => handleCardClick(match)}
             >
               <div className="flex justify-between mb-2">
-                <h3 className="font-semibold text-gray-600">
-                  {match.series}
-                </h3>
+                <h3 className="font-semibold text-gray-600">{match.series}</h3>
                 <span
                   className={`px-2 py-1 text-xs rounded-full uppercase ${
                     match.matchstatus === "Upcoming"
@@ -150,9 +178,7 @@ export default function Schedule() {
                   {match.matchstatus}
                 </span>
               </div>
-              <p className="text-gray-700 text-sm">
-                {match.location}
-              </p>
+              <p className="text-gray-700 text-sm">{match.location}</p>
               <h2 className="text-[1.1rem] font-bold text-center text-blue-900 mt-2 flex items-center justify-center">
                 {/* Team 1 Profile Image */}
                 <img
@@ -171,21 +197,35 @@ export default function Schedule() {
               <div className="mt-3 text-center">
                 <p className="text-gray-500">
                   <br />
-                  Match on <strong> {match.matchDate} ({match.matchTime})  </strong>
+                  Match on <strong> {match.matchDate} ({match.matchTime}) </strong>
                 </p>
               </div>
             </div>
           ))
         )}
+
+        {activeTab === "Live" && (
+          <div className="w-full mx-0 px-0">
+            {isLoading ? (
+              <div className="flex flex-col items-center justify-center space-y-4">
+                {/* Simple Tailwind-based Loader */}
+                <div class="lds-default mt-32"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+                <p className="text-xl text-gray-600">Live Score will appear here</p>
+              </div>
+            ) : (
+              <Live />
+            )}
+          </div>
+        )}
       </div>
 
       {/* Sticky Search Button */}
       <button
-  className="fixed bottom-6 right-6 bg-blue-900 text-white p-4 rounded-full shadow-lg hover:bg-blue-800 transition-colors focus:outline-none"
-  onClick={() => setIsSearchOpen(true)}
->
-  <AiOutlineSearch size={24} />
-</button>
+        className="fixed bottom-6 right-6 bg-blue-900 text-white p-4 rounded-full shadow-lg hover:bg-blue-800 transition-colors focus:outline-none"
+        onClick={() => setIsSearchOpen(true)}
+      >
+        <AiOutlineSearch size={24} />
+      </button>
 
       {/* Search Overlay */}
       {isSearchOpen && (
@@ -213,7 +253,7 @@ export default function Schedule() {
         </div>
       )}
 
-      {/* Player Details Modal */}
+      {/* Player Details Modal or Scorecard for Live Matches */}
       {selectedMatch && (
         <div className="fixed inset-0 bg-black bg-opacity-50 z-50 flex justify-center items-center p-4 overflow-y-auto">
           <div className="bg-white rounded-lg w-full max-w-3xl shadow-lg h-full md:h-auto overflow-y-auto">
@@ -240,48 +280,57 @@ export default function Schedule() {
 
             {/* Modal Content */}
             <div className="p-6">
-              <h2 className="text-2xl font-bold mb-6 text-center">
-                Players in {selectedMatch.team1} vs {selectedMatch.team2}
-              </h2>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                {/* Team 1 Players */}
-                <div className="bg-gray-50 p-4 rounded-lg">
-                  <h3 className="font-semibold text-lg mb-4 text-blue-900">{selectedMatch.team1}</h3>
-                  <div className="space-y-3">
-                    {(teamProfiles[selectedMatch.team1]?.players || []).map((player, index) => (
-                      <div key={index} className="flex items-center bg-white p-3 rounded-lg shadow-sm">
-                        <img
-                          src={player.image || DEFAULT_PROFILE_IMAGE}
-                          alt={player.name}
-                          className="w-10 h-10 rounded-full mr-3 border-2 border-blue-900"
-                        />
-                        <span className="text-gray-800">{player.name}</span>
+              {selectedMatch.matchstatus === "Live" ? (
+                <Suspense fallback={<div>Loading Scorecard...</div>}>
+                  <Scorecard matchData={selectedMatch} />
+                </Suspense>
+              ) : (
+                <>
+                  <h2 className="text-2xl font-bold mb-6 text-center">
+                    Players in {selectedMatch.team1} vs {selectedMatch.team2}
+                  </h2>
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    {/* Team 1 Players */}
+                    <div className="bg-gray-50 p-4 rounded-lg">
+                      <h3 className="font-semibold text-lg mb-4 text-blue-900">{selectedMatch.team1}</h3>
+                      <div className="space-y-3">
+                        {(teamProfiles[selectedMatch.team1]?.players || []).map((player, index) => (
+                          <div key={index} className="flex items-center bg-white p-3 rounded-lg shadow-sm">
+                            <img
+                              src={player.image || DEFAULT_PROFILE_IMAGE}
+                              alt={player.name}
+                              className="w-10 h-10 rounded-full mr-3 border-2 border-blue-900"
+                            />
+                            <span className="text-gray-800">{player.name}</span>
+                          </div>
+                        ))}
                       </div>
-                    ))}
-                  </div>
-                </div>
+                    </div>
 
-                {/* Team 2 Players */}
-                <div className="bg-gray-50 p-4 rounded-lg">
-                  <h3 className="font-semibold text-lg mb-4 text-red-900">{selectedMatch.team2}</h3>
-                  <div className="space-y-3">
-                    {(teamProfiles[selectedMatch.team2]?.players || []).map((player, index) => (
-                      <div key={index} className="flex items-center bg-white p-3 rounded-lg shadow-sm">
-                        <img
-                          src={player.image || DEFAULT_PROFILE_IMAGE}
-                          alt={player.name}
-                          className="w-10 h-10 rounded-full mr-3 border-2 border-red-900"
-                        />
-                        <span className="text-gray-800">{player.name}</span>
+                    {/* Team 2 Players */}
+                    <div className="bg-gray-50 p-4 rounded-lg">
+                      <h3 className="font-semibold text-lg mb-4 text-red-900">{selectedMatch.team2}</h3>
+                      <div className="space-y-3">
+                        {(teamProfiles[selectedMatch.team2]?.players || []).map((player, index) => (
+                          <div key={index} className="flex items-center bg-white p-3 rounded-lg shadow-sm">
+                            <img
+                              src={player.image || DEFAULT_PROFILE_IMAGE}
+                              alt={player.name}
+                              className="w-10 h-10 rounded-full mr-3 border-2 border-red-900"
+                            />
+                            <span className="text-gray-800">{player.name}</span>
+                          </div>
+                        ))}
                       </div>
-                    ))}
+                    </div>
                   </div>
-                </div>
-              </div>
+                </>
+              )}
             </div>
           </div>
         </div>
       )}
     </div>
+  
   );
 }
