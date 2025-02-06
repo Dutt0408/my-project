@@ -71,7 +71,7 @@ treat either the umpire or the opponent with respect will result in a penalty of
     
     {
       id: 3,
-      title: "Scoring Rules",
+      title: "Scoring Guidelines",
       collapsed: true,
       description: (
         <ol className="list-decimal pl-5">

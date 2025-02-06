@@ -26,7 +26,7 @@ export default function Schedule() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsLoading(false);
-    }, 90000000000); // 4 seconds delay
+    }, 9000000); // 4 seconds delay
 
     return () => clearTimeout(timer); // Clean up the timer when the component unmounts
   }, []);
