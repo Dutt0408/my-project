@@ -2,9 +2,10 @@ import React, { useState, useEffect, useRef, Suspense } from "react";
 import { AiOutlineSearch } from "react-icons/ai";
 import { fetchTeamProfiles, fetchScheduleData } from "./firebase";
 import Live from "./Live"
+import Avtar from "./images/Avtar.jpg"
 import  "./Components/Loader.css"
 
-const DEFAULT_PROFILE_IMAGE = "https://icon-library.com/images/avatar-png-icon/avatar-png-icon-3.jpg";
+const DEFAULT_PROFILE_IMAGE = Avtar;
 const DATE_FILTER_OPTIONS = ["14th Feb", "15th Feb", "16th Feb", "17th Feb"];
 
 // Dynamically import the Scorecard component

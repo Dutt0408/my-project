@@ -91,7 +91,10 @@ const GroupTable = ({ groupName, teams }) => {
   });
 
   return (
+    <>
+    
     <div className="mb-12">
+      
       <h2
         className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-[#023867] underline text-center"
         style={{ textDecorationColor: "#e53e50" }}
@@ -119,6 +122,7 @@ const GroupTable = ({ groupName, teams }) => {
         </table>
       </div>
     </div>
+    </>
   );
 };
 
@@ -145,9 +149,24 @@ export default function PointTable() {
   }, []);
 
   return (
-    <div className="container mx-auto p-0">
+    <>
+    <div className="relative flex justify-center items-center m-0 p-0">
+        <img
+          src="https://swamishreeji.com/images/TitleImage"
+          alt="Title"
+          className="w-full h-auto object-cover"
+        />
+        <div className="absolute flex justify-center items-center top-0 left-0 right-0 bottom-0">
+          <h2 className="text-5xl font-bold text-[#023867] underline" style={{ textDecorationColor: "#e53e50" }}>
+            STANDINGS
+          </h2>
+        </div>
+      </div>
+    
+        <div className="container mx-auto p-0">
       <GroupTable groupName="Group A" teams={groupA} />
       <GroupTable groupName="Group B" teams={groupB} />
     </div>
+    </>
   );
 }

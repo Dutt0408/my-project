@@ -1653,6 +1653,20 @@
     "oppositionOvers": 0 ,
     "group": "B"
       },
+      "Chirag's 8": {
+         "teamName": "Chirag's 8",
+    "match": 0,
+    "won": 0,
+    "lost": 0,
+    "NRR": 0,
+    "pts": 0,
+    "last3": "DPoint,DPoint,DPoint",
+    "teamRuns": 0,  
+    "teamOvers": 0,   
+    "oppositionRuns": 0, 
+    "oppositionOvers": 0 ,
+    "group": "B"
+      },
       "Harit's 8": {
          "teamName": "Harit's 8",
     "match": 0,
