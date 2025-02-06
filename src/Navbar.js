@@ -6,7 +6,7 @@ import logoWithoutBG from './images/logoWithoutBG.jpg';
 
 const navigation = [
   { name: "Home", href: "/Home" },
-  { name: "Rules", href: "/Soon" },
+  { name: "Rules", href: "/Rules" },
   { name: "Teams", href: "/Teams" },
   { name: "Schedule", href: "/Schedule" },
   { name: "PointTable", href: "/PointTable" },
