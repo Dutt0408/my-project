@@ -1,9 +1,11 @@
 import React, { useState, useEffect, useRef, Suspense } from "react";
-import { AiOutlineSearch } from "react-icons/ai";
+import { AiOutlineSearch, AiOutlineArrowLeft } from "react-icons/ai";
 import { fetchTeamProfiles, fetchScheduleData } from "./firebase";
-import Live from "./Live"
-import Avtar from "./images/Avtar.jpg"
-import  "./Components/Loader.css"
+import Live from "./Live";
+import Avtar from "./images/Avtar.jpg";
+import "./Components/Loader.css";
+import "./Schedule.css";
+import { AiOutlineFilePdf } from "react-icons/ai";
 
 const DEFAULT_PROFILE_IMAGE = Avtar;
 const DATE_FILTER_OPTIONS = ["14th Feb", "15th Feb", "16th Feb", "17th Feb"];
@@ -22,29 +24,30 @@ export default function Schedule() {
   const [isSearchTriggered, setIsSearchTriggered] = useState(false);
   const searchInputRef = useRef(null);
   const [isLoading, setIsLoading] = useState(true);
-
+  const [pdfUrl, setPdfUrl] = useState(null);
 
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsLoading(false);
-    }, 90000); // 4 seconds delay
+    }, 4000); // 4 seconds delay
 
     return () => clearTimeout(timer); // Clean up the timer when the component unmounts
-  }, [])
+  }, []);
+
   // Fetch all data from Firebase on component mount
   useEffect(() => {
     const fetchData = async () => {
       const teamProfilesData = await fetchTeamProfiles();
       const scheduleData = await fetchScheduleData();
-  
+
       setTeamProfiles(teamProfilesData || {});
       setData(scheduleData || []);
     };
-  
+
     fetchData(); // Initial fetch
-  
+
     const interval = setInterval(fetchData, 10000); // Fetch data every 30 seconds
-  
+
     return () => clearInterval(interval); // Cleanup on unmount
   }, []);
 
@@ -64,7 +67,6 @@ export default function Schedule() {
     };
   }, []);
 
-
   // Filter matches by status, search query, and date filter (except for Live tab)
   const filterMatches = () => {
     return data.filter(
@@ -80,7 +82,11 @@ export default function Schedule() {
 
   // Handle card click to show player details or scorecard for live matches
   const handleCardClick = (match) => {
-    setSelectedMatch(match);
+    if (match.matchstatus === "Past" && match.result) {
+      setPdfUrl(match.result); // Set the PDF URL from the result field
+    } else {
+      setSelectedMatch(match); // For other tabs (Live, Upcoming)
+    }
   };
 
   // Close player details modal or scorecard
@@ -179,6 +185,19 @@ export default function Schedule() {
                   {match.matchstatus}
                 </span>
               </div>
+
+              {match.matchstatus === "Past" && match.result && (
+  <button
+    onClick={(e) => {
+      e.stopPropagation();
+      setPdfUrl(match.result);
+    }}
+    className="absolute bottom-2 right-2 bg-blue-900 text-white p-2 rounded-full text-lg hover:bg-blue-800 flex items-center justify-center"
+  >
+    <AiOutlineFilePdf size={20} />
+  </button>
+)}
+
               <p className="text-gray-700 text-sm">{match.location}</p>
               <h2 className="text-[1.1rem] font-bold text-center text-blue-900 mt-2 flex items-center justify-center">
                 {/* Team 1 Profile Image */}
@@ -331,7 +350,37 @@ export default function Schedule() {
           </div>
         </div>
       )}
+
+      {/* Full-screen PDF Modal */}
+      {pdfUrl && (
+        <div className="fixed inset-0 bg-black bg-opacity-50 z-50 flex justify-center items-center p-4">
+          <div className="bg-white rounded-lg w-full h-full flex flex-col">
+            <div className="flex justify-between p-4 bg-blue-900 text-white">
+              <button
+                onClick={() => setPdfUrl(null)}
+                className="flex items-center text-white hover:text-gray-200"
+              >
+                <AiOutlineArrowLeft size={24} className="mr-2" />
+                Back
+              </button>
+              <button
+                onClick={() => setPdfUrl(null)}
+                className="text-white hover:text-gray-200"
+              >
+                ✕
+              </button>
+            </div>
+            <div className="iframe-container flex-grow">
+              <iframe
+                src={`${pdfUrl}#view=fitH`}
+                className="w-full h-full"
+                frameBorder="0"
+                title="Scorecard PDF"
+              />
+            </div>
+          </div>
+        </div>
+      )}
     </div>
-  
   );
 }

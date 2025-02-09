@@ -35,7 +35,7 @@ const Scorecard = () => {
         setMatchData(data);
         const names = Object.keys(data);
         setTeamNames(names);
-        setTeam(names[0] || "");
+        setTeam(names[0] || ""); // Default to the first team
       }
       setIsLoading(false);
     };
@@ -89,10 +89,14 @@ const Scorecard = () => {
     }))
   );
 
-  const teamWickets = teamData.Wrickets[0].Team1Wricket;
-  const teamOvers = teamData.Wrickets[0].Team1Overs;
-  const opponentWickets = opponentData.Wrickets[0].Team2Wricket;
-  const opponentOvers = opponentData.Wrickets[0].Team2Overs;
+  // Adjust the logic for wickets and overs based on the selected team
+  const team1Data = matchData[teamNames[0]];
+  const team2Data = matchData[teamNames[1]];
+
+  const teamWickets = team === teamNames[0] ? team1Data.Wrickets[0].Team1Wricket : team2Data.Wrickets[0].Team2Wricket;
+  const teamOvers = team === teamNames[0] ? team1Data.Wrickets[0].Team1Overs : team2Data.Wrickets[0].Team2Overs;
+  const opponentWickets = team === teamNames[0] ? team2Data.Wrickets[0].Team2Wricket : team1Data.Wrickets[0].Team1Wricket;
+  const opponentOvers = team === teamNames[0] ? team2Data.Wrickets[0].Team2Overs : team1Data.Wrickets[0].Team1Overs;
 
   return (
     <div className="p-4 bg-gray-100">
