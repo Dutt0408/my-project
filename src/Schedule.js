@@ -1,9 +1,11 @@
 import React, { useState, useEffect, useRef, Suspense } from "react";
-import { AiOutlineSearch } from "react-icons/ai";
+import { AiOutlineSearch, AiOutlineArrowLeft } from "react-icons/ai";
 import { fetchTeamProfiles, fetchScheduleData } from "./firebase";
-import Live from "./Live"
-import Avtar from "./images/Avtar.jpg"
-import  "./Components/Loader.css"
+import Live from "./Live";
+import Avtar from "./images/Avtar.jpg";
+import "./Components/Loader.css";
+import "./Schedule.css";
+import { AiOutlineFilePdf } from "react-icons/ai";
 
 const DEFAULT_PROFILE_IMAGE = Avtar;
 const DATE_FILTER_OPTIONS = ["14th Feb", "15th Feb", "16th Feb", "17th Feb"];
@@ -22,7 +24,7 @@ export default function Schedule() {
   const [isSearchTriggered, setIsSearchTriggered] = useState(false);
   const searchInputRef = useRef(null);
   const [isLoading, setIsLoading] = useState(true);
-
+  const [pdfUrl, setPdfUrl] = useState(null);
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -30,21 +32,22 @@ export default function Schedule() {
     }, 90000); // 4 seconds delay
 
     return () => clearTimeout(timer); // Clean up the timer when the component unmounts
-  }, [])
+  }, []);
+
   // Fetch all data from Firebase on component mount
   useEffect(() => {
     const fetchData = async () => {
       const teamProfilesData = await fetchTeamProfiles();
       const scheduleData = await fetchScheduleData();
-  
+
       setTeamProfiles(teamProfilesData || {});
       setData(scheduleData || []);
     };
-  
+
     fetchData(); // Initial fetch
-  
+
     const interval = setInterval(fetchData, 10000); // Fetch data every 30 seconds
-  
+
     return () => clearInterval(interval); // Cleanup on unmount
   }, []);
 
@@ -64,7 +67,6 @@ export default function Schedule() {
     };
   }, []);
 
-
   // Filter matches by status, search query, and date filter (except for Live tab)
   const filterMatches = () => {
     return data.filter(
@@ -80,7 +82,11 @@ export default function Schedule() {
 
   // Handle card click to show player details or scorecard for live matches
   const handleCardClick = (match) => {
-    setSelectedMatch(match);
+    if (match.matchstatus === "Past" && match.result) {
+      setPdfUrl(match.result); // Set the PDF URL from the result field
+    } else {
+      setSelectedMatch(match); // For other tabs (Live, Upcoming)
+    }
   };
 
   // Close player details modal or scorecard
@@ -159,50 +165,72 @@ export default function Schedule() {
         {filterMatches().length === 0 ? (
           <p className="text-gray-500 text-center">No {activeTab.toLowerCase()} matches</p>
         ) : (
-          filterMatches().map((match) => (
-            <div
-              key={match.id}
-              className="bg-white p-4 rounded-lg shadow-md border relative cursor-pointer hover:shadow-lg transition-shadow"
-              onClick={() => handleCardClick(match)}
-            >
-              <div className="flex justify-between mb-2">
-                <h3 className="font-semibold text-gray-600">{match.series}</h3>
-                <span
-                  className={`px-2 py-1 text-xs rounded-full uppercase ${
-                    match.matchstatus === "Upcoming"
-                      ? "bg-orange-500 text-white"
-                      : match.matchstatus === "Live"
-                      ? "bg-red-500 text-white animate-pulse"
-                      : "bg-green-500 text-white"
-                  }`}
-                >
-                  {match.matchstatus}
-                </span>
+          filterMatches().map((match) => {
+            // Extract scores for both teams from the Wickets array
+            // const team1Score = teamProfiles[match.team1]?.Wickets?.[0] || {};
+            // const team2Score = teamProfiles[match.team2]?.Wickets?.[0] || {};
+
+            return (
+              <div
+                key={match.id}
+                className="bg-white p-4 rounded-lg shadow-md border relative cursor-pointer hover:shadow-lg transition-shadow"
+                onClick={() => handleCardClick(match)}
+              >
+                <div className="flex justify-between mb-2">
+                  <h3 className="font-semibold text-gray-600">{match.series}</h3>
+                  <span
+                    className={`px-2 py-1 text-xs rounded-full uppercase ${
+                      match.matchstatus === "Upcoming"
+                        ? "bg-orange-500 text-white"
+                        : match.matchstatus === "Live"
+                        ? "bg-red-500 text-white animate-pulse"
+                        : "bg-green-500 text-white"
+                    }`}
+                  >
+                    {match.matchstatus}
+                  </span>
+                </div>
+
+                {match.matchstatus === "Past" && match.result && (
+                  <button
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      setPdfUrl(match.result);
+                    }}
+                    className="absolute bottom-2 right-2 bg-blue-900 text-white p-2 rounded-full text-lg hover:bg-blue-800 flex items-center justify-center"
+                  >
+                    <AiOutlineFilePdf size={20} />
+                  </button>
+                )}
+
+                <p className="text-gray-700 text-sm">{match.location}</p>
+                <h2 className="text-[1.1rem] font-bold text-center text-blue-900 mt-2 flex items-center justify-center">
+                  {/* Team 1 Profile Image */}
+                  <img
+                    src={teamProfiles[match.team1]?.profileImage || DEFAULT_PROFILE_IMAGE}
+                    alt={match.team1}
+                    className="w-8 h-8 rounded-full mr-2"
+                  />
+                  {match.team1} {/* Only display team name, no score */}
+                  <span className="mx-2">vs</span>
+                  {match.team2} {/* Only display team name, no score */}
+                  {/* Team 2 Profile Image */}
+                  <img
+                    src={teamProfiles[match.team2]?.profileImage || DEFAULT_PROFILE_IMAGE}
+                    alt={match.team2}
+                    className="w-8 h-8 rounded-full ml-2"
+                  />
+                </h2>
+
+                <div className="mt-3 text-center">
+                  <p className="text-gray-500">
+                    <br />
+                    Match on <strong> {match.matchDate} ({match.matchTime}) </strong>
+                  </p>
+                </div>
               </div>
-              <p className="text-gray-700 text-sm">{match.location}</p>
-              <h2 className="text-[1.1rem] font-bold text-center text-blue-900 mt-2 flex items-center justify-center">
-                {/* Team 1 Profile Image */}
-                <img
-                  src={teamProfiles[match.team1]?.profileImage || DEFAULT_PROFILE_IMAGE}
-                  alt={match.team1}
-                  className="w-8 h-8 rounded-full mr-2"
-                />
-                {match.team1} vs {match.team2}
-                {/* Team 2 Profile Image */}
-                <img
-                  src={teamProfiles[match.team2]?.profileImage || DEFAULT_PROFILE_IMAGE}
-                  alt={match.team2}
-                  className="w-8 h-8 rounded-full ml-2"
-                />
-              </h2>
-              <div className="mt-3 text-center">
-                <p className="text-gray-500">
-                  <br />
-                  Match on <strong> {match.matchDate} ({match.matchTime}) </strong>
-                </p>
-              </div>
-            </div>
-          ))
+            );
+          })
         )}
 
         {activeTab === "Live" && (
@@ -331,7 +359,37 @@ export default function Schedule() {
           </div>
         </div>
       )}
+
+      {/* Full-screen PDF Modal */}
+      {pdfUrl && (
+        <div className="fixed inset-0 bg-black bg-opacity-50 z-50 flex justify-center items-center p-4">
+          <div className="bg-white rounded-lg w-full h-full flex flex-col">
+            <div className="flex justify-between p-4 bg-blue-900 text-white">
+              <button
+                onClick={() => setPdfUrl(null)}
+                className="flex items-center text-white hover:text-gray-200"
+              >
+                <AiOutlineArrowLeft size={24} className="mr-2" />
+                Back
+              </button>
+              <button
+                onClick={() => setPdfUrl(null)}
+                className="text-white hover:text-gray-200"
+              >
+                ✕
+              </button>
+            </div>
+            <div className="iframe-container flex-grow">
+              <iframe
+                src={`${pdfUrl}#view=fitH`}
+                className="w-full h-full"
+                frameBorder="0"
+                title="Scorecard PDF"
+              />
+            </div>
+          </div>
+        </div>
+      )}
     </div>
-  
   );
 }

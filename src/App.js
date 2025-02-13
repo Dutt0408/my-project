@@ -8,7 +8,7 @@ import PointTable from "./PointTable";
 import Sponsors from "./Sponsors";
 import Schedule from "./Schedule";
 import Soon from "./Soon";
-import Admin from "./Admin";
+import Live from "./Live";
 import { Routes, Route, useLocation } from "react-router-dom";
 import gif from "../src/images/imp.gif"
 
@@ -54,7 +54,7 @@ function App() {
             <Route path="/PointTable" element={<PointTable />} />
             <Route path="/Sponsors" element={<Sponsors />} />
             <Route path="/Soon" element={<Soon />} />
-            <Route path="/Admin" element={<Admin />} />
+            <Route path="/Live" element={<Live />} />
           </Routes>
         </>
       )}

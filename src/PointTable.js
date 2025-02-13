@@ -64,7 +64,7 @@ const generatePoints = (score, isLast3 = false) => {
   return null;
 };
 
-const TeamRow = ({ teamName, match, won, lost, pts, last3, nrr }) => {
+const TeamRow = ({ teamName, match, won, lost, pts, last3, nrr = 0 }) => {
   return (
     <tr className="team-row bg-blue-50 border-b border-blue-200 hover:bg-blue-100">
       <td className="team-cell px-4 py-2 text-left font-medium text-blue-900 whitespace-nowrap text-sm">
@@ -84,10 +84,10 @@ const TeamRow = ({ teamName, match, won, lost, pts, last3, nrr }) => {
 
 const GroupTable = ({ groupName, teams }) => {
   const sortedTeams = [...teams].sort((a, b) => {
-    if (b.nrr !== a.nrr) {
-      return b.nrr - a.nrr; // Sort by higher NRR first
+    if (b.pts !== a.pts) {
+      return b.pts - a.pts; // Sort by points first
     }
-    return b.pts - a.pts; // If NRR is equal, sort by points
+    return b.nrr - a.nrr; // If points are the same, sort by NRR
   });
 
   return (

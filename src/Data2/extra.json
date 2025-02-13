@@ -1059,11 +1059,11 @@
            "bowlingSkill": "4"
          },
          {
-           "name": "Drashy",
-           "lastName": "Gajjar",
-           "image": "https://swamishreeji.com/images/drashy_purvesh",
+           "name": "Vipul",
+           "lastName": "Patel",
+           "image": "https://swamishreeji.com/images/Vipul_Purvesh.jpg",
            "battingSkill": "4",
-           "bowlingSkill": "4"
+           "bowlingSkill": "3"
          },
          {
            "name": "Shlok ",
@@ -1440,9 +1440,9 @@
            "bowlingSkill": "4"
          },
          {
-           "name": "Hemanshu",
+           "name": "Chirag",
            "lastName": "Patel",
-           "image": "https://swamishreeji.com/images/Hemanshu__Rakshit",
+           "image": "https://swamishreeji.com/images/Chirag_Rakshit.jpg",
            "battingSkill": "3",
            "bowlingSkill": "3"
          },
@@ -1913,10 +1913,9 @@
    ],
    "Wrickets":[
     {
-        "Team1Wricket": "02",
-        "Team1Overs":"10.2",
+       
         "Team2Wricket": "02",
-        "Team2Overs":"10.2"
+        "Team2Overs":"2.2"
         
       }
 
@@ -2065,10 +2064,8 @@
    ],
    "Wrickets":[
     {
-        "Team1Wricket": "02",
-        "Team1Overs":"10.2",
-        "Team2Wricket": "02",
-        "Team2Overs":"10.2"
+        "Team1Wricket": "2",
+        "Team1Overs":"2.2"
         
       }
    ]

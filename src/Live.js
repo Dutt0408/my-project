@@ -24,35 +24,53 @@ const calculateTotalSixes = (battingData) => {
 const Scorecard = () => {
   const [matchData, setMatchData] = useState(null);
   const [team, setTeam] = useState("");
-  const [isLoading, setIsLoading] = useState(false);
   const [teamNames, setTeamNames] = useState([]);
+  const [teamTotalRuns, setTeamTotalRuns] = useState(0);
+  const [teamWickets, setTeamWickets] = useState(0);
+  const [teamOvers, setTeamOvers] = useState(0);
+  const [opponentTotalRuns, setOpponentTotalRuns] = useState(0);
+  const [opponentWickets, setOpponentWickets] = useState(0);
+  const [opponentOvers, setOpponentOvers] = useState(0);
 
   useEffect(() => {
     const fetchData = async () => {
-      setIsLoading(true);
       const data = await fetchLiveMatchData();
       if (data) {
         setMatchData(data);
         const names = Object.keys(data);
         setTeamNames(names);
-        setTeam(names[0] || ""); // Default to the first team
+        setTeam((prevTeam) => (names.includes(prevTeam) ? prevTeam : names[0] || ""));
+
+        // Fetch total runs, wickets, and overs for the selected team
+        const selectedTeamData = data[team || names[0]];
+        if (selectedTeamData && selectedTeamData.Wickets && selectedTeamData.Wickets[0]) {
+          setTeamTotalRuns(selectedTeamData.Wickets[0].Total || 0);
+          setTeamWickets(selectedTeamData.Wickets[0].Wicket || 0);
+          setTeamOvers(selectedTeamData.Wickets[0].Overs || 0);
+        }
+
+        // Fetch total runs, wickets, and overs for the opponent team
+        const opponentTeam = names.find((t) => t !== (team || names[0]));
+        const opponentTeamData = data[opponentTeam];
+        if (opponentTeamData && opponentTeamData.Wickets && opponentTeamData.Wickets[0]) {
+          setOpponentTotalRuns(opponentTeamData.Wickets[0].Total || 0);
+          setOpponentWickets(opponentTeamData.Wickets[0].Wicket || 0);
+          setOpponentOvers(opponentTeamData.Wickets[0].Overs || 0);
+        }
       }
-      setIsLoading(false);
     };
 
     fetchData();
-  }, []);
+    const interval = setInterval(fetchData, 400); // Fetch data every 400ms
+    return () => clearInterval(interval); // Cleanup on unmount
+  }, [team]);
 
   if (!matchData) {
     return <p>Loading match data...</p>;
   }
 
   const handleTeamChange = (teamName) => {
-    setIsLoading(true);
-    setTimeout(() => {
-      setTeam(teamName);
-      setIsLoading(false);
-    }, 400);
+    setTeam(teamName);
   };
 
   const teamData = matchData[team];
@@ -70,42 +88,23 @@ const Scorecard = () => {
     dismissal: player.batting.dismissal || "",
   }));
 
-  const bowlingData = teamData.players
-    .filter((player) => player.bowling.overs > 0)
+  // Fetch opponent's bowling data and filter bowlers with overs > 0.1
+  const bowlingData = opponentData.players
+    .filter((player) => player.bowling.overs > 0.1)
     .map((player) => ({
       name: player.name,
       ...player.bowling,
     }));
 
-  const teamTotalRuns = calculateTotalRuns(battingData);
-  const teamTotalBalls = calculateTotalBalls(battingData);
-  const teamTotalFours = calculateTotalFours(battingData);
-  const teamTotalSixes = calculateTotalSixes(battingData);
-
-  const opponentTotalRuns = calculateTotalRuns(
-    opponentData.players.map((player) => ({
-      name: player.name,
-      ...player.batting,
-    }))
-  );
-
-  // Adjust the logic for wickets and overs based on the selected team
-  const team1Data = matchData[teamNames[0]];
-  const team2Data = matchData[teamNames[1]];
-
-  const teamWickets = team === teamNames[0] ? team1Data.Wrickets[0].Team1Wricket : team2Data.Wrickets[0].Team2Wricket;
-  const teamOvers = team === teamNames[0] ? team1Data.Wrickets[0].Team1Overs : team2Data.Wrickets[0].Team2Overs;
-  const opponentWickets = team === teamNames[0] ? team2Data.Wrickets[0].Team2Wricket : team1Data.Wrickets[0].Team1Wricket;
-  const opponentOvers = team === teamNames[0] ? team2Data.Wrickets[0].Team2Overs : team1Data.Wrickets[0].Team1Overs;
-
   return (
     <div className="p-4 bg-gray-100">
-      {isLoading && (
-        <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
-          <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-blue-900"></div>
-        </div>
-      )}
+    <div className="flex justify-between mb-2">
+  <div className="ml-auto bg-red-500 text-white animate-pulse px-4 py-2 rounded">
+    Live
+  </div>
+</div>
 
+      {/* Team Score Display */}
       <div className="flex items-center justify-center space-x-8 mb-6">
         <div className="flex flex-col items-center">
           <img
@@ -134,6 +133,7 @@ const Scorecard = () => {
         </div>
       </div>
 
+      {/* Team Selection Tabs */}
       <div className="flex justify-center mb-6">
         <div className="w-64 relative">
           <div className="flex justify-between">
@@ -159,6 +159,7 @@ const Scorecard = () => {
         </div>
       </div>
 
+      {/* Batting Table */}
       <table className="w-full mt-4 bg-white shadow-md rounded-lg overflow-hidden">
         <thead>
           <tr className="bg-blue-900 text-white">
@@ -200,15 +201,16 @@ const Scorecard = () => {
           ))}
           <tr className="bg-gray-200 font-semibold">
             <td className="px-2 py-2">Total</td>
-            <td className="px-2 py-2">{teamTotalRuns}</td>
-            <td className="px-2 py-2">{teamTotalBalls}</td>
-            <td className="px-2 py-2">{teamTotalFours}</td>
-            <td className="px-2 py-2">{teamTotalSixes}</td>
+            <td className="px-2 py-2">{calculateTotalRuns(battingData)}</td>
+            <td className="px-2 py-2">{calculateTotalBalls(battingData)}</td>
+            <td className="px-2 py-2">{calculateTotalFours(battingData)}</td>
+            <td className="px-2 py-2">{calculateTotalSixes(battingData)}</td>
             <td className="px-2 py-2"></td>
           </tr>
         </tbody>
       </table>
 
+      {/* Bowling Table */}
       <table className="w-full mt-4 bg-white shadow-md rounded-lg overflow-hidden">
         <thead>
           <tr className="bg-blue-900 text-white">

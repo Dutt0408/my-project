@@ -75,7 +75,7 @@ treat either the umpire or the opponent with respect will result in a penalty of
       collapsed: true,
       description: (
         <ol className="list-decimal pl-5">
-          <li><strong>No Run declared</strong> – if the ball hits or gets stuck on the roof, batsmen cannot run.</li><br/>
+          <li><strong>No Run declared</strong> – if the ball hits or gets stuck on the roof, batsmen cannot run. Additionally, no runs declared if the ball hits the back wall, however, batsmen can run between the wickets. </li><br/>
           <li><strong>(1) Run declared</strong> – hitting the lower half of the sidewalls in front of the runner’s crease. This includes guard stands protecting the crowd and scoring table. Batsmen can still run between the wickets for additional runs.</li><br/>
           <li><strong>(1) Run declared</strong> – if the ball goes behind the guard stands. Batsmen cannot run additional runs.</li><br/>
           <li><strong>(2) Runs declared</strong> – hitting the lower half of the sidewalls behind the runner’s crease. Batsmen can still run between the wickets for additional runs.</li><br/>
@@ -106,22 +106,20 @@ treat either the umpire or the opponent with respect will result in a penalty of
       collapsed: true,
       description: (
         <ol className="list-decimal pl-5">
-          <li>Only 2 bowlers may bowl a maximum of 3 overs. The remaining 4 overs can be bowled by other bowlers. Each team must use a minimum of 4 bowlers to bowl their 10 overs.</li><br/>
-          <li>Bowling a WIDE or NO BALL will result in 1 run being awarded to the batting team and the delivery will have to be bowled again.</li><br/>
-          <li><strong>WIDE</strong> will be called in the cases of:
-            <ul className="list-disc pl-5">
-              <li>Bowling outside of the marked creases on either side of the wicket.</li>
-              <li>Bowling a bouncer above the shoulder.</li>
+          <li>WIDE will be called in the cases of:
+          <ul className="list-disc pl-5">
+              <li>Bowling outside of the marked creases on either side of the wicket</li>
+              <li> If a bowler delivers a bouncer that passes over the batter’s shoulder but below their head, the first instance will be treated as a warning. Any subsequent deliveries in the same over that pass over the shoulder (but remain below the head) will be called a “wide.” Additionally, any delivery that passes over the batter’s head will be immediately considered a “wide”</li>
             </ul>
-          </li> <br/>
-          <li><strong>NO BALL</strong> will be called in the cases of (FREE HIT will be awarded on all NO BALLS):
-            <ul className="list-disc pl-5">
-              <li>Overstepping.</li>
-              <li>Bowling a full-toss above waist height.</li>
-              <li>Illegal bowling action – (leg umpires will have the final decision on the bowling action. Please have your action approved by your captain if in doubt prior to the tournament).</li>
-              <li>Fielding extra players behind the bowling stumps.</li>
+          </li> <br/> 
+          <li> NO BALL will be called in the cases of (FREE HIT will be awarded on all NO BALLS):
+          <ul className="list-disc pl-5">
+              <li>Overstepping</li>
+              <li> Bowling a full-toss above the waist height</li>
+              <li>  Illegal bowling action  </li>
+              <li> Fielding extra players behind the bowling stumps </li>
             </ul>
-          </li> <br/>
+          </li><br/>
           <li>If a team is chasing negative runs, the bowling team shall bowl a minimum of 3 overs.</li>
         </ol>
       ),
@@ -168,7 +166,7 @@ treat either the umpire or the opponent with respect will result in a penalty of
           </li>
           <li>A fielder cannot claim a catch off of the side walls, roof, basketball nets, or any other barrier.</li><br/>
           <li>Wicket keeping is optional.</li><br/>
-          <li>If a fielder comes into ANY form of contact with the back-wall boundary while the ball is in their hand, the applicable declared runs (FOUR or SIX) will be applied.</li><br/>
+          <li>Runs will be awarded only if the ball makes contact with the wall. A fielder may touch the wall with any part of their body, but if the ball does not touch the wall, no runs will be given.</li><br/>
         </ol>
       ),
     },
@@ -202,7 +200,7 @@ treat either the umpire or the opponent with respect will result in a penalty of
                 <li>Remain on the field for a minimum of five overs (not required to bowl)</li> <br/>
               </ul>
             </li>
-            <li>The batting team will still be subject to 8 wickets.</li>
+            <li>The batting team will still be subject to 7 wickets (8 batsmen).</li>
           </ol>
         </div>
       ),
