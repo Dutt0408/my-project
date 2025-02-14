@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef, Suspense } from "react";
+// eslint-disable-next-line
 import { AiOutlineSearch, AiOutlineArrowLeft } from "react-icons/ai";
 import { fetchTeamProfiles, fetchScheduleData } from "./firebase";
 import Live from "./Live";
@@ -24,12 +25,11 @@ export default function Schedule() {
   const [isSearchTriggered, setIsSearchTriggered] = useState(false);
   const searchInputRef = useRef(null);
   const [isLoading, setIsLoading] = useState(true);
-  const [pdfUrl, setPdfUrl] = useState(null);
 
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsLoading(false);
-    }, 90000); // 4 seconds delay
+    }, 4000); // 4 seconds delay
 
     return () => clearTimeout(timer); // Clean up the timer when the component unmounts
   }, []);
@@ -83,7 +83,7 @@ export default function Schedule() {
   // Handle card click to show player details or scorecard for live matches
   const handleCardClick = (match) => {
     if (match.matchstatus === "Past" && match.result) {
-      setPdfUrl(match.result); // Set the PDF URL from the result field
+      window.open(match.result, "_blank"); // Open the PDF in a new tab
     } else {
       setSelectedMatch(match); // For other tabs (Live, Upcoming)
     }
@@ -166,10 +166,6 @@ export default function Schedule() {
           <p className="text-gray-500 text-center">No {activeTab.toLowerCase()} matches</p>
         ) : (
           filterMatches().map((match) => {
-            // Extract scores for both teams from the Wickets array
-            // const team1Score = teamProfiles[match.team1]?.Wickets?.[0] || {};
-            // const team2Score = teamProfiles[match.team2]?.Wickets?.[0] || {};
-
             return (
               <div
                 key={match.id}
@@ -192,15 +188,17 @@ export default function Schedule() {
                 </div>
 
                 {match.matchstatus === "Past" && match.result && (
-                  <button
-                    onClick={(e) => {
-                      e.stopPropagation();
-                      setPdfUrl(match.result);
-                    }}
-                    className="absolute bottom-2 right-2 bg-blue-900 text-white p-2 rounded-full text-lg hover:bg-blue-800 flex items-center justify-center"
-                  >
-                    <AiOutlineFilePdf size={20} />
-                  </button>
+                  <div className="absolute bottom-2 right-2 flex space-x-2">
+                    <button
+                      onClick={(e) => {
+                        e.stopPropagation();
+                        window.open(match.result, "_blank");
+                      }}
+                      className="bg-blue-900 text-white p-2 rounded-full text-lg hover:bg-blue-800 flex items-center justify-center"
+                    >
+                      <AiOutlineFilePdf size={20} />
+                    </button>
+                  </div>
                 )}
 
                 <p className="text-gray-700 text-sm">{match.location}</p>
@@ -355,37 +353,6 @@ export default function Schedule() {
                   </div>
                 </>
               )}
-            </div>
-          </div>
-        </div>
-      )}
-
-      {/* Full-screen PDF Modal */}
-      {pdfUrl && (
-        <div className="fixed inset-0 bg-black bg-opacity-50 z-50 flex justify-center items-center p-4">
-          <div className="bg-white rounded-lg w-full h-full flex flex-col">
-            <div className="flex justify-between p-4 bg-blue-900 text-white">
-              <button
-                onClick={() => setPdfUrl(null)}
-                className="flex items-center text-white hover:text-gray-200"
-              >
-                <AiOutlineArrowLeft size={24} className="mr-2" />
-                Back
-              </button>
-              <button
-                onClick={() => setPdfUrl(null)}
-                className="text-white hover:text-gray-200"
-              >
-                ✕
-              </button>
-            </div>
-            <div className="iframe-container flex-grow">
-              <iframe
-                src={`${pdfUrl}#view=fitH`}
-                className="w-full h-full"
-                frameBorder="0"
-                title="Scorecard PDF"
-              />
             </div>
           </div>
         </div>

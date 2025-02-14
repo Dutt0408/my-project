@@ -10,7 +10,7 @@ import Schedule from "./Schedule";
 import Soon from "./Soon";
 import Live from "./Live";
 import { Routes, Route, useLocation } from "react-router-dom";
-import gif from "../src/images/imp.gif"
+import gif from "../src/images/imp.gif";
 
 function App() {
   const [isLoading, setIsLoading] = useState(false);
@@ -19,32 +19,23 @@ function App() {
   useEffect(() => {
     const loadContent = async () => {
       setIsLoading(true);
-
-      // Simulate image and asset loading for the current route
-      await new Promise((resolve) => setTimeout(resolve, 600)); // Adjust this to actual loading time
-
+      await new Promise((resolve) => setTimeout(resolve, 600));
       setIsLoading(false);
     };
-
     loadContent();
   }, [location]);
 
   return (
     <div>
-      {/* Loader */}
       {isLoading && (
         <div className="popup-loader">
-          <img
-            className="loader-gif"
-            src={gif}
-            alt="Loading..."
-          />
+          <img className="loader-gif" src={gif} alt="Loading..." />
         </div>
       )}
 
       {!isLoading && (
         <>
-          <Navbar />
+          {location.pathname !== "/Live" && <Navbar />}
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/Rules" element={<Rules />} />
