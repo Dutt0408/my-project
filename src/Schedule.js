@@ -238,7 +238,9 @@ export default function Schedule() {
                 <p className="text-xl text-gray-600">Live Score will appear here</p>
               </div>
             ) : (
+              <div className="mt-16"> 
               <Live />
+              </div>
             )}
           </div>
         )}

@@ -2,10 +2,12 @@ import React from "react";
 
 const LiveScoreWithVideo = () => {
   return (
-    <div className="flex justify-center items-center min-h-screen bg-gray-100 p-4">
+    <div className="flex justify-center items-center w-full bg-gray-100 p-0 m-0">
       <div className="w-full max-w-4xl bg-white rounded-2xl shadow-xl p-6 border border-gray-300">
-        <h2 className="text-gray-900 text-2xl font-bold text-center mb-4">Pramukh Cup 2025</h2>
-        
+        <h2 className="text-gray-900 text-2xl font-bold text-center mb-2">
+          Pramukh Cup 2025
+        </h2>
+
         {/* Video Container */}
         <div className="relative overflow-hidden rounded-xl border-2 border-gray-300">
           {/* Invisible overlay to prevent hover effects */}
@@ -20,10 +22,10 @@ const LiveScoreWithVideo = () => {
           ></iframe>
         </div>
 
-        {/* Live Score Section */}
-        <div className="mt-6 bg-gray-200 p-4 rounded-lg text-gray-900 text-center shadow-md">
+        {/* Live Score Section - Reduced extra margin */}
+        <div className="mt-2 bg-gray-200 p-4 rounded-lg text-gray-900 text-center shadow-md">
           <h3 className="text-lg font-semibold">Live Score</h3>
-          <p className="text-gray-700 mt-2">Updating...</p>
+          <p className="text-gray-700 mt-1">Updating...</p>
         </div>
       </div>
     </div>
