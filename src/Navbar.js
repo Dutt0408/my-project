@@ -9,7 +9,7 @@ const navigation = [
   { name: "Rules", href: "/Rules" },
   { name: "Teams", href: "/Teams" },
   { name: "Schedule", href: "/Schedule" },
-  { name: "Standings", href: "/PointTable" },
+  { name: "Standings", href: "/Soon" },
   { name: "Sponsors", href: "/Sponsors" },
 ];
 
