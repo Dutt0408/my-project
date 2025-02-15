@@ -8,9 +8,11 @@ const LiveScoreWithVideo = () => {
         
         {/* Video Container */}
         <div className="relative overflow-hidden rounded-xl border-2 border-gray-300">
-          <div className="absolute top-0 left-0 w-full h-full bg-black opacity-5 pointer-events-none"></div>
+          {/* Invisible overlay to prevent hover effects */}
+          <div className="absolute top-0 left-0 w-full h-full bg-transparent z-10"></div>
+
           <iframe
-            className="w-full h-64 sm:h-96" 
+            className="w-full h-64 sm:h-96 pointer-events-none"
             src="https://www.youtube.com/embed/vTtCVo2YJOw?autoplay=1&mute=1&controls=0&modestbranding=1&rel=0&showinfo=0&disablekb=1"
             title="Live Stream"
             allow="autoplay; encrypted-media"
