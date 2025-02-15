@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef, Suspense } from "react";
 // eslint-disable-next-line
 import { AiOutlineSearch, AiOutlineArrowLeft } from "react-icons/ai";
 import { fetchTeamProfiles, fetchScheduleData } from "./firebase";
-import Live from "./Live";
+
 import Avtar from "./images/Avtar.jpg";
 import "./Components/Loader.css";
 import "./Schedule.css";
@@ -24,15 +24,9 @@ export default function Schedule() {
   const [selectedDateFilter, setSelectedDateFilter] = useState("");
   const [isSearchTriggered, setIsSearchTriggered] = useState(false);
   const searchInputRef = useRef(null);
-  const [isLoading, setIsLoading] = useState(true);
 
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setIsLoading(false);
-    }, 4000); // 4 seconds delay
 
-    return () => clearTimeout(timer); // Clean up the timer when the component unmounts
-  }, []);
+
 
   // Fetch all data from Firebase on component mount
   useEffect(() => {
@@ -231,19 +225,7 @@ export default function Schedule() {
           })
         )}
 
-        {activeTab === "Live" && (
-          <div className="w-full mx-0 px-0">
-            {isLoading ? (
-              <div className="flex flex-col items-center justify-center space-y-4">
-                {/* Simple Tailwind-based Loader */}
-                <div class="lds-default mt-32"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
-                <p className="text-xl text-gray-600">Live Score will appear here</p>
-              </div>
-            ) : (
-              <Live />
-            )}
-          </div>
-        )}
+       
       </div>
 
       {/* Sticky Search Button */}
