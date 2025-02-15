@@ -147,19 +147,8 @@ export default function Schedule() {
             ))}
           </select>
         )}
-{activeTab === "Live" && (
-          <div className="w-full mx-0 px-0">
-            {isLoading ? (
-              <div className="flex flex-col items-center justify-center space-y-4">
-                {/* Simple Tailwind-based Loader */}
-                <div class="lds-default mt-32"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
-                <p className="text-xl text-gray-600">Live Score will appear here</p>
-              </div>
-            ) : (
-              <Live />
-            )}
-          </div>
-        )}
+
+
         {/* Display Search Query with Clear Button */}
         {isSearchTriggered && searchQuery && (
           <div className="flex items-center bg-blue-100 px-2 py-1 rounded-full">
@@ -240,6 +229,19 @@ export default function Schedule() {
                     Match on <strong> {match.matchDate} ({match.matchTime}) </strong>
                   </p>
                 </div>
+                {activeTab === "Live" && (
+          <div className="w-full mx-0 px-0">
+            {isLoading ? (
+              <div className="flex flex-col items-center justify-center space-y-4">
+                {/* Simple Tailwind-based Loader */}
+                <div class="lds-default mt-32"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+                <p className="text-xl text-gray-600">Live Score will appear here</p>
+              </div>
+            ) : (
+              <Live />
+            )}
+          </div>
+        )}
               </div>
             );
           })
