@@ -25,7 +25,7 @@ const LiveScoreWithVideo = () => {
         {/* Live Score Section - Reduced extra margin */}
         <div className="mt-2 bg-gray-200 p-4 rounded-lg text-gray-900 text-center shadow-md">
           <h3 className="text-lg font-semibold">Live Score</h3>
-          <p className="text-gray-700 mt-1">Updating...</p>
+          
         </div>
       </div>
     </div>
