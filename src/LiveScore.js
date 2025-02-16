@@ -15,11 +15,12 @@ const LiveScoreWithVideo = () => {
 
           <iframe
   className="w-full h-64 sm:h-96"
-  src="https://www.youtube.com/embed/8GJ29bdy8W0"
+  src="https://www.youtube.com/embed/8GJ29bdy8W0?autoplay=1&mute=1"
   title="Live Stream"
   allow="autoplay; encrypted-media"
   allowFullScreen
 ></iframe>
+
 
         </div>
 
