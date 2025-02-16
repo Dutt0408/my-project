@@ -14,12 +14,13 @@ const LiveScoreWithVideo = () => {
           <div className="absolute top-0 left-0 w-full h-full bg-transparent z-10"></div>
 
           <iframe
-            className="w-full h-64 sm:h-96 pointer-events-none"
-            src="https://youtube.com/live/8GJ29bdy8W0"
-            title="Live Stream"
-            allow="autoplay; encrypted-media"
-            allowFullScreen
-          ></iframe>
+  className="w-full h-64 sm:h-96"
+  src="https://www.youtube.com/embed/8GJ29bdy8W0"
+  title="Live Stream"
+  allow="autoplay; encrypted-media"
+  allowFullScreen
+></iframe>
+
         </div>
 
         {/* Live Score Section - Reduced extra margin */}
