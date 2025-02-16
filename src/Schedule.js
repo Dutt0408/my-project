@@ -84,10 +84,14 @@ export default function Schedule() {
 
   // Handle card click to show player details or scorecard for live matches
   const handleCardClick = (match) => {
+    if (activeTab === "Live") {
+      return; // Do nothing for Live tab
+    }
+  
     if (match.matchstatus === "Past" && match.result) {
       window.open(match.result, "_blank"); // Open the PDF in a new tab
     } else {
-      setSelectedMatch(match); // For other tabs (Live, Upcoming)
+      setSelectedMatch(match); // For other tabs (Upcoming, Past)
     }
   };
 
@@ -171,80 +175,84 @@ export default function Schedule() {
           filterMatches().map((match) => {
             return (
               <div
-                key={match.id}
-                className="bg-white p-4 rounded-lg shadow-md border relative cursor-pointer hover:shadow-lg transition-shadow"
-                onClick={() => handleCardClick(match)}
-              >
-                <div className="flex justify-between mb-2">
-                  <h3 className="font-semibold text-gray-600">{match.series}</h3>
-                  <span
-                    className={`px-2 py-1 text-xs rounded-full uppercase ${
-                      match.matchstatus === "Upcoming"
-                        ? "bg-orange-500 text-white"
-                        : match.matchstatus === "Live"
-                        ? "bg-red-500 text-white animate-pulse"
-                        : "bg-green-500 text-white"
-                    }`}
+              key={match.id}
+              className={`bg-white p-4 rounded-lg shadow-md border relative ${
+                activeTab !== "Live" ? "cursor-pointer hover:shadow-lg" : ""
+              } transition-shadow`}
+              onClick={() => activeTab !== "Live" && handleCardClick(match)}
+            >
+              <div className="flex justify-between mb-2">
+                <h3 className="font-semibold text-gray-600">{match.series}</h3>
+                <span
+                  className={`px-2 py-1 text-xs rounded-full uppercase ${
+                    match.matchstatus === "Upcoming"
+                      ? "bg-orange-500 text-white"
+                      : match.matchstatus === "Live"
+                      ? "bg-red-500 text-white animate-pulse"
+                      : "bg-green-500 text-white"
+                  }`}
+                >
+                  {match.matchstatus}
+                </span>
+              </div>
+            
+              {match.matchstatus === "Past" && match.result && (
+                <div className="absolute bottom-2 right-2 flex space-x-2">
+                  <button
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      window.open(match.result, "_blank");
+                    }}
+                    className="bg-blue-900 text-white p-2 rounded-full text-lg hover:bg-blue-800 flex items-center justify-center"
                   >
-                    {match.matchstatus}
-                  </span>
+                    <AiOutlineFilePdf size={20} />
+                  </button>
                 </div>
-
-                {match.matchstatus === "Past" && match.result && (
-                  <div className="absolute bottom-2 right-2 flex space-x-2">
-                    <button
-                      onClick={(e) => {
-                        e.stopPropagation();
-                        window.open(match.result, "_blank");
-                      }}
-                      className="bg-blue-900 text-white p-2 rounded-full text-lg hover:bg-blue-800 flex items-center justify-center"
-                    >
-                      <AiOutlineFilePdf size={20} />
-                    </button>
-                  </div>
-                )}
-
-                <p className="text-gray-700 text-sm">{match.location}</p>
-                <h2 className="text-[1.1rem] font-bold text-center text-blue-900 mt-2 flex items-center justify-center">
-                  {/* Team 1 Profile Image */}
-                  <img
-                    src={teamProfiles[match.team1]?.profileImage || DEFAULT_PROFILE_IMAGE}
-                    alt={match.team1}
-                    className="w-8 h-8 rounded-full mr-2"
-                  />
-                  {match.team1} {/* Only display team name, no score */}
-                  <span className="mx-2">vs</span>
-                  {match.team2} {/* Only display team name, no score */}
-                  {/* Team 2 Profile Image */}
-                  <img
-                    src={teamProfiles[match.team2]?.profileImage || DEFAULT_PROFILE_IMAGE}
-                    alt={match.team2}
-                    className="w-8 h-8 rounded-full ml-2"
-                  />
-                </h2>
-
-                <div className="mt-3 text-center">
-                  <p className="text-gray-500">
-                    <br />
-                    Match on <strong> {match.matchDate} ({match.matchTime}) </strong>
-                  </p>
+              )}
+            
+              <p className="text-gray-700 text-sm">{match.location}</p>
+              <h2 className="text-[1.1rem] font-bold text-center text-blue-900 mt-2 flex items-center justify-center">
+                {/* Team 1 Profile Image */}
+                <img
+                  src={teamProfiles[match.team1]?.profileImage || DEFAULT_PROFILE_IMAGE}
+                  alt={match.team1}
+                  className="w-8 h-8 rounded-full mr-2"
+                />
+                {match.team1} {/* Only display team name, no score */}
+                <span className="mx-2">vs</span>
+                {match.team2} {/* Only display team name, no score */}
+                {/* Team 2 Profile Image */}
+                <img
+                  src={teamProfiles[match.team2]?.profileImage || DEFAULT_PROFILE_IMAGE}
+                  alt={match.team2}
+                  className="w-8 h-8 rounded-full ml-2"
+                />
+              </h2>
+            
+              <div className="mt-3 text-center">
+                <p className="text-gray-500">
+                  <br />
+                  Match on <strong> {match.matchDate} ({match.matchTime}) </strong>
+                </p>
+              </div>
+              {activeTab === "Live" && (
+                <div className="w-full mx-0 px-0">
+                  {isLoading ? (
+                    <div className="flex flex-col items-center justify-center space-y-4">
+                      {/* Simple Tailwind-based Loader */}
+                      <div class="lds-default mt-32">
+                        <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+                      </div>
+                      <p className="text-xl text-gray-600">Live Score will appear here</p>
+                    </div>
+                  ) : (
+                    <div className="mt-16">
+                      <Live />
+                    </div>
+                  )}
                 </div>
-                {activeTab === "Live" && (
-          <div className="w-full mx-0 px-0">
-            {isLoading ? (
-              <div className="flex flex-col items-center justify-center space-y-4">
-                {/* Simple Tailwind-based Loader */}
-                <div class="lds-default mt-32"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
-                <p className="text-xl text-gray-600">Live Score will appear here</p>
-              </div>
-            ) : (
-              <div className="mt-16"> 
-              <Live />
-              </div>
-            )}
-          </div>
-        )}
-              </div>
+              )}
+            </div>
             );
           })
         )}
