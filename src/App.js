@@ -9,8 +9,6 @@ import Sponsors from "./Sponsors";
 import Schedule from "./Schedule";
 import Soon from "./Soon";
 import Live from "./LiveScore";
-// eslint-disable-next-line
-import live from "./LiveScore";
 import { Routes, Route, useLocation } from "react-router-dom";
 import gif from "../src/images/imp.gif";
 
@@ -37,7 +35,7 @@ function App() {
 
       {!isLoading && (
         <>
-          {location.pathname !== "/Live" && <Navbar />}
+          {location.pathname !== "/Live" && <Navbar />} 
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/Rules" element={<Rules />} />
@@ -48,7 +46,6 @@ function App() {
             <Route path="/Sponsors" element={<Sponsors />} />
             <Route path="/Soon" element={<Soon />} />
             <Route path="/Live" element={<Live />} />
-            <Route path="/Live" element={<Live/>} />
           </Routes>
         </>
       )}
