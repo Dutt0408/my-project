@@ -10,29 +10,32 @@ const LiveScoreWithVideo = () => {
 
         {/* Video Container */}
         <div className="relative overflow-hidden rounded-xl border-2 border-gray-300">
-          {/* Invisible overlay to prevent hover effects */}
-          <div className="absolute top-0 left-0 w-full h-full bg-transparent z-10"></div>
+  
+  <div className="absolute top-0 left-0 w-full h-full bg-transparent z-10"></div>
 
-          <iframe
-  className="w-full h-64 sm:h-96"
-src="https://www.youtube.com/embed/EfKocxNVTNA?autoplay=1&mute=1"
+  {/* First Full-Sized iFrame */}
+  <iframe
+    className="w-full h-64 sm:h-96"
+    src="https://www.youtube.com/embed/EfKocxNVTNA?autoplay=1&mute=1"
+    title="Live Stream"
+    allow="autoplay; encrypted-media"
+    allowFullScreen
+  ></iframe>
 
-  title="Live Stream"
-  allow="autoplay; encrypted-media"
-  allowFullScreen
-></iframe>
+  {/* Wrapper to Crop the Second iFrame */}
+  <div className="relative w-full h-16 sm:h-20 overflow-hidden">
+    <iframe
+      className="absolute top-0 left-0 w-full h-96" 
+      src="https://www.youtube.com/embed/o0UecTMiUWs?autoplay=1&mute=1"
+      title="Live Stream"
+      allow="autoplay; encrypted-media"
+      allowFullScreen
+    ></iframe>
+  </div>
+
+</div>
 
 
-<iframe
-  className="w-full h-64 sm:h-96"
-src="https://www.youtube.com/embed/o0UecTMiUWs?autoplay=1&mute=1"
-
-  title="Live Stream"
-  allow="autoplay; encrypted-media"
-  allowFullScreen
-></iframe>
-
-        </div>
 
         {/* Live Score Section - Reduced extra margin */}
         <div className="mt-2 bg-gray-200 p-4 rounded-lg text-gray-900 text-center shadow-md">
