@@ -10,7 +10,7 @@ import Schedule from "./Schedule";
 import Soon from "./Soon";
 import Live from "./LiveScore";
 // eslint-disable-next-line
-import liveStreamSC from "./liveStreamSC";
+import live from "./LiveScore";
 import { Routes, Route, useLocation } from "react-router-dom";
 import gif from "../src/images/imp.gif";
 
@@ -48,7 +48,7 @@ function App() {
             <Route path="/Sponsors" element={<Sponsors />} />
             <Route path="/Soon" element={<Soon />} />
             <Route path="/Live" element={<Live />} />
-            <Route path="/LiveStreamSC" element={<liveStreamSC/>} />
+            <Route path="/Live" element={<Live/>} />
           </Routes>
         </>
       )}
