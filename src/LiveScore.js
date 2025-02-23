@@ -2,10 +2,12 @@ import React, { useState, useEffect } from "react";
 
 const LiveScoreWithVideo = () => {
   const [isPortrait, setIsPortrait] = useState(window.innerHeight > window.innerWidth);
+  const [isSmallScreen, setIsSmallScreen] = useState(window.innerWidth < 640);
 
   useEffect(() => {
     const handleResize = () => {
       setIsPortrait(window.innerHeight > window.innerWidth);
+      setIsSmallScreen(window.innerWidth < 640);
     };
 
     window.addEventListener("resize", handleResize);
@@ -22,9 +24,11 @@ const LiveScoreWithVideo = () => {
       )}
 
       <div className="w-full max-w-4xl bg-white rounded-2xl shadow-xl p-6 border border-gray-300">
-        <h2 className="text-gray-900 text-2xl font-bold text-center mb-2">
-          Pramukh Cup 2025
-        </h2>
+        {!isSmallScreen && (
+          <h2 className="text-gray-900 text-2xl font-bold text-center mb-2">
+            Pramukh Cup 2025
+          </h2>
+        )}
 
         {/* Video Container */}
         <div className="relative overflow-hidden rounded-xl border-2 border-gray-300">
@@ -49,11 +53,6 @@ const LiveScoreWithVideo = () => {
               allowFullScreen
             ></iframe>
           </div>
-        </div>
-
-        {/* Live Score Section */}
-        <div className="mt-2 bg-gray-200 p-4 rounded-lg text-gray-900 text-center shadow-md">
-          <h3 className="text-lg font-semibold">Live Score</h3>
         </div>
       </div>
     </div>
