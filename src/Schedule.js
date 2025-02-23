@@ -24,6 +24,7 @@ export default function Schedule() {
   const [selectedMatch, setSelectedMatch] = useState(null);
   const [selectedDateFilter, setSelectedDateFilter] = useState("");
   const [isSearchTriggered, setIsSearchTriggered] = useState(false);
+  // eslint-disable-next-line
   const [isLoading, setIsLoading] = useState(true);
   const searchInputRef = useRef(null);
 

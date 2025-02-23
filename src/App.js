@@ -9,6 +9,7 @@ import Sponsors from "./Sponsors";
 import Schedule from "./Schedule";
 import Soon from "./Soon";
 import Live from "./LiveScore";
+// eslint-disable-next-line
 import liveStreamSC from "./liveStreamSC";
 import { Routes, Route, useLocation } from "react-router-dom";
 import gif from "../src/images/imp.gif";
