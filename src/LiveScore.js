@@ -1,8 +1,26 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 
 const LiveScoreWithVideo = () => {
+  const [isPortrait, setIsPortrait] = useState(window.innerHeight > window.innerWidth);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsPortrait(window.innerHeight > window.innerWidth);
+    };
+
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
   return (
     <div className="flex justify-center items-center w-full bg-gray-100 p-0 m-0">
+      {/* Show overlay if in portrait mode */}
+      {isPortrait && (
+        <div className="fixed top-0 left-0 w-full h-full bg-black bg-opacity-90 flex flex-col justify-center items-center text-white z-50">
+          <p className="text-2xl font-bold">Please rotate your device to landscape mode</p>
+        </div>
+      )}
+
       <div className="w-full max-w-4xl bg-white rounded-2xl shadow-xl p-6 border border-gray-300">
         <h2 className="text-gray-900 text-2xl font-bold text-center mb-2">
           Pramukh Cup 2025
@@ -10,37 +28,32 @@ const LiveScoreWithVideo = () => {
 
         {/* Video Container */}
         <div className="relative overflow-hidden rounded-xl border-2 border-gray-300">
-  
-  <div className="absolute top-0 left-0 w-full h-full bg-transparent z-10"></div>
+          <div className="absolute top-0 left-0 w-full h-full bg-transparent z-10"></div>
 
-  {/* First Full-Sized iFrame */}
-  <iframe
-    className="w-full h-64 sm:h-96"
-    src="https://www.youtube.com/embed/EfKocxNVTNA?autoplay=1&mute=1"
-    title="Live Stream"
-    allow="autoplay; encrypted-media"
-    allowFullScreen
-  ></iframe>
+          {/* First Full-Sized iFrame */}
+          <iframe
+            className="w-full h-64 sm:h-96"
+            src="https://www.youtube.com/embed/EfKocxNVTNA?autoplay=1&mute=1"
+            title="Live Stream"
+            allow="autoplay; encrypted-media"
+            allowFullScreen
+          ></iframe>
 
-  {/* Wrapper to Crop the Second iFrame */}
-  <div className="relative w-full h-16 sm:h-20 overflow-hidden">
-    <iframe
-      className="absolute top-0 left-0 w-full h-96" 
-      src="https://www.youtube.com/embed/o0UecTMiUWs?autoplay=1&mute=1"
-      title="Live Stream"
-      allow="autoplay; encrypted-media"
-      allowFullScreen
-    ></iframe>
-  </div>
+          {/* Wrapper to Crop the Second iFrame */}
+          <div className="relative w-full h-16 sm:h-20 overflow-hidden">
+            <iframe
+              className="absolute top-0 left-0 w-full h-96"
+              src="https://www.youtube.com/embed/o0UecTMiUWs?autoplay=1&mute=1"
+              title="Live Stream"
+              allow="autoplay; encrypted-media"
+              allowFullScreen
+            ></iframe>
+          </div>
+        </div>
 
-</div>
-
-
-
-        {/* Live Score Section - Reduced extra margin */}
+        {/* Live Score Section */}
         <div className="mt-2 bg-gray-200 p-4 rounded-lg text-gray-900 text-center shadow-md">
           <h3 className="text-lg font-semibold">Live Score</h3>
-          
         </div>
       </div>
     </div>
