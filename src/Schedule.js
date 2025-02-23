@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef, Suspense } from "react";
 // eslint-disable-next-line
 import { AiOutlineSearch, AiOutlineArrowLeft } from "react-icons/ai";
 import { fetchTeamProfiles, fetchScheduleData } from "./firebase";
-import Live from "./LiveScore"
+
 
 import Avtar from "./images/Avtar.jpg";
 import "./Components/Loader.css";
@@ -235,23 +235,8 @@ export default function Schedule() {
                   Match on <strong> {match.matchDate} ({match.matchTime}) </strong>
                 </p>
               </div>
-              {activeTab === "Live" && (
-                <div className="w-full mx-0 px-0">
-                  {isLoading ? (
-                    <div className="flex flex-col items-center justify-center space-y-4">
-                      {/* Simple Tailwind-based Loader */}
-                      <div class="lds-default mt-32">
-                        <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
-                      </div>
-                      <p className="text-xl text-gray-600">Live Score will appear here</p>
-                    </div>
-                  ) : (
-                    <div className="mt-16">
-                      <Live />
-                    </div>
-                  )}
-                </div>
-              )}
+             
+              
             </div>
             );
           })
