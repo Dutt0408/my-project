@@ -23,6 +23,15 @@ src="https://www.youtube.com/embed/EfKocxNVTNA?autoplay=1&mute=1"
 ></iframe>
 
 
+<iframe
+  className="w-full h-64 sm:h-96"
+src="https://www.youtube.com/embed/o0UecTMiUWs?autoplay=1&mute=1"
+
+  title="Live Stream"
+  allow="autoplay; encrypted-media"
+  allowFullScreen
+></iframe>
+
         </div>
 
         {/* Live Score Section - Reduced extra margin */}
