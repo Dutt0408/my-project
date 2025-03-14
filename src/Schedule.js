@@ -9,7 +9,7 @@ import "./Schedule.css";
 import { AiOutlineFilePdf } from "react-icons/ai";
 
 const DEFAULT_PROFILE_IMAGE = Avtar;
-const DATE_FILTER_OPTIONS = ["14th Feb", "15th Feb", "16th Feb", "17th Feb"];
+const DATE_FILTER_OPTIONS = ["15th March", "16th March"];
 const COURTS = [1, 2, 3, 4, 5, 6]; // List of courts
 
 export default function Schedule() {
