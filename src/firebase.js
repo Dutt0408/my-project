@@ -20,7 +20,7 @@ const database = getDatabase(app);
 
 // Fetch Team Profiles Data
 export const fetchTeamProfiles = async () => {
-  const dbRef = ref(database, "Teamprofile");
+  const dbRef = ref(database, "YogiCupTeamprofile");
   const snapshot = await get(dbRef);
   if (snapshot.exists()) {
     return snapshot.val();
@@ -32,7 +32,7 @@ export const fetchTeamProfiles = async () => {
 
 // Fetch Schedule Data
 export const fetchScheduleData = async () => {
-  const dbRef = ref(database, "Schedule");
+  const dbRef = ref(database, "YogiCupSchedule");
   const snapshot = await get(dbRef);
   if (snapshot.exists()) {
     return snapshot.val();

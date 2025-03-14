@@ -152,7 +152,7 @@ export default function PointTable() {
     <>
     <div className="relative flex justify-center items-center m-0 p-0">
         <img
-          src="https://swamishreeji.com/images/TitleImage"
+          src="https://swamishreeji.com/YogiCupImages/YogiCupTitledesktop.jpg"
           alt="Title"
           className="w-full h-auto object-cover"
         />

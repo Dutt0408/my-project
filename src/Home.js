@@ -1,4 +1,6 @@
 import React, { useEffect, useState, useRef } from 'react';
+import MobileImage from "./images/Yogicup/Mobile.svg"
+import DesktopImage from "./images/Yogicup/Desktop.svg"
 
 function FadeInOnScroll({ children }) {
   const ref = useRef(null);
@@ -43,7 +45,7 @@ function Home() {
       <FadeInOnScroll>
         <img
           className="w-full h-auto object-cover mb-6 md:hidden"
-          src="https://swamishreeji.com/images/HomeMobileView"
+          src={MobileImage}
           alt="Homepage Mobile"
           loading='lazy'
         />
@@ -53,7 +55,7 @@ function Home() {
       <FadeInOnScroll>
         <img
           className="w-full h-auto object-cover mb-6 hidden md:block"
-          src="https://swamishreeji.com/images//HomeDesktopView"
+          src={DesktopImage}
           alt="Homepage Desktop"
         />
       </FadeInOnScroll>
@@ -61,7 +63,7 @@ function Home() {
       {/* Header */}
       <FadeInOnScroll>
         <h1 className="text-red-600 text-xl md:text-2xl font-bold mb-4 text-center">
-          Welcome to the annual <strong>BAPS Charities Pramukh Cup 2025 Cricket Tournament</strong>
+          Jai Swaminarayan! Welcome to the <strong> Canada Yogi Cup 2025 Web App. </strong>
         </h1>
       </FadeInOnScroll>
 
@@ -69,51 +71,34 @@ function Home() {
       <FadeInOnScroll>
         <div className="text-center mb-6">
           <p className="text-gray-900 text-base md:text-lg">
-            The tournament will be held on: <strong> February 14th to 17th </strong>
-          </p> <br/>
-          <p className="text-gray-900 text-base md:text-lg">
-            <strong>Venue:</strong> BAPS Shri Swaminarayan Mandir, Toronto
-          </p>
+          We will be using this app to share important information and details of the event and keep track of our tournament. <br></br>
+          This Yogi Cup spans a couple of days, and it will help us build long-lasting memories and new friendships! 
+          </p> 
         </div>
       </FadeInOnScroll>
 
       {/* Section 1 */}
       <FadeInOnScroll>
         <div className="max-w-2xl text-center text-gray-800 text-sm md:text-base leading-relaxed mb-4">
-          This tournament strives to engage youth in a spirit of equity, diversity, and inclusion while promoting an active lifestyle. It also brings volunteers together for their selfless service to the community.
+        Yogi Cup will teach us the key values of Samp, Suradhbhav and Ekta as per the wish of Param Pujya Mahant Swami Maharaj!  
         </div>
       </FadeInOnScroll>
 
       {/* Section 2 */}
       <FadeInOnScroll>
         <div className="max-w-2xl text-center text-gray-800 text-sm md:text-base leading-relaxed mb-4">
-          BAPS Charities is a non-profit international charity organization committed to sincerely serving the world by caring for individuals, families, and communities. BAPS Charities engages volunteers in the service of local communities across five areas: health, education, humanitarian aid, community empowerment, and environmental initiatives.
+        About 160 kishores, yuvaks, and karyakars will be coming to our Yogi Cup this year to build this Samp, Suhradbhav, and Ekta!  
         </div>
       </FadeInOnScroll>
 
       {/* Section 3 */}
       <FadeInOnScroll>
-        <div className="max-w-2xl text-center text-gray-800 text-sm md:text-base leading-relaxed mb-6">
-          Throughout the year, BAPS Charities in Canada hosts health fairs, walkathons, health education seminars, disaster relief operations, blood donation drives, and much more. For additional information on BAPS Charities, please visit{' '}
-          <a
-            href="https://www.bapscharities.org/canada/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-blue-500 underline"
-          >
-            www.bapscharities.org/canada/
-          </a>.
+        <div className="max-w-2xl text-center text-gray-800 text-sm md:text-base leading-relaxed mb-4">
+        Please take a look at the app to learn more about our tournament and be sure to share this app with your friends who are also coming to Yogi Cup so that they too can stay updated with the latest information!
         </div>
       </FadeInOnScroll>
 
-      {/* Sponsor Logo */}
-      <FadeInOnScroll>
-        <img
-          className="max-w-xs md:max-w-sm h-auto mt-8 mb-8"
-          src="https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/images%2FBAPSch?alt=media&token=303c296c-996f-49ca-b1c1-a4ebe0c5f2c7"
-          alt="BAPS Charities"
-        />
-      </FadeInOnScroll>
+      
     </div>
   );
 }

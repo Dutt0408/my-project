@@ -1,8 +1,7 @@
-import React, { useState, useEffect, useRef, Suspense } from "react";
+import React, { useState, useEffect, useRef } from "react";
 // eslint-disable-next-line
 import { AiOutlineSearch, AiOutlineArrowLeft } from "react-icons/ai";
 import { fetchTeamProfiles, fetchScheduleData } from "./firebase";
-import Live from "./LiveScore"
 
 import Avtar from "./images/Avtar.jpg";
 import "./Components/Loader.css";
@@ -11,9 +10,7 @@ import { AiOutlineFilePdf } from "react-icons/ai";
 
 const DEFAULT_PROFILE_IMAGE = Avtar;
 const DATE_FILTER_OPTIONS = ["14th Feb", "15th Feb", "16th Feb", "17th Feb"];
-
-// Dynamically import the Scorecard component
-const Scorecard = React.lazy(() => import("./Live"));
+const COURTS = [1, 2, 3, 4, 5, 6]; // List of courts
 
 export default function Schedule() {
   const [data, setData] = useState([]); // For schedule data
@@ -24,17 +21,11 @@ export default function Schedule() {
   const [selectedMatch, setSelectedMatch] = useState(null);
   const [selectedDateFilter, setSelectedDateFilter] = useState("");
   const [isSearchTriggered, setIsSearchTriggered] = useState(false);
-  const [isLoading, setIsLoading] = useState(true);
+  const [selectedCourt, setSelectedCourt] = useState(""); // For court filtering
+  const [currentPage, setCurrentPage] = useState(1);
+  const itemsPerPage = 5;
   const searchInputRef = useRef(null);
-
-
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setIsLoading(false);
-    }, 4000); // 4 seconds delay
-
-    return () => clearTimeout(timer); // Clean up the timer when the component unmounts
-  }, []);
+  const courtsContainerRef = useRef(null); // Ref for the scrollable courts container
 
   // Fetch all data from Firebase on component mount
   useEffect(() => {
@@ -69,7 +60,7 @@ export default function Schedule() {
     };
   }, []);
 
-  // Filter matches by status, search query, and date filter (except for Live tab)
+  // Filter matches by status, search query, date filter, and court
   const filterMatches = () => {
     return data.filter(
       (match) =>
@@ -78,16 +69,13 @@ export default function Schedule() {
           ? match.team1.toLowerCase().includes(searchQuery.toLowerCase()) ||
             match.team2.toLowerCase().includes(searchQuery.toLowerCase())
           : true) &&
-        (activeTab === "Live" || !selectedDateFilter || match.matchDate === selectedDateFilter)
+        (!selectedDateFilter || match.matchDate === selectedDateFilter) &&
+        (!selectedCourt || match.location.includes(selectedCourt)) // Filter by court
     );
   };
 
-  // Handle card click to show player details or scorecard for live matches
+  // Handle card click to show player details or open PDF for past matches
   const handleCardClick = (match) => {
-    if (activeTab === "Live") {
-      return; // Do nothing for Live tab
-    }
-  
     if (match.matchstatus === "Past" && match.result) {
       window.open(match.result, "_blank"); // Open the PDF in a new tab
     } else {
@@ -95,7 +83,7 @@ export default function Schedule() {
     }
   };
 
-  // Close player details modal or scorecard
+  // Close player details modal
   const closeModal = () => {
     setSelectedMatch(null);
   };
@@ -112,11 +100,27 @@ export default function Schedule() {
     setIsSearchTriggered(false); // Reset search trigger
   };
 
+  // Handle court click
+  const handleCourtClick = (court) => {
+    setSelectedCourt(court);
+  };
+// eslint-disable-next-line 
+  const paginatedMatches = filterMatches().slice(
+    (currentPage - 1) * itemsPerPage,
+    currentPage * itemsPerPage
+  );
+// eslint-disable-next-line 
+  const totalPages = Math.ceil(filterMatches().length / itemsPerPage);
+// eslint-disable-next-line 
+  const handlePageChange = (page) => {
+    setCurrentPage(page);
+  };
+
   return (
     <div className={`relative ${activeTab !== "Live" ? "p-4 max-w-4xl mx-auto" : ""}`}>
       {/* Tab Selection */}
       <div className="flex justify-center space-x-4 mb-4">
-        {["Past", "Live", "Upcoming"].map((tab) => (
+        {["Past", "Upcoming"].map((tab) => (
           <button
             key={tab}
             className={`px-6 py-2 font-semibold text-sm rounded-full border-2 transition-all shadow-md ${
@@ -127,6 +131,7 @@ export default function Schedule() {
             onClick={() => {
               setActiveTab(tab);
               setSelectedDateFilter("");
+              setSelectedCourt(""); // Reset court filter when switching tabs
             }}
           >
             {tab}
@@ -136,22 +141,19 @@ export default function Schedule() {
 
       {/* Date Filter and Search Query Display */}
       <div className="mb-4 flex items-center space-x-2">
-        {/* Date Filter (except for Live tab) */}
-        {activeTab !== "Live" && (
-          <select
-            value={selectedDateFilter}
-            onChange={(e) => setSelectedDateFilter(e.target.value)}
-            className="p-2 border border-gray-300 rounded-md focus:outline-none"
-          >
-            <option value=""> All </option>
-            {DATE_FILTER_OPTIONS.map((date) => (
-              <option key={date} value={date}>
-                {date}
-              </option>
-            ))}
-          </select>
-        )}
-
+        {/* Date Filter */}
+        <select
+          value={selectedDateFilter}
+          onChange={(e) => setSelectedDateFilter(e.target.value)}
+          className="p-2 border border-gray-300 rounded-md focus:outline-none"
+        >
+          <option value=""> All </option>
+          {DATE_FILTER_OPTIONS.map((date) => (
+            <option key={date} value={date}>
+              {date}
+            </option>
+          ))}
+        </select>
 
         {/* Display Search Query with Clear Button */}
         {isSearchTriggered && searchQuery && (
@@ -167,14 +169,32 @@ export default function Schedule() {
         )}
       </div>
 
-      {/* Display Matches Based on Active Tab and Search */}
+      {/* Scrollable Courts */}
+      <div className="mb-4 overflow-x-auto whitespace-nowrap scroll-smooth" ref={courtsContainerRef}>
+        <div className="inline-flex space-x-2">
+          {COURTS.map((court) => (
+            <button
+              key={court}
+              className={`px-3 py-1.5 font-semibold text-sm rounded-full border-2 transition-all shadow-md ${
+                selectedCourt === `Court ${court}`
+                  ? "bg-blue-900 text-white border-blue-600"
+                  : "bg-white text-blue-800 border-blue-600 hover:bg-blue-100"
+              }`}
+              onClick={() => handleCourtClick(`Court ${court}`)}
+            >
+              Court {court}
+            </button>
+          ))}
+        </div>
+      </div>
+
+      {/* Display Matches Based on Active Tab, Search, and Court */}
       <div className="space-y-4">
         {filterMatches().length === 0 ? (
           <p className="text-gray-500 text-center">No {activeTab.toLowerCase()} matches</p>
         ) : (
-          filterMatches().map((match) => {
-            return (
-              <div
+          filterMatches().map((match) => (
+            <div
               key={match.id}
               className={`bg-white p-4 rounded-lg shadow-md border relative ${
                 activeTab !== "Live" ? "cursor-pointer hover:shadow-lg" : ""
@@ -187,15 +207,13 @@ export default function Schedule() {
                   className={`px-2 py-1 text-xs rounded-full uppercase ${
                     match.matchstatus === "Upcoming"
                       ? "bg-orange-500 text-white"
-                      : match.matchstatus === "Live"
-                      ? "bg-red-500 text-white animate-pulse"
                       : "bg-green-500 text-white"
                   }`}
                 >
                   {match.matchstatus}
                 </span>
               </div>
-            
+
               {match.matchstatus === "Past" && match.result && (
                 <div className="absolute bottom-2 right-2 flex space-x-2">
                   <button
@@ -209,7 +227,7 @@ export default function Schedule() {
                   </button>
                 </div>
               )}
-            
+
               <p className="text-gray-700 text-sm">{match.location}</p>
               <h2 className="text-[1.1rem] font-bold text-center text-blue-900 mt-2 flex items-center justify-center">
                 {/* Team 1 Profile Image */}
@@ -228,37 +246,16 @@ export default function Schedule() {
                   className="w-8 h-8 rounded-full ml-2"
                 />
               </h2>
-            
+
               <div className="mt-3 text-center">
                 <p className="text-gray-500">
                   <br />
                   Match on <strong> {match.matchDate} ({match.matchTime}) </strong>
                 </p>
               </div>
-              {activeTab === "Live" && (
-                <div className="w-full mx-0 px-0">
-                  {isLoading ? (
-                    <div className="flex flex-col items-center justify-center space-y-4">
-                      {/* Simple Tailwind-based Loader */}
-                      <div class="lds-default mt-32">
-                        <div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div>
-                      </div>
-                      <p className="text-xl text-gray-600">Live Score will appear here</p>
-                    </div>
-                  ) : (
-                    <div className="mt-16">
-                      <Live />
-                    </div>
-                  )}
-                </div>
-              )}
-              
             </div>
-            );
-          })
+          ))
         )}
-
-       
       </div>
 
       {/* Sticky Search Button */}
@@ -295,7 +292,7 @@ export default function Schedule() {
         </div>
       )}
 
-      {/* Player Details Modal or Scorecard for Live Matches */}
+      {/* Player Details Modal */}
       {selectedMatch && (
         <div className="fixed inset-0 bg-black bg-opacity-50 z-50 flex justify-center items-center p-4 overflow-y-auto">
           <div className="bg-white rounded-lg w-full max-w-3xl shadow-lg h-full md:h-auto overflow-y-auto">
@@ -322,52 +319,44 @@ export default function Schedule() {
 
             {/* Modal Content */}
             <div className="p-6">
-              {selectedMatch.matchstatus === "Live" ? (
-                <Suspense fallback={<div>Loading Scorecard...</div>}>
-                  <Scorecard matchData={selectedMatch} />
-                </Suspense>
-              ) : (
-                <>
-                  <h2 className="text-2xl font-bold mb-6 text-center">
-                    Players in {selectedMatch.team1} vs {selectedMatch.team2}
-                  </h2>
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    {/* Team 1 Players */}
-                    <div className="bg-gray-50 p-4 rounded-lg">
-                      <h3 className="font-semibold text-lg mb-4 text-blue-900">{selectedMatch.team1}</h3>
-                      <div className="space-y-3">
-                        {(teamProfiles[selectedMatch.team1]?.players || []).map((player, index) => (
-                          <div key={index} className="flex items-center bg-white p-3 rounded-lg shadow-sm">
-                            <img
-                              src={player.image || DEFAULT_PROFILE_IMAGE}
-                              alt={player.name}
-                              className="w-10 h-10 rounded-full mr-3 border-2 border-blue-900"
-                            />
-                            <span className="text-gray-800">{player.name}</span>
-                          </div>
-                        ))}
+              <h2 className="text-2xl font-bold mb-6 text-center">
+                Players in {selectedMatch.team1} vs {selectedMatch.team2}
+              </h2>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                {/* Team 1 Players */}
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h3 className="font-semibold text-lg mb-4 text-blue-900">{selectedMatch.team1}</h3>
+                  <div className="space-y-3">
+                    {(teamProfiles[selectedMatch.team1]?.players || []).map((player, index) => (
+                      <div key={index} className="flex items-center bg-white p-3 rounded-lg shadow-sm">
+                        <img
+                          src={player.image || DEFAULT_PROFILE_IMAGE}
+                          alt={player.name}
+                          className="w-10 h-10 rounded-full mr-3 border-2 border-blue-900"
+                        />
+                        <span className="text-gray-800">{player.name}</span>
                       </div>
-                    </div>
-
-                    {/* Team 2 Players */}
-                    <div className="bg-gray-50 p-4 rounded-lg">
-                      <h3 className="font-semibold text-lg mb-4 text-red-900">{selectedMatch.team2}</h3>
-                      <div className="space-y-3">
-                        {(teamProfiles[selectedMatch.team2]?.players || []).map((player, index) => (
-                          <div key={index} className="flex items-center bg-white p-3 rounded-lg shadow-sm">
-                            <img
-                              src={player.image || DEFAULT_PROFILE_IMAGE}
-                              alt={player.name}
-                              className="w-10 h-10 rounded-full mr-3 border-2 border-red-900"
-                            />
-                            <span className="text-gray-800">{player.name}</span>
-                          </div>
-                        ))}
-                      </div>
-                    </div>
+                    ))}
                   </div>
-                </>
-              )}
+                </div>
+
+                {/* Team 2 Players */}
+                <div className="bg-gray-50 p-4 rounded-lg">
+                  <h3 className="font-semibold text-lg mb-4 text-red-900">{selectedMatch.team2}</h3>
+                  <div className="space-y-3">
+                    {(teamProfiles[selectedMatch.team2]?.players || []).map((player, index) => (
+                      <div key={index} className="flex items-center bg-white p-3 rounded-lg shadow-sm">
+                        <img
+                          src={player.image || DEFAULT_PROFILE_IMAGE}
+                          alt={player.name}
+                          className="w-10 h-10 rounded-full mr-3 border-2 border-red-900"
+                        />
+                        <span className="text-gray-800">{player.name}</span>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>

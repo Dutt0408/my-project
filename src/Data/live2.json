@@ -1,322 +1,4137 @@
-[
-    
-
-    {
-      
-      "1": [
-
-         {
-     "Pradeep's": {
-       "profileImage": "https://swamishreeji.com/images/pradeep_captain",
-       "players": [
-         {
-           "name": "Pradeep",
-           "image": "https://swamishreeji.com/images/pradeep_captain",
-           "batting": {
-        "runs": 42,
-        "balls": 20,
-        "fours": 0,
-        "sixes": 0,
-        "dismissal": "c Harsh b Raj",
-        "isPlaying": true 
+{
+  "Live": {
+    "Main": {
+      "Jaimin's": {
+        "Wickets": [
+          {
+            "Overs": "0.0",
+            "Total": "0",
+            "Wicket": "0"
+          }
+        ],
+        "players": [
+          {
+            "batting": {
+              "balls": 0,
+              "dismissal": "",
+              "fours": 0,
+              "isPlaying": false,
+              "onStrike": false,
+              "runs": 0,
+              "sixes": 0
+            },
+            "bowling": {
+              "isBowling": false,
+              "over": 0,
+              "runs": 0,
+              "wickets": 0
+            },
+            "image": "https://swamishreeji.com/images/jaimin_captain",
+            "name": "Jaimin"
+          },
+          {
+            "batting": {
+              "balls": 0,
+              "dismissal": "",
+              "fours": 0,
+              "isPlaying": false,
+              "onStrike": false,
+              "runs": 0,
+              "sixes": 0
+            },
+            "bowling": {
+              "isBowling": false,
+              "over": 0,
+              "runs": 0,
+              "wickets": 0
+            },
+            "image": "https://swamishreeji.com/images/siddhartj_jaimin",
+            "name": "Siddharth"
+          },
+          {
+            "batting": {
+              "balls": 0,
+              "dismissal": "",
+              "fours": 0,
+              "isPlaying": false,
+              "onStrike": false,
+              "runs": 0,
+              "sixes": 0
+            },
+            "bowling": {
+              "isBowling": false,
+              "over": 0,
+              "runs": 0,
+              "wickets": 0
+            },
+            "image": "https://swamishreeji.com/images/akshar_jaimin",
+            "name": "Akshar"
+          },
+          {
+            "batting": {
+              "balls": 0,
+              "dismissal": "",
+              "fours": 0,
+              "isPlaying": false,
+              "onStrike": false,
+              "runs": 0,
+              "sixes": 0
+            },
+            "bowling": {
+              "isBowling": false,
+              "over": 0,
+              "runs": 0,
+              "wickets": 0
+            },
+            "image": "https://swamishreeji.com/images/paresh_jaimin",
+            "name": "Paresh"
+          },
+          {
+            "batting": {
+              "balls": 0,
+              "dismissal": "",
+              "fours": 0,
+              "isPlaying": false,
+              "onStrike": false,
+              "runs": 0,
+              "sixes": 0
+            },
+            "bowling": {
+              "isBowling": false,
+              "over": 0,
+              "runs": 0,
+              "wickets": 0
+            },
+            "image": "https://swamishreeji.com/images/harsh_jaimin",
+            "name": "Harsh"
+          },
+          {
+            "batting": {
+              "balls": 0,
+              "dismissal": "",
+              "fours": 0,
+              "isPlaying": false,
+              "onStrike": false,
+              "runs": 0,
+              "sixes": 0
+            },
+            "bowling": {
+              "isBowling": false,
+              "over": 0,
+              "runs": 0,
+              "wickets": 0
+            },
+            "image": "https://swamishreeji.com/images/vasant_jaimin",
+            "name": "Vasant"
+          },
+          {
+            "batting": {
+              "balls": 0,
+              "dismissal": "",
+              "fours": 0,
+              "isPlaying": false,
+              "onStrike": false,
+              "runs": 0,
+              "sixes": 0
+            },
+            "bowling": {
+              "isBowling": false,
+              "over": 0,
+              "runs": 0,
+              "wickets": 0
+            },
+            "image": "https://swamishreeji.com/images/piyush_jaimin",
+            "name": "Piyush"
+          },
+          {
+            "batting": {
+              "balls": 0,
+              "dismissal": "",
+              "fours": 0,
+              "isPlaying": false,
+              "onStrike": false,
+              "runs": 0,
+              "sixes": 0
+            },
+            "bowling": {
+              "isBowling": false,
+              "over": 0,
+              "runs": 0,
+              "wickets": 0
+            },
+            "image": "https://swamishreeji.com/images/rushi_jaimin",
+            "name": "Rushi"
+          }
+        ],
+        "profileImage": "https://swamishreeji.com/images/jaimin_captain"
       },
-      "bowling": {
-        "overs": 1,
-        "runs": 46,
-        "wickets": 3
+      "Parth's": {
+        "Wickets": [
+          {
+            "Overs": "0.0",
+            "Total": "0",
+            "Wicket": "0"
+          }
+        ],
+        "players": [
+          {
+            "batting": {
+              "balls": 0,
+              "dismissal": "",
+              "fours": 0,
+              "isPlaying": false,
+              "onStrike": false,
+              "runs": 0,
+              "sixes": 0
+            },
+            "bowling": {
+              "isBowling": false,
+              "over": 0,
+              "runs": 0,
+              "wickets": 0
+            },
+            "image": "https://swamishreeji.com/images/parth_captain",
+            "name": "Parth"
+          },
+          {
+            "batting": {
+              "balls": 0,
+              "dismissal": "",
+              "fours": 0,
+              "isPlaying": false,
+              "onStrike": false,
+              "runs": 0,
+              "sixes": 0
+            },
+            "bowling": {
+              "isBowling": false,
+              "over": 0,
+              "runs": 0,
+              "wickets": 0
+            },
+            "image": "https://swamishreeji.com/images/akshar_parth",
+            "name": "Aksharkumar"
+          },
+          {
+            "batting": {
+              "balls": 0,
+              "dismissal": "",
+              "fours": 0,
+              "isPlaying": false,
+              "onStrike": false,
+              "runs": 0,
+              "sixes": 0
+            },
+            "bowling": {
+              "isBowling": false,
+              "over": 0,
+              "runs": 0,
+              "wickets": 0
+            },
+            "image": "https://swamishreeji.com/images/yogesh_parth",
+            "name": "Yogesh"
+          },
+          {
+            "batting": {
+              "balls": 0,
+              "dismissal": "",
+              "fours": 0,
+              "isPlaying": false,
+              "onStrike": false,
+              "runs": 0,
+              "sixes": 0
+            },
+            "bowling": {
+              "isBowling": false,
+              "over": 0,
+              "runs": 0,
+              "wickets": 0
+            },
+            "image": "https://swamishreeji.com/images/biren_parth",
+            "name": "Biren"
+          },
+          {
+            "batting": {
+              "balls": 0,
+              "dismissal": "",
+              "fours": 0,
+              "isPlaying": false,
+              "onStrike": false,
+              "runs": 0,
+              "sixes": 0
+            },
+            "bowling": {
+              "isBowling": false,
+              "over": 0,
+              "runs": 0,
+              "wickets": 0
+            },
+            "image": "https://swamishreeji.com/images/hiren_parth",
+            "name": "Hiren"
+          },
+          {
+            "batting": {
+              "balls": 0,
+              "dismissal": "",
+              "fours": 0,
+              "isPlaying": false,
+              "onStrike": false,
+              "runs": 0,
+              "sixes": 0
+            },
+            "bowling": {
+              "isBowling": false,
+              "over": 0,
+              "runs": 0,
+              "wickets": 0
+            },
+            "image": "https://swamishreeji.com/images/gunj_parth2.png",
+            "name": "GunjanKumar"
+          },
+          {
+            "batting": {
+              "balls": 0,
+              "dismissal": "",
+              "fours": 0,
+              "isPlaying": false,
+              "onStrike": false,
+              "runs": 0,
+              "sixes": 0
+            },
+            "bowling": {
+              "isBowling": false,
+              "over": 0,
+              "runs": 0,
+              "wickets": 0
+            },
+            "image": "https://swamishreeji.com/images/jay_parth",
+            "name": "Jay"
+          },
+          {
+            "batting": {
+              "balls": 0,
+              "dismissal": "",
+              "fours": 0,
+              "isPlaying": false,
+              "onStrike": false,
+              "runs": 0,
+              "sixes": 0
+            },
+            "bowling": {
+              "isBowling": false,
+              "over": 0,
+              "runs": 0,
+              "wickets": 0
+            },
+            "image": "https://swamishreeji.com/images/parhav_parth",
+            "name": "Parthav"
+          }
+        ],
+        "profileImage": "https://swamishreeji.com/images/parth_captain"
       }
-         },
-         {
-           "name": "Amrish ",
-           "image": "https://swamishreeji.com/images/amrish_pradeep",
-           "batting": {
-            "runs": 0,
-            "balls": 0,
-            "fours": 0,
-            "sixes": 0,
-        "dismissal": "c Harsh b Raj",
-        "isPlaying": false 
-          },
-          "bowling": {
-            "overs": 0,
-            "runs": 0,
-            "wickets": 0
-          }
-         },
-         {
-           "name": "Varun",
-           "image": "https://swamishreeji.com/images/varun_pradeep",
-           "batting": {
-            "runs": 25,
-            "balls": 10,
-            "fours": 3,
-            "sixes": 1,
-        "dismissal": "",
-        "isPlaying": true 
-          },
-          "bowling": {
-            "overs": 0,
-            "runs": 0,
-            "wickets": 0
-          }
-         },
-         {
-           "name": "Hariraj",
-           "image": "https://swamishreeji.com/images/hariraj_pradeep",
-           "batting": {
-            "runs": 0,
-            "balls": 0,
-            "fours": 0,
-            "sixes": 0,
-        "dismissal": "b Rahul",
-        "isPlaying": false 
-          },
-          "bowling": {
-            "overs": 0,
-            "runs": 0,
-            "wickets": 0
-          }
-         },
-         {
-           "name": "Umeshkumar ",
-           "image": "https://swamishreeji.com/images/umesh_pradeep",
-           "batting": {
-            "runs": 0,
-            "balls": 0,
-            "fours": 0,
-            "sixes": 0,
-        "dismissal": "b Bhavesh",
-        "isPlaying": false 
-          },
-          "bowling": {
-            "overs": 0,
-            "runs": 0,
-            "wickets": 0
-          }
-         },
-         {
-           "name": "Rahul",
-           "image": "https://swamishreeji.com/images/rahul_pradeep",
-           "batting": {
-            "runs": 0,
-            "balls": 0,
-            "fours": 0,
-            "sixes": 0,
-        "dismissal": "st Raj b Bhavesh",
-        "isPlaying": false 
-          },
-          "bowling": {
-            "overs": 0,
-            "runs": 0,
-            "wickets": 0
-          }
-         },
-         {
-           "name": "Parth",
-           "image": "https://swamishreeji.com/images/parth_pradeep",
-           "batting": {
-            "runs": 0,
-            "balls": 0,
-            "fours": 0,
-            "sixes": 0,
-        "dismissal": "Run Out Pradeep",
-        "isPlaying": false 
-          },
-          "bowling": {
-            "overs": 0,
-            "runs": 0,
-            "wickets": 0
-          }
-         },
-         {
-           "name": "Prakash",
-           "image": "https://swamishreeji.com/images/prakash_pradeep",
-           "batting": {
-            "runs": 0,
-            "balls": 0,
-            "fours": 0,
-            "sixes": 0,
-        "dismissal": "c Harsh b Raj",
-        "isPlaying": false 
-          },
-          "bowling": {
-            "overs": 0,
-            "runs": 0,
-            "wickets": 0
-          }
-         }
-       ],
-       "Wrickets":[
-        {
-            "Team1Wricket": "02",
-            "Team1Overs":"10.2",
-            "Team2Wricket": "02",
-            "Team2Overs":"10.2"
-            
-          }
-
-       ]
-       
-     },
-     "Harsh's": {
-       "profileImage": "https://swamishreeji.com/images/harsh_captain?",
-       "players": [
-         {
-           "name": "Harsh",
-           "image": "https://swamishreeji.com/images/harsh_captain?",
-           "batting": {
-            "runs": 0,
-            "balls": 0,
-            "fours": 0,
-            "sixes": 0,
-        "dismissal": "c Harsh b Raj",
-        "isPlaying": false 
-          },
-          "bowling": {
-            "overs": 0,
-            "runs": 0,
-            "wickets": 0
-          }
-         },
-         {
-           "name": "Bhavesh",
-           "image": "https://swamishreeji.com/images/bhavesh_harsh?",
-           "batting": {
-            "runs": 0,
-            "balls": 0,
-            "fours": 0,
-            "sixes": 0,
-        "dismissal": "c Harsh b Raj",
-        "isPlaying": false 
-          },
-          "bowling": {
-            "overs": 0,
-            "runs": 0,
-            "wickets": 0
-          }
-         },
-         {
-           "name": "Chirag",
-           "image": "https://swamishreeji.com/images/chirag_harsh?",
-           "batting": {
-            "runs": 0,
-            "balls": 0,
-            "fours": 0,
-            "sixes": 0,
-        "dismissal": "c Harsh b Raj",
-        "isPlaying": false 
-          },
-          "bowling": {
-            "overs": 0,
-            "runs": 0,
-            "wickets": 0
-          }
-         },
-         {
-           "name": "Krushit",
-           "image": "https://swamishreeji.com/images/krushit_harsh?",
-           "batting": {
-            "runs": 0,
-            "balls": 0,
-            "fours": 0,
-            "sixes": 0,
-        "dismissal": "c Harsh b Raj",
-        "isPlaying": false 
-          },
-          "bowling": {
-            "overs": 0,
-            "runs": 0,
-            "wickets": 0
-          }
-         },
-         {
-           "name": "Harush",
-           "image": "https://swamishreeji.com/images/harush_harsh?",
-           "batting": {
-            "runs": 0,
-            "balls": 0,
-            "fours": 0,
-            "sixes": 0,
-        "dismissal": "c Harsh b Raj",
-        "isPlaying": true 
-          },
-          "bowling": {
-            "overs": 0,
-            "runs": 0,
-            "wickets": 0
-          }
-         },
-         {
-           "name": "Tilak",
-           "image": "https://swamishreeji.com/images/tilak_harsh?",
-           "batting": {
-            "runs": 0,
-            "balls": 0,
-            "fours": 0,
-            "sixes": 0,
-        "dismissal": "c Harsh b Raj",
-        "isPlaying": false 
-          },
-          "bowling": {
-            "overs": 0,
-            "runs": 0,
-            "wickets": 0
-          }
-         },
-         {
-           "name": "Ashish",
-           "image": "https://swamishreeji.com/images/Ashish_tank2.jpg",
-           "batting": {
-            "runs": 0,
-            "balls": 0,
-            "fours": 0,
-            "sixes": 0,
-        "dismissal": "c Harsh b Raj",
-        "isPlaying": false 
-          },
-          "bowling": {
-            "overs": 0,
-            "runs": 0,
-            "wickets": 0
-          }
-         },
-         {
-           "name": "Kaushal",
-           "image": "https://swamishreeji.com/images/kaushal_harsh?",
-           "batting": {
-            "runs": 0,
-            "balls": 0,
-            "fours": 0,
-            "sixes": 0,
-        "dismissal": "c Harsh b Raj",
-        "isPlaying": true 
-          },
-          "bowling": {
-            "overs": 0,
-            "runs": 0,
-            "wickets": 0
-          }
-         }
-       ],
-       "Wrickets":[
-        {
-            "Team1Wricket": "02",
-            "Team1Overs":"10.2",
-            "Team2Wricket": "02",
-            "Team2Overs":"10.2"
-            
-          }
-
-       ]
-       
-     
-     }
-
-
-
-
     }
-    
-      ]
+  },
+  "PointTable": {
+    "Chirag's 8": {
+      "NRR": 0,
+      "group": "B",
+      "last3": "RPoint,RPoint,RPoint",
+      "lost": "3",
+      "match": "3",
+      "nrr": "-3.724",
+      "oppositionOvers": 0,
+      "oppositionRuns": 0,
+      "pts": 0,
+      "teamName": "Chirag's 8",
+      "teamOvers": 0,
+      "teamRuns": 0,
+      "won": 0
+    },
+    "Devashish's 8": {
+      "NRR": 0,
+      "group": "A",
+      "last3": "GPoint,RPoint,GPoint",
+      "lost": "1",
+      "match": "3",
+      "nrr": "1.576",
+      "oppositionOvers": 0,
+      "oppositionRuns": 0,
+      "pts": "4",
+      "teamName": "Devashish's 8",
+      "teamOvers": 0,
+      "teamRuns": 0,
+      "won": "2"
+    },
+    "Harit's 8": {
+      "NRR": 0,
+      "group": "B",
+      "last3": "GPoint,RPoint,GPoint",
+      "lost": "1",
+      "match": "3",
+      "nrr": "3.897",
+      "oppositionOvers": 0,
+      "oppositionRuns": 0,
+      "pts": "4",
+      "teamName": "Harit's 8",
+      "teamOvers": 0,
+      "teamRuns": 0,
+      "won": "2"
+    },
+    "Harsh's 8": {
+      "NRR": 0,
+      "group": "A",
+      "last3": "GPoint,RPoint,RPoint",
+      "lost": "2",
+      "match": "3",
+      "nrr": "0.785",
+      "oppositionOvers": 0,
+      "oppositionRuns": 0,
+      "pts": "2",
+      "teamName": "Harsh's 8",
+      "teamOvers": 0,
+      "teamRuns": 0,
+      "won": "1"
+    },
+    "Harshil's 9": {
+      "NRR": 0,
+      "group": "A",
+      "last3": "RPoint,GPoint,GPoint",
+      "lost": "1",
+      "match": "3",
+      "nrr": "-0.149",
+      "oppositionOvers": 0,
+      "oppositionRuns": 0,
+      "pts": "4",
+      "teamName": "Harshil's 9",
+      "teamOvers": 0,
+      "teamRuns": 0,
+      "won": "2"
+    },
+    "Het's 8": {
+      "NRR": 0,
+      "group": "A",
+      "last3": "RPoint,RPoint,GPoint",
+      "lost": "2",
+      "match": "3",
+      "nrr": "-7.923",
+      "oppositionOvers": 0,
+      "oppositionRuns": 0,
+      "pts": "2",
+      "teamName": "Het's 8",
+      "teamOvers": 0,
+      "teamRuns": 0,
+      "won": "1"
+    },
+    "Jaimin's 8": {
+      "NRR": 0,
+      "group": "A",
+      "last3": "GPoint,GPoint,GPoint",
+      "lost": 0,
+      "match": "3",
+      "nrr": "1.867",
+      "oppositionOvers": 0,
+      "oppositionRuns": 0,
+      "pts": "6",
+      "teamName": "Jaimin's 8",
+      "teamOvers": 0,
+      "teamRuns": 0,
+      "won": "3"
+    },
+    "Jasmin's 8": {
+      "NRR": 0,
+      "group": "B",
+      "last3": "GPoint,GPoint,RPoint",
+      "lost": "1",
+      "match": "3",
+      "nrr": "0.993",
+      "oppositionOvers": 0,
+      "oppositionRuns": 0,
+      "pts": "4",
+      "teamName": "Jasmin's 8",
+      "teamOvers": 0,
+      "teamRuns": 0,
+      "won": "2"
+    },
+    "Jay's 8": {
+      "NRR": 0,
+      "group": "B",
+      "last3": "RPoint,RPoint,RPoint",
+      "lost": "3",
+      "match": "3",
+      "nrr": "-7.417",
+      "oppositionOvers": 0,
+      "oppositionRuns": 0,
+      "pts": 0,
+      "teamName": "Jay's 8",
+      "teamOvers": 0,
+      "teamRuns": 0,
+      "won": 0
+    },
+    "Jayesh's 8": {
+      "NRR": 0,
+      "group": "A",
+      "last3": "RPoint,GPoint,GPoint",
+      "lost": "1",
+      "match": "3",
+      "nrr": "4.540",
+      "oppositionOvers": 0,
+      "oppositionRuns": 0,
+      "pts": "4",
+      "teamName": "Jayesh's 8",
+      "teamOvers": 0,
+      "teamRuns": 0,
+      "won": "2"
+    },
+    "Nehanshu's 8": {
+      "NRR": 0,
+      "group": "A",
+      "last3": "GPoint,RPoint,RPoint",
+      "lost": "2",
+      "match": "3",
+      "nrr": "1.519",
+      "oppositionOvers": 0,
+      "oppositionRuns": 0,
+      "pts": "2",
+      "teamName": "Nehanshu's 8",
+      "teamOvers": 0,
+      "teamRuns": 0,
+      "won": "1"
+    },
+    "Parth's 8": {
+      "NRR": 0,
+      "group": "A",
+      "last3": "RPoint,RPoint,RPoint",
+      "lost": "3",
+      "match": "3",
+      "nrr": "-4.459",
+      "oppositionOvers": 0,
+      "oppositionRuns": 0,
+      "pts": 0,
+      "teamName": "Parth's 8",
+      "teamOvers": 0,
+      "teamRuns": 0,
+      "won": 0
+    },
+    "Pavan's 8": {
+      "NRR": 0,
+      "group": "B",
+      "last3": "GPoint,GPoint,GPoint",
+      "lost": 0,
+      "match": "3",
+      "nrr": "1.889",
+      "oppositionOvers": 0,
+      "oppositionRuns": 0,
+      "pts": "6",
+      "teamName": "Pavan's 8",
+      "teamOvers": 0,
+      "teamRuns": 0,
+      "won": "3"
+    },
+    "Pradeep's 8": {
+      "NRR": 0,
+      "group": "A",
+      "last3": "RPoint,RPoint,RPoint",
+      "lost": "3",
+      "match": "3",
+      "nrr": "-3.436",
+      "oppositionOvers": 0,
+      "oppositionRuns": 0,
+      "pts": 0,
+      "teamName": "Pradeep's 8",
+      "teamOvers": 0,
+      "teamRuns": 0,
+      "won": 0
+    },
+    "Purvesh's 8": {
+      "NRR": 0,
+      "group": "B",
+      "last3": "GPoint,RPoint,RPoint",
+      "lost": "2",
+      "match": "3",
+      "nrr": "-2.876",
+      "oppositionOvers": 0,
+      "oppositionRuns": 0,
+      "pts": "2",
+      "teamName": "Purvesh's 8",
+      "teamOvers": 0,
+      "teamRuns": 0,
+      "won": "1"
+    },
+    "Rajiv's 9": {
+      "NRR": 0,
+      "group": "B",
+      "last3": "GPoint,GPoint,RPoint",
+      "lost": "1",
+      "match": "3",
+      "nrr": "0.925",
+      "oppositionOvers": 0,
+      "oppositionRuns": 0,
+      "pts": "4",
+      "teamName": "Rajiv's 9",
+      "teamOvers": 0,
+      "teamRuns": 0,
+      "won": "2"
+    },
+    "Rakshit's 8": {
+      "NRR": 0,
+      "group": "B",
+      "last3": "GPoint,GPoint,GPoint",
+      "lost": 0,
+      "match": "3",
+      "nrr": "6.226",
+      "oppositionOvers": 0,
+      "oppositionRuns": 0,
+      "pts": "6",
+      "teamName": "Rakshit's 8",
+      "teamOvers": 0,
+      "teamRuns": 0,
+      "won": "3"
+    },
+    "Ritesh's 8": {
+      "NRR": 0,
+      "group": "A",
+      "last3": "GPoint,GPoint,GPoint",
+      "lost": 0,
+      "match": "3",
+      "nrr": "2.999",
+      "oppositionOvers": 0,
+      "oppositionRuns": 0,
+      "pts": "6",
+      "teamName": "Ritesh's 8",
+      "teamOvers": 0,
+      "teamRuns": 0,
+      "won": "3"
+    },
+    "Rohan's 9": {
+      "NRR": 0,
+      "group": "B",
+      "last3": "RPoint,RPoint,GPoint",
+      "lost": "2",
+      "match": "3",
+      "nrr": "-0.245",
+      "oppositionOvers": 0,
+      "oppositionRuns": 0,
+      "pts": "2",
+      "teamName": "Rohan's 9",
+      "teamOvers": 0,
+      "teamRuns": 0,
+      "won": "1"
+    },
+    "Yogesh's 9": {
+      "NRR": 0,
+      "group": "B",
+      "last3": "RPoint,GPoint,RPoint",
+      "lost": "2",
+      "match": "3",
+      "nrr": "0.133",
+      "oppositionOvers": 0,
+      "oppositionRuns": 0,
+      "pts": "2",
+      "teamName": "Yogesh's 9",
+      "teamOvers": 0,
+      "teamRuns": 0,
+      "won": "1"
     }
-  ]
+  },
+  "Previous": {
+    "match1": {
+      "Harsh's": {
+        "Wrickets": [
+          {
+            "Team1Overs": "2.2",
+            "Team1Wricket": "2"
+          }
+        ],
+        "players": [
+          {
+            "batting": {
+              "balls": 0,
+              "dismissal": "c Harsh b Raj",
+              "fours": 0,
+              "isPlaying": false,
+              "runs": 0,
+              "sixes": 0
+            },
+            "bowling": {
+              "overs": 0,
+              "runs": 0,
+              "wickets": 0
+            },
+            "image": "https://swamishreeji.com/images/harsh_captain?",
+            "name": "Harsh"
+          },
+          {
+            "batting": {
+              "balls": 0,
+              "dismissal": "c Harsh b Raj",
+              "fours": 0,
+              "isPlaying": false,
+              "runs": 0,
+              "sixes": 0
+            },
+            "bowling": {
+              "overs": 0,
+              "runs": 0,
+              "wickets": 0
+            },
+            "image": "https://swamishreeji.com/images/bhavesh_harsh?",
+            "name": "Bhavesh"
+          },
+          {
+            "batting": {
+              "balls": 0,
+              "dismissal": "c Harsh b Raj",
+              "fours": 0,
+              "isPlaying": false,
+              "runs": 0,
+              "sixes": 0
+            },
+            "bowling": {
+              "overs": 0,
+              "runs": 0,
+              "wickets": 0
+            },
+            "image": "https://swamishreeji.com/images/chirag_harsh?",
+            "name": "Chirag"
+          },
+          {
+            "batting": {
+              "balls": 0,
+              "dismissal": "c Harsh b Raj",
+              "fours": 0,
+              "isPlaying": false,
+              "runs": 0,
+              "sixes": 0
+            },
+            "bowling": {
+              "overs": 0,
+              "runs": 0,
+              "wickets": 0
+            },
+            "image": "https://swamishreeji.com/images/krushit_harsh?",
+            "name": "Krushit"
+          },
+          {
+            "batting": {
+              "balls": 0,
+              "dismissal": "c Harsh b Raj",
+              "fours": 0,
+              "isPlaying": true,
+              "runs": 0,
+              "sixes": 0
+            },
+            "bowling": {
+              "overs": 0,
+              "runs": 0,
+              "wickets": 0
+            },
+            "image": "https://swamishreeji.com/images/harush_harsh?",
+            "name": "Harush"
+          },
+          {
+            "batting": {
+              "balls": 0,
+              "dismissal": "c Harsh b Raj",
+              "fours": 0,
+              "isPlaying": false,
+              "runs": 0,
+              "sixes": 0
+            },
+            "bowling": {
+              "overs": 0,
+              "runs": 0,
+              "wickets": 0
+            },
+            "image": "https://swamishreeji.com/images/tilak_harsh?",
+            "name": "Tilak"
+          },
+          {
+            "batting": {
+              "balls": 0,
+              "dismissal": "c Harsh b Raj",
+              "fours": 0,
+              "isPlaying": false,
+              "runs": 0,
+              "sixes": 0
+            },
+            "bowling": {
+              "overs": 0,
+              "runs": 0,
+              "wickets": 0
+            },
+            "image": "https://swamishreeji.com/images/Ashish_tank2.jpg",
+            "name": "Ashish"
+          },
+          {
+            "batting": {
+              "balls": 0,
+              "dismissal": "c Harsh b Raj",
+              "fours": 0,
+              "isPlaying": true,
+              "runs": 0,
+              "sixes": 0
+            },
+            "bowling": {
+              "overs": 0,
+              "runs": 0,
+              "wickets": 0
+            },
+            "image": "https://swamishreeji.com/images/kaushal_harsh?",
+            "name": "Kaushal"
+          }
+        ],
+        "profileImage": "https://swamishreeji.com/images/harsh_captain?"
+      },
+      "Pradeep's": {
+        "Wrickets": [
+          {
+            "Team2Overs": "2.2",
+            "Team2Wricket": "02"
+          }
+        ],
+        "players": [
+          {
+            "batting": {
+              "balls": 20,
+              "dismissal": "c Harsh b Raj",
+              "fours": 0,
+              "isPlaying": true,
+              "runs": 12,
+              "sixes": 0
+            },
+            "bowling": {
+              "overs": 1,
+              "runs": 46,
+              "wickets": 3
+            },
+            "image": "https://swamishreeji.com/images/pradeep_captain",
+            "name": "Pradeep"
+          },
+          {
+            "batting": {
+              "balls": 0,
+              "dismissal": "c Harsh b Raj",
+              "fours": 0,
+              "isPlaying": false,
+              "runs": 0,
+              "sixes": 0
+            },
+            "bowling": {
+              "overs": 0,
+              "runs": 0,
+              "wickets": 0
+            },
+            "image": "https://swamishreeji.com/images/amrish_pradeep",
+            "name": "Amrish "
+          },
+          {
+            "batting": {
+              "balls": 10,
+              "dismissal": "",
+              "fours": 3,
+              "isPlaying": true,
+              "runs": 25,
+              "sixes": 1
+            },
+            "bowling": {
+              "overs": 0,
+              "runs": 0,
+              "wickets": 0
+            },
+            "image": "https://swamishreeji.com/images/varun_pradeep",
+            "name": "Varun"
+          },
+          {
+            "batting": {
+              "balls": 0,
+              "dismissal": "b Rahul",
+              "fours": 0,
+              "isPlaying": false,
+              "runs": 0,
+              "sixes": 0
+            },
+            "bowling": {
+              "overs": 0,
+              "runs": 0,
+              "wickets": 0
+            },
+            "image": "https://swamishreeji.com/images/hariraj_pradeep",
+            "name": "Hariraj"
+          },
+          {
+            "batting": {
+              "balls": 0,
+              "dismissal": "b Bhavesh",
+              "fours": 0,
+              "isPlaying": false,
+              "runs": 0,
+              "sixes": 0
+            },
+            "bowling": {
+              "overs": 0,
+              "runs": 0,
+              "wickets": 0
+            },
+            "image": "https://swamishreeji.com/images/umesh_pradeep",
+            "name": "Umeshkumar "
+          },
+          {
+            "batting": {
+              "balls": 0,
+              "dismissal": "st Raj b Bhavesh",
+              "fours": 0,
+              "isPlaying": false,
+              "runs": 0,
+              "sixes": 0
+            },
+            "bowling": {
+              "overs": 0,
+              "runs": 0,
+              "wickets": 0
+            },
+            "image": "https://swamishreeji.com/images/rahul_pradeep",
+            "name": "Rahul"
+          },
+          {
+            "batting": {
+              "balls": 0,
+              "dismissal": "Run Out Pradeep",
+              "fours": 0,
+              "isPlaying": false,
+              "runs": 0,
+              "sixes": 0
+            },
+            "bowling": {
+              "overs": 0,
+              "runs": 0,
+              "wickets": 0
+            },
+            "image": "https://swamishreeji.com/images/parth_pradeep",
+            "name": "Parth"
+          },
+          {
+            "batting": {
+              "balls": 0,
+              "dismissal": "c Harsh b Raj",
+              "fours": 0,
+              "isPlaying": false,
+              "runs": 0,
+              "sixes": 0
+            },
+            "bowling": {
+              "overs": 0,
+              "runs": 0,
+              "wickets": 0
+            },
+            "image": "https://swamishreeji.com/images/prakash_pradeep",
+            "name": "Prakash"
+          }
+        ],
+        "profileImage": "https://swamishreeji.com/images/pradeep_captain"
+      }
+    },
+    "match2": {
+      "Harsh's": {
+        "Wickets": [
+          {
+            "Overs": "0.0",
+            "Total": "0",
+            "Wicket": "0"
+          }
+        ],
+        "players": [
+          {
+            "batting": {
+              "balls": 0,
+              "dismissal": "",
+              "fours": 0,
+              "isPlaying": false,
+              "onStrike": false,
+              "runs": 0,
+              "sixes": 0
+            },
+            "bowling": {
+              "isBowling": false,
+              "over": 0,
+              "runs": 0,
+              "wickets": 0
+            },
+            "image": "https://swamishreeji.com/images/harsh_captain?",
+            "name": "Harsh"
+          },
+          {
+            "batting": {
+              "balls": 0,
+              "dismissal": "",
+              "fours": 0,
+              "isPlaying": false,
+              "onStrike": false,
+              "runs": 0,
+              "sixes": 0
+            },
+            "bowling": {
+              "isBowling": false,
+              "over": 0,
+              "runs": 0,
+              "wickets": 0
+            },
+            "image": "https://swamishreeji.com/images/bhavesh_harsh?",
+            "name": "Bhavesh"
+          },
+          {
+            "batting": {
+              "balls": 0,
+              "dismissal": "",
+              "fours": 0,
+              "isPlaying": false,
+              "onStrike": false,
+              "runs": 0,
+              "sixes": 0
+            },
+            "bowling": {
+              "isBowling": false,
+              "over": 0,
+              "runs": 0,
+              "wickets": 0
+            },
+            "image": "https://swamishreeji.com/images/chirag_harsh?",
+            "name": "Chirag"
+          },
+          {
+            "batting": {
+              "balls": 0,
+              "dismissal": "",
+              "fours": 0,
+              "isPlaying": false,
+              "onStrike": false,
+              "runs": 0,
+              "sixes": 0
+            },
+            "bowling": {
+              "balls": 6,
+              "isBowling": true,
+              "over": 0,
+              "overs": 1,
+              "runs": 15,
+              "wickets": 0
+            },
+            "image": "https://swamishreeji.com/images/krushit_harsh?",
+            "name": "Krushit"
+          },
+          {
+            "batting": {
+              "balls": 0,
+              "dismissal": "",
+              "fours": 0,
+              "isPlaying": false,
+              "onStrike": false,
+              "runs": 0,
+              "sixes": 0
+            },
+            "bowling": {
+              "isBowling": false,
+              "over": 0,
+              "runs": 0,
+              "wickets": 0
+            },
+            "image": "https://swamishreeji.com/images/harush_harsh?",
+            "name": "Harush"
+          },
+          {
+            "batting": {
+              "balls": 0,
+              "dismissal": "",
+              "fours": 0,
+              "isPlaying": false,
+              "onStrike": false,
+              "runs": 0,
+              "sixes": 0
+            },
+            "bowling": {
+              "isBowling": false,
+              "over": 0,
+              "runs": 0,
+              "wickets": 0
+            },
+            "image": "https://swamishreeji.com/images/tilak_harsh?",
+            "name": "Tilak"
+          },
+          {
+            "batting": {
+              "balls": 0,
+              "dismissal": "",
+              "fours": 0,
+              "isPlaying": false,
+              "onStrike": false,
+              "runs": 0,
+              "sixes": 0
+            },
+            "bowling": {
+              "isBowling": false,
+              "over": 0,
+              "runs": 0,
+              "wickets": 0
+            },
+            "image": "https://swamishreeji.com/images/Ashish_tank2.jpg",
+            "name": "Ashish"
+          },
+          {
+            "batting": {
+              "balls": 0,
+              "dismissal": "",
+              "fours": 0,
+              "isPlaying": false,
+              "onStrike": false,
+              "runs": 0,
+              "sixes": 0
+            },
+            "bowling": {
+              "isBowling": false,
+              "over": 0,
+              "runs": 0,
+              "wickets": 0
+            },
+            "image": "https://swamishreeji.com/images/kaushal_harsh?",
+            "name": "Kaushal"
+          }
+        ],
+        "profileImage": "https://swamishreeji.com/images/harsh_captain?"
+      },
+      "Jay's": {
+        "Wickets": [
+          {
+            "Overs": "1.0",
+            "Total": 15,
+            "Wicket": "0",
+            "balls": 6,
+            "currentOver": 0
+          }
+        ],
+        "players": [
+          {
+            "batting": {
+              "balls": 0,
+              "dismissal": "",
+              "fours": 0,
+              "isPlaying": false,
+              "onStrike": false,
+              "runs": 0,
+              "sixes": 0
+            },
+            "battingSkill": "4",
+            "bowling": {
+              "isBowling": false,
+              "over": 0,
+              "runs": 0,
+              "wickets": 0
+            },
+            "bowlingSkill": "3",
+            "image": "https://swamishreeji.com/images/jay_captain",
+            "lastName": "Patel",
+            "name": "Jay"
+          },
+          {
+            "batting": {
+              "balls": 0,
+              "dismissal": "",
+              "fours": 0,
+              "isPlaying": false,
+              "onStrike": false,
+              "runs": 0,
+              "sixes": 0
+            },
+            "battingSkill": "4",
+            "bowling": {
+              "isBowling": false,
+              "over": 0,
+              "runs": 0,
+              "wickets": 0
+            },
+            "bowlingSkill": "5",
+            "image": "https://swamishreeji.com/images/akshar_jay",
+            "lastName": "Patel",
+            "name": "Akshar"
+          },
+          {
+            "batting": {
+              "balls": 0,
+              "dismissal": "",
+              "fours": 0,
+              "isPlaying": false,
+              "onStrike": false,
+              "runs": 0,
+              "sixes": 0
+            },
+            "battingSkill": "4",
+            "bowling": {
+              "isBowling": false,
+              "over": 0,
+              "runs": 0,
+              "wickets": 0
+            },
+            "bowlingSkill": "4",
+            "image": "https://swamishreeji.com/images/mihin_jay",
+            "lastName": "Patel",
+            "name": "Mihin"
+          },
+          {
+            "batting": {
+              "balls": 6,
+              "dismissal": "",
+              "fours": 1,
+              "isPlaying": true,
+              "onStrike": true,
+              "runs": 15,
+              "sixes": 1
+            },
+            "battingSkill": "3",
+            "bowling": {
+              "isBowling": false,
+              "over": 0,
+              "runs": 0,
+              "wickets": 0
+            },
+            "bowlingSkill": "4",
+            "image": "https://swamishreeji.com/images/ravi_jay2.png",
+            "lastName": "Patel",
+            "name": "Ravi"
+          },
+          {
+            "batting": {
+              "balls": 0,
+              "dismissal": "",
+              "fours": 0,
+              "isPlaying": false,
+              "onStrike": false,
+              "runs": 0,
+              "sixes": 0
+            },
+            "battingSkill": "3",
+            "bowling": {
+              "isBowling": false,
+              "over": 0,
+              "runs": 0,
+              "wickets": 0
+            },
+            "bowlingSkill": "3",
+            "image": "https://swamishreeji.com/images/hardik_jay",
+            "lastName": "Patel",
+            "name": "Hardik"
+          },
+          {
+            "batting": {
+              "balls": 0,
+              "dismissal": "",
+              "fours": 0,
+              "isPlaying": true,
+              "onStrike": false,
+              "runs": 0,
+              "sixes": 0
+            },
+            "battingSkill": "3",
+            "bowling": {
+              "isBowling": false,
+              "over": 0,
+              "runs": 0,
+              "wickets": 0
+            },
+            "bowlingSkill": "2",
+            "image": "https://swamishreeji.com/images/harshit_jay",
+            "lastName": "Patel",
+            "name": "Harshit "
+          },
+          {
+            "batting": {
+              "balls": 0,
+              "dismissal": "",
+              "fours": 0,
+              "isPlaying": false,
+              "onStrike": false,
+              "runs": 0,
+              "sixes": 0
+            },
+            "battingSkill": "2",
+            "bowling": {
+              "isBowling": false,
+              "over": 0,
+              "runs": 0,
+              "wickets": 0
+            },
+            "bowlingSkill": "4",
+            "image": "https://swamishreeji.com/images/dhruv_jay",
+            "lastName": "Rajpara",
+            "name": "Dhruv "
+          },
+          {
+            "batting": {
+              "balls": 0,
+              "dismissal": "",
+              "fours": 0,
+              "isPlaying": false,
+              "onStrike": false,
+              "runs": 0,
+              "sixes": 0
+            },
+            "battingSkill": "2",
+            "bowling": {
+              "isBowling": false,
+              "over": 0,
+              "runs": 0,
+              "wickets": 0
+            },
+            "bowlingSkill": "3",
+            "image": "https://swamishreeji.com/images/nikhil_jay",
+            "lastName": "Patel",
+            "name": "Nikhil "
+          }
+        ],
+        "profileImage": "https://swamishreeji.com/images/jay_captain"
+      }
+    }
+  },
+  "Schedule": [
+    null,
+    {
+      "id": 1,
+      "location": "Game 1",
+      "matchDate": "14th Feb",
+      "matchTime": "6pm - 7pm",
+      "matchstatus": "Past",
+      "result": "https://swamishreeji.com/Scorecards/G12110.pdf",
+      "series": "Pramukh Cup - 2025",
+      "team1": "Harshil's",
+      "team2": "Devashish's"
+    },
+    {
+      "id": 2,
+      "location": "Game 2",
+      "matchDate": "14th Feb",
+      "matchTime": "7pm - 8pm",
+      "matchstatus": "Past",
+      "result": "https://swamishreeji.com/Scorecards/G2.pdf",
+      "series": "Pramukh Cup - 2025",
+      "team1": "Rajiv's",
+      "team2": "Chirag's"
+    },
+    {
+      "id": 3,
+      "location": "Game 3",
+      "matchDate": "14th Feb",
+      "matchTime": "8pm - 9pm",
+      "matchstatus": "Past",
+      "result": "https://swamishreeji.com/Scorecards/G3.pdf",
+      "series": "Pramukh Cup - 2025",
+      "team1": "Nehanshu's",
+      "team2": "Het's"
+    },
+    {
+      "id": 4,
+      "location": "Game 4",
+      "matchDate": "14th Feb",
+      "matchTime": "9pm-10pm",
+      "matchstatus": "Past",
+      "result": "https://swamishreeji.com/Scorecards/G4.pdf",
+      "series": "Pramukh Cup - 2025",
+      "team1": "Purvesh's",
+      "team2": "Jay's"
+    },
+    {
+      "id": 5,
+      "location": "Game 5",
+      "matchDate": "14th Feb",
+      "matchTime": "10pm-11pm",
+      "matchstatus": "Past",
+      "result": "https://swamishreeji.com/Scorecards/G5.pdf",
+      "series": "Pramukh Cup - 2025",
+      "team1": "Pradeep's",
+      "team2": "Jaimin's"
+    },
+    {
+      "id": 6,
+      "location": "Game 6",
+      "matchDate": "14th Feb",
+      "matchTime": "11pm-12am",
+      "matchstatus": "Past",
+      "result": "https://swamishreeji.com/Scorecards/G6.pdf",
+      "series": "Pramukh Cup - 2025",
+      "team1": "Yogesh's",
+      "team2": "Harit's"
+    },
+    {
+      "id": 7,
+      "location": "Game 7",
+      "matchDate": "15th Feb",
+      "matchTime": "8am-9am",
+      "matchstatus": "Past",
+      "result": "https://swamishreeji.com/Scorecards/G7.pdf",
+      "series": "Pramukh Cup - 2025",
+      "team1": "Nehanshu's",
+      "team2": "Harshil's"
+    },
+    {
+      "id": 8,
+      "location": "Game 8",
+      "matchDate": "15th Feb",
+      "matchTime": "9am - 10 am",
+      "matchstatus": "Past",
+      "result": "https://swamishreeji.com/Scorecards/G8.pdf",
+      "series": "Pramukh Cup - 2025",
+      "team1": "Rajiv's",
+      "team2": "Purvesh's"
+    },
+    {
+      "id": 9,
+      "location": "Game 9",
+      "matchDate": "15th Feb",
+      "matchTime": "10am - 11am",
+      "matchstatus": "Past",
+      "result": "https://swamishreeji.com/Scorecards/G9.pdf",
+      "series": "Pramukh Cup - 2025",
+      "team1": "Parth's",
+      "team2": "Harsh's"
+    },
+    {
+      "id": 10,
+      "location": "Game 10",
+      "matchDate": "15th Feb",
+      "matchTime": "11am - 12pm",
+      "matchstatus": "Past",
+      "result": "https://swamishreeji.com/Scorecards/G10.pdf",
+      "series": "Pramukh Cup - 2025",
+      "team1": "Rajiv's",
+      "team2": "Pavan's"
+    },
+    {
+      "id": 11,
+      "location": "Game 11",
+      "matchDate": "15th Feb",
+      "matchTime": "12pm - 1pm",
+      "matchstatus": "Past",
+      "result": "https://swamishreeji.com/Scorecards/G11.pdf",
+      "series": "Pramukh Cup - 2025",
+      "team1": "Devashish's",
+      "team2": "Jaimin's"
+    },
+    {
+      "id": 12,
+      "location": "Game 12",
+      "matchDate": "15th Feb",
+      "matchTime": "1pm - 2pm",
+      "matchstatus": "Past",
+      "result": "https://swamishreeji.com/Scorecards/G12.pdf",
+      "series": "Pramukh Cup - 2025",
+      "team1": "Ritesh's",
+      "team2": "Jayesh's"
+    },
+    {
+      "id": 13,
+      "location": "Game 13",
+      "matchDate": "15th Feb",
+      "matchTime": "2pm - 3pm",
+      "matchstatus": "Past",
+      "result": "https://swamishreeji.com/Scorecards/G13.pdf",
+      "series": "Pramukh Cup - 2025",
+      "team1": "Chirag's",
+      "team2": "Yogesh's"
+    },
+    {
+      "id": 14,
+      "location": "Game 14",
+      "matchDate": "15th Feb",
+      "matchTime": "3pm - 4pm",
+      "matchstatus": "Past",
+      "result": "https://swamishreeji.com/Scorecards/G14.pdf",
+      "series": "Pramukh Cup - 2025",
+      "team1": "Rohan's",
+      "team2": "Jasmin's"
+    },
+    {
+      "id": 15,
+      "location": "Game 15",
+      "matchDate": "15th Feb",
+      "matchTime": "8pm - 9pm",
+      "matchstatus": "Past",
+      "result": "https://swamishreeji.com/Scorecards/G15.pdf",
+      "series": "Pramukh Cup - 2025",
+      "team1": "Jayesh's",
+      "team2": "Pradeep's"
+    },
+    {
+      "id": 16,
+      "location": "Game 16",
+      "matchDate": "15th Feb",
+      "matchTime": "9pm - 10pm",
+      "matchstatus": "Past",
+      "result": "https://swamishreeji.com/Scorecards/G16.pdf",
+      "series": "Pramukh Cup - 2025",
+      "team1": "Harit's",
+      "team2": "Rakshit's"
+    },
+    {
+      "id": 17,
+      "location": "Game 17",
+      "matchDate": "15th Feb",
+      "matchTime": "10pm - 11pm",
+      "matchstatus": "Past",
+      "result": "https://swamishreeji.com/Scorecards/G17.pdf",
+      "series": "Pramukh Cup - 2025",
+      "team1": "Ritesh's",
+      "team2": "Parth's"
+    },
+    {
+      "id": 18,
+      "location": "Game 18",
+      "matchDate": "15th Feb",
+      "matchTime": "11pm - 12am",
+      "matchstatus": "Past",
+      "result": "https://swamishreeji.com/Scorecards/G18.pdf",
+      "series": "Pramukh Cup - 2025",
+      "team1": "Rohan's",
+      "team2": "Pavan's"
+    },
+    {
+      "id": 19,
+      "location": "Game 19",
+      "matchDate": "17th Feb",
+      "matchTime": "8am - 9am",
+      "matchstatus": "Past",
+      "result": "https://swamishreeji.com/Scorecards/G19.pdf",
+      "series": "Pramukh Cup - 2025",
+      "team1": "Jasmin's",
+      "team2": "Chirag's"
+    },
+    {
+      "id": 20,
+      "location": "Game 20",
+      "matchDate": "16th Feb",
+      "matchTime": "9am - 10am",
+      "matchstatus": "Past",
+      "result": "https://swamishreeji.com/Scorecards/G20.pdf",
+      "series": "Pramukh Cup - 2025",
+      "team1": "Harshil's",
+      "team2": "Harsh's"
+    },
+    {
+      "id": 21,
+      "location": "Game 21",
+      "matchDate": "17th Feb",
+      "matchTime": "10am-11am",
+      "matchstatus": "Past",
+      "result": "https://swamishreeji.com/Scorecards/G21.pdf",
+      "series": "Pramukh Cup - 2025",
+      "team1": "Jay's",
+      "team2": "Rakshit's"
+    },
+    {
+      "id": 22,
+      "location": "Game 22",
+      "matchDate": "17th Feb",
+      "matchTime": "11am - 12pm",
+      "matchstatus": "Past",
+      "result": "https://swamishreeji.com/Scorecards/G22.pdf",
+      "series": "Pramukh Cup - 2025",
+      "team1": "Jayesh's",
+      "team2": "Het's"
+    },
+    {
+      "id": 23,
+      "location": "Game 23",
+      "matchDate": "17th Feb",
+      "matchTime": "12pm - 1pm",
+      "matchstatus": "Past",
+      "result": "https://swamishreeji.com/Scorecards/G23.pdf",
+      "series": "Pramukh Cup - 2025",
+      "team1": "Yogesh's",
+      "team2": "Rakshit's"
+    },
+    {
+      "id": 24,
+      "location": "Game 24",
+      "matchDate": "17th Feb",
+      "matchTime": "1pm - 2pm",
+      "matchstatus": "Past",
+      "result": "https://swamishreeji.com/Scorecards/G24.pdf",
+      "series": "Pramukh Cup - 2025",
+      "team1": "Jaimin's",
+      "team2": "Parth's"
+    },
+    {
+      "id": 25,
+      "location": "Game 25",
+      "matchDate": "17th Feb",
+      "matchTime": "2pm - 3pm",
+      "matchstatus": "Past",
+      "result": "https://swamishreeji.com/Scorecards/G25.pdf",
+      "series": "Pramukh Cup - 2025",
+      "team1": "Jay's",
+      "team2": "Harit's"
+    },
+    {
+      "id": 26,
+      "location": "Game 26",
+      "matchDate": "17th Feb",
+      "matchTime": "3pm - 4pm",
+      "matchstatus": "Past",
+      "result": "https://swamishreeji.com/Scorecards/G26.pdf",
+      "series": "Pramukh Cup - 2025",
+      "team1": "Harsh's",
+      "team2": "Devashish's"
+    },
+    {
+      "id": 27,
+      "location": "Game 27",
+      "matchDate": "17th Feb",
+      "matchTime": "4pm - 5pm",
+      "matchstatus": "Past",
+      "result": "https://swamishreeji.com/Scorecards/G27.pdf",
+      "series": "Pramukh Cup - 2025",
+      "team1": "Pavan's",
+      "team2": "Jasmin's"
+    },
+    {
+      "id": 28,
+      "location": "Game 28",
+      "matchDate": "17th Feb",
+      "matchTime": "5pm - 6pm",
+      "matchstatus": "Past",
+      "result": "https://swamishreeji.com/Scorecards/G28.pdf",
+      "series": "Pramukh Cup - 2025",
+      "team1": "Nehanshu's",
+      "team2": "Ritesh's"
+    },
+    {
+      "id": 29,
+      "location": "Game 29",
+      "matchDate": "17th Feb",
+      "matchTime": "6pm - 7pm",
+      "matchstatus": "Past",
+      "result": "https://swamishreeji.com/Scorecards/G29.pdf",
+      "series": "Pramukh Cup - 2025",
+      "team1": "Rohan's",
+      "team2": "Purvesh's"
+    },
+    {
+      "id": 30,
+      "location": "Game 30",
+      "matchDate": "17th Feb",
+      "matchTime": "7pm - 8pm",
+      "matchstatus": "Past",
+      "result": "https://swamishreeji.com/Scorecards/G30.pdf",
+      "series": "Pramukh Cup - 2025",
+      "team1": "Het's",
+      "team2": "Pradeep's"
+    },
+    {
+      "id": 31,
+      "location": "QF 1",
+      "matchDate": "17th Feb",
+      "matchTime": "8pm - 9pm",
+      "matchstatus": "Past",
+      "result": "https://swamishreeji.com/Scorecards/G31.pdf",
+      "series": "Pramukh Cup - 2025",
+      "team1": "Jaimin's",
+      "team2": "Rajiv's"
+    },
+    {
+      "id": 32,
+      "location": "QF 2",
+      "matchDate": "17th Feb",
+      "matchTime": "9pm - 10pm",
+      "matchstatus": "Past",
+      "result": "https://swamishreeji.com/Scorecards/G32.pdf",
+      "series": "Pramukh Cup - 2025",
+      "team1": "Jayesh's",
+      "team2": "Jasmin's"
+    },
+    {
+      "id": 33,
+      "location": "QF 3",
+      "matchDate": "17th Feb",
+      "matchTime": "10pm - 11pm",
+      "matchstatus": "Past",
+      "result": "https://swamishreeji.com/Scorecards/G33.pdf",
+      "series": "Pramukh Cup - 2025",
+      "team1": "Pavan's",
+      "team2": "Harshil's"
+    },
+    {
+      "id": 34,
+      "location": "QF 4",
+      "matchDate": "17th Feb",
+      "matchTime": "11pm - 12am",
+      "matchstatus": "Past",
+      "result": "https://swamishreeji.com/Scorecards/G34.pdf",
+      "series": "Pramukh Cup - 2025",
+      "team1": "Harit's",
+      "team2": "Devashish's"
+    },
+    {
+      "id": 35,
+      "location": "Play-in 1",
+      "matchDate": "23rd Feb",
+      "matchTime": "9am - 10am",
+      "matchstatus": "Past",
+      "result": "https://swamishreeji.com/Scorecards/G35.pdf",
+      "series": "Pramukh Cup - 2025",
+      "team1": "Jasmin's",
+      "team2": "Pavan's"
+    },
+    {
+      "id": 36,
+      "location": "Play-in 2",
+      "matchDate": "23rd Feb",
+      "matchTime": "10am - 11am",
+      "matchstatus": "Past",
+      "result": "https://swamishreeji.com/Scorecards/G36.pdf",
+      "series": "Pramukh Cup - 2025",
+      "team1": "Jaimin's",
+      "team2": "Harit's"
+    },
+    {
+      "id": 37,
+      "location": "SF1",
+      "matchDate": "23rd Feb",
+      "matchTime": "11am - 12pm",
+      "matchstatus": "Past",
+      "result": "https://swamishreeji.com/Scorecards/G37.pdf",
+      "series": "Pramukh Cup - 2025",
+      "team1": "Ritesh's",
+      "team2": "Pavan's"
+    },
+    {
+      "id": 38,
+      "location": "SF2",
+      "matchDate": "23rd Feb",
+      "matchTime": "12pm - 1am",
+      "matchstatus": "Past",
+      "result": "https://swamishreeji.com/Scorecards/G38.pdf",
+      "series": "Pramukh Cup - 2025",
+      "team1": "Rakshit's",
+      "team2": "Jaimin's"
+    },
+    {
+      "id": 39,
+      "location": "Final",
+      "matchDate": "23rd Feb",
+      "matchTime": "2pm - 3pm",
+      "matchstatus": "Past",
+      "result": "https://swamishreeji.com/Scorecards/G39.pdf",
+      "series": "Pramukh Cup - 2025",
+      "team1": "Ritesh's",
+      "team2": "Jaimin's"
+    }
+  ],
+  "Teamprofile": {
+    "Chirag's": {
+      "players": [
+        {
+          "battingSkill": "4",
+          "bowlingSkill": "5",
+          "image": "https://swamishreeji.com/images/chirag_captain",
+          "lastName": "Patel (C)",
+          "name": "Chirag"
+        },
+        {
+          "battingSkill": "4",
+          "bowlingSkill": "4",
+          "image": "https://swamishreeji.com/images/jigar_chirag",
+          "lastName": "Patel",
+          "name": "Jigar "
+        },
+        {
+          "battingSkill": "4",
+          "bowlingSkill": "4",
+          "image": "https://swamishreeji.com/images/bhargav_chirag",
+          "lastName": "Raval",
+          "name": "Bhargav"
+        },
+        {
+          "battingSkill": "3",
+          "bowlingSkill": "4",
+          "image": "https://swamishreeji.com/images/vraj_chirag",
+          "lastName": "Patel",
+          "name": "Vraj"
+        },
+        {
+          "battingSkill": "4",
+          "bowlingSkill": "3",
+          "image": "https://swamishreeji.com/images/bhavik_chirag",
+          "lastName": "Patel",
+          "name": "Bhavik"
+        },
+        {
+          "battingSkill": "4",
+          "bowlingSkill": "3",
+          "image": "https://swamishreeji.com/images/sharad_chirag",
+          "lastName": "Tank",
+          "name": "Sharad"
+        },
+        {
+          "battingSkill": "3",
+          "bowlingSkill": "3",
+          "image": "https://swamishreeji.com/images/kunal_chirag",
+          "lastName": "dhakan",
+          "name": "kunal"
+        },
+        {
+          "battingSkill": "2",
+          "bowlingSkill": "1",
+          "image": "https://swamishreeji.com/images/amit_chirag",
+          "lastName": "Moradiya",
+          "name": "Amit"
+        }
+      ],
+      "profileImage": "https://swamishreeji.com/images/chirag_captain"
+    },
+    "Devashish's": {
+      "players": [
+        {
+          "image": "https://swamishreeji.com/images/devashish_captain",
+          "name": "Devashish"
+        },
+        {
+          "image": "https://swamishreeji.com/images/vraj_devashish",
+          "name": "Vraj"
+        },
+        {
+          "image": "https://swamishreeji.com/images/tarang_devashish",
+          "name": "Tarangkumar"
+        },
+        {
+          "image": "https://swamishreeji.com/images/vandan_devashish",
+          "name": "Vandan"
+        },
+        {
+          "image": "https://swamishreeji.com/images/yogi_devashish",
+          "name": "Yogi"
+        },
+        {
+          "image": "https://swamishreeji.com/images/krish_devashish",
+          "name": "Krish"
+        },
+        {
+          "image": "https://swamishreeji.com/images/vaibhav_devashish",
+          "name": "Vaibhav"
+        },
+        {
+          "image": "https://swamishreeji.com/images/siddharth_devashish",
+          "name": "Siddharth"
+        }
+      ],
+      "profileImage": "https://swamishreeji.com/images/devashish_captain"
+    },
+    "Harit's": {
+      "players": [
+        {
+          "battingSkill": "3",
+          "bowlingSkill": "4",
+          "image": "https://swamishreeji.com/images/harit_captain",
+          "lastName": "Patel",
+          "name": "Harit"
+        },
+        {
+          "battingSkill": "5",
+          "bowlingSkill": "5",
+          "image": "https://swamishreeji.com/images/smit_harit",
+          "lastName": "Patel",
+          "name": "Smit"
+        },
+        {
+          "battingSkill": "4",
+          "bowlingSkill": "4",
+          "image": "https://swamishreeji.com/images/keyur_harit",
+          "lastName": "Patel",
+          "name": "Keyur"
+        },
+        {
+          "battingSkill": "4",
+          "bowlingSkill": "3",
+          "image": "https://swamishreeji.com/images/renil_harit",
+          "lastName": "Sonani",
+          "name": "Renil"
+        },
+        {
+          "battingSkill": "4",
+          "bowlingSkill": "3",
+          "image": "https://swamishreeji.com/images/akshar_harit",
+          "lastName": "Patel",
+          "name": "Akshar"
+        },
+        {
+          "battingSkill": "3",
+          "bowlingSkill": "2",
+          "image": "https://swamishreeji.com/images/yogesh_harit",
+          "lastName": "Patel",
+          "name": "Yogesh"
+        },
+        {
+          "battingSkill": "3",
+          "bowlingSkill": "1",
+          "image": "https://swamishreeji.com/images/bhavesh_harit",
+          "lastName": "Patel",
+          "name": "Bhavesh"
+        },
+        {
+          "battingSkill": "3",
+          "bowlingSkill": "1",
+          "image": "https://swamishreeji.com/images/aksharras_harit",
+          "lastName": "Patel ",
+          "name": "Akshar"
+        }
+      ],
+      "profileImage": "https://swamishreeji.com/images/harit_captain"
+    },
+    "Harsh's": {
+      "players": [
+        {
+          "image": "https://swamishreeji.com/images/harsh_captain?",
+          "name": "Harsh"
+        },
+        {
+          "image": "https://swamishreeji.com/images/bhavesh_harsh?",
+          "name": "Bhavesh"
+        },
+        {
+          "image": "https://swamishreeji.com/images/chirag_harsh?",
+          "name": "Chirag"
+        },
+        {
+          "image": "https://swamishreeji.com/images/krushit_harsh?",
+          "name": "Krushit"
+        },
+        {
+          "image": "https://swamishreeji.com/images/harush_harsh?",
+          "name": "Harush"
+        },
+        {
+          "image": "https://swamishreeji.com/images/tilak_harsh?",
+          "name": "Tilak"
+        },
+        {
+          "image": "https://swamishreeji.com/images/Ashish_tank2.jpg",
+          "name": "Ashish"
+        },
+        {
+          "image": "https://swamishreeji.com/images/kaushal_harsh?",
+          "name": "Kaushal"
+        }
+      ],
+      "profileImage": "https://swamishreeji.com/images/harsh_captain?"
+    },
+    "Harshil's": {
+      "players": [
+        {
+          "image": "https://swamishreeji.com/images/harshil_captain",
+          "name": "Harshil"
+        },
+        {
+          "image": "https://swamishreeji.com/images/bhavesh_harshil2.png",
+          "name": "Bhavesh"
+        },
+        {
+          "image": "https://swamishreeji.com/images/chintan_harshil",
+          "name": "Chintan"
+        },
+        {
+          "image": "https://swamishreeji.com/images/nirav_harshil",
+          "name": "Nirav"
+        },
+        {
+          "image": "https://swamishreeji.com/images/yogesh_harshil",
+          "name": "yogesh"
+        },
+        {
+          "image": "https://swamishreeji.com/images/mayur_harshil",
+          "name": "Mayur"
+        },
+        {
+          "image": "https://swamishreeji.com/images/nishant_harshil",
+          "name": "Nishant"
+        },
+        {
+          "image": "https://swamishreeji.com/images/Screenshot 2025-01-30 at 6.07.09 PM.png",
+          "name": "Dev"
+        },
+        {
+          "image": "https://swamishreeji.com/images/vaibhav_harshil",
+          "name": "Vaibhav"
+        }
+      ],
+      "profileImage": "https://swamishreeji.com/images/harshil_captain"
+    },
+    "Het's": {
+      "players": [
+        {
+          "image": "https://swamishreeji.com/images/het_captain",
+          "name": "Het"
+        },
+        {
+          "image": "https://swamishreeji.com/images/parth_het",
+          "name": "Parth"
+        },
+        {
+          "image": "https://swamishreeji.com/images/kalpit_het",
+          "name": "Kalpitkumar"
+        },
+        {
+          "image": "https://swamishreeji.com/images/nikul_het",
+          "name": "Nikul"
+        },
+        {
+          "image": "https://swamishreeji.com/images/rajdeep_het",
+          "name": "Rajdeep"
+        },
+        {
+          "image": "https://swamishreeji.com/images/samarth_het",
+          "name": "Samarth"
+        },
+        {
+          "image": "https://swamishreeji.com/images/pinakin_het",
+          "name": "Pinakin "
+        },
+        {
+          "image": "https://swamishreeji.com/images/chintan_het",
+          "name": "Chintan"
+        }
+      ],
+      "profileImage": "https://swamishreeji.com/images/het_captain"
+    },
+    "Jaimin's": {
+      "players": [
+        {
+          "image": "https://swamishreeji.com/images/jaimin_captain",
+          "name": "Jaimin"
+        },
+        {
+          "image": "https://swamishreeji.com/images/siddhartj_jaimin",
+          "name": "Siddharth"
+        },
+        {
+          "image": "https://swamishreeji.com/images/akshar_jaimin",
+          "name": "Akshar"
+        },
+        {
+          "image": "https://swamishreeji.com/images/paresh_jaimin",
+          "name": "Paresh"
+        },
+        {
+          "image": "https://swamishreeji.com/images/harsh_jaimin",
+          "name": "Harsh"
+        },
+        {
+          "image": "https://swamishreeji.com/images/vasant_jaimin",
+          "name": "Vasant"
+        },
+        {
+          "image": "https://swamishreeji.com/images/piyush_jaimin",
+          "name": "Piyush"
+        },
+        {
+          "image": "https://swamishreeji.com/images/rushi_jaimin",
+          "name": "Rushi"
+        }
+      ],
+      "profileImage": "https://swamishreeji.com/images/jaimin_captain"
+    },
+    "Jasmin's": {
+      "players": [
+        {
+          "battingSkill": "3",
+          "bowlingSkill": "3",
+          "image": "https://swamishreeji.com/images/jasmin_captain",
+          "lastName": "Patel",
+          "name": "Jasmin"
+        },
+        {
+          "battingSkill": "4",
+          "bowlingSkill": "4",
+          "image": "https://swamishreeji.com/images/ruchir_jasmin2.png",
+          "lastName": "Prajapati",
+          "name": "Ruchir"
+        },
+        {
+          "battingSkill": "4",
+          "bowlingSkill": "4",
+          "image": "https://swamishreeji.com/images/tarunP_jasmin2.png",
+          "lastName": "Pandya",
+          "name": "Tarun"
+        },
+        {
+          "battingSkill": "4",
+          "bowlingSkill": "3",
+          "image": "https://swamishreeji.com/images/jaahanava_jasmin",
+          "lastName": "Joshi",
+          "name": "Jaahanava"
+        },
+        {
+          "battingSkill": "4",
+          "bowlingSkill": "3",
+          "image": "https://swamishreeji.com/images/bhagyesh_jasmin",
+          "lastName": "Valand",
+          "name": "Bhagyesh"
+        },
+        {
+          "battingSkill": "3",
+          "bowlingSkill": "3",
+          "image": "https://swamishreeji.com/images/rahul_jasmin",
+          "lastName": "Prajapati ",
+          "name": "Rahul "
+        },
+        {
+          "battingSkill": "2",
+          "bowlingSkill": "5",
+          "image": "https://swamishreeji.com/images/smit_jasmin",
+          "lastName": "Patel",
+          "name": "Smit"
+        },
+        {
+          "battingSkill": "2",
+          "bowlingSkill": "3",
+          "image": "https://swamishreeji.com/images/tarun_jasmin",
+          "lastName": "Parmar",
+          "name": "Tarun"
+        }
+      ],
+      "profileImage": "https://swamishreeji.com/images/jasmin_captain"
+    },
+    "Jay's": {
+      "players": [
+        {
+          "battingSkill": "4",
+          "bowlingSkill": "3",
+          "image": "https://swamishreeji.com/images/jay_captain",
+          "lastName": "Patel",
+          "name": "Jay"
+        },
+        {
+          "battingSkill": "4",
+          "bowlingSkill": "5",
+          "image": "https://swamishreeji.com/images/akshar_jay",
+          "lastName": "Patel",
+          "name": "Akshar"
+        },
+        {
+          "battingSkill": "4",
+          "bowlingSkill": "4",
+          "image": "https://swamishreeji.com/images/mihin_jay",
+          "lastName": "Patel",
+          "name": "Mihin"
+        },
+        {
+          "battingSkill": "3",
+          "bowlingSkill": "4",
+          "image": "https://swamishreeji.com/images/ravi_jay2.png",
+          "lastName": "Patel",
+          "name": "Ravi"
+        },
+        {
+          "battingSkill": "3",
+          "bowlingSkill": "3",
+          "image": "https://swamishreeji.com/images/hardik_jay",
+          "lastName": "Patel",
+          "name": "Hardik"
+        },
+        {
+          "battingSkill": "3",
+          "bowlingSkill": "2",
+          "image": "https://swamishreeji.com/images/harshit_jay",
+          "lastName": "Patel",
+          "name": "Harshit "
+        },
+        {
+          "battingSkill": "2",
+          "bowlingSkill": "4",
+          "image": "https://swamishreeji.com/images/dhruv_jay",
+          "lastName": "Rajpara",
+          "name": "Dhruv "
+        },
+        {
+          "battingSkill": "2",
+          "bowlingSkill": "3",
+          "image": "https://swamishreeji.com/images/nikhil_jay",
+          "lastName": "Patel",
+          "name": "Nikhil "
+        }
+      ],
+      "profileImage": "https://swamishreeji.com/images/jay_captain"
+    },
+    "Jayesh's": {
+      "players": [
+        {
+          "image": "https://swamishreeji.com/images/jayesh_captain",
+          "name": "Jayesh"
+        },
+        {
+          "image": "https://swamishreeji.com/images/hari_jayesh",
+          "name": "Hari"
+        },
+        {
+          "image": "https://swamishreeji.com/images/darshan_jayesh",
+          "name": "Darshan"
+        },
+        {
+          "image": "https://swamishreeji.com/images/mitul_jayesh",
+          "name": "Mitul"
+        },
+        {
+          "image": "https://swamishreeji.com/images/jenish_jayesh",
+          "name": "Jenish "
+        },
+        {
+          "image": "https://swamishreeji.com/images/kishan_jayesh",
+          "name": "Kishan"
+        },
+        {
+          "image": "https://swamishreeji.com/images/darpan_jayesh",
+          "name": "Darpankumar"
+        },
+        {
+          "image": "https://swamishreeji.com/images/dhaval_jayesh",
+          "name": "Dhaval"
+        }
+      ],
+      "profileImage": "https://swamishreeji.com/images/jayesh_captain"
+    },
+    "Nehanshu's": {
+      "players": [
+        {
+          "battingSkill": "4",
+          "bowlingSkill": "5",
+          "image": "https://swamishreeji.com/images/nehanshu_captain",
+          "lastName": "Nai",
+          "name": "Nehanshu"
+        },
+        {
+          "battingSkill": "4",
+          "bowlingSkill": "5",
+          "image": "https://swamishreeji.com/images/vrajesh_nehanshu",
+          "lastName": "Tailor",
+          "name": "Vrajesh"
+        },
+        {
+          "battingSkill": "3",
+          "bowlingSkill": "5",
+          "image": "https://swamishreeji.com/images/dhaval_nehanshu",
+          "lastName": "Patel",
+          "name": "Dhaval"
+        },
+        {
+          "battingSkill": "5",
+          "bowlingSkill": "3",
+          "image": "https://swamishreeji.com/images/anand_nehanshu",
+          "lastName": "Patel",
+          "name": "Anand"
+        },
+        {
+          "battingSkill": "3",
+          "bowlingSkill": "3",
+          "image": "https://swamishreeji.com/images/ritesh1_jayesh",
+          "lastName": "Dalwadi ",
+          "name": "Ritesh "
+        },
+        {
+          "battingSkill": "2",
+          "bowlingSkill": "2",
+          "image": "https://swamishreeji.com/images/trushar_nehanshu2.png",
+          "lastName": "Bhavsar",
+          "name": "Trushar"
+        },
+        {
+          "battingSkill": "1",
+          "bowlingSkill": "1",
+          "image": "https://swamishreeji.com/images/jay1_jayesh",
+          "lastName": "Parekh",
+          "name": "Jay"
+        },
+        {
+          "battingSkill": "4",
+          "bowlingSkill": "1",
+          "image": "https://swamishreeji.com/images/alpesh_nehanshu",
+          "lastName": "Parekh",
+          "name": "Alpesh "
+        }
+      ],
+      "profileImage": "https://swamishreeji.com/images/nehanshu_captain"
+    },
+    "Parth's": {
+      "players": [
+        {
+          "image": "https://swamishreeji.com/images/parth_captain",
+          "name": "Parth"
+        },
+        {
+          "image": "https://swamishreeji.com/images/akshar_parth",
+          "name": "Aksharkumar"
+        },
+        {
+          "image": "https://swamishreeji.com/images/yogesh_parth",
+          "name": "Yogesh"
+        },
+        {
+          "image": "https://swamishreeji.com/images/biren_parth",
+          "name": "Biren"
+        },
+        {
+          "image": "https://swamishreeji.com/images/hiren_parth",
+          "name": "Hiren"
+        },
+        {
+          "image": "https://swamishreeji.com/images/gunj_parth2.png",
+          "name": "GunjanKumar"
+        },
+        {
+          "image": "https://swamishreeji.com/images/jay_parth",
+          "name": "Jay"
+        },
+        {
+          "image": "https://swamishreeji.com/images/parhav_parth",
+          "name": "Parthav"
+        }
+      ],
+      "profileImage": "https://swamishreeji.com/images/parth_captain"
+    },
+    "Pavan's": {
+      "players": [
+        {
+          "battingSkill": "3",
+          "bowlingSkill": "3",
+          "image": "https://swamishreeji.com/images/pavan_captain",
+          "lastName": "Patel",
+          "name": "Pavan"
+        },
+        {
+          "battingSkill": "5",
+          "bowlingSkill": "4",
+          "image": "https://swamishreeji.com/images/jalat_pavan",
+          "lastName": "Patel",
+          "name": "Jalat(Sunny)"
+        },
+        {
+          "battingSkill": "4",
+          "bowlingSkill": "4",
+          "image": "https://swamishreeji.com/images/jigar_pavan",
+          "lastName": "PATEL",
+          "name": "JIGARKUMAR "
+        },
+        {
+          "battingSkill": "4",
+          "bowlingSkill": "3",
+          "image": "https://swamishreeji.com/images/jainish_pavan",
+          "lastName": "Patel",
+          "name": "Jainish"
+        },
+        {
+          "battingSkill": "3",
+          "bowlingSkill": "3",
+          "image": "https://swamishreeji.com/images/manav_pavan",
+          "lastName": "Parekh",
+          "name": "Manav"
+        },
+        {
+          "battingSkill": "3",
+          "bowlingSkill": "3",
+          "image": "https://swamishreeji.com/images/anand_pavan",
+          "lastName": "Patel",
+          "name": "Anand"
+        },
+        {
+          "battingSkill": "1",
+          "bowlingSkill": "1",
+          "image": "https://swamishreeji.com/images/paras_pavan",
+          "lastName": "Patel",
+          "name": "Paras"
+        },
+        {
+          "battingSkill": "4",
+          "bowlingSkill": "2",
+          "image": "https://swamishreeji.com/images/darshnik_pavan",
+          "lastName": "Patel",
+          "name": "Darshnik"
+        }
+      ],
+      "profileImage": "https://swamishreeji.com/images/pavan_captain"
+    },
+    "Pradeep's": {
+      "players": [
+        {
+          "image": "https://swamishreeji.com/images/pradeep_captain",
+          "name": "Pradeep"
+        },
+        {
+          "image": "https://swamishreeji.com/images/amrish_pradeep",
+          "name": "Amrish "
+        },
+        {
+          "image": "https://swamishreeji.com/images/varun_pradeep",
+          "name": "Varun"
+        },
+        {
+          "image": "https://swamishreeji.com/images/hariraj_pradeep",
+          "name": "Hariraj"
+        },
+        {
+          "image": "https://swamishreeji.com/images/umesh_pradeep",
+          "name": "Umeshkumar "
+        },
+        {
+          "image": "https://swamishreeji.com/images/rahul_pradeep",
+          "name": "Rahul"
+        },
+        {
+          "image": "https://swamishreeji.com/images/parth_pradeep",
+          "name": "Parth"
+        },
+        {
+          "image": "https://swamishreeji.com/images/prakash_pradeep",
+          "name": "Prakash"
+        }
+      ],
+      "profileImage": "https://swamishreeji.com/images/pradeep_captain"
+    },
+    "Purvesh's": {
+      "players": [
+        {
+          "battingSkill": "3",
+          "bowlingSkill": "3",
+          "image": "https://swamishreeji.com/images/purvesh_captain",
+          "lastName": "Patel",
+          "name": "Purvesh"
+        },
+        {
+          "battingSkill": "4",
+          "bowlingSkill": "4",
+          "image": "https://swamishreeji.com/images/vinay_purvesh",
+          "lastName": "Patel",
+          "name": "Vinay "
+        },
+        {
+          "battingSkill": "4",
+          "bowlingSkill": "4",
+          "image": "https://swamishreeji.com/images/harshid_purvesh",
+          "lastName": "Patel",
+          "name": "Harshid"
+        },
+        {
+          "battingSkill": "4",
+          "bowlingSkill": "3",
+          "image": "https://swamishreeji.com/images/Vipul_Purvesh.jpg",
+          "lastName": "Patel",
+          "name": "Vipul"
+        },
+        {
+          "battingSkill": "2",
+          "bowlingSkill": "2",
+          "image": "https://swamishreeji.com/images/shlok_purvesh",
+          "lastName": "Patel ",
+          "name": "Shlok "
+        },
+        {
+          "battingSkill": "1",
+          "bowlingSkill": "1",
+          "image": "https://swamishreeji.com/images/sharad1_purvesh",
+          "lastName": "Salia",
+          "name": "Sharad"
+        },
+        {
+          "battingSkill": "4",
+          "bowlingSkill": "2",
+          "image": "https://swamishreeji.com/images/jigs_purvesh",
+          "lastName": "Patel",
+          "name": "Jigs"
+        },
+        {
+          "battingSkill": "3",
+          "bowlingSkill": "2",
+          "image": "https://swamishreeji.com/images/chintan_purvesh",
+          "lastName": "patel",
+          "name": "chintan "
+        }
+      ],
+      "profileImage": "https://swamishreeji.com/images/purvesh_captain"
+    },
+    "Rajiv's": {
+      "players": [
+        {
+          "battingSkill": "4",
+          "bowlingSkill": "4",
+          "image": "https://swamishreeji.com/images/rajiv_captain",
+          "lastName": "Tarsarya",
+          "name": "Rajiv"
+        },
+        {
+          "battingSkill": "4",
+          "bowlingSkill": "4",
+          "image": "https://swamishreeji.com/images/Rutul_Rajiv",
+          "lastName": "Patel",
+          "name": "Rutul"
+        },
+        {
+          "battingSkill": "4",
+          "bowlingSkill": "4",
+          "image": "https://swamishreeji.com/images/Divyesh_Rajiv",
+          "lastName": "Parekh",
+          "name": "Divyesh"
+        },
+        {
+          "battingSkill": "3",
+          "bowlingSkill": "2",
+          "image": " https://swamishreeji.com/images/%20VIPUL_Rajiv",
+          "lastName": "Patel",
+          "name": "VIPUL "
+        },
+        {
+          "battingSkill": "3",
+          "bowlingSkill": "2",
+          "image": "https://swamishreeji.com/images/Tirth_Rajiv%20",
+          "lastName": "Patel",
+          "name": "Tirth"
+        },
+        {
+          "battingSkill": "3",
+          "bowlingSkill": "2",
+          "image": "https://swamishreeji.com/images/Anant_Rajiv%20",
+          "lastName": "Patel",
+          "name": "Anant"
+        },
+        {
+          "battingSkill": "3",
+          "bowlingSkill": "1",
+          "image": " https://swamishreeji.com/images/Nirav_Rajiv%20",
+          "lastName": "Patel",
+          "name": "Nirav"
+        },
+        {
+          "battingSkill": "3",
+          "bowlingSkill": "1",
+          "image": "https://swamishreeji.com/images/Jayesh_Rajiv%20",
+          "lastName": "Makwana",
+          "name": "Jayesh"
+        },
+        {
+          "battingSkill": "3",
+          "bowlingSkill": "2",
+          "image": "https://swamishreeji.com/images/Sharad_Rajiv",
+          "lastName": "Vaghasiya",
+          "name": "Sharad"
+        }
+      ],
+      "profileImage": "https://swamishreeji.com/images/rajiv_captain"
+    },
+    "Rakshit's": {
+      "players": [
+        {
+          "battingSkill": "5",
+          "bowlingSkill": "2",
+          "image": "https://swamishreeji.com/images/rakshit_captain",
+          "lastName": "Patel",
+          "name": "Rakshit "
+        },
+        {
+          "battingSkill": "5",
+          "bowlingSkill": "5",
+          "image": "https://swamishreeji.com/images/Dharmik_Rakshit",
+          "lastName": "Tailor ",
+          "name": "Dharmik "
+        },
+        {
+          "battingSkill": "4",
+          "bowlingSkill": "4",
+          "image": "https://swamishreeji.com/images/AnujGadia_Rakshit.jpg",
+          "lastName": "Gadia",
+          "name": "Anuj "
+        },
+        {
+          "battingSkill": "3",
+          "bowlingSkill": "4",
+          "image": "https://swamishreeji.com/images/Nihal__Rakshit",
+          "lastName": "Patel",
+          "name": "Nihal "
+        },
+        {
+          "battingSkill": "3",
+          "bowlingSkill": "3",
+          "image": "https://swamishreeji.com/images/Chirag_Rakshit.jpg",
+          "lastName": "Patel",
+          "name": "Chirag"
+        },
+        {
+          "battingSkill": "3",
+          "bowlingSkill": "3",
+          "image": "https://swamishreeji.com/images/AnujGadia_Rakshit.jpg",
+          "lastName": "Gadia",
+          "name": "Anuj"
+        },
+        {
+          "battingSkill": "1",
+          "bowlingSkill": "1",
+          "image": "https://swamishreeji.com/images/Dhyey__Rakshit%20",
+          "lastName": "Patel",
+          "name": "Dhyey"
+        },
+        {
+          "battingSkill": "4",
+          "bowlingSkill": "4",
+          "image": "https://swamishreeji.com/images/Hem__Rakshit",
+          "lastName": "Patel",
+          "name": "Hem"
+        }
+      ],
+      "profileImage": "https://swamishreeji.com/images/rakshit_captain"
+    },
+    "Ritesh's": {
+      "players": [
+        {
+          "image": "https://swamishreeji.com/images/ritesh_captain",
+          "name": "Ritesh"
+        },
+        {
+          "image": "https://swamishreeji.com/images/Vedant_Ritesh",
+          "name": "Vedant"
+        },
+        {
+          "image": "https://swamishreeji.com/images/Tejas_Ritesh",
+          "name": "Tejas"
+        },
+        {
+          "image": "https://swamishreeji.com/images/Mit_Ritesh",
+          "name": "Mit"
+        },
+        {
+          "image": "https://swamishreeji.com/images/Dhyeykumar_Ritesh",
+          "name": "Dhyeykumar"
+        },
+        {
+          "image": " https://swamishreeji.com/images/Maharshi_Ritesh",
+          "name": "Maharshi"
+        },
+        {
+          "image": "https://swamishreeji.com/images/Anuj_Ritesh",
+          "name": "Anuj"
+        },
+        {
+          "image": " https://swamishreeji.com/images/Aniket_Ritesh",
+          "name": "Aniket"
+        }
+      ],
+      "profileImage": "https://swamishreeji.com/images/ritesh_captain"
+    },
+    "Rohan's": {
+      "players": [
+        {
+          "battingSkill": "4",
+          "bowlingSkill": "3",
+          "image": "https://swamishreeji.com/images/rohan_captain",
+          "lastName": "Patel",
+          "name": "Rohan"
+        },
+        {
+          "battingSkill": "3",
+          "bowlingSkill": "4",
+          "image": "https://swamishreeji.com/images/Rakesh%20_Rohan",
+          "lastName": "Soni",
+          "name": "Rakesh "
+        },
+        {
+          "battingSkill": "4",
+          "bowlingSkill": "3",
+          "image": "https://swamishreeji.com/images/Ravin%20_Rohan",
+          "lastName": "Inamdar ",
+          "name": "Ravin"
+        },
+        {
+          "battingSkill": "4",
+          "bowlingSkill": "3",
+          "image": "https://swamishreeji.com/images/Raj%20_Rohan",
+          "lastName": "Patel",
+          "name": "Raj"
+        },
+        {
+          "battingSkill": "3",
+          "bowlingSkill": "4",
+          "image": " https://swamishreeji.com/images/Hemant%20_Rohan",
+          "lastName": "Patel",
+          "name": "Hemant"
+        },
+        {
+          "battingSkill": "3",
+          "bowlingSkill": "3",
+          "image": "https://swamishreeji.com/images/Chirag%20_Rohan",
+          "lastName": "Patel",
+          "name": "Chirag"
+        },
+        {
+          "battingSkill": "1",
+          "bowlingSkill": "2",
+          "image": "https://swamishreeji.com/images/Chaitanya%20_Rohan",
+          "lastName": "Bhatt",
+          "name": "Chaitanya"
+        },
+        {
+          "battingSkill": "4",
+          "bowlingSkill": "2",
+          "image": "https://swamishreeji.com/images/Kalpesh%20_Rohan",
+          "lastName": "Prajapati",
+          "name": "Kalpesh"
+        },
+        {
+          "battingSkill": "4",
+          "bowlingSkill": "1",
+          "image": "https://swamishreeji.com/images/Milan_Rohan?",
+          "lastName": "Patel",
+          "name": "Milan"
+        }
+      ],
+      "profileImage": "https://swamishreeji.com/images/rohan_captain"
+    },
+    "Yogesh's": {
+      "players": [
+        {
+          "battingSkill": "3",
+          "bowlingSkill": "5",
+          "image": "https://swamishreeji.com/images/yogesh_captain",
+          "lastName": "Patel",
+          "name": "Yogesh"
+        },
+        {
+          "battingSkill": "3",
+          "bowlingSkill": "5",
+          "image": "https://swamishreeji.com/images/Vivek",
+          "lastName": "Patel",
+          "name": "Vivek"
+        },
+        {
+          "battingSkill": "4",
+          "bowlingSkill": "4",
+          "image": "https://swamishreeji.com/images/Ved",
+          "lastName": "Patel ",
+          "name": "Ved"
+        },
+        {
+          "battingSkill": "4",
+          "bowlingSkill": "4",
+          "image": "https://swamishreeji.com/images/DARPAN",
+          "lastName": "PATEL",
+          "name": "Darpan"
+        },
+        {
+          "battingSkill": "3",
+          "bowlingSkill": "4",
+          "image": "https://swamishreeji.com/images/%20Rahil%20",
+          "lastName": "Kanani",
+          "name": "Rahil"
+        },
+        {
+          "battingSkill": "4",
+          "bowlingSkill": "3",
+          "image": "https://swamishreeji.com/images/DHRUV%20",
+          "lastName": "PATEL",
+          "name": "DHRUV"
+        },
+        {
+          "battingSkill": "3",
+          "bowlingSkill": "3",
+          "image": "https://swamishreeji.com/images/Vijay",
+          "lastName": "Patel",
+          "name": "Vijay"
+        },
+        {
+          "battingSkill": "3",
+          "bowlingSkill": "3",
+          "image": "https://swamishreeji.com/images/%20Utsav%20",
+          "lastName": "Kalathiya",
+          "name": "Utsav"
+        },
+        {
+          "battingSkill": "4",
+          "bowlingSkill": "2",
+          "image": "https://swamishreeji.com/images/Jeet",
+          "lastName": "Sangani",
+          "name": "Jeet"
+        }
+      ],
+      "profileImage": "https://swamishreeji.com/images/yogesh_captain"
+    }
+  },
+  "YogiCupSchedule":
+    [
+      null,
+      {
+        "id": 1,
+        "location": "Court 1: Gym A",
+        "matchDate": "15th March",
+        "matchTime": "10:00 AM - 10:30 AM",
+        "matchstatus": "Upcoming",
+        "result": "Scorecard_Link_1",
+        "series": "Yogi Cup 2025",
+        "team1": "Balram Bulls",
+        "team2": "Hitkari Hurricanes",
+        "referee": "Darshanbhai",
+        "court": "Gym A"
+    },
+    {
+        "id": 2,
+        "location": "Court 2: Gym A",
+        "matchDate": "15th March",
+        "matchTime": "10:00 AM - 10:30 AM",
+        "matchstatus": "Upcoming",
+        "result": "Scorecard_Link_2",
+        "series": "Yogi Cup 2025",
+        "team1": "Saralta Sabers",
+        "team2": "Titiksha Thunder",
+        "referee": "Brijrajbhai",
+        "court": "Gym A"
+    },
+    {
+        "id": 3,
+        "location": "Court 4: Gym B",
+        "matchDate": "15th March",
+        "matchTime": "10:00 AM - 10:30 AM",
+        "matchstatus": "Upcoming",
+        "result": "Scorecard_Link_3",
+        "series": "Yogi Cup 2025",
+        "team1": "Samarpan Celtics",
+        "team2": "Suradhbhav Suns",
+        "referee": "Harshilbhai",
+        "court": "Gym B"
+    },
+    {
+        "id": 4,
+        "location": "Court 5: Gym C",
+        "matchDate": "15th March",
+        "matchTime": "10:00 AM - 10:30 AM",
+        "matchstatus": "Upcoming",
+        "result": "Scorecard_Link_4",
+        "series": "Yogi Cup 2025",
+        "team1": "Purusarth Pacers",
+        "team2": "Charitra Cavaliers",
+        "referee": "Mayurbhai",
+        "court": "Gym C"
+    },
+    {
+        "id": 5,
+        "location": "Court 6: Gym C",
+        "matchDate": "15th March",
+        "matchTime": "10:00 AM - 10:30 AM",
+        "matchstatus": "Upcoming",
+        "result": "Scorecard_Link_5",
+        "series": "Yogi Cup 2025",
+        "team1": "Agna Avalanche",
+        "team2": "Shanti Spurs",
+        "referee": "Sujalbhai",
+        "court": "Gym C"
+    },
+    {
+        "id": 6,
+        "location": "Court 1: Gym A",
+        "matchDate": "15th March",
+        "matchTime": "10:30 Am - 11:00 AM",
+        "matchstatus": "Upcoming",
+        "result": "Scorecard_Link_6",
+        "series": "Yogi Cup 2025",
+        "team1": "Balram Bulls",
+        "team2": "Pragat Pistons",
+        "referee": "Darshanbhai",
+        "court": "Gym A"
+    },
+    {
+        "id": 7,
+        "location": "Court 2: Gym A",
+        "matchDate": "15th March",
+        "matchTime": "10:30 AM - 11:00 AM",
+        "matchstatus": "Upcoming",
+        "result": "Scorecard_Link_7",
+        "series": "Yogi Cup 2025",
+        "team1": "Hitkari Hurricanes",
+        "team2": "Saralta Sabers",
+        "referee": "Brijrajbhai",
+        "court": "Gym A"
+    },
+    {
+        "id": 8,
+        "location": "Court 3: Gym B",
+        "matchDate": "15th March",
+        "matchTime": "10:30 AM - 11:00 AM",
+        "matchstatus": "Upcoming",
+        "result": "Scorecard_Link_8",
+        "series": "Yogi Cup 2025",
+        "team1": "Moksha Mavericks",
+        "team2": "Samarpan Celtics",
+        "referee": "Meetbhai IBM",
+        "court": "Gym B"
+    },
+    {
+        "id": 9,
+        "location": "Court 4: Gym B",
+        "matchDate": "15th March",
+        "matchTime": "10:30 AM - 11:00 AM",
+        "matchstatus": "Upcoming",
+        "result": "Scorecard_Link_9",
+        "series": "Yogi Cup 2025",
+        "team1": "Nirmani Nets",
+        "team2": "Niti Knights",
+        "referee": "Harshilbhai",
+        "court": "Gym B"
+    },
+    {
+        "id": 10,
+        "location": "Court 5: Gym C",
+        "matchDate": "15th March",
+        "matchTime": "10:30 AM - 11:00 AM",
+        "matchstatus": "Upcoming",
+        "result": "Scorecard_Link_10",
+        "series": "Yogi Cup 2025",
+        "team1": "Samp Sharks",
+        "team2": "Nidarta Hawks",
+        "referee": "Mayurbhai",
+        "court": "Gym C"
+    },
+    {
+        "id": 11,
+        "location": "Court 6: Gym C",
+        "matchDate": "15th March",
+        "matchTime": "10:30 AM - 11:00 AM",
+        "matchstatus": "Upcoming",
+        "result": "Scorecard_Link_11",
+        "series": "Yogi Cup 2025",
+        "team1": "Purusarth Pacers",
+        "team2": "Pratigna Pelicans",
+        "referee": "Sujalbhai",
+        "court": "Gym C"
+    },
+    {
+        "id": 12,
+        "location": "Court 1: Gym A",
+        "matchDate": "15th March",
+        "matchTime": "11:00 AM -11:30 AM",
+        "matchstatus": "Upcoming",
+        "result": "Scorecard_Link_12",
+        "series": "Yogi Cup 2025",
+        "team1": "Hitkari Hurricanes",
+        "team2": "Titiksha Thunder",
+        "referee": "Darshanbhai",
+        "court": "Gym A"
+    },
+    {
+        "id": 13,
+        "location": "Court 2: Gym A",
+        "matchDate": "15th March",
+        "matchTime": "11:00 AM -11:30 AM",
+        "matchstatus": "Upcoming",
+        "result": "Scorecard_Link_13",
+        "series": "Yogi Cup 2025",
+        "team1": "Karuna Kings",
+        "team2": "Pragat Pistons",
+        "referee": "Brijrajbhai",
+        "court": "Gym A"
+    },
+    {
+        "id": 14,
+        "location": "Court 3: Gym B",
+        "matchDate": "15th March",
+        "matchTime": "11:00 AM -11:30 AM",
+        "matchstatus": "Upcoming",
+        "result": "Scorecard_Link_14",
+        "series": "Yogi Cup 2025",
+        "team1": "Charitra Cavaliers",
+        "team2": "Agna Avalanche",
+        "referee": "Rajanbhai",
+        "court": "Gym B"
+    },
+    {
+        "id": 15,
+        "location": "Court 4: Gym B",
+        "matchDate": "15th March",
+        "matchTime": "11:00 AM -11:30 AM",
+        "matchstatus": "Upcoming",
+        "result": "Scorecard_Link_15",
+        "series": "Yogi Cup 2025",
+        "team1": "Rajipo Raptors",
+        "team2": "Moksha Mavericks",
+        "referee": "Harshilbhai",
+        "court": "Gym B"
+    },
+    {
+        "id": 16,
+        "location": "Court 5: Gym C",
+        "matchDate": "15th March",
+        "matchTime": "11:00 AM -11:30 AM",
+        "matchstatus": "Upcoming",
+        "result": "Scorecard_Link_16",
+        "series": "Yogi Cup 2025",
+        "team1": "Ekta Eagles",
+        "team2": "Suradhbhav Suns",
+        "referee": "Mayurbhai",
+        "court": "Gym C"
+    },
+    {
+        "id": 17,
+        "location": "Court 6: Gym C",
+        "matchDate": "15th March",
+        "matchTime": "11:00 AM -11:30 AM",
+        "matchstatus": "Upcoming",
+        "result": "Scorecard_Link_17",
+        "series": "Yogi Cup 2025",
+        "team1": "Shanti Spurs",
+        "team2": "Samp Sharks",
+        "referee": "Sujalbhai",
+        "court": "Gym C"
+    },
+    {
+        "id": 18,
+        "location": "Court 1: Gym A",
+        "matchDate": "15th March",
+        "matchTime": "11:30 AM - 12:00 PM",
+        "matchstatus": "Upcoming",
+        "result": "Scorecard_Link_18",
+        "series": "Yogi Cup 2025",
+        "team1": "Balram Bulls",
+        "team2": "Saralta Sabers",
+        "referee": "Darshanbhai",
+        "court": "Gym A"
+    },
+    {
+        "id": 19,
+        "location": "Court 2: Gym A",
+        "matchDate": "15th March",
+        "matchTime": "11:30 AM - 12:00 PM",
+        "matchstatus": "Upcoming",
+        "result": "Scorecard_Link_19",
+        "series": "Yogi Cup 2025",
+        "team1": "Karuna Kings",
+        "team2": "Titiksha Thunder",
+        "referee": "Vedantbhai",
+        "court": "Gym A"
+    },
+    {
+        "id": 20,
+        "location": "Court 3: Gym B",
+        "matchDate": "15th March",
+        "matchTime": "11:30 AM - 12:00 PM",
+        "matchstatus": "Upcoming",
+        "result": "Scorecard_Link_20",
+        "series": "Yogi Cup 2025",
+        "team1": "Samarpan Celtics",
+        "team2": "Nirmani Nets",
+        "referee": "Meetbhai IBM",
+        "court": "Gym B"
+    },
+    {
+        "id": 21,
+        "location": "Court 4: Gym B",
+        "matchDate": "15th March",
+        "matchTime": "11:30 AM - 12:00 PM",
+        "matchstatus": "Upcoming",
+        "result": "Scorecard_Link_21",
+        "series": "Yogi Cup 2025",
+        "team1": "Niti Knights",
+        "team2": "Suradhbhav Suns",
+        "referee": "Rajanbhai",
+        "court": "Gym B"
+    },
+    {
+        "id": 22,
+        "location": "Court 5: Gym C",
+        "matchDate": "15th March",
+        "matchTime": "11:30 AM - 12:00 PM",
+        "matchstatus": "Upcoming",
+        "result": "Scorecard_Link_22",
+        "series": "Yogi Cup 2025",
+        "team1": "Nidarta Hawks",
+        "team2": "Pratigna Pelicans",
+        "referee": "Mayurbhai",
+        "court": "Gym C"
+    },
+    {
+        "id": 23,
+        "location": "Court 6: Gym C",
+        "matchDate": "15th March",
+        "matchTime": "11:30 AM - 12:00 PM",
+        "matchstatus": "Upcoming",
+        "result": "Scorecard_Link_23",
+        "series": "Yogi Cup 2025",
+        "team1": "Purusarth Pacers",
+        "team2": "Agna Avalanche",
+        "referee": "Sujalbhai",
+        "court": "Gym C"
+    },
+    {
+        "id": 24,
+        "location": "Court 1: Gym A",
+        "matchDate": "15th March",
+        "matchTime": "12:00 PM  - 12:30 PM",
+        "matchstatus": "Upcoming",
+        "result": "Scorecard_Link_24",
+        "series": "Yogi Cup 2025",
+        "team1": "Pragat Pistons",
+        "team2": "Saralta Sabers",
+        "referee": "Darshanbhai",
+        "court": "Gym A"
+    },
+    {
+        "id": 25,
+        "location": "Court 2: Gym A",
+        "matchDate": "15th March",
+        "matchTime": "12:00 PM  - 12:30 PM",
+        "matchstatus": "Upcoming",
+        "result": "Scorecard_Link_25",
+        "series": "Yogi Cup 2025",
+        "team1": "Hitkari Hurricanes",
+        "team2": "Karuna Kings",
+        "referee": "Vedantbhai",
+        "court": "Gym A"
+    },
+    {
+        "id": 26,
+        "location": "Court 3: Gym B",
+        "matchDate": "15th March",
+        "matchTime": "12:00 PM  - 12:30 PM",
+        "matchstatus": "Upcoming",
+        "result": "Scorecard_Link_26",
+        "series": "Yogi Cup 2025",
+        "team1": "Ekta Eagles",
+        "team2": "Rajipo Raptors",
+        "referee": "Meetbhai IBM",
+        "court": "Gym B"
+    },
+    {
+        "id": 27,
+        "location": "Court 4: Gym B",
+        "matchDate": "15th March",
+        "matchTime": "12:00 PM  - 12:30 PM",
+        "matchstatus": "Upcoming",
+        "result": "Scorecard_Link_27",
+        "series": "Yogi Cup 2025",
+        "team1": "Moksha Mavericks",
+        "team2": "Nirmani Nets",
+        "referee": "Harshilbhai",
+        "court": "Gym B"
+    },
+    {
+        "id": 28,
+        "location": "Court 5: Gym C",
+        "matchDate": "15th March",
+        "matchTime": "12:00 PM  - 12:30 PM",
+        "matchstatus": "Upcoming",
+        "result": "Scorecard_Link_28",
+        "series": "Yogi Cup 2025",
+        "team1": "Samp Sharks",
+        "team2": "Pratigna Pelicans",
+        "referee": "Rajanbhai",
+        "court": "Gym C"
+    },
+    {
+        "id": 29,
+        "location": "Court 6: Gym C",
+        "matchDate": "15th March",
+        "matchTime": "12:00 PM  - 12:30 PM",
+        "matchstatus": "Upcoming",
+        "result": "Scorecard_Link_29",
+        "series": "Yogi Cup 2025",
+        "team1": "Charitra Cavaliers",
+        "team2": "Shanti Spurs",
+        "referee": "Sujalbhai",
+        "court": "Gym C"
+    },
+    {
+        "id": 30,
+        "location": "Court 1: Gym A",
+        "matchDate": "15th March",
+        "matchTime": "12:30 PM - 1:00 PM",
+        "matchstatus": "Upcoming",
+        "result": "Scorecard_Link_30",
+        "series": "Yogi Cup 2025",
+        "team1": "Hitkari Hurricanes",
+        "team2": "Pragat Pistons",
+        "referee": "Darshanbhai",
+        "court": "Gym A"
+    },
+      {
+          "id": 31,
+          "location": "Court 2: Gym A",
+          "matchDate": "15th March",
+          "matchTime": "12:30 PM - 1:00 PM",
+          "matchstatus": "Upcoming",
+          "result": "Scorecard_Link_31",
+          "series": "Yogi Cup 2025",
+          "team1": "Balram Bulls",
+          "team2": "Titiksha Thunder",
+          "referee": "Vedantbhai",
+          "court": "Gym A"
+      },
+      {
+          "id": 32,
+          "location": "Court 4: Gym B",
+          "matchDate": "15th March",
+          "matchTime": "12:30 PM - 1:00 PM",
+          "matchstatus": "Upcoming",
+          "result": "Scorecard_Link_32",
+          "series": "Yogi Cup 2025",
+          "team1": "Ekta Eagles",
+          "team2": "Samarpan Celtics",
+          "referee": "Harshilbhai",
+          "court": "Gym B"
+      },
+      {
+          "id": 33,
+          "location": "Court 5: Gym C",
+          "matchDate": "15th March",
+          "matchTime": "12:30 PM - 1:00 PM",
+          "matchstatus": "Upcoming",
+          "result": "Scorecard_Link_33",
+          "series": "Yogi Cup 2025",
+          "team1": "Purusarth Pacers",
+          "team2": "Shanti Spurs",
+          "referee": "Mayurbhai",
+          "court": "Gym C"
+      },
+      {
+          "id": 34,
+          "location": "Court 6: Gym C",
+          "matchDate": "15th March",
+          "matchTime": "12:30 PM - 1:00 PM",
+          "matchstatus": "Upcoming",
+          "result": "Scorecard_Link_34",
+          "series": "Yogi Cup 2025",
+          "team1": "Nidarta Hawks",
+          "team2": "Agna Avalanche",
+          "referee": "Rajanbhai",
+          "court": "Gym C"
+      },
+      {
+          "id": 35,
+          "location": "Court 1: Gym A",
+          "matchDate": "15th March",
+          "matchTime": "2:30 PM - 3:00 PM",
+          "matchstatus": "Upcoming",
+          "result": "Scorecard_Link_35",
+          "series": "Yogi Cup 2025",
+          "team1": "Niti Knights",
+          "team2": "Samarpan Celtics",
+          "referee": "Brijrajbhai",
+          "court": "Gym A"
+      },
+      {
+          "id": 36,
+          "location": "Court 2: Gym A",
+          "matchDate": "15th March",
+          "matchTime": "2:30 PM - 3:00 PM",
+          "matchstatus": "Upcoming",
+          "result": "Scorecard_Link_36",
+          "series": "Yogi Cup 2025",
+          "team1": "Charitra Cavaliers",
+          "team2": "Samp Sharks",
+          "referee": "Vedantbhai",
+          "court": "Gym A"
+      },
+      {
+          "id": 37,
+          "location": "Court 3: Gym B",
+          "matchDate": "15th March",
+          "matchTime": "2:30 PM - 3:00 PM",
+          "matchstatus": "Upcoming",
+          "result": "Scorecard_Link_37",
+          "series": "Yogi Cup 2025",
+          "team1": "Ekta Eagles",
+          "team2": "Moksha Mavericks",
+          "referee": "Meetbhai IBM",
+          "court": "Gym B"
+      },
+      {
+          "id": 38,
+          "location": "Court 4: Gym B",
+          "matchDate": "15th March",
+          "matchTime": "2:30 PM - 3:00 PM",
+          "matchstatus": "Upcoming",
+          "result": "Scorecard_Link_38",
+          "series": "Yogi Cup 2025",
+          "team1": "Purusarth Pacers",
+          "team2": "Nidarta Hawks",
+          "referee": "Harshilbhai",
+          "court": "Gym B"
+      },
+      {
+          "id": 39,
+          "location": "Court 5: Gym C",
+          "matchDate": "15th March",
+          "matchTime": "2:30 PM - 3:00 PM",
+          "matchstatus": "Upcoming",
+          "result": "Scorecard_Link_39",
+          "series": "Yogi Cup 2025",
+          "team1": "Rajipo Raptors",
+          "team2": "Nirmani Nets",
+          "referee": "Mayurbhai",
+          "court": "Gym C"
+      },
+      {
+          "id": 40,
+          "location": "Court 6: Gym C",
+          "matchDate": "15th March",
+          "matchTime": "2:30 PM - 3:00 PM",
+          "matchstatus": "Upcoming",
+          "result": "Scorecard_Link_40",
+          "series": "Yogi Cup 2025",
+          "team1": "Shanti Spurs",
+          "team2": "Pratigna Pelicans",
+          "referee": "Sujalbhai",
+          "court": "Gym C"
+      },
+      {
+          "id": 41,
+          "location": "Court 1: Gym A",
+          "matchDate": "15th March",
+          "matchTime": "3:00 PM - 3:30 PM",
+          "matchstatus": "Upcoming",
+          "result": "Scorecard_Link_41",
+          "series": "Yogi Cup 2025",
+          "team1": "Suradhbhav Suns",
+          "team2": "Nirmani Nets",
+          "referee": "Brijrajbhai",
+          "court": "Gym A"
+      },
+      {
+          "id": 42,
+          "location": "Court 2: Gym A",
+          "matchDate": "15th March",
+          "matchTime": "3:00 PM - 3:30 PM",
+          "matchstatus": "Upcoming",
+          "result": "Scorecard_Link_42",
+          "series": "Yogi Cup 2025",
+          "team1": "Agna Avalanche",
+          "team2": "Pratigna Pelicans",
+          "referee": "Vedantbhai",
+          "court": "Gym A"
+      },
+      {
+          "id": 43,
+          "location": "Court 3: Gym B",
+          "matchDate": "15th March",
+          "matchTime": "3:00 PM - 3:30 PM",
+          "matchstatus": "Upcoming",
+          "result": "Scorecard_Link_43",
+          "series": "Yogi Cup 2025",
+          "team1": "Niti Knights",
+          "team2": "Moksha Mavericks",
+          "referee": "Meetbhai IBM",
+          "court": "Gym B"
+      },
+      {
+          "id": 44,
+          "location": "Court 4: Gym B",
+          "matchDate": "15th March",
+          "matchTime": "3:00 PM - 3:30 PM",
+          "matchstatus": "Upcoming",
+          "result": "Scorecard_Link_44",
+          "series": "Yogi Cup 2025",
+          "team1": "Rajipo Raptors",
+          "team2": "Samarpan Celtics",
+          "referee": "Harshilbhai",
+          "court": "Gym B"
+      },
+      {
+          "id": 45,
+          "location": "Court 5: Gym C",
+          "matchDate": "15th March",
+          "matchTime": "3:00 PM - 3:30 PM",
+          "matchstatus": "Upcoming",
+          "result": "Scorecard_Link_45",
+          "series": "Yogi Cup 2025",
+          "team1": "Purusarth Pacers",
+          "team2": "Samp Sharks",
+          "referee": "Mayurbhai",
+          "court": "Gym C"
+      },
+      {
+          "id": 46,
+          "location": "Court 6: Gym C",
+          "matchDate": "15th March",
+          "matchTime": "3:00 PM - 3:30 PM",
+          "matchstatus": "Upcoming",
+          "result": "Scorecard_Link_46",
+          "series": "Yogi Cup 2025",
+          "team1": "Charitra Cavaliers",
+          "team2": "Nidarta Hawks",
+          "referee": "Sujalbhai",
+          "court": "Gym C"
+      },
+      {
+          "id": 47,
+          "location": "Court 1: Gym A",
+          "matchDate": "15th March",
+          "matchTime": "3:30 PM - 4:00 PM",
+          "matchstatus": "Upcoming",
+          "result": "Scorecard_Link_47",
+          "series": "Yogi Cup 2025",
+          "team1": "Ekta Eagles",
+          "team2": "Nirmani Nets",
+          "referee": "Darshanbhai",
+          "court": "Gym A"
+      },
+      {
+          "id": 48,
+          "location": "Court 2: Gym A",
+          "matchDate": "15th March",
+          "matchTime": "3:30 PM - 4:00 PM",
+          "matchstatus": "Upcoming",
+          "result": "Scorecard_Link_48",
+          "series": "Yogi Cup 2025",
+          "team1": "Niti Knights",
+          "team2": "Rajipo Raptors",
+          "referee": "Vedantbhai",
+          "court": "Gym A"
+      },
+      {
+          "id": 49,
+          "location": "Court 3: Gym B",
+          "matchDate": "15th March",
+          "matchTime": "3:30 PM - 4:00 PM",
+          "matchstatus": "Upcoming",
+          "result": "Scorecard_Link_49",
+          "series": "Yogi Cup 2025",
+          "team1": "Charitra Cavaliers",
+          "team2": "Pratigna Pelicans",
+          "referee": "Meetbhai IBM",
+          "court": "Gym B"
+      },
+      {
+          "id": 50,
+          "location": "Court 4: Gym B",
+          "matchDate": "15th March",
+          "matchTime": "3:30 PM - 4:00 PM",
+          "matchstatus": "Upcoming",
+          "result": "Scorecard_Link_50",
+          "series": "Yogi Cup 2025",
+          "team1": "Shanti Spurs",
+          "team2": "Nidarta Hawks",
+          "referee": "Harshilbhai",
+          "court": "Gym B"
+      },
+      {
+          "id": 51,
+          "location": "Court 5: Gym C",
+          "matchDate": "15th March",
+          "matchTime": "3:30 PM - 4:00 PM",
+          "matchstatus": "Upcoming",
+          "result": "Scorecard_Link_51",
+          "series": "Yogi Cup 2025",
+          "team1": "Suradhbhav Suns",
+          "team2": "Moksha Mavericks",
+          "referee": "Mayurbhai",
+          "court": "Gym C"
+      },
+      {
+          "id": 52,
+          "location": "Court 6: Gym C",
+          "matchDate": "15th March",
+          "matchTime": "3:30 PM - 4:00 PM",
+          "matchstatus": "Upcoming",
+          "result": "Scorecard_Link_52",
+          "series": "Yogi Cup 2025",
+          "team1": "Agna Avalanche",
+          "team2": "Samp Sharks",
+          "referee": "Sujalbhai",
+          "court": "Gym C"
+      },
+      {
+          "id": 53,
+          "location": "Court 1: Gym A",
+          "matchDate": "15th March",
+          "matchTime": "4:00 PM - 4:30 PM",
+          "matchstatus": "Upcoming",
+          "result": "Scorecard_Link_53",
+          "series": "Yogi Cup 2025",
+          "team1": "Pragat Pistons",
+          "team2": "Titiksha Thunder",
+          "referee": "Darshanbhai",
+          "court": "Gym A"
+      },
+      {
+          "id": 54,
+          "location": "Court 2: Gym A",
+          "matchDate": "15th March",
+          "matchTime": "4:00 PM - 4:30 PM",
+          "matchstatus": "Upcoming",
+          "result": "Scorecard_Link_54",
+          "series": "Yogi Cup 2025",
+          "team1": "Karuna Kings",
+          "team2": "Saralta Sabers",
+          "referee": "Vedantbhai",
+          "court": "Gym A"
+      },
+      {
+          "id": 55,
+          "location": "Court 3: Gym B",
+          "matchDate": "15th March",
+          "matchTime": "4:00 PM - 4:30 PM",
+          "matchstatus": "Upcoming",
+          "result": "Scorecard_Link_55",
+          "series": "Yogi Cup 2025",
+          "team1": "Balram Bulls",
+          "team2": "Karuna Kings",
+          "referee": "Brijrajbhai",
+          "court": "Gym B"
+      },
+      {
+          "id": 56,
+          "location": "Court 4: Gym B",
+          "matchDate": "15th March",
+          "matchTime": "4:00 PM - 4:30 PM",
+          "matchstatus": "Upcoming",
+          "result": "Scorecard_Link_56",
+          "series": "Yogi Cup 2025",
+          "team1": "A seed 1",
+          "team2": "B seed 1",
+          "referee": "Harshilbhai",
+          "court": "Gym B"
+      },
+      {
+          "id": 57,
+          "location": "Court 5: Gym C",
+          "matchDate": "15th March",
+          "matchTime": "4:00 PM - 4:30 PM",
+          "matchstatus": "Upcoming",
+          "result": "Scorecard_Link_57",
+          "series": "Yogi Cup 2025",
+          "team1": "A seed 2",
+          "team2": "B seed 2",
+          "referee": "Mayurbhai",
+          "court": "Gym C"
+      },
+      {
+          "id": 58,
+          "location": "Court 6: Gym C",
+          "matchDate": "15th March",
+          "matchTime": "4:00 PM - 4:30 PM",
+          "matchstatus": "Upcoming",
+          "result": "Scorecard_Link_58",
+          "series": "Yogi Cup 2025",
+          "team1": "A seed 3",
+          "team2": "B seed 3",
+          "referee": "Sujalbhai",
+          "court": "Gym C"
+      },
+      {
+          "id": 59,
+          "location": "Court 1: Gym A",
+          "matchDate": "15th March",
+          "matchTime": "4:30 PM - 5:00 PM",
+          "matchstatus": "Upcoming",
+          "result": "Scorecard_Link_59",
+          "series": "Yogi Cup 2025",
+          "team1": "A seed 4",
+          "team2": "B seed 4",
+          "referee": "Mayurbhai",
+          "court": "Gym A"
+      },
+      {
+          "id": 60,
+          "location": "Court 2: Gym A",
+          "matchDate": "15th March",
+          "matchTime": "4:30 PM - 5:00 PM",
+          "matchstatus": "Upcoming",
+          "result": "Scorecard_Link_60",
+          "series": "Yogi Cup 2025",
+          "team1": "A seed 5",
+          "team2": "B seed 5",
+          "referee": "Sujalbhai",
+          "court": "Gym A"
+      },
+      {
+          "id": 61,
+          "location": "Court 3: Gym B",
+          "matchDate": "15th March",
+          "matchTime": "4:30 PM - 5:00 PM",
+          "matchstatus": "Upcoming",
+          "result": "Scorecard_Link_61",
+          "series": "Yogi Cup 2025",
+          "team1": "A seed 6",
+          "team2": "B seed 6",
+          "referee": "Meetbhai IBM",
+          "court": "Gym B"
+      },
+      {
+          "id": 62,
+          "location": "Court 4: Gym B",
+          "matchDate": "15th March",
+          "matchTime": "4:30 PM - 5:00 PM",
+          "matchstatus": "Upcoming",
+          "result": "Scorecard_Link_62",
+          "series": "Yogi Cup 2025",
+          "team1": "A seed 7",
+          "team2": "B seed 7",
+          "referee": "Harshilbhai",
+          "court": "Gym B"
+      }
+  ],
+  "YogiCupTeamprofile":
+  {
+    "Suradhabhav Suns": {
+      "group": "A",
+      "players": [
+        {
+          "name": "Tirth (C)",
+          "profileImage": "https://swamishreeji.com/YogiCupImages/Tirth_6475090214"
+        },
+        {
+          "name": "Kush Pratik",
+          "profileImage": "https://swamishreeji.com/YogiCupImages/Kush_6475408445"
+        },
+        {
+          "name": "Shilp Patel",
+          "profileImage": "https://s3.amazonaws.com/37assets/svn/765-default-avatar.png"
+        },
+        {
+          "name": "Rushi Barot",
+          "profileImage": "https://swamishreeji.com/YogiCupImages/Rushi_2247308317"
+        },
+        {
+          "name": "Rudra Patel",
+          "profileImage": "https://swamishreeji.com/YogiCupImages/Rudra_9057457419"
+        },
+        {
+          "name": "Nisarg Dave",
+          "profileImage": "https://swamishreeji.com/YogiCupImages/Nisarg_6479074390"
+        }
+      ],
+      "profileImage": "https://swamishreeji.com/YogiCupImages/Tirth_6475090214"
+    },
+    "Shanti Spurs": {
+      "group": "B",
+      "players": [
+        {
+          "name": "Dhruv (C)",
+          "profileImage": "https://swamishreeji.com/YogiCupImages/Dhruv_4168028330"
+        },
+        {
+          "name": "Hemang Brahmbhatt",
+          "profileImage": "https://swamishreeji.com/YogiCupImages/Hemang_6475401712"
+        },
+        {
+          "name": "Ayush Patel",
+          "profileImage": "https://swamishreeji.com/YogiCupImages/Ayush_6474709874"
+        },
+        {
+          "name": "Chintan Patel",
+          "profileImage": "https://swamishreeji.com/YogiCupImages/Chintan_2266066562"
+        },
+        {
+          "name": "Jash Pandya",
+          "profileImage": "https://swamishreeji.com/YogiCupImages/Jash_9082440063"
+        },
+        {
+          "name": "Ishaan Bansal",
+          "profileImage": "https://s3.amazonaws.com/37assets/svn/765-default-avatar.png"
+        }
+      ],
+      "profileImage": "https://swamishreeji.com/YogiCupImages/Dhruv_4168028330"
+    },
+    "Charitra Cavaliers": {
+      "group": "B",
+      "players": [
+        {
+          "name": "Dhyey (C)",
+          "profileImage": "https://swamishreeji.com/YogiCupImages/Dhyey_4162096846"
+        },
+        {
+          "name": "Darsh Kanani",
+          "profileImage": "https://s3.amazonaws.com/37assets/svn/765-default-avatar.png"
+        },
+        {
+          "name": "Harsh Patel",
+          "profileImage": "https://swamishreeji.com/YogiCupImages/Harsh_4165797094"
+        },
+        {
+          "name": "Akshar Patel",
+          "profileImage": "https://swamishreeji.com/YogiCupImages/Akshar_6474825033"
+        },
+        {
+          "name": "Jay Patel",
+          "profileImage": "https://swamishreeji.com/YogiCupImages/Jay_6475612105"
+        },
+        {
+          "name": "Purven Bhavsar",
+          "profileImage": "https://swamishreeji.com/YogiCupImages/Purven_6478904715"
+        }
+      ],
+      "profileImage": "https://swamishreeji.com/YogiCupImages/Dhyey_4162096846"
+    },
+    "Pratigna Pelicans": {
+      "group": "B",
+      "players": [
+        {
+          "name": "Shray (C)",
+          "profileImage": "https://swamishreeji.com/YogiCupImages/Shray_6479131781"
+        },
+        {
+          "name": "Harsh Patel",
+          "profileImage": "https://swamishreeji.com/YogiCupImages/Harsh_4375453999"
+        },
+        {
+          "name": "Vandan Patel",
+          "profileImage": "https://s3.amazonaws.com/37assets/svn/765-default-avatar.png"
+        },
+        {
+          "name": "Maharshi Desai",
+          "profileImage": "https://s3.amazonaws.com/37assets/svn/765-default-avatar.png"
+        },
+        {
+          "name": "Param Rajguru",
+          "profileImage": "https://s3.amazonaws.com/37assets/svn/765-default-avatar.png"
+        },
+        {
+          "name": "Kirtan Patel",
+          "profileImage": "https://s3.amazonaws.com/37assets/svn/765-default-avatar.png"
+        }
+      ],
+      "profileImage": "https://swamishreeji.com/YogiCupImages/Shray_6479131781"
+    },
+    "Purusarth Pacers": {
+      "group": "B",
+      "players": [
+        {
+          "name": "Hari R (C)",
+          "profileImage": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/YogiCupImages%2FHari_6474504716?alt=media&token=30bb8939-fbfa-4b14-98a9-0f44533dc77a"
+        },
+        {
+          "name": "Prince Patel",
+          "profileImage": "https://s3.amazonaws.com/37assets/svn/765-default-avatar.png"
+        },
+        {
+          "name": "Maharshi Patel",
+          "profileImage": "https://swamishreeji.com/YogiCupImages/Mahrshi_4379719595"
+        },
+        {
+          "name": "Tilak Modi",
+          "profileImage": "https://s3.amazonaws.com/37assets/svn/765-default-avatar.png"
+        },
+        {
+          "name": "Krish Patel",
+          "profileImage": "https://swamishreeji.com/YogiCupImages/Krish_6475511906"
+        },
+        {
+          "name": "Nitya Bhatt",
+          "profileImage": "https://s3.amazonaws.com/37assets/svn/765-default-avatar.png"
+        }
+      ],
+      "profileImage": "https://firebasestorage.googleapis.com/v0/b/subscription-82909.appspot.com/o/YogiCupImages%2FHari_6474504716?alt=media&token=30bb8939-fbfa-4b14-98a9-0f44533dc77a"
+    },
+    "Samp Sharks": {
+      "group": "B",
+      "players": [
+        {
+          "name": "Nisarg (C)",
+          "profileImage": "https://swamishreeji.com/YogiCupImages/Nisarg_6474468985"
+        },
+        {
+          "name": "Sneh Shah",
+          "profileImage": "https://swamishreeji.com/YogiCupImages/Sneh_4372267816"
+        },
+        {
+          "name": "Ansh Patel",
+          "profileImage": "https://s3.amazonaws.com/37assets/svn/765-default-avatar.png"
+        },
+        {
+          "name": "Yash Sharma",
+          "profileImage": "https://swamishreeji.com/YogiCupImages/YASH_6475729966"
+        },
+        {
+          "name": "Dillan Joshi",
+          "profileImage": "https://swamishreeji.com/YogiCupImages/Dillan_6473826770"
+        }
+      ],
+      "profileImage": "https://swamishreeji.com/YogiCupImages/Nisarg_6474468985"
+    },
+    "Samarpan Celtics": {
+      "group": "A",
+      "players": [
+        {
+          "name": "Hari J (C)",
+          "profileImage": "https://s3.amazonaws.com/37assets/svn/765-default-avatar.png"
+        },
+        {
+          "name": "Mit Patel",
+          "profileImage": "https://s3.amazonaws.com/37assets/svn/765-default-avatar.png"
+        },
+        {
+          "name": "Kabir Raval",
+          "profileImage": "https://swamishreeji.com/YogiCupImages/Kabir_6479375388"
+        },
+        {
+          "name": "Dharmik Patel",
+          "profileImage": "https://swamishreeji.com/YogiCupImages/Dharmik_4169391612"
+        },
+        {
+          "name": "Deep Amin",
+          "profileImage": "https://swamishreeji.com/YogiCupImages/Deep_6478706235"
+        },
+        {
+          "name": "Akshar Barot",
+          "profileImage": "https://swamishreeji.com/YogiCupImages/Akshar_3147608149"
+        }
+      ],
+      "profileImage": "https://s3.amazonaws.com/37assets/svn/765-default-avatar.png"
+    },
+    "Niti Knights": {
+      "group": "A",
+      "players": [
+        {
+          "name": "Jay A (C)",
+          "profileImage": "https://swamishreeji.com/YogiCupImages/Jay_2269381136"
+        },
+        {
+          "name": "Devanshu Roy",
+          "profileImage": "https://swamishreeji.com/YogiCupImages/Devanshu_6475493769"
+        },
+        {
+          "name": "Rut Parikh",
+          "profileImage": "https://s3.amazonaws.com/37assets/svn/765-default-avatar.png"
+        },
+        {
+          "name": "Darsh Kansara",
+          "profileImage": "https://s3.amazonaws.com/37assets/svn/765-default-avatar.png"
+        },
+        {
+          "name": "Manit Parmar",
+          "profileImage": "https://s3.amazonaws.com/37assets/svn/765-default-avatar.png"
+        },
+        {
+          "name": "Yogi Parmar",
+          "profileImage": "https://swamishreeji.com/YogiCupImages/Yogesh_5197292879"
+        }
+      ],
+      "profileImage": "https://swamishreeji.com/YogiCupImages/Jay_2269381136"
+    },
+    "Agna Avalanche": {
+      "group": "B",
+      "players": [
+        {
+          "name": "Akshar B (C)",
+          "profileImage": "https://swamishreeji.com/YogiCupImages/Akshar_2898892291"
+        },
+        {
+          "name": "Harshraj Pandya",
+          "profileImage": "https://s3.amazonaws.com/37assets/svn/765-default-avatar.png"
+        },
+        {
+          "name": "Piyush Patel",
+          "profileImage": "https://swamishreeji.com/YogiCupImages/Piyush_6477831244"
+        },
+        {
+          "name": "Het Patel",
+          "profileImage": "https://swamishreeji.com/YogiCupImages/Het_2898892343"
+        },
+        {
+          "name": "Kush IBM Patel",
+          "profileImage": "https://s3.amazonaws.com/37assets/svn/765-default-avatar.png"
+        },
+        {
+          "name": "Dhruv Khutwad",
+          "profileImage": "https://s3.amazonaws.com/37assets/svn/765-default-avatar.png"
+        }
+      ],
+      "profileImage": "https://s3.amazonaws.com/37assets/svn/765-default-avatar.png"
+    },
+    "Moksha Mavericks": {
+      "group": "A",
+      "players": [
+        {
+          "name": "Vivek (C)",
+          "profileImage": "https://s3.amazonaws.com/37assets/svn/765-default-avatar.png"
+        },
+        {
+          "name": "Harsh Tejas Patel",
+          "profileImage": "https://swamishreeji.com/YogiCupImages/Harsh_6477798170"
+        },
+        {
+          "name": "Dhyey Tejas Patel",
+          "profileImage": "https://swamishreeji.com/YogiCupImages/Dhyey_6477803493"
+        },
+        {
+          "name": "Henil Patel",
+          "profileImage": "https://s3.amazonaws.com/37assets/svn/765-default-avatar.png"
+        },
+        {
+          "name": "Kavi Patel",
+          "profileImage": "https://s3.amazonaws.com/37assets/svn/765-default-avatar.png"
+        },
+        {
+          "name": "Avi Dave",
+          "profileImage": "https://s3.amazonaws.com/37assets/svn/765-default-avatar.png"
+        }
+      ],
+      "profileImage": "https://s3.amazonaws.com/37assets/svn/765-default-avatar.png"
+    },
+    "Nirmani Nets": {
+      "group": "A",
+      "players": [
+        {
+          "name": "Sujal (C)",
+          "profileImage": "https://s3.amazonaws.com/37assets/svn/765-default-avatar.png"
+        },
+        {
+          "name": "Pratham Patel",
+          "profileImage": "https://swamishreeji.com/YogiCupImages/Pratham_6475101785"
+        },
+        {
+          "name": "Parth Patel",
+          "profileImage": "https://s3.amazonaws.com/37assets/svn/765-default-avatar.png"
+        },
+        {
+          "name": "Krutarth Patel",
+          "profileImage": "https://s3.amazonaws.com/37assets/svn/765-default-avatar.png"
+        },
+        {
+          "name": "Dev Patel",
+          "profileImage": "https://swamishreeji.com/YogiCupImages/Dev_6476155008"
+        },
+        {
+          "name": "Harsh Solanki",
+          "profileImage": "https://swamishreeji.com/YogiCupImages/Harsh_4372247653"
+        }
+      ],
+      "profileImage": "https://s3.amazonaws.com/37assets/svn/765-default-avatar.png"
+    },
+    "Rajipo Raptors": {
+      "group": "A",
+      "players": [
+        {
+          "name": "Jalp (C)",
+          "profileImage": "https://swamishreeji.com/YogiCupImages/Jalp_6474675820"
+        },
+        {
+          "name": "Akshar Patel",
+          "profileImage": "https://swamishreeji.com/YogiCupImages/Akshar_6476871501"
+        },
+        {
+          "name": "Anand Patel",
+          "profileImage": "https://swamishreeji.com/YogiCupImages/Anand_4373335459"
+        },
+        {
+          "name": "Rohan Patel",
+          "profileImage": "https://swamishreeji.com/YogiCupImages/Rohan_6477679421"
+        },
+        {
+          "name": "Siddh Patel",
+          "profileImage": "https://swamishreeji.com/YogiCupImages/Siddh_9059201671"
+        }
+      ],
+      "profileImage": "https://swamishreeji.com/YogiCupImages/Jalp_6474675820"
+    },
+    "Nidarta Hawks": {
+      "group": "B",
+      "players": [
+        {
+          "name": "Tushar (C)",
+          "profileImage": "https://s3.amazonaws.com/37assets/svn/765-default-avatar.png"
+        },
+        {
+          "name": "Neel Bhatt",
+          "profileImage": "https://s3.amazonaws.com/37assets/svn/765-default-avatar.png"
+        },
+        {
+          "name": "Rakshit Patel",
+          "profileImage": "https://swamishreeji.com/YogiCupImages/Ricky_6479838541"
+        },
+        {
+          "name": "Jay Patel",
+          "profileImage": "https://s3.amazonaws.com/37assets/svn/765-default-avatar.png"
+        },
+        {
+          "name": "Khush Patel",
+          "profileImage": "https://swamishreeji.com/YogiCupImages/Khush_6475078239"
+        }
+      ],
+      "profileImage": "https://s3.amazonaws.com/37assets/svn/765-default-avatar.png"
+    },
+    "Ekta Eagles": {
+      "group": "A",
+      "players": [
+        {
+          "name": "Hari A (C)",
+          "profileImage": "https://swamishreeji.com/YogiCupImages/Harikrishna_6478304926"
+        },
+        {
+          "name": "Nachiket Patel",
+          "profileImage": "https://swamishreeji.com/YogiCupImages/Nachiket_6479227247"
+        },
+        {
+          "name": "Tirth Patel",
+          "profileImage": "https://swamishreeji.com/YogiCupImages/Tirth_5198311717"
+        },
+        {
+          "name": "Nirmeet Desai",
+          "profileImage": "https://swamishreeji.com/YogiCupImages/Nirmeet_6475634905"
+        },
+        {
+          "name": "Dhairya Patel",
+          "profileImage": "https://swamishreeji.com/YogiCupImages/Dhairya_9057832931"
+        }
+      ],
+      "profileImage": "https://swamishreeji.com/YogiCupImages/Harikrishna_6478304926"
+    },
+    "Balram Bulls": {
+      "group": "C",
+      "players": [
+        {
+          "name": "Soham Patel (C)",
+          "profileImage": "https://s3.amazonaws.com/37assets/svn/765-default-avatar.png"
+        },
+        {
+          "name": "Om Patel",
+          "profileImage": "https://s3.amazonaws.com/37assets/svn/765-default-avatar.png"
+        },
+        {
+          "name": "Maulin",
+          "profileImage": "https://s3.amazonaws.com/37assets/svn/765-default-avatar.png"
+        },
+        {
+          "name": "Sharad (Stewie)",
+          "profileImage": "https://s3.amazonaws.com/37assets/svn/765-default-avatar.png"
+        },
+        {
+          "name": "Dhairya Bhatt",
+          "profileImage": "https://swamishreeji.com/YogiCupImages/Dhairya_4166752580"
+        }
+      ],
+      "profileImage": "https://s3.amazonaws.com/37assets/svn/765-default-avatar.png"
+    },
+    "Hitkari Hurricanes": {
+      "group": "C",
+      "players": [
+        {
+          "name": "Vraj Patel (C)",
+          "profileImage": "https://swamishreeji.com/YogiCupImages/Vraj_6479159076"
+        },
+        {
+          "name": "Manav Patel",
+          "profileImage": "https://swamishreeji.com/YogiCupImages/Manav_6475405223"
+        },
+        {
+          "name": "Dev (Scarb)",
+          "profileImage": "https://s3.amazonaws.com/37assets/svn/765-default-avatar.png"
+        },
+        {
+          "name": "Dhyan Patel",
+          "profileImage": "https://swamishreeji.com/YogiCupImages/Dhyan_6477411034"
+        },
+        {
+          "name": "Sneh Patel",
+          "profileImage": "https://s3.amazonaws.com/37assets/svn/765-default-avatar.png"
+        },
+        {
+          "name": "Devansh Amodra",
+          "profileImage": "https://swamishreeji.com/YogiCupImages/Devansh_6472627097"
+        }
+      ],
+      "profileImage": "https://swamishreeji.com/YogiCupImages/Vraj_6479159076"
+    },
+    "Karuna Kings": {
+      "group": "C",
+      "players": [
+        {
+          "name": "Jay Patel (C)",
+          "profileImage": "https://s3.amazonaws.com/37assets/svn/765-default-avatar.png"
+        },
+        {
+          "name": "Manav Patel",
+          "profileImage": "https://swamishreeji.com/YogiCupImages/Manav_6476601358"
+        },
+        {
+          "name": "Dhyan Soni",
+          "profileImage": "https://s3.amazonaws.com/37assets/svn/765-default-avatar.png"
+        },
+        {
+          "name": "Yogi Parekh",
+          "profileImage": "https://s3.amazonaws.com/37assets/svn/765-default-avatar.png"
+        },
+        {
+          "name": "Aarsh Patel",
+          "profileImage": "https://Www.Swamishreeji.com/YogiCupImages/Aarsh_4372601781"
+        }
+      ],
+      "profileImage": "https://s3.amazonaws.com/37assets/svn/765-default-avatar.png"
+    },
+    "Pragat Pistons": {
+      "group": "C",
+      "players": [
+        {
+          "name": "Saumya Patel (C)",
+          "profileImage": "https://s3.amazonaws.com/37assets/svn/765-default-avatar.png"
+        },
+        {
+          "name": "Hetarth",
+          "profileImage": "https://s3.amazonaws.com/37assets/svn/765-default-avatar.png"
+        },
+        {
+          "name": "Dhyan Patel",
+          "profileImage": "https://s3.amazonaws.com/37assets/svn/765-default-avatar.png"
+        },
+        {
+          "name": "Sahaj Patel",
+          "profileImage": "https://s3.amazonaws.com/37assets/svn/765-default-avatar.png"
+        },
+        {
+          "name": "Rudransh",
+          "profileImage": "https://s3.amazonaws.com/37assets/svn/765-default-avatar.png"
+        }
+      ],
+      "profileImage": "https://s3.amazonaws.com/37assets/svn/765-default-avatar.png"
+    },
+    "Saralta Sabres": {
+      "group": "C",
+      "players": [
+        {
+          "name": "Darsh Patel (C)",
+          "profileImage": "https://swamishreeji.com/YogiCupImages/Darsh_4372271798"
+        },
+        {
+          "name": "Satyam",
+          "profileImage": "https://s3.amazonaws.com/37assets/svn/765-default-avatar.png"
+        },
+        {
+          "name": "Yug Patel",
+          "profileImage": "https://swamishreeji.com/YogiCupImages/Yug_4374733987"
+        },
+        {
+          "name": "Sukrut",
+          "profileImage": "https://swamishreeji.com/YogiCupImages/Sukrut_9052265233"
+        },
+        {
+          "name": "Shiv Amin",
+          "profileImage": "https://swamishreeji.com/YogiCupImages/Shiv_4374309162"
+        }
+      ],
+      "profileImage": "https://swamishreeji.com/YogiCupImages/Darsh_4372271798"
+    },
+    "Titiksha Thunder": {
+      "group": "C",
+      "players": [
+        {
+          "name": "Jay London Patel (C)",
+          "profileImage": "https://swamishreeji.com/YogiCupImages/Jay_5198683145"
+        },
+        {
+          "name": "Neer",
+          "profileImage": "https://s3.amazonaws.com/37assets/svn/765-default-avatar.png"
+        },
+        {
+          "name": "Arya Patel",
+          "profileImage": "https://swamishreeji.com/YogiCupImages/Arya_6475948612"
+        },
+        {
+          "name": "Nilkanth Parekh",
+          "profileImage": "https://swamishreeji.com/YogiCupImages/Nilkanth_6475263219"
+        },
+        {
+          "name": "Dhyanesh Doctor",
+          "profileImage": "https://s3.amazonaws.com/37assets/svn/765-default-avatar.png"
+        },
+        {
+          "name": "Parshv",
+          "profileImage": "https://swamishreeji.com/YogiCupImages/Parshv_6475618909"
+        }
+      ],
+      "profileImage": "https://swamishreeji.com/YogiCupImages/Jay_5198683145"
+    }
+  }
+  
+}

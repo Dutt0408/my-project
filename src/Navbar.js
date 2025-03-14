@@ -2,15 +2,15 @@ import { Disclosure } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { Link, useLocation } from "react-router-dom";
 
-import logoWithoutBG from './images/logoWithoutBG.jpg';
+import logoWithoutBG from './images/Yogicup/MainLogo.png';
 
 const navigation = [
   { name: "Home", href: "/Home" },
   { name: "Rules", href: "/Rules" },
   { name: "Teams", href: "/Teams" },
   { name: "Schedule", href: "/Schedule" },
-  { name: "Standings", href: "/PointTable" },
-  { name: "Sponsors", href: "/Sponsors" },
+
+
 ];
 
 function classNames(...classes) {

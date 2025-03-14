@@ -9,8 +9,9 @@ import Sponsors from "./Sponsors";
 import Schedule from "./Schedule";
 import Soon from "./Soon";
 import Live from "./LiveScore";
+import Loader from "./Components/loader";
 import { Routes, Route, useLocation } from "react-router-dom";
-import gif from "../src/images/imp.gif";
+
 
 function App() {
   const [isLoading, setIsLoading] = useState(false);
@@ -19,7 +20,7 @@ function App() {
   useEffect(() => {
     const loadContent = async () => {
       setIsLoading(true);
-      await new Promise((resolve) => setTimeout(resolve, 600));
+      await new Promise((resolve) => setTimeout(resolve, 1000));
       setIsLoading(false);
     };
     loadContent();
@@ -27,11 +28,7 @@ function App() {
 
   return (
     <div>
-      {isLoading && (
-        <div className="popup-loader">
-          <img className="loader-gif" src={gif} alt="Loading..." />
-        </div>
-      )}
+     {isLoading && <Loader />}
 
       {!isLoading && (
         <>
@@ -42,7 +39,7 @@ function App() {
             <Route path="/Home" element={<Home />} />
             <Route path="/Schedule" element={<Schedule />} />
             <Route path="/Teams" element={<Teams />} />
-            <Route path="/PointTable" element={<PointTable />} />
+            <Route path="/Points" element={<PointTable />} />
             <Route path="/Sponsors" element={<Sponsors />} />
             <Route path="/Soon" element={<Soon />} />
             <Route path="/Live" element={<Live />} />
