@@ -75,13 +75,7 @@ export default function Schedule() {
   };
 
   // Handle card click to show player details or open PDF for past matches
-  const handleCardClick = (match) => {
-    if (match.matchstatus === "Past" && match.result) {
-      window.open(match.result, "_blank"); // Open the PDF in a new tab
-    } else {
-      setSelectedMatch(match); // For other tabs (Upcoming, Past)
-    }
-  };
+
 
   // Close player details modal
   const closeModal = () => {
@@ -199,7 +193,7 @@ export default function Schedule() {
               className={`bg-white p-4 rounded-lg shadow-md border relative ${
                 activeTab !== "Live" ? "cursor-pointer hover:shadow-lg" : ""
               } transition-shadow`}
-              onClick={() => activeTab !== "Live" && handleCardClick(match)}
+             
             >
               <div className="flex justify-between mb-2">
                 <h3 className="font-semibold text-gray-600">{match.series}</h3>
