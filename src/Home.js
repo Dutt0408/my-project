@@ -1,6 +1,4 @@
 import React, { useEffect, useState, useRef } from 'react';
-import MobileImage from "./images/Yogicup/Mobile.svg"
-import DesktopImage from "./images/Yogicup/Desktop.svg"
 
 function FadeInOnScroll({ children }) {
   const ref = useRef(null);
@@ -45,7 +43,7 @@ function Home() {
       <FadeInOnScroll>
         <img
           className="w-full h-auto object-cover mb-6 md:hidden"
-          src={MobileImage}
+          src="https://swamishreeji.com/YogiCupImages/HomepageMobile.png"
           alt="Homepage Mobile"
           loading='lazy'
         />
@@ -55,7 +53,7 @@ function Home() {
       <FadeInOnScroll>
         <img
           className="w-full h-auto object-cover mb-6 hidden md:block"
-          src={DesktopImage}
+          src="https://swamishreeji.com/YogiCupImages/HomepageDesktop.png"
           alt="Homepage Desktop"
         />
       </FadeInOnScroll>

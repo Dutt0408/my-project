@@ -6,7 +6,7 @@ import { fetchTeamProfiles, fetchScheduleData } from "./firebase";
 import Avtar from "./images/Avtar.jpg";
 import "./Components/Loader.css";
 import "./Schedule.css";
-import { AiOutlineFilePdf } from "react-icons/ai";
+
 
 const DEFAULT_PROFILE_IMAGE = Avtar;
 const DATE_FILTER_OPTIONS = ["15th March", "16th March"];
@@ -214,20 +214,7 @@ export default function Schedule() {
                 </span>
               </div>
 
-              {match.matchstatus === "Past" && match.result && (
-                <div className="absolute bottom-2 right-2 flex space-x-2">
-                  <button
-                    onClick={(e) => {
-                      e.stopPropagation();
-                      window.open(match.result, "_blank");
-                    }}
-                    className="bg-blue-900 text-white p-2 rounded-full text-lg hover:bg-blue-800 flex items-center justify-center"
-                  >
-                    <AiOutlineFilePdf size={20} />
-                  </button>
-                </div>
-              )}
-
+            
               <p className="text-gray-700 text-sm">{match.location}</p>
               <h2 className="text-[1.1rem] font-bold text-center text-blue-900 mt-2 flex items-center justify-center">
                 {/* Team 1 Profile Image */}
